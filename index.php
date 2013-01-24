@@ -15,7 +15,7 @@
 					<span class='strip'> We believe in the power of design, </span> <br />
 					<span class='strip'> the strength of strategy, and the </span> <br />
 					<span class='strip'> ability of technology to transform </span> <br />
-					<span class='strip'> businesses and lives. </span> 
+					<span class='strip'> businesses and lives. </span>
 				</p>
 			</div><!-- end section-contents -->
 		</section><!-- end safo-start -->
