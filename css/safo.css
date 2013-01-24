@@ -1,0 +1,466 @@
+/* Safo CSS */
+
+/* CSS Reset from html5doctor.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+/* End CSS Reset */
+
+/* Sitewide */
+body {
+	color: #666;
+	font-family: 'Open Sans', arial, sans-serif; 
+}
+.section-contents {
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+section h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 77px;
+	text-align: center;
+}
+section h3 {
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+section p {
+	font-size: 14px;
+	line-height: 1.8em;
+}
+a, a:visited { 
+	color: #0096bd; 
+	text-decoration: none; 
+}
+a:hover { 
+	text-decoration: underline;
+}
+
+/* Header */
+	header {
+		width: 1020px;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	header .safo-head { 
+		width: 215px;
+		background: #000;
+		color: #fff;
+		text-align: center;
+		padding: 15px;
+		border: 2px solid #ebebeb;
+		margin-top: 47px;
+		margin-left: 770px;
+		position: absolute; 
+		z-index: 1000;
+	}
+	header h1 { font-size: 36px; font-weight: normal; }
+	header h3 { font-size: 12px; margin-top: 3px; font-weight: 300; }
+	
+/* top nav */
+	.safo-nav {
+		display: none;
+		position: fixed;
+		font-size: 22px;
+		font-weight: 600px;
+		padding: 20px;
+		text-align: center;
+		background: #000;
+		border-bottom: 2px solid #b4b4b6;
+		width: 100%;
+		z-index: 5000;
+	}
+	.safo-nav a {
+		color: #fff;
+		padding: 0 22px 0 22px;
+		line-height: 24px;
+	}
+	.safo-nav a:hover {
+		text-decoration: none;
+	}
+	.safo-nav a.on {
+		border-bottom: 2px solid #fff;
+	}
+	
+/* show nav */
+	.shownav {
+		position: absolute;
+		top: 200px;
+	}
+
+/* 1st section */
+	section.safo-start {
+		height: 410px;
+		padding-top: 256px;
+		background: #666 url(../images/site/office.jpg);
+		background-size: cover;
+	}
+	section.safo-start p {
+		color: #30353b; 
+		width: 659px;
+		font-size: 40px;
+		line-height: 58px;
+	}
+	section.safo-start .strip {
+		background: #fff;
+		opacity: 0.9;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+/* 2nd section: History */
+	section.safo-history {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.safo-history p {
+		font-size: 17px;
+		font-weight: 300;
+	}
+	.safo-history p.established {
+		font-size: 39px;
+		font-weight: 300;
+		width: 205px;
+		text-align: right; 
+		float: left;
+		color: #121212;
+		line-height: 1.4em;
+		margin-right: 47px;
+		margin-top: 0;
+	}
+	.safo-history span {
+		font-size: 65px;
+		display: block;
+		font-weight: bold;
+	}
+	
+/* 3rd section: Our Method */
+	section.safo-methodology {
+		background: #0096bd;
+		color: #fff;
+		padding: 88px 0;
+	}
+	.safo-methodology h2 {
+		margin-bottom: 65px;
+	}
+	.method-lines {
+		width: 1020px;
+		height: 255px;
+		margin-bottom: 66px;
+		background: url(../images/site/method-lines.png) no-repeat top;
+	}
+	.safo-methodology .method-nav {
+		width: 460px;
+		border: 2px solid #fff;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 300;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 35px;
+	}
+	.safo-methodology .method-nav .button {
+		width: 190px;
+		float: left;
+		padding: 20px;
+		text-align: center;
+		cursor: pointer;
+	}
+	.safo-methodology .method-nav .button.on {
+		color: #000;
+		background: #fff;
+		cursor: default;
+	}
+	.safo-methodology .our-services {
+		display: none;
+	}
+	.safo-methodology div.our-services {
+		padding-top: 71px;
+	}
+	.safo-methodology .our-services .three-columns {
+		padding-bottom: 0px;
+	}
+	.safo-methodology .our-services .three-columns .col {
+		padding-bottom: 71px;
+		width: 310px;
+		padding-right: 10px;
+	}
+
+/* 4th section: Our Work */
+	section.safo-work {
+		background: #fff;
+		padding: 42px 0;
+	}
+	section.safo-work h2 {
+		margin: 93px 0 50px 0;
+		color: #0096bd;
+	}
+	.safo-work p.narrow {
+		padding: 0 20px 20px 20px;
+		text-align: center;
+	}
+	.safo-work p.narrow.comingsoon {
+		font-weight: 600;
+	}
+	.safo-work .safo-client {
+		text-align: center;
+	}
+	.safo-work .safo-client h3 {
+		color: #30353b;
+		margin: 8px 0 5px 0;
+	}
+	.safo-work .safo-client h3 a {
+		color: #30353b;
+	}
+	.safo-work .safo-client p {
+		margin-bottom: 20px;
+		color: #999;
+	}
+	.safo-work img { display: block; }
+	
+/* 5th section: Clients */
+	section.safo-clients {
+		background: #000;
+		color: #fff;
+		padding-top: 88px;
+		padding-bottom: 100px;
+	}
+	section.safo-clients h2 {
+		padding-bottom: 10px;
+	}
+	section.safo-clients p {
+		font-size: 0.9em;
+		line-height: 1.4em;
+		padding-bottom: 30px;
+	}
+	section.safo-clients .client-list {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section.safo-clients .client-list p {
+		width: 230px;
+		padding-right: 15px;
+		height: 70px;
+		padding-bottom: 15px;
+		float: left;
+		font-weight: 100;
+	}
+	section.safo-clients strong {
+		font-weight: 600;
+	}
+
+/* 7th section: Contact */
+	section.safo-contact {
+		background: #fff;
+		padding: 80px 0;	
+	}
+	.safo-contact h2 {
+		color: #000;
+	}
+	.contact-form {
+		margin-left: 77px;
+		font-weight: 300;
+	}
+	.contact-form label {
+		display: block;
+		position: absolute;
+		padding-top: 12px;
+		padding-left: 20px;
+		z-index: 500;
+		font-size: 27px;
+		font-weight: 300px;
+		color: #666;
+	}
+	.contact-form input {
+		background-color: #edeef0;
+		border: 2px solid #dedede;
+		font-size: 27px;
+		font-weight: 300px;
+		padding: 8px 8px 8px 20px;
+		width: 328px;
+		display: block;
+		color: #666;
+		margin-bottom: 10px;
+	}
+	.contact-form input[type=submit] {
+		background-color: #0096bd;
+		color: #fff;
+		font-style: italic; 
+		width: 160px;
+		padding: 12px;
+		cursor: pointer;
+	}
+	.safo-contact .about-contact p {
+		padding: 0 33px 28px 33px;
+	}
+	.safo-contact .maps .col {
+		padding: 53px 30px 30px 30px;
+		width: 430px;
+		text-align: center;
+	}
+	.safo-contact .address-name {
+		font-size: 17px;
+		font-weight: 600;
+		color: #000;
+	}
+	.safo-contact a.phone {
+		color: #000;
+		padding-left: 18px;
+		background: url(../images/site/icon-phone.png) left no-repeat;
+	}
+	.safo-contact .divider {
+			border-top: 1px solid #ebebeb;
+			margin: 30px 0 0 0;
+			padding: 0;
+	}
+	.safo-contact .social-links {
+		text-align: center;
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto; 
+		margin-top: 35px;
+		margin-bottom: 75px;
+	}
+	.safo-contact .share1 {
+		width: 80px;
+		float: left;
+		color: #000;
+	}
+	.social-links a span {
+		display: none;
+	}
+	.social-links a {
+		display: block;
+		width: 16px;
+		height: 16px;
+		margin: 0 6px;
+		background: url(../images/site/icon-facebook-16.png) left no-repeat;
+		float: left;
+	}
+	.social-links span { 
+		background: #ebebeb; 
+		display: block;
+		width: 1px;
+		height: 16px;
+		float: left;
+	}
+	.social-links a:hover { background-position: right; }
+	.social-links a.twitter { 
+		background-image: url(../images/site/icon-twitter-16.png); 
+	}
+	.social-links a.linkedin { 
+		background-image: url(../images/site/icon-linkedin-16.png);
+	}
+	.social-links a.email {
+		background-image: url(../images/site/icon-email.png);
+	}
+	
+/* 8th section: Jobs */
+	section.safo-jobs {
+		background: #edeef0;
+		padding: 80px 0 130px 0; 
+	}
+	.safo-jobs h2 {
+		margin-bottom: 50px;
+		color: #000;
+	}
+	.safo-jobs .safo-staff-pics {
+		width: 1020px;
+		height: 250px;
+		background: url(../images/site/safo-staff-pics.png) top no-repeat;
+		margin: 60px 0 30px 0;
+	}
+	.safo-jobs .jobs {
+		padding-top: 60px;
+		border-top: 7px solid #fff;
+	}
+	.safo-jobs .jobs .col {
+		padding: 0 30px;
+		width: 430px;
+	}
+	.safo-jobs h3 {
+		color: #000;
+	}
+	.safo-jobs .job-title {
+		color: #000;
+		font-size: 17px;
+		font-weight: 600;
+	}
+	.safo-jobs .job-title::after {
+		content: " \0000a0 - ";
+	}
+	.safo-jobs .job-location {
+		color: #333;
+		font-weight: 300;
+	}
+	.safo-jobs .job-location::before {
+		content: "\0000a0 ";
+	}
+	.safo-jobs .job-date {
+		display: block;
+		width: 135px;
+		float: right;
+		color: #333;
+		font-weight: 300;	
+	}
+	.safo-jobs .job-date.date-header {
+		font-size: 19px;
+		font-weight: normal;
+		padding-top: 9px;
+	}
+	.safo-jobs .job-post {
+		border-top: 1px solid #dedede;
+		padding: 16px 0;
+	}
+	.safo-jobs .job-post.first {
+		border-top: none;
+	}
+	.safo-jobs .job-title:hover {
+		color: #0096bd;	
+	}
+	.safo-jobs a:hover {
+		text-decoration: none;
+	}
+	.more-about-jobs a {
+		font-weight: 600;
+	}
+	.more-about-jobs a:hover {
+		text-decoration: underline;
+	}
+
+/* three column layout */
+.two-columns .col {
+	width: 490px;
+	margin-right: 20px;
+	float: left;
+}
+.three-columns .col {
+	width: 320px;
+	margin-right: 20px;
+	float: left;
+}
+.four-columns .col {
+	width: 240px;
+	margin-right: 10px;
+	float: left;
+}
+
+/* utility */
+.clear { clear: both; } 
+
+
