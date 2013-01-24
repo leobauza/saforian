@@ -1,4 +1,5 @@
 <?php include('inc/header.php');?>
+	<h1>test edit</h1>
 
 		<!-- header -->
 		<header id="site-header">
