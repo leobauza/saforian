@@ -70,15 +70,15 @@ $(document).ready(function() {
 		if($winWidth < 941) {
 			var $navHeight = $('.opennav').height();
 		} else {
-			var $navHeight = 64;
+			var $navHeight = 56;
 		}
 
 		
 		$('html, body').animate({
 			scrollTop: $(section).offset().top - $navHeight
 		}, 500);
-		$('#site-nav a').removeClass('on');
-		$(link).addClass('on');
+		//$('#site-nav a').removeClass('on');
+		//$(link).addClass('on');
 		
 		/*
 		$('section').each(function(){
@@ -389,9 +389,23 @@ $(function(){
 
 /* 
  * =============================================================
- * SOCIAL HANDLERS
+ * Nav On Scroll
  * =============================================================
  */
+
+	$('.shownav').waypoint(function(e,d) {
+		if (d==='down') {
+			if($winWidth > 940) {
+				$('.safo-nav').slideDown();
+				$('.safo-head').slideUp();
+			}
+		} else {
+			if($winWidth > 940) {
+				$('.safo-nav').slideUp();
+				$('.safo-head').slideDown();
+			}
+		}
+
 
 
 }); //end my ready
