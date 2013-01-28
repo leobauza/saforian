@@ -27,6 +27,18 @@
 	</section> <!-- end of block -->
 
 	<section class="block">
+		<article class="row-fluid">
+			<div class="span8">
+				<img src="../../images/caseStudies/grunley_chart.png" alt="Navigational Models">
+			</div>
+			<div class="span5 l">
+				<h2>Navigational Models</h2>
+				<p>To improve the user experience, we created navigational models to make the site easy to navigate. We condensed wordy content to reduce the number of pages so the user does not have to click around as much. We implemented drop down menus to enable the user to jump to tertiary pages faster.</p>
+			</div>
+		</article>
+	</section> <!-- end of block -->
+
+	<section class="block">
 		<div class="row-fluid first">
 			<figure class="left1">
 				<img src="../../images/caseStudies/global_drupal_logo.png" alt="Drupal">
@@ -37,21 +49,14 @@
 			</div>
 		</div> <!-- end of first row -->
 		<div class="row-fluid">
-			<article class="span4">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global_compass_logo.png" alt="Compass">
-				</figure>
-				<h2>Navigational Models</h2>
-				<p>To improve the user experience, we created navigational models to make the site easy to navigate. We condensed wordy content to reduce the number of pages so the user does not have to click around as much. We implemented drop down menus to enable the user to jump to tertiary pages faster.</p>
-			</article>
-			<article class="span4">
+			<article class="span6">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_stats_logo.png" alt="Stats">
 				</figure>
 				<h2>Stats</h2>
 				<p>Pending (hasn’t launched yet)</p>
 			</article>
-			<article class="span4 l">
+			<article class="span6 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_responsive_logo.png" alt="Responsive">
 				</figure>
