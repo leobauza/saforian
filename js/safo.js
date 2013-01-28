@@ -393,19 +393,21 @@ $(function(){
  * =============================================================
  */
 
-	$('.shownav').waypoint(function(e,d) {
-		if (d==='down') {
-			if($winWidth > 940) {
-				$('.safo-nav').slideDown();
-				$('.safo-head').slideUp();
-			}
+	$('[data-section]').waypoint(function(event, direction) {
+		if(direction === 'down') {
+			var $section = $(this).attr('data-section');
+			$('#site-nav .on').removeClass('on')
+			$("#site-nav").find('a[data-scrollto=' + $section + ']').addClass('on');
 		} else {
-			if($winWidth > 940) {
-				$('.safo-nav').slideUp();
-				$('.safo-head').slideDown();
-			}
+			var $section = $(this).attr('data-section');
+			$('#site-nav .on').removeClass('on');
+			$("#site-nav").find('a[data-scrollto=' + $section + ']').parent().prev().find('a').addClass('on');
 		}
-
+	} , 
+	{
+		//set offset
+		offset: 56
+	});
 
 
 }); //end my ready
