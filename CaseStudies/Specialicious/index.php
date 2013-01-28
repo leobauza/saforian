@@ -53,21 +53,21 @@
 		<article class="row-fluid">
 			<div class="span6">
 					<div class="do_icon_left">
-						<img src="../../images/caseStudies/global_compass_logo.png" alt="Map">
+						<img src="../../images/caseStudies/global_location_logo.png" alt="Map">
 					</div>
 					<div class="do_icon_right">
-						<h2>Notifications</h2>
-						<p>To create a personalized experience, we architected the app to give users control over how often they want to be notified about categories of their choice.</p>
+						<h2>Location</h2>
+						<p>We leveraged the location abilities of mobile phones to allow users to discover nearby deals more efficiently.</p>
 					</div>
 			</div>
 			<div class="span6 l">
 					<div class="do_icon_left2">
-						<img src="../../images/caseStudies/global_stats_logo.png" alt="Facebook">
+						<img src="../../images/caseStudies/global_notification_logo.png" alt="Facebook">
 					</div>
 					<div class="do_icon_right2">
-						<h2>Location</h2>
-						<p>We leveraged the location abilities of mobile phones to allow users to discover nearby deals more efficiently.</p>
-				</div>
+						<h2>Notifications</h2>
+						<p>To create a personalized experience, we architected the app to give users control over how often they want to be notified about categories of their choice.</p>
+					</div>
 			</div>
 		</article> <!-- end of row -->
 	</section> <!-- end of block -->
