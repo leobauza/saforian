@@ -28,6 +28,13 @@
 	</section> <!-- end of block -->
 
 	<section class="block">
+		<h2>Cross Platform Compatible</h2>
+		<figure class="center-img2">
+			<img src="../../images/caseStudies/aao_devices.png" alt="Devices">
+		</figure>
+	</section> <!-- end of block -->
+	
+	<section class="block">
 		<article class="row-fluid">
 			<div class="span7">
 				<img src="../../images/caseStudies/aao_iaimage.png" alt="Information Architecture Image">
