@@ -3,8 +3,8 @@
 <article class="hero nkh-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="quote">"It's very rare to find a web services company that promises, 'We can do that,' and actually delivers on that promise. Saforian does."</span>
+			<span class="byline">— Jason Wilson<br>Web Producer, Share Our Strength</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
