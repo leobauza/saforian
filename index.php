@@ -1,14 +1,26 @@
 <?php include('inc/header.php');?>
-	<h1>test edit</h1>
 
 		<!-- header -->
-		<header id="site-header">
-			<div class='safo-head'>
-				<img src="images/logo_saforian_white.png" alt="Logo Saforian White">
-				<h1 class='safo-logo'>saforian</h1>
-				<h3 class='safo-tagline'>Interactive Engineering</h3>
-			</div>
-		</header>
+		<section id="header-wrap">
+			<header id="site-header" class="group">
+				<div id='brand'>
+					<h1>saforian</h1>
+					<img src="images/logo_safosolo_white.png" alt="Saforian">
+				</div>
+				<nav id="site-nav">
+					<ul class='topnav group'>
+						<li><a href='#top' class='on' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
+						<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>Our History</a></li>
+						<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
+						<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Our Work</a></li>
+						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Our Clients</a></li>
+						<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Get in Touch</a></li>
+						<li class="last"><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+					</ul>
+					<span class="opennav"></span>
+				</nav>
+			</header>
+		</section>
 		<!-- start contents -->
 		<section class='safo-start' data-section='safo-start'>
 			<div class='section-contents'>
@@ -20,22 +32,6 @@
 				</p>
 			</div><!-- end section-contents -->
 		</section><!-- end safo-start -->
-
-		<!-- top nav -->
-		<div class='shownav'>
-		</div>
-		<nav class="safo-nav group">
-			<ul class='topnav group'>
-				<li><a href='#top' class='on' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
-				<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>Our History</a></li>
-				<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
-				<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Our Work</a></li>
-				<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Our Clients</a></li>
-				<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Get in Touch</a></li>
-				<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
-			</ul>
-		</nav>
-
 
 		<!-- history -->
 		<section class='safo-history' data-section='safo-history'>
@@ -183,69 +179,56 @@
 			</div><!-- end section-contents -->
 		</section><!-- end safo-start -->
 		
-		<!-- our work -->
-		<section class='safo-work' data-section='safo-work'>
-			<div class='section-contents'>
-				<article class="client-intro">
-					<h2>Our work</h2>
-					<p class='narrow'>Working with Saforian has its privileges. 
-					It's not every day you get a partner who
-					focuses all of their energies on ensuring 
-					your project is a success. Our creative 
-					experts enjoy what they do and work hard
-					applying their strategic thinking 
-					across the full scope of your project.</p>
-					<p class='narrow comingsoon'>Case Studies launching in early 2013.</p>
-				</article>
-				
-				<div class='row-fluid'>
-					<div class='span4'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
-							<h3><a href='#'>No Kid Hungry</a></h3>
-							<p>Share Our Strength Initiative</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-							
-							<h3><a href='#'>Clean Cookstoves</a></h3>
-							<p>United Nations Foundation</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
-							<h3><a href='#'>SHRM</a></h3>
-							<p>Society for Human Resource Management</p>
-						</div>
-					</div>
-					<div class='span4'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-							<h3><a href='#'>Wagner</a></h3>
-							<p>Wagner Custom Skis</p>
-						</div>
-					</div>
-					<div class='span4 l'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-							<h3><a href='#'>Specialicious</a></h3>
-							<p>Northern Virginia Magazine</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
-							<h3><a href='#'>American Trucking</a></h3>
-							<p>American Trucking Association</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
-							<h3><a href='#'>AAO</a></h3>
-							<p>American Association of Orthodontists</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- end section-contents -->
-		</section><!-- end safo-work -->
 		
-		<!-- our work -->
+		
+		<!-- SERVICES -->
+		<section class="standard-section" data-section='safo-services'>
+			<div class='section-contents'>
+				<h2 class='method-section our-services'>Our Core Competencies</h2>
+
+					<div class="pad20">
+							<div class='row-fluid'>
+								<div class='span4 show'>
+									<img src="images/icon_competencies_campaignmarketing.png" alt="">
+									<h3>Compaign + Marketing</h3>
+									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile user needs, corporate goals, and an array of interactive technologies to establish a strategic roadmap for the continued evolution of an organization or cause.</p>
+								</div>
+								<div class='span4'>
+									<img src="images/icon_competencies_websitesintranets.png"alt="">
+									<h3>Websites + Intranets</h3>
+									<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational goals. We help you maximize business goals and user needs against the technical and economic realities of a robust system.</p>
+								</div>
+								<div class='span4 l'>
+									<img src="images/icon_competencies_digiinfrastructure.png" alt="">
+									<h3>Digital Infrastructure</h3>
+									<p>Today’s technology is powerful. Our engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving training quality and speed.
+									</p>
+								</div>
+							</div>
+							<div class='row-fluid last'>
+								<div class='span4 show'>
+									<img src="images/icon_competencies_assesstrack.png" alt="">
+									<h3>Assessment + Tracking</h3>
+									<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
+								</div>
+								<div class='span4'>
+									<img src="images/icon_competencies_mobile.png" alt="">
+									<h3>Mobile + Responsive</h3>
+									<p>The digital landscape is competitive, and in order to stay afloat/above water, your digital arm needs to extend to the “on-the-go” world. We leverage device capabilities and streamlined navigation to bring you a superior and customized mobile experience. </p>
+								</div>
+								<div id="a-tracking" class='span4 l'>
+									<img src="images/icon_competencies_digitools.png" alt="">
+									<h3>Digital Tool Sets</h3>
+									<p>Revolving around creating an incredible user experience, our tools were developed to help your online organization to run more smoothly. From targeting members and out of the box engagement to storing assets in the cloud and running a gamut, these products will help you and your members maximize your potential.</p>
+								</div>
+							</div>
+					</div>
+
+			</div><!-- end section-contents -->
+		</section><!-- end SERVICES -->
+		
+		
+		<!-- our clients -->
 		<section class='safo-clients' data-section='safo-clients'>
 			<div class='section-contents'>
 				<h2>Our clients, partners and friends:</h2>
@@ -381,6 +364,71 @@
 				</div>
 			</div><!-- end section-contents -->
 		</section><!-- end safo-clients -->
+		
+		
+		
+		<!-- our work -->
+		<section class='safo-work' data-section='safo-work'>
+			<div class='section-contents'>
+				<article class="client-intro">
+					<h2>Our work</h2>
+					<p class='narrow'>Working with Saforian has its privileges. 
+					It's not every day you get a partner who
+					focuses all of their energies on ensuring 
+					your project is a success. Our creative 
+					experts enjoy what they do and work hard
+					applying their strategic thinking 
+					across the full scope of your project.</p>
+					<p class='narrow comingsoon'>Case Studies launching in early 2013.</p>
+				</article>
+				
+				<div class='row-fluid'>
+					<div class='span4'>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
+							<h3><a href='#'>No Kid Hungry</a></h3>
+							<p>Share Our Strength Initiative</p>
+						</div>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+							
+							<h3><a href='#'>Clean Cookstoves</a></h3>
+							<p>United Nations Foundation</p>
+						</div>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
+							<h3><a href='#'>SHRM</a></h3>
+							<p>Society for Human Resource Management</p>
+						</div>
+					</div>
+					<div class='span4'>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+							<h3><a href='#'>Wagner</a></h3>
+							<p>Wagner Custom Skis</p>
+						</div>
+					</div>
+					<div class='span4 l'>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
+							<h3><a href='#'>Specialicious</a></h3>
+							<p>Northern Virginia Magazine</p>
+						</div>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
+							<h3><a href='#'>American Trucking</a></h3>
+							<p>American Trucking Association</p>
+						</div>
+						<div class='safo-client'>
+							<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
+							<h3><a href='#'>AAO</a></h3>
+							<p>American Association of Orthodontists</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end section-contents -->
+		</section><!-- end safo-work -->
+		
 
 		<!-- contact us -->
 		<section class='safo-contact' data-section='safo-contact'>
@@ -420,6 +468,14 @@
 						we've already zeroed in on the solution that's right for you.</p>
 						<p>Let us know a little about what you're looking for and how Saforian 
 						can get in touch. We'll take it from there.</p>
+						<div class='social-links group'>
+							<a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
+							<a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
+							<a target="_blank" href='http://www.linkedin.com/company/70725' class='linkedin' title='LinkedIn'><span>linkedin</span></a>
+							<a target="_blank" href='https://plus.google.com/103939999176135396422' rel="publisher" class='gplus' title='LinkedIn'><span>google plus</span></a>
+							<a href='mailto:hello@saforian.com?subject=Oh, hey...hey there' class='email' title='Email'><span>email</span></a>
+						</div>
+						
 					</div>
 				</div>
 				<div class='row-fluid maps'>
@@ -441,17 +497,6 @@
 						</p>
 					</div>
 				</div>
-				<div class='divider'></div>
-				<div class='social-links group'>
-					<div class='share1'>Connect: </div>
-						<a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
-						<a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
-						<a target="_blank" href='http://www.linkedin.com/company/70725' class='linkedin' title='LinkedIn'><span>linkedin</span></a>
-						<a target="_blank" href='https://plus.google.com/103939999176135396422' rel="publisher" class='gplus' title='LinkedIn'><span>google plus</span></a>
-						<a href='mailto:hello@saforian.com?subject=Oh, hey...hey there' class='email' title='Email'><span>email</span></a>
-					</div>
-					</div>
-				</div>
 			</div>
 		</section>
 
@@ -468,7 +513,10 @@
 				with projects they like and roles they can thrive in. We want to help 
 				people do great work in the present, and put them on a course that will 
 				continue to let them grow and succeed 5 or 10 years in the future.</p>
-				<div class='safo-staff-pics'></div>
+				<figure class="img-center-solo">
+					<img src="images/img_join_saforian.png" alt="Img Join Saforian">
+				</figure>
+				<!-- <div class='safo-staff-pics'></div> -->
 				<div class='row-fluid jobs'>
 					<div class='span6'>
 						<h3 class='open-jobs'>
@@ -503,6 +551,8 @@
 						But now, we want to hear from you. Apply to the left or drop us 
 						an email at 
 						<a href='mailto:hello@saforian.com'>hello@saforian.com</a>.</p>
+
+
 					</div>
 					<div class='clear'></div>
 				</div>

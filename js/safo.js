@@ -4,9 +4,9 @@ var $winWidth = $(window).width();
 $(window).resize(function(){
 	$winWidth = $(window).width();
 	if($winWidth > 940) {
-		$('.safo-nav ul').show();
+		$('#site-nav ul').show();
 	} else {
-		$('.safo-nav ul').hide();
+		$('#site-nav ul').hide();
 	}
 	if($winWidth > 550) {
 		$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").show();
@@ -60,7 +60,7 @@ $(document).ready(function() {
 	});
 
 	// add scrolling functionality to top nav 
-	$('.safo-nav a').click(function(){
+	$('#site-nav a').click(function(){
 		navScrollToSection('#'+$(this).attr('id'),'.'+$(this).attr('data-scrollto'));
 		return false;
 	});
@@ -77,7 +77,7 @@ $(document).ready(function() {
 		$('html, body').animate({
 			scrollTop: $(section).offset().top - $navHeight
 		}, 500);
-		$('.safo-nav a').removeClass('on');
+		$('#site-nav a').removeClass('on');
 		$(link).addClass('on');
 		
 		/*
@@ -282,26 +282,26 @@ $(window).load(function(){
 $(function(){
 	/* 
 	 * =============================================================
-	 * open nav
+	 * open nav (needs fixing for v.3)
 	 * =============================================================
 	 */
 	var $navst = 0;
 	$('.opennav').click(function(e){
 		$this = $(this);
 		if($navst == 0) {
-			$('.safo-nav ul').slideDown();
+			$('#site-nav ul').slideDown();
 			$this.addClass('up');
 			$navst = 1;
 		} else {
-			$('.safo-nav ul').slideUp();
+			$('#site-nav ul').slideUp();
 			$this.removeClass('up');
 			$navst = 0;
 		}
 	});
 
-	$('.safo-nav a').click(function(){
+	$('#site-nav a').click(function(){
 		if($winWidth < 941) {
-			$('.safo-nav ul').slideUp();
+			$('#site-nav ul').slideUp();
 			$('.opennav').removeClass('up');
 			$navst = 0;
 		}
@@ -387,8 +387,11 @@ $(function(){
 	}
 	socialHandlers();
 
-
-
+/* 
+ * =============================================================
+ * SOCIAL HANDLERS
+ * =============================================================
+ */
 
 
 }); //end my ready

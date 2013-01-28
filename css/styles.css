@@ -185,11 +185,12 @@ img {
 }
 a,
 a:visited {
-  color: #0096bd;
+  color: #000000;
   text-decoration: none;
 }
 a:hover,
 a:visited:hover {
+  color: #595959;
   text-decoration: underline;
 }
 .row-fluid,
@@ -206,6 +207,15 @@ a:visited:hover {
   display: table;
   content: "";
   clear: both;
+}
+/***** figures ******/
+.img-center-solo {
+  margin: 0;
+  padding: 75px 0px 85px;
+}
+.img-center-solo img {
+  display: block;
+  margin: 0 auto;
 }
 /* NAV */
 .method-nav-second {
@@ -234,7 +244,15 @@ a:visited:hover {
   background: url('../images/arrow_method_nav.png') 50% 100% no-repeat;
 }
 /* Header */
+#header-wrap {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+}
 #site-header {
+  padding: 0 20px;
   *width: 1020px;
   max-width: 1020px;
   margin-left: auto;
@@ -261,6 +279,34 @@ a:visited:hover {
   font-size: 1.2em;
   margin-top: 3px;
   font-weight: 300;
+}
+#brand {
+  float: left;
+  padding: 10px 0px;
+}
+#site-nav {
+  padding: 5px 0px;
+  float: right;
+}
+#site-nav ul li {
+  float: left;
+}
+#site-nav ul li a {
+  font-size: 1.6em;
+  padding: 15px;
+  display: block;
+  color: #ffffff;
+  background: url('../images/bg_sitenav_a.png') 100% 50% no-repeat;
+}
+#site-nav ul li a:hover {
+  text-decoration: none;
+}
+#site-nav ul li a.on {
+  font-weight: bold;
+}
+#site-nav ul li.last a {
+  background: none;
+  padding: 15px 0px 15px 15px;
 }
 /* top nav */
 .safo-nav {
@@ -297,6 +343,36 @@ a:visited:hover {
 .shownav {
   position: absolute;
   top: 200px;
+}
+.standard-section {
+  padding: 88px 0px;
+}
+.standard-section .row-fluid {
+  margin-bottom: 40px;
+}
+.standard-section .row-fluid.last {
+  margin-bottom: 0px;
+}
+.standard-section h2 {
+  color: #000000;
+}
+.standard-section h3 {
+  color: #000000;
+}
+.standard-section p {
+  color: #000000;
+}
+.standard-section .span4 h3 {
+  margin: 0 0 25px;
+  font-weight: 600;
+  font-size: 2.4em;
+}
+.standard-section .span4 p {
+  margin: 0;
+}
+.standard-section .span4 img {
+  margin: 0 auto 40px;
+  display: block;
 }
 /* 1st section */
 section.safo-start {
@@ -520,10 +596,7 @@ section.safo-contact .divider {
 section.safo-contact .social-links {
   text-align: center;
   width: 290px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 35px;
-  margin-bottom: 75px;
+  margin: 20px auto;
 }
 section.safo-contact .share1 {
   display: none;
@@ -647,6 +720,7 @@ section.safo-jobs {
   padding: 80px 0 130px 0;
 }
 section.safo-jobs h2 {
+  text-align: left;
   margin-bottom: 50px;
   color: #000;
 }
@@ -669,13 +743,13 @@ section.safo-jobs h3 {
   color: #000;
 }
 section.safo-jobs a .job-title {
-  color: #0096BD;
+  color: #000000;
   font-size: 17px;
   font-weight: 600;
   float: left;
 }
 section.safo-jobs a:hover .job-title {
-  color: #005971;
+  color: #ffffff;
 }
 section.safo-jobs .job-title::after {
   content: " \0000a0 - ";
@@ -702,17 +776,21 @@ section.safo-jobs .job-date.date-header {
   padding-top: 9px;
 }
 section.safo-jobs .job-post {
-  border-top: 1px solid #dedede;
-  padding: 16px 0;
+  background: #ffffff;
+  border-top: 3px solid #EDEEEE;
 }
 section.safo-jobs .job-post a {
+  padding: 16px 16px;
   display: block;
+}
+section.safo-jobs .job-post a:hover {
+  background: #000000;
+}
+section.safo-jobs .job-post a:hover > * {
+  color: #ffffff;
 }
 section.safo-jobs .job-post.first {
   border-top: none;
-}
-section.safo-jobs .job-title:hover {
-  color: #0096bd;
 }
 section.safo-jobs a:hover {
   text-decoration: none;
@@ -1522,11 +1600,7 @@ section.safo-jobs a:hover {
     margin: 40px auto 0;
   }
   /* top nav */
-  .safo-nav {
-    display: block!important;
-    text-align: left;
-  }
-  .safo-nav .opennav {
+  .opennav {
     display: block;
     height: 70px;
     border: 1px solid #1a1a1a;
@@ -1536,25 +1610,29 @@ section.safo-jobs a:hover {
     -moz-border-radius: 4px;
     border-radius: 4px;
   }
-  .safo-nav .opennav.up {
+  .opennav.up {
     background: url('../images/bg_navback.png') 50% 50% no-repeat;
   }
-  .safo-nav ul {
+  .opennav .safo-nav {
+    display: block!important;
+    text-align: left;
+  }
+  .opennav ul {
     display: none;
     padding: 0;
   }
-  .safo-nav li {
+  .opennav li {
     border-top: 2px solid #1a1a1a;
     border-bottom: 1px solid #262626;
     float: none;
   }
-  .safo-nav a {
+  .opennav a {
     padding: 15px 15px;
     font-size: 1.5em;
     line-height: 1;
     display: block;
   }
-  .safo-nav a.on {
+  .opennav a.on {
     font-weight: bold;
   }
   #site-header .safo-head {

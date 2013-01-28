@@ -48,10 +48,12 @@ img {
 	max-width:100%;
 }
 
-a, a:visited { 
-	color: #0096bd; 
+a, a:visited {
+	// used to be this blue color: #0096bd; 
+	color:@black;
 	text-decoration: none; 
 	&:hover {
+		color:lighten(@black,35%);
 		text-decoration: underline;
 	}
 }
@@ -69,6 +71,16 @@ a, a:visited {
 		clear:both;
 	}
 }
+/***** figures ******/
+.img-center-solo {
+	margin:0;
+	padding:75px 0px 85px;
+	img {
+		display:block;
+		margin:0 auto;
+	}
+}
+
 /* NAV */
 .method-nav-second {
 	display:none;
@@ -96,9 +108,17 @@ a, a:visited {
 	}
 }
 
-
 /* Header */
+#header-wrap {
+	background:@black;
+	background:fade(@black,90%);
+	width:100%;
+	position:fixed;
+	z-index:500;
+}
+
 #site-header {
+	padding:0 20px;
 	*width:1020px;
 	max-width: 1020px;
 	margin-left: auto;
@@ -122,7 +142,41 @@ a, a:visited {
 		display:none; 
 		font-size: 1.2em; margin-top: 3px; font-weight: 300; }
 }
-
+#brand {
+	float:left;
+	padding:10px 0px;
+}
+#site-nav {
+	padding:5px 0px;
+	float:right;
+	ul {
+		li {
+			float:left;
+			a {
+				font-size:1.6em;
+				padding:15px;
+				display:block;
+				color:@white;
+				background:url('../images/bg_sitenav_a.png') 100% 50% no-repeat;
+				&:hover {
+					text-decoration:none;
+				}
+				&.on {
+					font-weight:bold;
+				}
+			}
+			&.last {
+				a {
+					background:none;
+					padding:15px 0px 15px 15px;
+					&:hover {
+						
+					}
+				}
+			}
+		}
+	}
+}
 	
 /* top nav */
 .safo-nav {
@@ -166,6 +220,41 @@ a, a:visited {
 	position: absolute;
 	top: 200px;
 }
+
+.standard-section {
+	padding:88px 0px;
+	.row-fluid {
+		margin-bottom:40px;
+		&.last {
+			margin-bottom:0px;
+		}
+	}
+	h2 {
+		color:@black;
+	}
+
+	h3 {
+		color:@black;
+	}
+	p {
+		color:@black;
+	}
+	.span4 {
+		h3 {
+			margin: 0 0 25px;
+			font-weight: 600;
+			font-size: 2.4em;
+		}
+		p {
+			margin:0;
+		}
+		img {
+			margin:0 auto 40px;
+			display:block;
+		}
+	}
+}
+
 
 /* 1st section */
 section.safo-start {
@@ -391,10 +480,7 @@ section.safo-contact {
 	.social-links {
 		text-align: center;
 		width: 290px;
-		margin-left: auto;
-		margin-right: auto; 
-		margin-top: 35px;
-		margin-bottom: 75px;
+		margin:20px auto;
 	}
 	.share1 {
 		display:none;
@@ -534,6 +620,7 @@ section.safo-jobs {
 	background: #edeef0;
 	padding: 80px 0 130px 0; 
 	h2 {
+		text-align:left;
 		margin-bottom: 50px;
 		color: #000;
 	}
@@ -557,14 +644,16 @@ section.safo-jobs {
 	}
 	a {
 		.job-title {
-			color: #0096BD;
+			//color: #0096BD;
+			color:@black;
 			font-size: 17px;
 			font-weight: 600;
 			float:left;
 		}
 		&:hover {
 			.job-title {
-				color:darken(#0096bd,15%);
+				//color:darken(#0096bd,15%);
+				color:@white;
 			}
 		}
 	}
@@ -593,17 +682,22 @@ section.safo-jobs {
 		padding-top: 9px;
 	}
 	.job-post {
-		border-top: 1px solid #dedede;
-		padding: 16px 0;
+		background:@white;
+		//border-top: 1px solid #dedede;
+		border-top: 3px solid #EDEEEE;
 		a {
+			padding: 16px 16px;
 			display:block;
+			&:hover {
+				background:@black;
+				& > * {
+					color:@white;
+				}
+			}
 		}
 	}
 	.job-post.first {
 		border-top: none;
-	}
-	.job-title:hover {
-		color: #0096bd; 
 	}
 	a:hover {
 		text-decoration: none;
@@ -1445,20 +1539,22 @@ section.safo-jobs {
 		}
 	}
 	/* top nav */
+	.opennav {
+		display:block;
+		height:70px;
+		border:1px solid lighten(@black,10%);
+		margin: 0 auto;
+		//float:right;
+		background:url('../images/bg_navdrop.png') 50% 50% no-repeat;
+		#CSS3 > .border-radius(4px);
+		&.up {
+			background:url('../images/bg_navback.png') 50% 50% no-repeat;
+		}
+
+
 	.safo-nav {
 		display: block!important;
 		text-align:left;
-		.opennav {
-			display:block;
-			height:70px;
-			border:1px solid lighten(@black,10%);
-			margin: 0 auto;
-			//float:right;
-			background:url('../images/bg_navdrop.png') 50% 50% no-repeat;
-			#CSS3 > .border-radius(4px);
-			&.up {
-				background:url('../images/bg_navback.png') 50% 50% no-repeat;
-			}
 		}
 
 		ul {
