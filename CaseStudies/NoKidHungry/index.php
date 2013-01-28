@@ -3,7 +3,7 @@
 <article class="hero nkh-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"It's very rare to find a web services company that promises, 'We can do that,' and actually delivers on that promise. Saforian does."</span>
+			<span class="quote">"It's very rare to find a company that promises, 'We can do that,' and actually delivers on that promise. Saforian does."</span>
 			<span class="byline">— Jason Wilson<br>Web Producer, Share Our Strength</span>
 		</blockquote>
 	</div>
