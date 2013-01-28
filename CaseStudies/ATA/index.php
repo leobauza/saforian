@@ -39,6 +39,13 @@
 	</section> <!-- end of block -->
 
 	<section class="block">
+		<h2>Cross Platform Compatible</h2>
+		<figure class="center-img2">
+			<img src="../../images/caseStudies/ata_devices.png" alt="Large Image">
+		</figure>
+	</section> <!-- end of block -->
+	
+	<section class="block">
 		<div class="row-fluid first">
 			<figure class="left1">
 				<img src="../../images/caseStudies/global_sharepoint_logo.png" alt="Sharepoint">
@@ -73,12 +80,7 @@
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
 	
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
-			<img src="../../images/caseStudies/ata_devices.png" alt="Large Image">
-		</figure>
-	</section> <!-- end of block -->
+	
 	
 	<section class="block">
 		<h2>Website Designs</h2>

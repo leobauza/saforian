@@ -1295,6 +1295,29 @@ section.safo-jobs a:hover {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.specialicious-hero {
+  background-image: url('../images/caseStudies/specialicious_hero.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.specialicious-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 45%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.specialicious-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.specialicious-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.dineout-hero {
   background-image: url('../images/caseStudies/dineout_hero.png');
   background-repeat: no-repeat;
