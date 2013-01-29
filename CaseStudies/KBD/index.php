@@ -7,8 +7,8 @@
 				<img src="../../images/caseStudies/kbd_hero_nosmoke.png" alt="No Smoking">
 			</div>
 			<blockquote>
-				<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-				<span class="byline">- First Last <br>KBD ??????</span>
+				<span class="quote">"Hit the ball out of the park as far as our advocates and funders are concerned.."</span>
+				<span class="byline">— Albert Lubkan,<br>Director of Internet Strategy Tobacco Free Kids</span>
 			</blockquote>
 		</div>
 	</div>
@@ -32,7 +32,16 @@
 			</div>
 			
 		</article> <!-- end of row --> 
+	</section> <!-- end of block -->
+	
+	<section class="block">
+		<h2>Cross Platform Compatible</h2>
+		<figure class="center-img2">
+			<img src="../../images/caseStudies/kbd_devices.png" alt="Devices">
+		</figure>
+	</section> <!-- end of block -->
 		
+	<section class="block">	
 		<article class="row-fluid">
 			<div class="span6">
 				<div class="kbd_icons2row">
@@ -113,7 +122,17 @@
 		</figure>
 	</section> <!-- end of block -->
 
-
+	<section class="block">
+		<div class="row-fluid">
+			<article class="span8">
+				<img src="../../images/caseStudies/kbd_backend.png" alt="Kick Butts Day Logo 1">
+			</article>
+			<article class="span4 l">
+				<h2>Backend Administration</h2>
+				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore et dolore magna aliyam erat, sed diam voluptua. At vero eos et accum et justo duo dolores et ea rebum. Stet clita kasdubergrn, no sea takimata sanctus est Lorem ipsudolor sit.</p>
+			</article>
+		</div> <!-- end of first row -->
+	</section>
 
 </section> <!-- end of work-block -->
 
