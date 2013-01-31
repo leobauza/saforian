@@ -41,12 +41,13 @@
 			</div>
 			<div class="span5 l">
 				<h2>Informational Architecture</h2>
-				<p>During our functional design activity we created an optimized organizational structure that provided better groupings to the content and feature sets throughout. We then made deep dives into formulating the required page-level content hierarchies and functionality needed to support the sites overall requirements and to minimize any unnecessary steps for members and other audience groups along their journey’s through the site.
+				<p>During our functional design activity we created an optimized organizational structure that provided better groupings to the content and feature sets throughout. We then made deep dives into formulating the required page-level content hierarchies and functionality needed to support the site’s overall requirements and to minimize any unnecessary steps for members and other audience groups along their journey’s through the site.
 					<br/><br/>
-					Wireframe prototypes were created to communicate the sites Information Architecture and test potential solutions to page-level and section-level challenges. Using our defined audience goals and objectives, refinements were incorporated, paving the way for streamlined pathways and optimized navigational controls.</p>
+					We created wireframe prototypes were to communicate the site’s information architecture and test potential solutions to page-level and section-level challenges. Using our defined audience goals and objectives, we incorporated refinements, paving the way for streamlined pathways and optimized navigational controls.</p>
 					<br/><br/><br/><br/><br/>
 					<h2>Navigational Models</h2>
-					<p>We developed various navigation models that established hierarchical categories that center around the core of member activity and AAO’s offerings. To enable AAO to make appropriate connections across a single piece of content, we ensured that the navigational models, organic groups, and content all link to each other. For example, users can tag a news article to also appear in different sub-organization groups.</p>
+					<p>We developed various navigation models that established hierarchical categories that center around the core of member activity and AAO’s offerings.
+					To enable AAO to make appropriate connections across a single piece of content, we ensured that the navigational models, organic groups, and content all link to each other. For example, users can tag a news article to also appear in different sub-organization groups.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
@@ -60,7 +61,7 @@
 			</article>
 			<article class="span8">
 				<h2>Drupal as a CMS</h2>
-				<p>To minimize up-front costs and maintenance overhead, we took existing Drupal modules and built onto them to fulfill the majority of AAO’s needs. Areas that required deeper integration with other existing systems we built custom module components that provided the heavy lifting. As with other Drupal projects we believe the value of open source technologies is to leverage existing work, whether its work we have done on previous projects or work done by the vast Drupal community, to reduce project risk and on-going maintenance efforts.</p>
+				<p>To minimize up-front costs and maintenance overhead, we took existing Drupal modules and built onto them to fulfill the majority of AAO’s needs. We built custom module components that provided the heavy lifting for areas that required deeper integration with other existing system. As with other Drupal projects, we believe the value of open source technologies is to leverage existing work, whether its work we have done on previous projects or work done by the vast Drupal community, to reduce project risk and on-going maintenance efforts.</p>
 			</article>
 		</div> <!-- end of first row -->
 		<div class="row-fluid">
@@ -69,21 +70,21 @@
 					<img src="../../images/caseStudies/global_bootstrapsmall_logo.png" alt="Bootstrap">
 				</figure>
 				<h2>Twitter Bootstrap with Drupal</h2>
-				<p>With tight integration with Twitter Bootstrap, we were able to meet responsive and UI needs more efficiently, in addition to eliminating jQuery conflicts that are known in Drupal 7.</p>
+				<p>Through tight integration with Twitter Bootstrap, we were able to meet responsive and UI needs more efficiently, in addition to eliminating jQuery conflicts that are known in Drupal 7.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_hands_logo.png" alt="CodeIgniter">
 				</figure>
 				<h2>Community</h2>
-				<p>To support AAO’s goal of engaging members with functionality that allowed audiences to contribute content and share ideas both publically and privately, we developed My AAO. The My AAO community pieces allow members to discuss industry wide topics and comment on news articles, site content, and events. Members also have the ability to participate directly with AAO’s Twitter social network activity.</p>
+				<p>We developed My AAO to support AAO’s goal of engaging members with functionality that allows users to contribute content and share ideas both publicly and privately. Members can easily discuss industry wide topics and comment on news articles, site content, and events. Also, members have the ability to participate directly with AAO’s Twitter social network activity.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_responsive_logo.png" alt="CodeIgniter">
 				</figure>
 				<h2>Responsive Design</h2>
-				<p>When it comes to supporting mobile and emerging platforms it is crucial that any site we build contain responsive design techniques. To cater to AAO’s audience of busy orthodontists, we designed the visual design and templates to be adaptable to mobile and tablet devices in addition to regular desktop computers and TVs.</p>
+				<p>When it comes to supporting mobile and emerging platforms, it is crucial that any site we build contains responsive design techniques. To cater to AAO’s audience of busy orthodontists, we designed the visual design and templates to be adaptable to mobile and tablet devices in addition to regular desktop computers and TVs.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
