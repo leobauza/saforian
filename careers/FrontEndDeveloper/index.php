@@ -35,40 +35,61 @@
 	<!-- row -->
 	<div class="row-fluid requirements">
 		<div class="span6">
-			<h4>What We are Looking For</h4>
-			<p><strong>Saforian</strong> is looking for an energetic and innovative full-time developer with strong Drupal, PHP, and MySQL skills.Your role will include taking HTML files and configure Drupal, customizing existing modules and creating custom ones when needed. You will also help define requirements for new projects and take the lead in planning and developing new small-to-midsize PHP/MySQL web apps (outside of Drupal) for clients. </p>
+			<h4>Front-end Web Development</h4>
+			<p><strong>2+ Years</strong> at Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
 		</div>
 		<div class="span6 l">
-			<h4>Why Work at Saforian</h4>
-			<p>At Saforian you’ll be working with good-natured, fun people who truly believe in providing the right solutions to clients. We’re a pretty flexible group, so you should be too. Please bring your sense of humor and your great ideas.</p>
+			<h4>XHTML/CSS</h4>
+			<p>Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
 		</div>
 	</div>
 	<!-- row -->
 	<div class="row-fluid requirements">
 		<div class="span6">
-			<h4>Drupal Experience</h4>
-			<p>Ability to develop and test secure, clean, and well-commented code using PHP and MySQL. Drupal module configuration and development experience. CodeIgniter or other PHP framework experience</p>
+			<h4>Translate Comps and Wireframes<br/>Usable Code Templates</h4>
+			<p>Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
 		</div>
 		<div class="span6 l">
-			<h4>HTML/CSS/JavaScript</h4>
-			<p>Decent web standards knowledge (HTML, CSS, JavaScript/jQuery). Experience with mapping and Facebook integration is a Plus. Mobile development experience: iPhone, iPad and Android also is a plus.</p>
+			<h4>Knowledge of SEO Best Practices</h4>
+			<p>Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
 		</div>
 	</div>
 	<!-- row -->
 	<div class="row-fluid requirements">
 		<div class="span6">
-			<h4>Team Player</h4>
-			<p>Ability to communicate and play well with our visual designers and front-end developers to ensure beautiful and user friendly output. Must be able to handle working on multiple projects at once</p>
+			<h4>Communication Skills</h4>
+			<p>Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
 		</div>
 		<div class="span6 l">
-			<h4>Friendly Individual</h4>
-			<p>Can communicate well with clients and willing to attend meetings. <strong>Good attitude is a must!</strong></p>
+			<h4>Working Knowledge of Cross Platform Browser Capability</h4>
+			<p>Mauris pulvinar pellentesque mauris, sit amet rhoncus augue mollis sit amet. Nullam laoreet auctor dui non adipiscing. Curabitur lorem elit, laoreet a tempus viverra, egestas quis nulla. Curabitur egestas ultricies nibh, et tincidunt justo interdum quis.</p>
+		</div>
+	</div>
+	
+	<div class="row-fluid requirements">
+		<div class="span6">
+			<h4>The Bullet Points:</h4>
+			<ul>
+				<li>The ability to evaluate the utility of contributed modules on drupal.org.</li>
+				<li>The ability to write simple one-off modules (if there's nothing that meets.</li>
+				<li>The ability to evaluate the utility of contributed modules on drupal.org.</li>
+				<li>The ability to write simple one-off modules (if there's nothing that meets requirements on drupal.org).</li>
+			</ul>
+		</div>
+		<div class="span6 l">
+			<h4>&nbsp;</h4>
+			<ul>
+				<li>The ability to evaluate the utility of contributed modules on drupal.org.</li>
+				<li>The ability to write simple one-off modules (if there's nothing that meets.</li>
+				<li>The ability to evaluate the utility of contributed modules on drupal.org.</li>
+				<li>The ability to write simple one-off modules (if there's nothing that meets requirements on drupal.org).</li>
+			</ul>
 		</div>
 	</div>
 
 	<footer class="job-footer">
 		<a href="mailto:jobs@saforian.com?subject=PHP Developer / Drupal">Apply</a>
-		<span class="post-button">(PHP Developer / Drupal)</span>
+		<span class="post-button">(Developer, Client Side)</span>
 	</footer>
 </article>
 

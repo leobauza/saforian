@@ -23,10 +23,13 @@
 					<li><strong>Technology</strong><span>PHP, CSS, Zencart E-Commerce, Campaign Monitor</span></li>
 				</ul>
 			</div>
-			
 		</article> <!-- end of row --> 
+		
+		<figure class="center-device-img2">
+			<img src="../../images/caseStudies/wagner_devices.png" alt="Large Image">
+		</figure>
 	</section> <!-- end of block -->
-
+	
 	<section class="block">
 		<h2>Instore Engagement</h2>
 		<figure class="center-img2">
@@ -57,7 +60,7 @@
 					<img src="../../images/caseStudies/global_dna_logo.png" alt="CodeIgniter">
 				</figure>
 				<h2>Database Integration</h2>
-				<p>WWe worked closely with Wagner to define the required integration points into Wagner’s proprietary Skier DNA backend manufacturing system. Details regarding a buyers skiing preferences get collected and transformed into milling specs that then in-turn result in the perfect pair of skis.</p>
+				<p>We worked closely with Wagner to define the required integration points into Wagner’s proprietary Skier DNA backend manufacturing system. Details regarding a buyers skiing preferences get collected and transformed into milling specs that then in-turn result in the perfect pair of skis.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
@@ -67,13 +70,6 @@
 				<p>To accommodate Wagner’s diverse audience, we created an experience that is accessible across a variety of platforms. Whether you prefer to use an iPad, iPhone, computer, or TV, the experience is responsively refined to work seamlessly for each device and medium.</p>
 			</article>
 		</div> <!-- end of second row -->
-	</section> <!-- end of block -->	
-		
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
-			<img src="../../images/caseStudies/wagner_devices.png" alt="Large Image">
-		</figure>
 	</section> <!-- end of block -->	
 	
 	<section class="block">
@@ -89,7 +85,7 @@
 		</figure>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/wagner_ipad.png" alt="Information Architecture Image">

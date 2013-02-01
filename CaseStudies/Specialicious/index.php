@@ -72,7 +72,7 @@
 		</article> <!-- end of row -->
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<h2>Mobile Design</h2>
 		<div class="row-fluid">
 			<div class="span4">

@@ -116,7 +116,7 @@
 		</article> <!-- end of row -->
 	</section> <!-- end of block -->
 	
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/dineout_roles.png" alt="Admin Roles and Permissions">

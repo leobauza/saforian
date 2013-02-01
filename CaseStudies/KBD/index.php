@@ -32,11 +32,8 @@
 			</div>
 			
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
-	
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/kbd_devices.png" alt="Devices">
 		</figure>
 	</section> <!-- end of block -->
@@ -122,7 +119,7 @@
 		</figure>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<div class="row-fluid">
 			<article class="span8">
 				<img src="../../images/caseStudies/kbd_backend.png" alt="Kick Butts Day Logo 1">

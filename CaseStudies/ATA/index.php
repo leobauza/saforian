@@ -36,11 +36,8 @@
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
 
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/ata_devices.png" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
@@ -79,9 +76,7 @@
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
-	
-	
-	
+
 	<section class="block">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
@@ -89,7 +84,7 @@
 		</figure>
 	</section> <!-- end of block -->
 	
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span7">
 				<img src="../../images/caseStudies/ata_ipad.png" alt="Capturing + Connecting Audiences">

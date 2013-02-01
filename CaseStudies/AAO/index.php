@@ -25,11 +25,9 @@
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
 
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/aao_devices.png" alt="Devices">
 		</figure>
 	</section> <!-- end of block -->
@@ -123,7 +121,7 @@
 		</div>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span7">
 				<img src="../../images/caseStudies/aao_ipad.png" alt="Information Architecture Image">

@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="byline">— First Last <br>??????</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -14,7 +14,7 @@
 		<h1>fhi360</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>AAs the largest international public health & development organization, FHI 360 reached out to us to provide a digital solution to meet their online goals. The old website was difficult to update and did not convey the breadth of FHI’s work and the evolution of the organization. FHI 360 originally had over a dozen different website properties that all contained various bits of information regarding their services and practice areas. 
+				<p>As the largest international public health & development organization, FHI 360 reached out to us to provide a digital solution to meet their online goals. The old website was difficult to update and did not convey the breadth of FHI’s work and the evolution of the organization. FHI 360 originally had over a dozen different website properties that all contained various bits of information regarding their services and practice areas.
 					<br/><br/>
 					We redesigned the website to better suit FHI’s objectives and organized and consolidated over 10,000+ content pages and external documents into one easy-to-use website. The new site provides an optimized organizational structure that simplifies access to key information and communicates FHI’s mission and the solutions they bring to the table to address today’s interrelated development challenges.</p>
 			</div>
@@ -26,11 +26,8 @@
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
-	
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/fhi_devices.png" alt="Devices">
 		</figure>
 	</section> <!-- end of block -->
@@ -108,7 +105,7 @@
 		</figure>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<h2>Mobile Friendly</h2>
 		<div class="row-fluid">
 			<div class="span4">

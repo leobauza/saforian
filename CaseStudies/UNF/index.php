@@ -25,11 +25,8 @@
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
-	
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2" style="padding-bottom: 50px;">
+
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/unf_devices.png" alt="devices">
 		</figure>
 	</section>
@@ -74,7 +71,7 @@
 					<img src="../../images/caseStudies/global_search_logo.png" alt="Custom Search">
 				</figure>
 				<h2>Custom Search</h2>
-				<p>We improved search functionality by using a custom filtering mechanism built from a Rails module. Our goal was to make it easy for users to access specific statistical data regarding cookstoves technology and various demographic / socio-graphic information in different countries for analysis and comparison. </p>
+				<p>We improved search functionality by using a custom filtering mechanism built from a Rails module. Our goal was to make it easy for users to access specific statistical data regarding cookstoves technology and various demographic / socio-graphic information in different countries for analysis and comparison.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
@@ -147,7 +144,7 @@
 		</div>
 	</section> <!-- end of block -->
 	
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/unf_outreach.png" alt="Outreach Support">
