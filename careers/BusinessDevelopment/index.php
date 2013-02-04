@@ -4,9 +4,6 @@
 	<img id="brand" src="/images/logo_saforian.png" alt="Saforian">
 	<a href="/" class="main-site-link">Main Site</a>
 </header>
-<section class="career-intro">
-	<h2>Ready to spread your wings and start a new career?</h2>
-</section>
 
 <article class="job-block l">
 	<header class="job-head group">
@@ -79,18 +76,26 @@
 	</footer>
 </article>
 
-<div class="slider-bg">
-	<section id="career-slider" data-duration="1000" data-auto="true" data-slider="slider">
-		<?php include('slider.php'); ?>
+	<section id="high-five">
+		<div class="high-five-inside">
+			<div class="row-fluid requirements">
+				<div class="span4">
+					&nbsp;
+				</div>
+				<div class="span8">
+					<h1>High Fives and Handshakes</h1>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit</p>
+				</div>	
+			</div>
+		</div>	
 	</section>
-</div>
 
 <footer id="career-footer">
 	<section class="section-contents">
 		<div class="row-fluid">
 			<div class="span5">
 				<h4>Don't See Your Job?</h4>
-				<p>We love hearing from creative individuals with a passion for technology. We are always searching for new talent to join our close-knit team. Shoot us an email and get the conversation started! <a href="mailto:jobs@saforian.com?subject=Didn't see my job">jobs@saforian.com</a>.</p>
+				<p>Competitive salaries and health benefits, for a start. But now, we want to hear from you. Apply to the left or drop us an email at <a href="mailto:jobs@saforian.com?subject=Didn't see my job">jobs@saforian.com.</a></p>
 			</div>
 			<div class="span7">
 				<img src="/images/photo_footer.png" alt="">

@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="byline">— First Last <br>??????</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -14,16 +14,22 @@
 		<h1>fhi360</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>As the largest international public health & development organization, FHI 360 reached out to us to provide a digital solution to meet their goals. The old website was difficult to update and did not convey the breadth of FHI’s work. FHI originally had over a dozen websites for each of their projects. We redesigned the website to better suit FHI’s objectives and organized and consolidated over 1,000 documents into one easy-to-use website. We created an organizational structure that simplified access to key information and communicated FHI’s mission and the solutions they bring to the table to solve the world health crisis.</p>
+				<p>As the largest international public health & development organization, FHI 360 reached out to us to provide a digital solution to meet their online goals. The old website was difficult to update and did not convey the breadth of FHI’s work and the evolution of the organization. FHI 360 originally had over a dozen different website properties that all contained various bits of information regarding their services and practice areas.
+					<br/><br/>
+					We redesigned the website to better suit FHI’s objectives and organized and consolidated over 10,000+ content pages and external documents into one easy-to-use website. The new site provides an optimized organizational structure that simplifies access to key information and communicates FHI’s mission and the solutions they bring to the table to address today’s interrelated development challenges.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Non Profit, Charity</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
 					<li><strong>Solutions</strong><span>Website, Campaign Support, CMS, CRM Integration, Responsive, Data Visualization, Reporting, eNews Letter</span></li>
-					<li><strong>Technology</strong><span>Drupal</span></li>
+					<li><strong>Technology</strong><span>Drupal, Solr, MapBox</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
+
+		<figure class="center-device-img2">
+			<img src="../../images/caseStudies/fhi_devices.png" alt="Devices">
+		</figure>
 	</section> <!-- end of block -->
 	
 	<section class="block">
@@ -33,10 +39,10 @@
 			</div>
 			<div class="span5 l">
 				<h2>Informational Architecture</h2>
-				<p>To create an effective information architecture for FHI, our interactive engineers first gathered requirements in order to meet FHI’s specifications. Then we developed an organizational content map and site map. Next, we developed a navigational structure, completed extensive wireframing, and created a database design that was delivered as an entity relationship diagram. 
+				<p>For the site’s information architecture, our interactive engineers first gathered requirements regarding FHI 360’s diverse audience groups and outreach plans. We then developed various organizational and content maps that allowed us to test different approaches. This was further enhanced by creating variations on the navigational models so that we could test labeling, relationship between sections, taxonomy, and flow in order to deliver an incredible user experience.
 				<br/>
 				<br/>
-				We created navigational models to test ideas on how users should navigate the organizational structure. Then we created variations on the navigational models so we could test labeling, relationship between sections, taxonomy, and flow in order to deliver an incredible user experience.</p>
+				Once we finalized an organizational structure, we moved forward with creating various navigational models and extensive wireframing to outline the various page-level requirements for the rest of the site.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
@@ -74,8 +80,8 @@
 				<img src="../../images/caseStudies/global_drupal_logo.png" alt="Drupal">
 			</figure>
 			<div class="left2">
-				<h2>Custom Drupal Modules</h2>
-				<p>To limit additional costs, we reconfigured existing Drupal modules and tailored them to FHI’s objectives. We used our pre-defined configuration of site features and functions for a base theme and created custom Drupal modules to help support the complexity of this project.</p>
+				<h2>Drupal Out of the Box</h2>
+				<p>To reduce time and to support some of the desired functionality, we utilized existing Drupal modules and tailored them to FHI’s objectives. We used our pre-defined configuration of site features and functions for a responsive base theme and created custom Drupal modules to help support the complexity of this project.</p>
 			</div>
 		</div> <!-- end of first row -->
 	</section> <!-- end of block -->
@@ -99,7 +105,7 @@
 		</figure>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<h2>Mobile Friendly</h2>
 		<div class="row-fluid">
 			<div class="span4">

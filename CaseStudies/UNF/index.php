@@ -4,8 +4,8 @@
 <article class="hero unf-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="quote">"Timeline, creative process… I just say how I want to hug everyone at Saforian"</span>
+			<span class="byline">— Michaelyn Elder<br>Director, Online Communications<br/>United Nations Foundation</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -15,33 +15,30 @@
 		<h1>UN Clean Cookstoves</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>With the ambitious mission of universal adoption of clean cookstoves and fuels, the Global Alliance for Clean Cookstoves needed a striking website to mobilize support from a wide range of private, public, and nonprofit stakeholders. Our goal for Clean Cookstoves’ website was to clearly communicate how the organization functions, how work is being done, and where work is being done, while also giving partners a community platform to collaborate and share ideas. We tailored our approach to fit Clean Cookstoves’ diverse international audience and created a interface working within the Convio platform to make it easy for users to access and sift through data about Clean Cookstoves in the third world.</p>
+				<p>With the ambitious mission of universal adoption of clean cookstoves and fuels, the Global Alliance for Clean Cookstoves needed a striking website to mobilize support from a wide range of private, public, and nonprofit stakeholders. Our goal for Clean Cookstoves’ website was to clearly communicate how the organization functions, how work is being done, and where work is being done, while also giving partners a community platform to collaborate and share ideas. We tailored our approach to fit Clean Cookstoves’ diverse international audience and created a interface working within the Convio platform to make it easy for users to access and sift through data about Clean Cookstoves in developing countries.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Non Profit, Charity</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
 					<li><strong>Solutions</strong><span>Website, Campaign Support, CMS, CRM Integration, Responsive, Data Visualization, Reporting, eNews Letter</span></li>
-					<li><strong>Technology</strong><span>Convio, Ruby on Rails, Paralex, Java Script</span></li>
+					<li><strong>Technology</strong><span>Convio, Ruby on Rails, Paralex, Java Script, MapBox</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
-	
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2" style="padding-bottom: 50px;">
+
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/unf_devices.png" alt="devices">
 		</figure>
-		
+	</section>
 
-	
+	<section class="block">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/unf_ia.png" alt="Information Architecture Image">
 			</div>
 			<div class="span5 l">
 				<h2>Informational Architecture</h2>
-				<p>We compiled all of Clean Cookstoves’ useful resources into a searchable, user-friendly database to enhance the user experience. Users now have access to market assessments, consumer behavior and preference information, and resource studies. It is easy for users to find the information they need with country or topic search function. Using Convio’s Luminate CMS, we developed Clean Cookstoves’ knowledge database to allow administrators to update content frequently.</p>
+				<p>We compiled all of Clean Cookstoves’ resources into a searchable, user-friendly database to enhance the user experience. Users now have access to market assessments, consumer behavior and preference information, and resource studies. It is easy for users to find the information they need with the country or topic search function. The goal was to provide a structure that helps the audience identify the “why” behind what the cause is all about.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
@@ -53,7 +50,7 @@
 			</figure>
 			<div class="left2">
 				<h2>Custom Convio Modules</h2>
-				<p>Using the latest version of Convio, we created a stylized site pushing Convio to its boundaries. To minimize additional costs, we customized existing Convio modules to fit Clean Cookstoves’ objectives.</p>
+				<p>Using the latest version of Convio, we created a stylized site pushing Convio to its boundaries. To reduce time and costs, we customized existing Convio modules to fit Clean Cookstoves’ objectives.</p>
 			</div>
 		</div>
 	</section> <!-- end of block -->
@@ -74,14 +71,14 @@
 					<img src="../../images/caseStudies/global_search_logo.png" alt="Custom Search">
 				</figure>
 				<h2>Custom Search</h2>
-				<p>We improved search functionality by using a custom filtering mechanism built from a Rails module. Our goal was to make it easy for users to access specific statistical data regarding cookstoves technology and various demographic / socio-graphic information in different countries for analysis and comparison. The goal was to provide audiences with tools to help identify the “why” behind what the cause is all about. Also, it allows users to see the latest country-based information for helping to make judgement calls on which countries need the most help.</p>
+				<p>We improved search functionality by using a custom filtering mechanism built from a Rails module. Our goal was to make it easy for users to access specific statistical data regarding cookstoves technology and various demographic / socio-graphic information in different countries for analysis and comparison.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_paperpen_logo.png" alt="Custom Reporting">
 				</figure>
 				<h2>Custom Reporting</h2>
-				<p>We compiled various pulling techniques to allow users to quickly analyze the data stored internally to help communicate the overall story. We provided several different types of mechanisms to sort and find the right information using filtering, sorting and categorization techniques.</p>
+				<p>We compiled various pulling techniques to allow users to quickly analyze the data stored internally to help communicate the overall story. We provided several different types of mechanisms to sort and find the right information using filtering, sorting, and categorization techniques.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
@@ -100,7 +97,9 @@
 			</div>
 			<div class="span5 l">
 				<h2>Targeting Business + Site Goals</h2>
-				<p>To meet Clean Cookstoves’ goal of increasing awareness and mobilizing partners, we set up a few campaigns and steps for users to maximize the return on investment. We provided support howfor Clean Cookstoves to develop engaging campaigns and target select users to meet their strategic goals.</p>
+				<p>To meet Clean Cookstoves’ goal of increasing awareness and mobilizing partners, we set up a few steps for users to maximize the return on investment. We provided support for Clean Cookstoves to develop engaging campaigns and target select users to meet their strategic goals.
+					<br/><br/>
+					<strong>Decreased bounce rate from 93% to 48%</strong> in a 7 month period, <strong>increased the average visit duration to 4 minutes and 35 seconds,</strong> and by the end of the 7 month period, there were <strong>86,120 visits—54.80% of them consisting of new visits.</strong></p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
@@ -119,16 +118,40 @@
 		<figure class="center-img">
 			<img src="../../images/caseStudies/unf_largeimage4.png" alt="Large Image">
 		</figure>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/unf_largeimage5.png" alt="Large Image">
+		</figure>
 	</section> <!-- end of block -->
-
+	
 	<section class="block">
+		<h2>Mobile Design</h2>
+		<div class="row-fluid">
+			<div class="span4">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/unf_mobile1.png" alt="Mobile Image">
+				</figure>
+			</div>
+			<div class="span4">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/unf_mobile2.png" alt="Mobile Image">
+				</figure>
+			</div>
+			<div class="span4 l">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/unf_mobile3.png" alt="Mobile Image">
+				</figure>
+			</div>
+		</div>
+	</section> <!-- end of block -->
+	
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/unf_outreach.png" alt="Outreach Support">
 			</div>
 			<div class="span5 l">
 				<h2>Outreach Support</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>We collaborated with our partner, the United Nations Foundation, to reach their target audience and connect users to valuable resources for the Clean Cookstove Campaign. Part of this endeavor involved the creation of online newsletters. This proved to be a true marketing business asset and allowed UNF to track successes. The newsletters direct readers back to the website where they can do further research, be part of the community, or take action.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->

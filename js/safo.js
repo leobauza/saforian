@@ -8,6 +8,7 @@ $(window).resize(function(){
 	} else {
 		$('#site-nav ul').hide();
 	}
+	//responsive stuff for process stuff
 	if($winWidth > 550) {
 		$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").show();
 	} else {

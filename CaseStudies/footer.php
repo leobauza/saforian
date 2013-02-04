@@ -1,3 +1,17 @@
+<footer id="casestudy-footer">
+	<section class="section-contents">
+		<div class="row-fluid">
+			<div class="span5">
+				<h4>Interested in learning more?</h4>
+				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. With a focus on Open Source technologies, our talented professionals create meaningful solutions that deliver the results you demand. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
+			</div>
+			<div class="span7">
+				<img src="/images/photo_footer.png" alt="">
+			</div>
+		</div>
+	</section>
+</footer>
+
 <script type="text/javascript">
 
 	var _gaq = _gaq || [];

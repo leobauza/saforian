@@ -18,17 +18,14 @@
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Non Profit, Charity</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
 					<li><strong>Solutions</strong><span>Website, Campaign Support, CMS, CRM Integration, Mulit-Website Management, Responsive</span></li>
 					<li><strong>Technology</strong><span>Drupal, MovableType, Convio, CodeIgnitor, SalesForce, RaisersEdge</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
 
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/nkh_devices.png" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
@@ -125,7 +122,7 @@
 		</figure>
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
 				<img src="../../images/caseStudies/nkh_story.png" alt="Information Architecture Image">

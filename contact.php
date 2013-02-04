@@ -1,5 +1,5 @@
 <?php
-
+if(isset($_POST['submitted'])) {
 	$name = $_POST['fullname'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
@@ -27,5 +27,8 @@
 	$subject = "Saforian Site Message";
 	$headers = "From: $name <$email>\n";
 	mail($to, $subject, $email_text, $headers);
-	
+} else {
+	header("Location: http://saforian.com");
+}
+
 ?>

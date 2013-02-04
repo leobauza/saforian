@@ -3,8 +3,8 @@
 <article class="hero grunley-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="quote">"I adore Saforian. The staff is top-notch and responsive to our needs. I recommend Saforian highly."</span>
+			<span class="byline">— Donna Duncan</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -24,11 +24,8 @@
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
-	</section> <!-- end of block -->
 
-	<section class="block">
-		<h2>Cross Platform Compatible</h2>
-		<figure class="center-img2">
+		<figure class="center-device-img2">
 			<img src="../../images/caseStudies/grunley_devices.png" alt="Devices">
 		</figure>
 	</section> <!-- end of block -->
@@ -73,7 +70,7 @@
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
 
-	<section class="block">
+	<section class="block-last">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
 			<img src="../../images/caseStudies/grunley_largeimage1.png" alt="Large Image">
