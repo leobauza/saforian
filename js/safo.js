@@ -368,7 +368,7 @@ $(function(){
 			}
 		}
 
-		//facebook share button handler
+		//google plus share button handler
 		if($(".job-share .gplus a").length) {
 			$('.job-share .gplus a').click(function(e){
 				var pass_plus_url = $(this).attr('href');
