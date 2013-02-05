@@ -26,11 +26,11 @@
 		<nav class="safo-nav group">
 			<ul class='topnav group'>
 				<li><a href='#top' class='on' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
-				<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>Our History</a></li>
+				<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>History</a></li>
 				<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
-				<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Our Work</a></li>
-				<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Our Clients</a></li>
-				<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Get in Touch</a></li>
+				<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
+				<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
+				<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 				<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
 			</ul>
 		</nav>

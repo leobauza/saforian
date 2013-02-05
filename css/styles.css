@@ -249,6 +249,8 @@ a:visited:hover {
   background: rgba(0, 0, 0, 0.9);
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
 }
 #site-header {
@@ -292,6 +294,7 @@ a:visited:hover {
   float: left;
 }
 #site-nav ul li a {
+  text-align: center;
   font-size: 1.6em;
   padding: 15px;
   display: block;
@@ -302,6 +305,11 @@ a:visited:hover {
 }
 #site-nav ul li a.on {
   font-weight: bold;
+}
+#site-nav ul li.last {
+  width: auto;
+  float: none;
+  overflow: hidden;
 }
 #site-nav ul li.last a {
   background: none;
@@ -849,6 +857,12 @@ section.safo-jobs a:hover {
   margin: 0 auto 0px;
   padding: 55px 20px;
 }
+.adjust-top .std-block {
+  padding: 94px 20px 55px;
+}
+.adjust-top .hero {
+  margin-top: 56px;
+}
 .twitter-block {
   background: #0096bd;
 }
@@ -901,7 +915,7 @@ section.safo-jobs a:hover {
   max-width: 1020px;
   *width: 1020px;
   margin: 0 auto 20px;
-  padding: 40px 20px;
+  padding: 94px 20px 40px;
   border-bottom: 8px solid #1691b5;
 }
 .job-block.l {
@@ -1008,13 +1022,14 @@ section.safo-jobs a:hover {
 }
 #career-footer {
   background: #eef1f3;
+  padding: 40px 0;
 }
 #career-footer h4 {
+  padding-top: 110px;
   font-size: 2.8em;
   font-weight: 600;
   margin: 0 0 20px;
   color: #000000;
-  padding-top: 140px;
 }
 #career-footer p {
   color: #000000;
@@ -1029,36 +1044,39 @@ section.safo-jobs a:hover {
   color: #666;
   text-decoration: none;
 }
+/* POSSIBLY DELETE THIS IF IT DOESNT BREAK ANYTHING
 #high-five {
-  background-color: #000;
-  height: 445px;
-}
-#high-five .high-five-inside {
-  background: url('../images/img_highfive.png') no-repeat;
-  background-position: left bottom;
-  max-width: 1020px;
-  *width: 1020px;
-  padding: 0;
-  margin: 0 auto;
-  height: 100%;
-}
-#high-five .high-five-inside h1 {
-  background: none;
-  color: #ffffff;
-  padding: 15px 0px;
-  font-size: 4em;
-  font-weight: 300;
-  font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
-  padding-top: 90px;
-}
-#high-five .high-five-inside p {
-  font-size: 1.8em;
-  line-height: 34px;
-  color: #fff;
-  font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  padding-top: 30px;
-}
+	background-color: #000;
+	height: 445px;
+	
+	.high-five-inside {
+		background: url('../images/img_highfive.png') no-repeat;
+		background-position: left bottom;
+		max-width:1020px;
+		*width:1020px;
+		padding:0;
+		margin:0 auto;
+		height: 100%;
+		
+		h1 {
+			background: none;
+			color:@white;
+			padding: 15px 0px;
+			font-size: 4em;
+			font-weight: 300;
+			font-family: @sans-serif;
+			padding-top: 90px;
+		}
+		p{
+			font-size: 1.8em;
+			line-height: 34px;
+			color: #fff;
+			font-family: @sans-serif;
+			font-weight: 300;
+			padding-top: 30px;
+		}
+	}
+}*/
 /******CAPABILITIES******/
 .capabilities-bg {
   background: #ffffff;
@@ -1091,6 +1109,7 @@ section.safo-jobs a:hover {
 }
 #capabilities-footer {
   background: #eef1f3;
+  padding-bottom: 40px;
 }
 #capabilities-footer h4 {
   font-size: 2.8em;
@@ -1115,6 +1134,7 @@ section.safo-jobs a:hover {
 /******CASE STUDY FOOTER******/
 #casestudy-footer {
   background: #eef1f3;
+  padding-bottom: 40px;
 }
 #casestudy-footer h4 {
   font-size: 2.8em;
@@ -1143,7 +1163,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
 }
 .slider-bg {
-  background: #0095bc;
+  background: #000;
 }
 .slider-wrap {
   position: relative;
@@ -1740,44 +1760,67 @@ section.safo-jobs a:hover {
   }
 }
 @media (max-width: 940px) {
-  .safo-nav {
-    position: fixed;
+  #header-wrap {
+    position: static;
+  }
+  #brand {
+    float: none;
+    position: absolute;
+    top: 100px;
     width: 100%;
-    top: 0;
     left: 0;
   }
+  #brand img {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 35px;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.95);
+  }
+  #site-nav {
+    position: relative;
+    padding: 0;
+  }
+  #site-nav ul {
+    z-index: 500;
+    padding: 5px 0;
+    background: #000000;
+    position: fixed;
+    width: 100%!important;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  #site-nav ul li {
+    float: none;
+    display: inline;
+  }
+  #site-nav ul li a {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    _height: 30px;
+  }
+  #site-nav ul li.last a {
+    padding: 15px;
+  }
   section.safo-start {
-    margin-top: 70px;
+    margin-top: 50px;
     height: 816px;
   }
   section.safo-start .safo-mission {
     padding-top: 256px;
   }
-  #site-header {
-    top: 10%;
-    position: absolute;
-    width: 100%;
-    left: 0;
-  }
-  #site-header .safo-head {
-    top: auto;
-    left: auto;
-    position: relative;
-    margin: 40px auto 0;
-  }
   /* top nav */
   .opennav {
-    display: block;
-    height: 70px;
+    display: none;
+    height: 54px;
     border: 1px solid #1a1a1a;
     margin: 0 auto;
-    background: url('../images/bg_navdrop.png') 50% 50% no-repeat;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    background: #000000 url('../images/bg_navdrop.png') 50% 50% no-repeat;
   }
   .opennav.up {
-    background: url('../images/bg_navback.png') 50% 50% no-repeat;
+    background: #000000 url('../images/bg_navback.png') 50% 50% no-repeat;
   }
   .opennav .safo-nav {
     display: block!important;
@@ -1843,7 +1886,14 @@ section.safo-jobs a:hover {
     float: none;
     margin: 5px 0 0 0;
   }
+  .job-block {
+    padding-top: 244px;
+  }
+  .adjust-top #brand {
+    display: none;
+  }
 }
+/*end media 940*/
 @media (max-width: 770px) {
   .client-list p {
     width: 47%;
@@ -1852,8 +1902,12 @@ section.safo-jobs a:hover {
     font-size: 3em;
     line-height: 1.5em;
   }
+  #career-footer h4 {
+    padding-top: 50px;
+  }
 }
-@media (max-width: 550px) {
+/*end 770 media*/
+@media (max-width: 760px) {
   .method-nav-second {
     display: block;
   }
@@ -1865,14 +1919,46 @@ section.safo-jobs a:hover {
   #a-tracking {
     display: none;
   }
-  .safo-nav .opennav {
-    height: 40px;
+  #site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  #site-nav ul {
+    display: none;
+    position: static;
+    padding: 0;
+  }
+  #site-nav ul li {
+    display: block;
+    border-top: 1px solid #2d2d2d;
+  }
+  #site-nav ul li:first-child {
+    border-top: none;
+  }
+  #site-nav ul li:last-child a {
+    font-size: 2em;
+    text-align: left;
+    width: 93%;
+    padding: 10px 3%;
+  }
+  #site-nav ul li a {
+    font-size: 2em;
+    text-align: left;
+    width: 93%;
+    padding: 10px 3%;
+  }
+  .opennav {
+    display: block;
+    height: 54px;
   }
   body {
     font-size: 55%;
   }
   #site-header {
-    top: 40px;
+    padding: 0;
   }
   #site-header .safo-head {
     margin: 20px auto;
@@ -1970,6 +2056,12 @@ section.safo-jobs a:hover {
   }
   section.safo-contact .social-links {
     margin-bottom: 0px;
+  }
+  section.safo-jobs .job-post {
+    margin: 0 0 5px;
+  }
+  section.safo-jobs .job-post:last-child {
+    margin: 0 0 20px;
   }
   /*careers page*/
   #career-header #brand {

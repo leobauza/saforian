@@ -27,14 +27,16 @@
 </script>
 
 
-	<script type='text/javascript'>
-		// this should fix the console problem in IE 
-		if (typeof console == "undefined") {
-			this.console = {log: function() {}};
-		}
-	</script>
-	<script type='text/javascript' src='../js/safo.js'></script>
-
+<script type='text/javascript'>
+	// this should fix the console problem in IE 
+	if (typeof console == "undefined") {
+		this.console = {log: function() {}};
+	}
+</script>
+<script type="text/javascript" src="../../js/carouFredSel.min.js"></script>
+<script type='text/javascript' src='../../js/waypoints.min.js'></script>
+<script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
+<script type='text/javascript' src='../../js/safo.js'></script>
 
 	</body>
 </html>

@@ -77,9 +77,30 @@
 		<![endif]-->
 		
 	</head>
-	<body>
+	<body class="adjust-top">
 
-		<header id="career-header" class="group">
+		<!-- <header id="career-header" class="group">
 			<img id="brand" src="../../images/logo_saforian.png" alt="Saforian">
 			<a href="../../" class="main-site-link">Main Site</a>
-		</header>
+		</header> -->
+		<section id="header-wrap">
+			<header id="site-header" class="group">
+				<div id='brand'>
+					<h1>saforian</h1>
+					<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+				</div>
+				<nav id="site-nav">
+					<ul class='topnav group'>
+						<li><a href='/#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
+						<li><a href='/#history' id='topnav-history' data-scrollto='safo-history'>History</a></li>
+						<li><a href='/#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
+						<li><a href="/#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
+						<li><a href='/#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
+						<li><a href='/#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
+						<li><a href='/#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
+						<li class="last"><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+					</ul>
+					<span class="opennav"></span>
+				</nav>
+			</header>
+		</section>

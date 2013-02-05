@@ -30,6 +30,7 @@ SLIDER
 		</div>
 		<!-- end slide -->
 
+
 		<!-- slide -->
 		<div class="slide">
 			<img src="/images/sliderFullSize/slide_collaboration.png" alt="Slide Collaboration">

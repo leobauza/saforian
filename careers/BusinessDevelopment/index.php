@@ -1,9 +1,5 @@
 <?php include("header.php");?>
 
-<header id="career-header" class="group">
-	<img id="brand" src="/images/logo_saforian.png" alt="Saforian">
-	<a href="/" class="main-site-link">Main Site</a>
-</header>
 
 <article class="job-block l">
 	<header class="job-head group">
@@ -76,19 +72,13 @@
 	</footer>
 </article>
 
-	<section id="high-five">
-		<div class="high-five-inside">
-			<div class="row-fluid requirements">
-				<div class="span4">
-					&nbsp;
-				</div>
-				<div class="span8">
-					<h1>High Fives and Handshakes</h1>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit</p>
-				</div>	
-			</div>
-		</div>	
-	</section>
+	<div class="slider-bg">
+		<section id="career-slider" data-duration="1000" data-auto="true" data-slider="slider">
+			<?php include("slider.php");?>
+		</section>
+	</div>
+
+
 
 <footer id="career-footer">
 	<section class="section-contents">

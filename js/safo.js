@@ -6,7 +6,7 @@ $(window).resize(function(){
 	if($winWidth > 940) {
 		$('#site-nav ul').show();
 	} else {
-		$('#site-nav ul').hide();
+		//$('#site-nav ul').hide();
 	}
 	//responsive stuff for process stuff
 	if($winWidth > 550) {
@@ -68,7 +68,7 @@ $(document).ready(function() {
 	function navScrollToSection(link,section) {
 		// remove waypoint nav switching
 		//$('section').waypoint('destroy');
-		if($winWidth < 941) {
+		if($winWidth < 700) {
 			var $navHeight = $('.opennav').height();
 		} else {
 			var $navHeight = 56;
@@ -78,44 +78,7 @@ $(document).ready(function() {
 		$('html, body').animate({
 			scrollTop: $(section).offset().top - $navHeight
 		}, 500);
-		//$('#site-nav a').removeClass('on');
-		//$(link).addClass('on');
-		
-		/*
-		$('section').each(function(){
-			$(this).height($(this).attr('data-default-height'));
-		});
-		*/
-		
-		/*
-		var defaultHeight = $(section).outerHeight(); 
-		var windowHeight = $.waypoints('viewportHeight');
-		if (windowHeight > defaultHeight) {
-			var newPadding = (windowHeight - defaultHeight)/2;
-			var newTopPadding = parseInt($(section).css("padding-top").replace("px", ""));
-			newTopPadding += newPadding;
-			$(section).css("padding-top",newTopPadding+"px");
-			var newBottomPadding = parseInt($(section).css("padding-bottom").replace("px", ""));
-			newBottomPadding += newPadding;
-			$(section).css("padding-bottom",newBottomPadding+"px");
-		}
-		*/
-		
-		//$(section).height($.waypoints('viewportHeight'));
-		//$(section).css('min-height','100%');
-		
 	}
-	
-	
-		// add nav switching during scrolling with waypoints 
-		// add this back in after the section resizing is fixed 
-		/*
-		$('section').waypoint(function(e,d) {
-			$('.safo-nav a').removeClass('on');
-			$('.safo-nav a[data-scrollto='+$(this).attr('data-section')+']').addClass('on');
-		});
-		*/
-	
 
 });
 
@@ -300,6 +263,7 @@ $(function(){
 		}
 	});
 
+	//slide up the nav on mobile click of nav
 	$('#site-nav a').click(function(){
 		if($winWidth < 941) {
 			$('#site-nav ul').slideUp();
@@ -410,6 +374,58 @@ $(function(){
 		offset: 56
 	});
 
+/* 
+ * =============================================================
+ * inline li items wreck my day when resizing upward because the ul gets its own size wrong...this sorta fixes it not really the overflow:hidden does though
+ * =============================================================
+ */
+$theHash = document.location.hash;
+//console.log($theHash);
+
+if($theHash){
+	$('a[href='+ $theHash +']').trigger('click');
+	//console.log("wahooo hash!");
+} else {
+	//console.log("oh no...no hash");
+}
+
+
+
+/* 
+ * =============================================================
+ * inline li items wreck my day when resizing upward because the ul gets its own size wrong...this sorta fixes it not really the overflow:hidden does though
+ * =============================================================
+ */
+//cache the siteNav size
+
+
+// function siteNavWidth(){
+// 	var $totalWidth = 0;
+// 	$('#site-nav li').each(function(){
+// 		var $this = $(this);
+// 		var $thisWidth = $this.width();
+// 		$totalWidth = $totalWidth + ($thisWidth);
+// 	});
+// 	$("#site-nav ul").width($totalWidth)
+// }
+
+
+var $navWidth = 0;
+$(window).resize(function(){
+	if($winWidth > 0) {
+		var $navWidth = $("#site-nav").width();
+	}
+
+	if($navWidth < 682) {
+		$navWidth = 682;
+	}
+
+	$newWinWidth = $(window).width();
+	if($newWinWidth > 940) {
+		//siteNavWidth();
+		$("#site-nav ul").width($navWidth);
+	}
+});
 
 }); //end my ready
 	

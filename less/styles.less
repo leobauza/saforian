@@ -1,4 +1,4 @@
-@import "core.less";
+	@import "core.less";
 
 /* CSS Reset from html5doctor.com */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
@@ -114,6 +114,8 @@ a, a:visited {
 	background:fade(@black,90%);
 	width:100%;
 	position:fixed;
+	top:0;
+	left:0;
 	z-index:1000;
 }
 
@@ -153,6 +155,7 @@ a, a:visited {
 		li {
 			float:left;
 			a {
+				text-align:center;
 				font-size:1.6em;
 				padding:15px;
 				display:block;
@@ -166,6 +169,7 @@ a, a:visited {
 				}
 			}
 			&.last {
+				.overflow();
 				a {
 					background:none;
 					padding:15px 0px 15px 15px;
@@ -177,7 +181,7 @@ a, a:visited {
 		}
 	}
 }
-	
+
 /* top nav */
 .safo-nav {
 	display: block;
@@ -764,6 +768,16 @@ section.safo-jobs {
 	margin:0 auto 0px;
 	padding:55px 20px;
 }
+
+.adjust-top {
+	.std-block {
+		padding:94px 20px 55px;
+	}
+	.hero {
+		margin-top:56px;
+	}
+}
+
 .twitter-block {
 	background:#0096bd;
 	//background:#000;
@@ -817,9 +831,10 @@ section.safo-jobs {
 	max-width:1020px;
 	*width:1020px;
 	margin:0 auto 20px;
-	padding:40px 20px;
+	padding:94px 20px 40px;
 	border-bottom:8px solid #1691b5;
 	&.l {
+		//padding:40px 20px;
 		border:none;
 	}
 	.job-head {
@@ -923,12 +938,13 @@ section.safo-jobs {
 }
 #career-footer {
 	background:@lighter-gray;
+	padding:40px 0;
 	h4 {
+		padding-top:110px;
 		font-size:2.8em;
 		font-weight: 600;
 		margin:0 0 20px;
 		color:@black;
-		padding-top:140px;
 	}
 	p {
 		color:@black;
@@ -945,6 +961,7 @@ section.safo-jobs {
 	}
 }
 
+/* POSSIBLY DELETE THIS IF IT DOESNT BREAK ANYTHING
 #high-five {
 	background-color: #000;
 	height: 445px;
@@ -976,7 +993,7 @@ section.safo-jobs {
 			padding-top: 30px;
 		}
 	}
-}
+}*/
 
 /******CAPABILITIES******/
 
@@ -1015,6 +1032,7 @@ section.safo-jobs {
 
 #capabilities-footer {
 	background:@lighter-gray;
+	padding-bottom:40px;
 	h4 {
 		font-size:2.8em;
 		font-weight: 600;
@@ -1041,6 +1059,7 @@ section.safo-jobs {
 
 #casestudy-footer {
 	background:@lighter-gray;
+	padding-bottom:40px;
 	h4 {
 		font-size:2.8em;
 		font-weight: 600;
@@ -1070,7 +1089,7 @@ section.safo-jobs {
 	margin:0 auto;
 }
 .slider-bg {
-	background:#0095bc;
+	background:#000;
 }
 .slider-wrap {
 	position:relative;
@@ -1689,43 +1708,71 @@ section.safo-jobs {
 	}
 }
 @media (max-width: 940px) {
-	.safo-nav {
-		position:fixed;
+	#header-wrap {
+		position:static;
+	}
+
+	#brand {
+		float:none;
+		position:absolute;
+		top:100px;
 		width:100%;
-		top:0;
 		left:0;
+		img {
+			margin:0 auto;
+			display:block;
+			padding:30px 35px;
+			background:@black;
+			background:fade(@black,95%);
+		}
+	}
+	
+	#site-nav {
+		position:relative;
+		padding:0;
+		ul {
+			z-index:500;
+			padding:5px 0;
+			background:@black;
+			position:fixed;
+			width:100%!important;
+			top:0;
+			left:0;
+			text-align:center;
+			li {
+				float:none;
+				display:inline;
+				a {
+					.inline-block();
+				}
+				&.last {
+					a {
+						
+						padding:15px;
+					}
+				}
+			}
+		}
 	}
 	section.safo-start {
-		margin-top:70px;
+		margin-top:50px;
 		height:816px;
 		.safo-mission {
 			padding-top:256px;
 		}
 	}
 	
-	#site-header {
-		top:10%;
-		position:absolute;
-		width:100%;
-		left:0;
-		.safo-head {
-			top:auto;
-			left:auto;
-			position:relative;
-			margin:40px auto 0;
-		}
-	}
 	/* top nav */
 	.opennav {
-		display:block;
-		height:70px;
+		display:none;
+		height:54px;
 		border:1px solid lighten(@black,10%);
 		margin: 0 auto;
 		//float:right;
-		background:url('../images/bg_navdrop.png') 50% 50% no-repeat;
-		#CSS3 > .border-radius(4px);
+		background:#000 url('../images/bg_navdrop.png') 50% 50% no-repeat;
+
 		&.up {
-			background:url('../images/bg_navback.png') 50% 50% no-repeat;
+			background:#000 url('../images/bg_navback.png') 50% 50% no-repeat;
 		}
 
 
@@ -1807,7 +1854,25 @@ section.safo-jobs {
 			margin:5px 0 0 0;
 		}
 	}
-}
+	.job-block {
+		padding-top:244px;
+	}
+	
+	.adjust-top {
+		#brand {
+			display:none;
+		}
+		.hero {
+			
+		}
+		.std-block {
+			//padding-top:275px;
+		}
+	}
+	
+	
+	
+} /*end media 940*/
 @media (max-width: 770px) {
 
 	.client-list p {
@@ -1817,23 +1882,67 @@ section.safo-jobs {
 		font-size:3em;
 		line-height:1.5em;
 	}
-}
-@media (max-width: 550px) {
+
+	#career-footer {
+		h4 {
+			padding-top:50px;
+		}
+	}
+
+} /*end 770 media*/
+@media (max-width: 760px) {
 	.method-nav-second {
 		display:block;
 	}
 	#inspire, #ignite, #e-websites, #m-management, #m-responsive, #a-tracking {
 		display:none;
 	}
-	.safo-nav .opennav {
-		height:40px;
+
+	#site-nav {
+		width:100%;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		z-index:1000;
+		ul {
+			display:none;
+			position:static;
+			padding:0;
+			li {
+				display:block;
+				border-top:1px solid #2d2d2d;
+				&:first-child {
+					border-top:none;
+				}
+				&:last-child {
+					a {
+						font-size:2em;
+						text-align:left;
+						width:93%;
+						padding:10px 3%;
+					}
+				}
+				a {
+					font-size:2em;
+					text-align:left;
+					width:93%;
+					padding:10px 3%;
+				}
+			}
+		}
+	}
+
+	.opennav {
+		display:block;
+		height:54px;
 	}
 	
 	body {
 		font-size:55%;
 	}
 	#site-header {
-		top:40px;
+		padding:0;
 	}
 	#site-header .safo-head {
 		margin:20px auto;
@@ -1938,6 +2047,15 @@ section.safo-jobs {
 	}
 	section.safo-contact .social-links {
 		margin-bottom:0px;
+	}
+	
+	section.safo-jobs {
+		.job-post {
+			margin: 0 0 5px;
+			&:last-child {
+				margin:0 0 20px
+			}
+		}
 	}
 	
 	/*careers page*/

@@ -10,11 +10,12 @@
 				<nav id="site-nav">
 					<ul class='topnav group'>
 						<li><a href='#top' class='on' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
-						<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>Our History</a></li>
+						<li><a href='#history' id='topnav-history' data-scrollto='safo-history'>History</a></li>
 						<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
-						<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Our Work</a></li>
-						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Our Clients</a></li>
-						<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Get in Touch</a></li>
+						<li><a href="#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
+						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
+						<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
+						<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 						<li class="last"><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
 					</ul>
 					<span class="opennav"></span>
@@ -182,7 +183,7 @@
 		
 		
 		<!-- SERVICES -->
-		<section class="standard-section" data-section='safo-services'>
+		<section class="standard-section safo-services" data-section='safo-services'>
 			<div class='section-contents'>
 				<h2 class='method-section our-services'>Our Core Competencies</h2>
 
@@ -518,7 +519,7 @@
 				</figure>
 				<!-- <div class='safo-staff-pics'></div> -->
 				<div class='row-fluid jobs'>
-					<div class='span6'>
+					<div class='span7'>
 						<h3 class='open-jobs'>
 							Open Positions
 							<span class='job-date date-header'>Post Date</span>
@@ -544,8 +545,15 @@
 								<span class='job-date'>January 15, 2013</span>
 							</a>
 						</p>
+						<p class='job-post'>
+							<a href='/careers/FrontEndDeveloper' class="group">
+								<span class='job-title'>Front End Developer</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>February 5, 2013</span>
+							</a>
+						</p>
 					</div>
-					<div class='span6 l more-about-jobs'>
+					<div class='span5 l more-about-jobs'>
 						<h3>What else can you expect?</h3>
 						<p>Competitive salaries and health benefits, for a start. 
 						But now, we want to hear from you. Apply to the left or drop us 
