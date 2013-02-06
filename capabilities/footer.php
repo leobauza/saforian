@@ -1,3 +1,9 @@
+<section class="twitter-block">
+	<div class="std-block">
+		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
+		<p>You should follow us on Twitter for updates on things to come</p>
+	</div>
+</section>
 <footer id="capabilities-footer">
 	<section class="section-contents">
 		<div class="row-fluid">

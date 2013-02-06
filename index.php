@@ -52,6 +52,7 @@
 			<div class='section-contents'>
 				<h2 class='method-section our-method'>Methodology made better.</h2>
 				<h2 class='method-section our-services'>It all comes down to your audience.</h2>
+			<!--
 				<div class='pad20'>
 					<div class='method-nav group'>
 						<div class='button on' rel='our-method'>Our Method</div>
@@ -59,6 +60,7 @@
 						<div class='clear'></div>
 					</div>
 				</div>
+			-->
 				<div class='method-section our-method'>
 					<div class='method-lines'></div>
 					<div class="pad20">
@@ -104,79 +106,82 @@
 						</div>
 					</div>
 				</div><!-- end our-method -->
+				<!--
 				<div class='method-section our-services'>
-					<div class="pad20">
-						<div class="method-group">
-							<nav class="method-nav-second">
-								<ul class="group">
-									<li><a class="active" href="#d-strategy">Digital <br> Strategy</a></li>
-									<li><a href="#e-websites">Enterprise Websites</a></li>
-									<li><a href="#m-management">Multisite Management</a></li>
-								</ul>
-							</nav>
-							<div class='row-fluid'>
-								<div id="d-strategy" class='span4 show'>
-									<h3>Digital Strategy</h3>
-									<p>Meet your business goals, connect with users, 
-									and stand out from the competition with a 
-									vibrant, scalable digital presence that’s built 
-									to evolve alongside your needs. </p>
+									<div class="pad20">
+										<div class="method-group">
+											<nav class="method-nav-second">
+												<ul class="group">
+													<li><a class="active" href="#d-strategy">Digital <br> Strategy</a></li>
+													<li><a href="#e-websites">Enterprise Websites</a></li>
+													<li><a href="#m-management">Multisite Management</a></li>
+												</ul>
+											</nav>
+											<div class='row-fluid'>
+												<div id="d-strategy" class='span4 show'>
+													<h3>Digital Strategy</h3>
+													<p>Meet your business goals, connect with users, 
+													and stand out from the competition with a 
+													vibrant, scalable digital presence that’s built 
+													to evolve alongside your needs. </p>
+												</div>
+												<div id="e-websites" class='span4'>
+													<h3>Enterprise Websites</h3>
+													<p>With built in CMS and web analytics, your new 
+													customizable website will help you stay on 
+													top of your market by delivering an immersive 
+													digital experience that differentiates your 
+													brand.</p>
+												</div>
+												<div id="m-management" class='span4 l'>
+													<h3>Multisite Management</h3>
+													<p>By integrating your existing architecture with 
+													the latest CMS technology, we help you 
+													smoothly manage content while increasing 
+													deployment speed and impacting your 
+													bottom line.</p>
+												</div>
+											</div>
+										</div>
+										<div class="method-group">
+											<nav class="method-nav-second">
+												<ul class="group">
+													<li><a class="active" href="#c-development">Custom <br>Dev</a></li>
+													<li><a href="#m-responsive">Mobile &amp; Responsive</a></li>
+													<li><a href="#a-tracking">Analytics &amp; Tracking</a></li>
+												</ul>
+											</nav>
+											<div class='row-fluid'>
+												<div id="c-development" class='span4 show'>
+													<h3>Custom Development</h3>
+													<p>From integrated search systems to custom 
+													mapping apps, we can tailor your project to 
+													create a more compelling experience for 
+													your brand, delivering maximum usability 
+													and greater business value. </p>
+												</div>
+												<div id="m-responsive" class='span4'>
+													<h3>Mobile &amp; Responsive</h3>
+													<p>Our mobile development process works in 
+													tandem with your other digital facings, 
+													reinforcing your business strategy and 
+													extending your user experience into the 
+													mobile sphere.</p>
+												</div>
+												<div id="a-tracking" class='span4 l'>
+													<h3>Analytics &amp; Tracking</h3>
+													<p>Put the data your business needs to succeed 
+													at your fingertips, with analytics that track 
+													which content is propelling you forward, 
+													helping you connect with users quickly and 
+													intuitively.</p>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div id="e-websites" class='span4'>
-									<h3>Enterprise Websites</h3>
-									<p>With built in CMS and web analytics, your new 
-									customizable website will help you stay on 
-									top of your market by delivering an immersive 
-									digital experience that differentiates your 
-									brand.</p>
-								</div>
-								<div id="m-management" class='span4 l'>
-									<h3>Multisite Management</h3>
-									<p>By integrating your existing architecture with 
-									the latest CMS technology, we help you 
-									smoothly manage content while increasing 
-									deployment speed and impacting your 
-									bottom line.</p>
-								</div>
-							</div>
-						</div>
-						<div class="method-group">
-							<nav class="method-nav-second">
-								<ul class="group">
-									<li><a class="active" href="#c-development">Custom <br>Dev</a></li>
-									<li><a href="#m-responsive">Mobile &amp; Responsive</a></li>
-									<li><a href="#a-tracking">Analytics &amp; Tracking</a></li>
-								</ul>
-							</nav>
-							<div class='row-fluid'>
-								<div id="c-development" class='span4 show'>
-									<h3>Custom Development</h3>
-									<p>From integrated search systems to custom 
-									mapping apps, we can tailor your project to 
-									create a more compelling experience for 
-									your brand, delivering maximum usability 
-									and greater business value. </p>
-								</div>
-								<div id="m-responsive" class='span4'>
-									<h3>Mobile &amp; Responsive</h3>
-									<p>Our mobile development process works in 
-									tandem with your other digital facings, 
-									reinforcing your business strategy and 
-									extending your user experience into the 
-									mobile sphere.</p>
-								</div>
-								<div id="a-tracking" class='span4 l'>
-									<h3>Analytics &amp; Tracking</h3>
-									<p>Put the data your business needs to succeed 
-									at your fingertips, with analytics that track 
-									which content is propelling you forward, 
-									helping you connect with users quickly and 
-									intuitively.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- end our-services -->
+							-->
+							<!-- end our-services -->
 			</div><!-- end section-contents -->
 		</section><!-- end safo-start -->
 		
@@ -225,8 +230,8 @@
 							</div>
 					</div>
 
-			</div><!-- end section-contents -->
-		</section><!-- end SERVICES -->
+			</div>
+		</section>
 		
 		
 		<!-- our clients -->
@@ -545,13 +550,13 @@
 								<span class='job-date'>January 15, 2013</span>
 							</a>
 						</p>
-						<p class='job-post'>
+						<!-- <p class='job-post'>
 							<a href='/careers/FrontEndDeveloper' class="group">
 								<span class='job-title'>Front End Developer</span>
 								<span class='job-location'>Manassas, VA</span>
 								<span class='job-date'>February 5, 2013</span>
 							</a>
-						</p>
+						</p> -->
 					</div>
 					<div class='span5 l more-about-jobs'>
 						<h3>What else can you expect?</h3>

@@ -233,7 +233,7 @@ a:visited:hover {
   font-size: 1.6em;
   text-align: center;
   display: block;
-  color: #a9dbe8;
+  color: #ffffff;
   padding: 20px 0;
 }
 .method-nav-second ul li a:hover {
@@ -433,7 +433,7 @@ section.safo-history span {
 }
 /* 3rd section: Our Method */
 section.safo-methodology {
-  background: #0096bd;
+  background: #000000;
   color: #fff;
   padding: 88px 0;
 }
@@ -691,7 +691,7 @@ section.safo-contact .share1 {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  background-color: #0096bd;
+  background: #000000;
   color: #fff;
   font-style: italic;
   width: 160px;
@@ -864,7 +864,7 @@ section.safo-jobs a:hover {
   margin-top: 56px;
 }
 .twitter-block {
-  background: #0096bd;
+  background: #000;
 }
 .twitter-block a.twitter-solo {
   margin: 0 auto 50px;
@@ -1962,6 +1962,18 @@ section.safo-jobs a:hover {
   }
   #site-header .safo-head {
     margin: 20px auto;
+  }
+  .standard-section {
+    padding: 88px 0px;
+  }
+  .standard-section .row-fluid {
+    margin-bottom: 0px;
+  }
+  .standard-section .row-fluid.last {
+    margin-bottom: 0px;
+  }
+  .standard-section .row-fluid .span4 img {
+    padding: 40px 0 0 0;
   }
   section.safo-start {
     height: 400px;

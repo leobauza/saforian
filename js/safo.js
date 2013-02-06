@@ -384,6 +384,7 @@ $theHash = document.location.hash;
 
 if($theHash){
 	$('a[href='+ $theHash +']').trigger('click');
+	document.location.hash = "";
 	//console.log("wahooo hash!");
 } else {
 	//console.log("oh no...no hash");
