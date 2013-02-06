@@ -411,7 +411,13 @@ if($theHash){
 // }
 
 
-var $navWidth = 0;
+var $navWidth = $("#site-nav").width();
+
+if($navWidth < 685) {
+	$navWidth = 685;
+}
+$("#site-nav ul").width($navWidth);
+
 $(window).resize(function(){
 	if($winWidth > 0) {
 		var $navWidth = $("#site-nav").width();
