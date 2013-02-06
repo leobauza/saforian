@@ -55,7 +55,7 @@
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_stats_logo.png" alt="Stats">
+					<img src="../../images/caseStudies/global_photo_logo.png" alt="Stats">
 				</figure>
 				<h2>Onsite Photoshoot</h2>
 				<p>Choosing the right photos makes all the difference. We took advantage of custom photography to create an artistic direction for Grunley’s site. The result? Stunning visuals that showcase Grunley’s projects.</p>
@@ -63,7 +63,7 @@
 			
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_stats_logo.png" alt="Stats">
+					<img src="../../images/caseStudies/global_menu_logo.png" alt="Stats">
 				</figure>
 				<h2>Mega Menus</h2>
 				<p>We used Drupal to create a Megamenu module for Grunley's site containing customizable elements like image, text, and videos. To create a streamlined menu navigation for Grunley, we leveraged jQuery and the existing Drupal menu system.</p>
