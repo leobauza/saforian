@@ -66,7 +66,7 @@
 					<img src="../../images/caseStudies/global_stats_logo.png" alt="Stats">
 				</figure>
 				<h2>Mega Menus</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a tempor velit. Duis commodo est quam, non mattis ligula. Nullam laoreet, lorem sit amet venenatis pretium, nulla massa molestie magna, ac semper metus massa sed eros. Praesent sem magna, laoreet eget vehicula vitae, mollis nec tortor.</p>
+				<p>We used Drupal to create a Megamenu module for Grunley's site containing customizable elements like image, text, and videos. To create a streamlined menu navigation for Grunley, we leveraged jQuery and the existing Drupal menu system.</p>
 			</article>
 			
 			<article class="span4 l">
