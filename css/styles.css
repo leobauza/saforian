@@ -621,7 +621,7 @@ section.safo-contact .share1 {
   width: 45px;
   height: 45px;
   margin: 0 6px;
-  background-image: url('../images/sprite_contact.png');
+  background-image: url('../images/sprite_contact_bw.png');
   background-repeat: no-repeat;
   float: left;
 }
@@ -869,6 +869,8 @@ section.safo-jobs a:hover {
   font-size: 22px;
   color: #ffffff;
   text-align: center;
+  color: #fff;
+  line-height: 30px;
 }
 .twitter-click {
   border-radius: 0px;
