@@ -5,7 +5,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"Timeline, creative process… I just say how I want to hug everyone at Saforian"</span>
-			<span class="byline">— Michaelyn Elder<br>Director, Online Communications<br/>United Nations Foundation</span>
+			<span class="byline">— Michaelyn Elder<br>United Nations Foundation</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

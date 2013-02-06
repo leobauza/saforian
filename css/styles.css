@@ -1591,6 +1591,13 @@ section.safo-jobs a:hover {
   display: block;
   margin: 0 auto;
 }
+#work-block .center-img-do {
+  padding: 0 0 80px;
+}
+#work-block .center-img-do img {
+  display: block;
+  margin: 0 auto;
+}
 #work-block .center-device-img2 {
   padding-top: 25px;
 }
