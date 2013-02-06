@@ -1,10 +1,10 @@
 <?php include("../header.php");?>
 
-<section class="blue-bg">
+<section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
 			<h1>Social Media</h1>
-			<img src="../../images/img_social_icon.png" alt="Img Drupal Chicken">
+			<img src="../../images/capabilities/social_icon.png" alt="Img Drupal Chicken">
 		</header>
 		<article class="std-body">
 			<!-- <h3>What is Drupal CMS</h3> -->

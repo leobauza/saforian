@@ -1,10 +1,10 @@
 <?php include("../header.php");?>
 
-<section class="blue-bg">
+<section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
 			<h1>Preparing an RFP</h1>
-			<img src="../../images/img_rfp_icon.png" alt="Img Drupal Chicken">
+			<img src="../../images/capabilities/rfp_icon.png" alt="RFP Icon">
 		</header>
 		<article class="std-body">
 			<!-- <h3>What is Drupal CMS</h3> -->

@@ -5,7 +5,7 @@
 	<div class="std-block">
 		<header class="std-header">
 			<h1>Drupal as a CMS</h1>
-			<img src="../../images/drupalcms_logo.png" alt="">
+			<img src="../../images/capabilities/drupalcms_icon.png" alt="Drupal CMS">
 		</header>
 		<article class="std-body">
 			<h3>What is Drupal CMS</h3>
