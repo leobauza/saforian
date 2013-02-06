@@ -1,3 +1,16 @@
+<section class="copyright">
+	<div class="section-contents">
+		<div class="row-fluid">
+			<div class="span4">
+				<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+			</div>
+			<div class="span8">
+				<p>&copy; 2013</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 	<script type='text/javascript'>
 		// this should fix the console problem in IE 
 		if (typeof console == "undefined") {

@@ -15,8 +15,8 @@
 <article class="hero ata-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">- First Last <br>Grunley ??????</span>
+			<span class="quote">"We believe in the power the strength of strategy ability of technology to business and lives."</span>
+			<span class="byline">— Todd Rice<br>American Trucking Association</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"I adore Saforian. The staff is top-notch and responsive to our needs. I recommend Saforian highly."</span>
-			<span class="byline">— Donna Duncan</span>
+			<span class="byline">— Donna Duncan,<br/>Grunley</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

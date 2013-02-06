@@ -1,24 +1,47 @@
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<p>You should follow us on Twitter for updates on things to come</p>
+		<div id="twitter">
+		</div>
+			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
+		<p></p>
 	</div>
 </section>
+
+
+
 <footer id="capabilities-footer">
 	<section class="section-contents">
 		<div class="row-fluid">
 			<div class="span5">
-				<h4>Interested in learning more?</h4>
-				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. With a focus on Open Source technologies, our talented professionals create meaningful solutions that deliver the results you demand. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
+				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
 			</div>
 			<div class="span7">
-				<img src="../../images/photo_footer.png" alt="">
+				<img src="/images/photo_footer.png" alt="">
 			</div>
 		</div>
 	</section>
 </footer>
 
-
+<section class="copyright">
+	<div class="section-contents">
+		<div class="row-fluid">
+			<div class="span4">
+				<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+			</div>
+			<div class="span8">
+				<p>&copy; 2013</p>
+			</div>
+		</div>
+	</div>
+</section>
+	
+	<script type="text/javascript">
+		$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
+	     $("#twitter").html(data[0].text);
+		});
+	</script>	
+	
 	<script type="text/javascript">
 
 		var _gaq = _gaq || [];
@@ -32,7 +55,8 @@
 		})();
 
 	</script>
-
+	
+	
 
 
 	<script type='text/javascript'>

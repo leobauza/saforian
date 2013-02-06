@@ -8,7 +8,7 @@
 			</div>
 			<blockquote>
 				<span class="quote">"Hit the ball out of the park as far as our advocates and funders are concerned.."</span>
-				<span class="byline">— Albert Lubkan,<br>Director of Internet Strategy Tobacco Free Kids</span>
+				<span class="byline">— Albert Lubkan<br>Director of Internet Strategy, Tobacco Free Kids</span>
 			</blockquote>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"Our experience with Saforian has been a source of contagious enthusiasm..."</span>
-			<span class="byline">– Craig Thrush</span>
+			<span class="byline">– Craig Thrush<br/>Specialicious</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

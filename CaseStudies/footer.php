@@ -2,8 +2,7 @@
 	<section class="section-contents">
 		<div class="row-fluid">
 			<div class="span5">
-				<h4>Interested in learning more?</h4>
-				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. With a focus on Open Source technologies, our talented professionals create meaningful solutions that deliver the results you demand. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
+				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
 			</div>
 			<div class="span7">
 				<img src="/images/photo_footer.png" alt="">
@@ -11,6 +10,20 @@
 		</div>
 	</section>
 </footer>
+
+<section class="copyright">
+	<div class="section-contents">
+		<div class="row-fluid">
+			<div class="span4">
+				<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+			</div>
+			<div class="span8">
+				<p>&copy; 2013</p>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 <script type="text/javascript">
 
