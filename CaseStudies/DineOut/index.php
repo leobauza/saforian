@@ -119,14 +119,11 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
-				<figure class="center-img-do">
+				<figure class="center-img">
 					<img src="../../images/caseStudies/dineout_large1.png" alt="Admin Roles and Permissions">
 				</figure>	
-				<figure class="center-img-do">
+				<figure class="center-img">
 					<img src="../../images/caseStudies/dineout_large2.png" alt="Admin Roles and Permissions">
-				</figure>
-				<figure class="center-img-do">
-					<img src="../../images/caseStudies/dineout_large3.png" alt="Admin Roles and Permissions">
 				</figure>
 			</div>
 			<div class="span5 l">
