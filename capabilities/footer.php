@@ -54,7 +54,7 @@
 	<div class="section-contents">
 		<div class="row-fluid">
 			<div class="span4">
-				<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+				<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
 			</div>
 			<div class="span8">
 				<p>&copy; 2013</p>

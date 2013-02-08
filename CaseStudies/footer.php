@@ -52,7 +52,7 @@
 	<div class="section-contents">
 		<div class="row-fluid">
 			<div class="span4">
-				<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+				<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
 			</div>
 			<div class="span8">
 				<p>&copy; 2013</p>
@@ -87,6 +87,13 @@
 <script type='text/javascript' src='../../js/waypoints.min.js'></script>
 <script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
 <script type='text/javascript' src='../../js/safo.js'></script>
+
+<script type="text/javascript">
+	$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
+     $("#twitter").html(data[0].text);
+	});
+</script>
+
 
 	</body>
 </html>
