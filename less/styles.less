@@ -813,6 +813,10 @@ section.safo-jobs {
 	}
 }
 
+.scroll-up {
+	margin: 0 auto;
+	text-align: center;
+}
 
 .twitter-block {
 	//background:#0096bd;
@@ -1068,20 +1072,29 @@ section.safo-jobs {
 }
 
 #capabilities-footer {
-	background:@lighter-gray;
+	background: #f6f6f7;
 	padding-bottom:40px;
-	h4 {
-		font-size:2.8em;
+	text-align: center;
+	h1 {
+		font-size: 2.8em;
 		font-weight: 600;
-		margin:0 0 20px;
+		margin:0 0 30px;
 		color:@black;
 		padding-top: 60px;
 	}
 	p {
 		color:@black;
-		font-size:1.4em;
-		line-height:1.9em;
-		margin-top: 125px;
+		font-size: 2.0em;
+		line-height: 1.9em;
+		font-weight: 300;
+		padding-bottom: 40px;
+	}
+	.caption {
+		color:@black;
+		font-style: italic;
+		font-size: 1.2em;
+		text-align: left;
+		padding-top: 10px;
 	}
 	a {
 		font-weight: 700;
@@ -1963,7 +1976,11 @@ section.safo-jobs {
 } /*end 770 media*/
 @media (max-width: 760px) {
 	
-	
+	#capabilities-footer {
+		.caption {
+			text-align: center;
+		}
+	}
 	
 	.method-nav-second {
 		display:block;

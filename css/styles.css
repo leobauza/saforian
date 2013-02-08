@@ -892,6 +892,10 @@ section.safo-jobs a:hover {
 .twitter-click a:hover {
   text-decoration: none;
 }
+.scroll-up {
+  margin: 0 auto;
+  text-align: center;
+}
 .twitter-block {
   background: #000;
 }
@@ -1137,21 +1141,30 @@ section.safo-jobs a:hover {
   font-weight: 300;
 }
 #capabilities-footer {
-  background: #eef1f3;
+  background: #f6f6f7;
   padding-bottom: 40px;
+  text-align: center;
 }
-#capabilities-footer h4 {
+#capabilities-footer h1 {
   font-size: 2.8em;
   font-weight: 600;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   color: #000000;
   padding-top: 60px;
 }
 #capabilities-footer p {
   color: #000000;
-  font-size: 1.4em;
+  font-size: 2.0em;
   line-height: 1.9em;
-  margin-top: 125px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+#capabilities-footer .caption {
+  color: #000000;
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: left;
+  padding-top: 10px;
 }
 #capabilities-footer a {
   font-weight: 700;
@@ -1965,6 +1978,9 @@ section.safo-jobs a:hover {
 }
 /*end 770 media*/
 @media (max-width: 760px) {
+  #capabilities-footer .caption {
+    text-align: center;
+  }
   .method-nav-second {
     display: block;
   }

@@ -1,3 +1,22 @@
+<script>
+	$(document).ready(function()
+	{
+	$('a.toppage').click(function(){
+	$.scrollTo( 0, 500);
+	return false;
+	});
+	});
+	</script>
+
+<section class="scroll-up">
+	<div class="std-block">
+		<a href="#" class="toppage"><img src="/images/scroll-up.png" alt="Scroll to Top"></a>
+	</div>
+	
+	</script>
+	
+</section>
+
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
@@ -13,11 +32,19 @@
 <footer id="capabilities-footer">
 	<section class="section-contents">
 		<div class="row-fluid">
-			<div class="span5">
-				<p>Saforian is a digital creative agency providing full-service branding, strategy, design, development and support. We seamlessly blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences. Say hi at <a href="mailto:hello@saforian.com?subject=Didn't see my job">hello@saforian.com</a>.</p>
+				<h1>We are Interactive Engineers</h1>
+				<p>Defined as an interdisciplinary field with web and software development, interaction design, aesthetic, psychology and usability factors involved. We evaluate  trends in technology and design experiences for humans.</p>
+			<div class="span4">
+				<img src="/images/placeholder.png" alt="">
+				<p class="caption">Caption</p>
 			</div>
-			<div class="span7">
-				<img src="/images/photo_footer.png" alt="">
+			<div class="span4">
+				<img src="/images/placeholder.png" alt="">
+				<p class="caption">Caption</p>
+			</div>
+			<div class="span4">
+				<img src="/images/placeholder.png" alt="">
+				<p class="caption">Caption</p>
 			</div>
 		</div>
 	</section>
