@@ -34,18 +34,18 @@
 		<div class="row-fluid">
 				<h1>We are Interactive Engineers</h1>
 				<p>Defined as an interdisciplinary field with web and software development, interaction design, aesthetic, psychology and usability factors involved. We evaluate  trends in technology and design experiences for humans.</p>
-			<div class="span4">
-				<img src="/images/placeholder.png" alt="">
-				<p class="caption">Caption</p>
-			</div>
-			<div class="span4">
-				<img src="/images/placeholder.png" alt="">
-				<p class="caption">Caption</p>
-			</div>
-			<div class="span4">
-				<img src="/images/placeholder.png" alt="">
-				<p class="caption">Caption</p>
-			</div>
+				<div class="span4">
+					<img src="/images/footer-image1.jpg" alt="">
+					<p class="caption">Enter our realm. Revolving around delivering awe-inspiring user experiences, our methodology puts us on top of the latest technology trends.</p>
+				</div>
+				<div class="span4">
+					<img src="/images/footer-image2.jpg" alt="">
+					<p class="caption">Our open office environment allows us to communicate with ease and streamlines our creative process.</p>
+				</div>
+				<div class="span4">
+					<img src="/images/footer-image3.jpg" alt="">
+					<p class="caption">We’re a laid back bunch and we’re always on the lookout for creative tech-lovers to join our talented team.</p>
+				</div>
 		</div>
 	</section>
 </footer>
