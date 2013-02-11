@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"Kimbo Slice likes Saforian, so obviously I do too."</span>
-			<span class="byline">— Pete Wagner<br>CEO Wagner Skis</span>
+			<span class="byline">— Pete Wagner<br>CEO, Wagner Skis</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

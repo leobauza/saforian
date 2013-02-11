@@ -7,8 +7,8 @@
 				<img src="../../images/caseStudies/dineout_logo.png" alt="No Smoking">
 			</div>
 			<blockquote>
-				<span class="quote">"Traffic was up by 18% over the prior year. In addition, 10% of all traffic came from the mobile version of the map..."</span>
-				<span class="byline">— Share Our Strength</span>
+				<span class="quote">"Saforian's creative minds have allowed us to give our partners and consumers a more engaging and active experience..."</span>
+				<span class="byline">— Molly Burke<br/>Share Our Strength</span>
 			</blockquote>
 		</div>
 	</div>
@@ -119,7 +119,12 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/dineout_roles.png" alt="Admin Roles and Permissions">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/dineout_large1.png" alt="Admin Roles and Permissions">
+				</figure>	
+				<figure class="center-img">
+					<img src="../../images/caseStudies/dineout_large2.png" alt="Admin Roles and Permissions">
+				</figure>
 			</div>
 			<div class="span5 l">
 				<h2>Admin Roles and Permissions</h2>

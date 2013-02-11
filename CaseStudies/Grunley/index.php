@@ -4,7 +4,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"I adore Saforian. The staff is top-notch and responsive to our needs. I recommend Saforian highly."</span>
-			<span class="byline">— Donna Duncan</span>
+			<span class="byline">— Donna Duncan,<br/>Grunley</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -49,18 +49,27 @@
 			</figure>
 			<div class="left2">
 				<h2>Custom Drupal Modules</h2>
-				<p>To minimize costs, we took an existing Drupal module and customized it to fulfill Grunley’s needs.</p>
+				<p>Our Drupal experts guided Grunley to find a CMS approach that fit their needs. We chose to develop custom Drupal modules to allow Grunley to freely update site content and add new information. To provide dynamic filtering based on tags we used View and jQuery Isotope.</p>
 			</div>
 		</div> <!-- end of first row -->
 		<div class="row-fluid">
-			<article class="span6">
+			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_stats_logo.png" alt="Stats">
+					<img src="../../images/caseStudies/global_photo_logo.png" alt="Stats">
 				</figure>
-				<h2>Stats</h2>
-				<p>Pending (hasn’t launched yet)</p>
+				<h2>Onsite Photoshoot</h2>
+				<p>Choosing the right photos makes all the difference. We took advantage of custom photography to create an artistic direction for Grunley’s site. The result? Stunning visuals that showcase Grunley’s projects.</p>
 			</article>
-			<article class="span6 l">
+			
+			<article class="span4">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_menu_logo.png" alt="Stats">
+				</figure>
+				<h2>Mega Menus</h2>
+				<p>We used Drupal to create a Megamenu module for Grunley's site containing customizable elements like image, text, and videos. To create a streamlined menu navigation for Grunley, we leveraged jQuery and the existing Drupal menu system.</p>
+			</article>
+			
+			<article class="span4 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_responsive_logo.png" alt="Responsive">
 				</figure>

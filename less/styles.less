@@ -264,7 +264,7 @@ a, a:visited {
 /* 1st section */
 section.safo-start {
 	height: 666px;
-	background: #666 url(../images/site/office.jpg);
+	background: #666 url(../images/site/office2.png);
 	background-size: cover;
 	.safo-mission {
 		color: #30353b; 
@@ -273,6 +273,7 @@ section.safo-start {
 		font-size: 4em;
 		line-height: 58px;
 		padding-top:256px;
+		text-align: center;
 	}
 	.strip {
 		background: #fff;
@@ -378,7 +379,7 @@ section.safo-work {
 	}
 	h2 {
 		margin: 93px 0 50px 0;
-		color: #0096bd;
+		color: #000;
 	}
 	p.narrow {
 		padding: 0 20px 20px 20px;
@@ -476,7 +477,7 @@ section.safo-contact {
 	a.phone {
 		color: #000;
 		padding-left: 18px;
-		background: url(../images/site/icon-phone.png) left no-repeat;
+		background: url(../images/site/icon-phone-black.png) left no-repeat;
 	}
 	.divider {
 			border-top: 1px solid #ebebeb;
@@ -506,7 +507,7 @@ section.safo-contact {
 		width: 45px;
 		height: 45px;
 		margin: 0 6px;
-		background-image: url('../images/sprite_contact.png');
+		background-image: url('../images/sprite_contact_bw.png');
 		background-repeat:no-repeat;
 		float: left;
 	}
@@ -781,6 +782,42 @@ section.safo-jobs {
 	}
 }
 
+#twitter {
+	font-weight: 300;
+	font-size: 22px;
+	color: @white;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+}
+
+.twitter-click {
+	border-radius: 0px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2.8em;
+	background-color: #fff;
+	font-style: italic;
+	padding: 15px 20px;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	width: 150px;
+	margin-top: 50px;
+	a {
+		color: #000;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.scroll-up {
+	margin: 0 auto;
+	text-align: center;
+}
+
 .twitter-block {
 	//background:#0096bd;
 	background:#000;
@@ -799,6 +836,7 @@ section.safo-jobs {
 		text-align:center;
 	}
 }
+
 /******CAREERS******/
 #career-header {
 	max-width:1020px;
@@ -1034,19 +1072,29 @@ section.safo-jobs {
 }
 
 #capabilities-footer {
-	background:@lighter-gray;
+	background: #f6f6f7;
 	padding-bottom:40px;
-	h4 {
-		font-size:2.8em;
+	text-align: center;
+	h1 {
+		font-size: 2.8em;
 		font-weight: 600;
-		margin:0 0 20px;
+		margin:0 0 30px;
 		color:@black;
 		padding-top: 60px;
 	}
 	p {
 		color:@black;
-		font-size:1.4em;
-		line-height:1.9em;
+		font-size: 2.0em;
+		line-height: 1.9em;
+		font-weight: 300;
+		padding-bottom: 40px;
+	}
+	.caption {
+		color:@black;
+		font-style: italic;
+		font-size: 1.2em;
+		text-align: left;
+		padding-top: 10px;
 	}
 	a {
 		font-weight: 700;
@@ -1061,19 +1109,29 @@ section.safo-jobs {
 /******CASE STUDY FOOTER******/
 
 #casestudy-footer {
-	background:@lighter-gray;
+	background: #f6f6f7;
 	padding-bottom:40px;
-	h4 {
-		font-size:2.8em;
+	text-align: center;
+	h1 {
+		font-size: 2.8em;
 		font-weight: 600;
-		margin:0 0 20px;
+		margin:0 0 30px;
 		color:@black;
 		padding-top: 60px;
 	}
 	p {
 		color:@black;
-		font-size:1.4em;
-		line-height:1.9em;
+		font-size: 2.0em;
+		line-height: 1.9em;
+		font-weight: 300;
+		padding-bottom: 40px;
+	}
+	.caption {
+		color:@black;
+		font-style: italic;
+		font-size: 1.2em;
+		text-align: left;
+		padding-top: 10px;
 	}
 	a {
 		font-weight: 700;
@@ -1084,6 +1142,132 @@ section.safo-jobs {
 		}
 	}
 }
+
+/******WALLPAPER SLIDER START******/
+
+#wallpaper-block {
+	max-width:1020px;
+	padding:0 20px;
+	margin:0px auto 0px;
+	.block {
+		margin-top: 100px;
+		padding:45px 20px;
+		.row-fluid.first {
+			margin: 0 0 75px;
+		}
+	}
+	
+	.wallpaper-background {
+		background-image: url('../images/wallpaper/slider1.png');
+		background-repeat: no-repeat;
+		height: 100%;
+	}
+	
+	.prev-wrap {
+		background: #f6f6f7;
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: middle;
+		padding: 0px;
+	}
+}
+
+.wallpaper-slider {
+	.bottomslide {
+		z-index: 0;
+		position: relative;
+		top: -150px;
+	}
+	.topslide {
+		z-index: 100;
+	}
+	.container {
+		padding: 50px 200px;
+	}
+	
+	.slider-wrap {
+	  position: relative;
+	}
+	.slides {
+	  opacity: 0;
+	  background: #ffffff;
+	  *height: 458px;
+	}
+	.slides .slide {
+	  display: none;
+	  position: relative;
+	  *height: 458px;
+	  float: left;
+	}
+	.slides .slide img {
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	}
+	.caroufredsel_wrapper .slides .slide {
+	  display: block;
+	}
+	.wallpaperbutton .prev
+	{
+
+	}
+	
+	.pag-wrap {
+	  width: 100%;
+	  position: absolute;
+	  left: 0;
+	  bottom: 25px;
+	}
+	.pag-wrap .slide-pag {
+	  margin: 0 auto;
+	}
+	.pag-wrap .slide-pag a {
+	  display: block;
+	  float: left;
+	  margin: 0 7px;
+	  width: 11px;
+	  height: 11px;
+	  background-image: url('../img/slider_pagination.png');
+	  background-repeat: no-repeat;
+	  background-position: 50% 0%;
+	}
+	.pag-wrap .slide-pag a span {
+	  display: none;
+	}
+	.pag-wrap .slide-pag a:hover {
+	  background-position: 50% 100%;
+	}
+	.pag-wrap .slide-pag a.selected {
+	  background-position: 50% 100%;
+	}
+	/******SLIDER END******/
+	/******HEADER******/
+	/****** FOOTER ******/
+	/******STRUCTURE******/
+	.container {
+	  padding: 20px 40px;
+	}
+	.container-alt {
+	  padding: 20px 1%;
+	  background: #f5f5f5;
+	}
+	.container.fixed {
+	  width: 920px;
+	  padding: 20px;
+	  background: #ffffff;
+	  margin: 0 auto;
+	}
+	.row-fluid {
+	  width: 100%;
+	  margin: 0 0 20px 0;
+	}
+}
+
+
+
+/******SLIDER END******/
 
 /******SLIDER START******/
 #career-slider {
@@ -1182,7 +1366,9 @@ section.safo-jobs {
 		}
 	}
 }
-/******SLIDER END******/
+/******WALLPAPER SLIDER END******/
+
+
 
 
 /****** CASE STUDIES ******/
@@ -1388,7 +1574,7 @@ section.safo-jobs {
 		}
 	}
 	&.specialicious-hero {
-		background-image:url('../images/caseStudies/specialicious_hero.png');
+		background-image:url('../images/caseStudies/specialicious_hero2.png');
 		background-repeat:no-repeat;
 		background-position:50% 50%;
 		blockquote {
@@ -1417,19 +1603,19 @@ section.safo-jobs {
 		.quote_box {
 			float: left;
 			padding: 0 0px 0 0;
-			width: 75%;
+			width: 85%;
 		}
 		.quote_image {
 			padding: 80px 0 0 0px;
 			float: left;
-			width: 35%;
+			width: 30%;
 		}
 		blockquote {
 			padding:90px 0 0 0px;
 			width: 60%;
 			font-weight:300;
 			color: #000;
-			float: right;
+			float: left;
 			.quote {
 				font-size:4em;
 				line-height:1.4em;
@@ -1499,6 +1685,13 @@ section.safo-jobs {
 	}
 	.center-img {
 		padding:0 0 60px;
+		img {
+			display:block;
+			margin:0 auto;
+		}
+	}
+	.center-img-do {
+		padding:0 0 80px;
 		img {
 			display:block;
 			margin:0 auto;
@@ -1628,6 +1821,21 @@ section.safo-jobs {
 	}
 }
 
+
+
+.copyright {
+	background: #000;
+	padding: 15px 0;
+	.span4 {
+	float: left;	
+	}
+	P {
+		font-size: 12px;
+		color: #fff;
+		text-align: right;
+		padding-top: 5px;
+	}
+}
 
 /******STRUCTURE******/
 .section-contents {
@@ -1873,7 +2081,11 @@ section.safo-jobs {
 		}
 	}
 	
-	
+	#casestudy-footer {
+		p {
+			margin-top: 80px;
+		}
+	}
 	
 } /*end media 940*/
 @media (max-width: 770px) {
@@ -1892,8 +2104,21 @@ section.safo-jobs {
 		}
 	}
 
+	#casestudy-footer {
+		p {
+			margin-top: 40px;
+		}
+	}
+	
 } /*end 770 media*/
 @media (max-width: 760px) {
+	
+	#capabilities-footer {
+		.caption {
+			text-align: center;
+		}
+	}
+	
 	.method-nav-second {
 		display:block;
 	}
@@ -2113,6 +2338,12 @@ section.safo-jobs {
 	/*Use this to set exact percentages and have the last box be ok*/
 	.row-fluid > [class*="span"]:last-child {
 		overflow:auto;
+	}
+	
+	.copyright {
+		.span4 {
+		float: left;	
+		}
 	}
 	
 }

@@ -3,8 +3,8 @@
 <article class="hero fhi-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</span>
-			<span class="byline">— First Last <br>??????</span>
+			<span class="quote">"We believe in the power the strength of strategy ability of technology to business and lives."</span>
+			<span class="byline">– Todd Rice</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
