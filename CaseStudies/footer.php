@@ -17,7 +17,7 @@
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<div id="twitter">
+		<div id="twitter-feed">
 		</div>
 			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
 		<p></p>
@@ -85,11 +85,6 @@
 <script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
 <script type='text/javascript' src='../../js/safo.js'></script>
 
-<script type="text/javascript">
-	$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
-     $("#twitter").html(data[0].text);
-	});
-</script>
 
 
 	</body>

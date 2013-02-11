@@ -20,7 +20,7 @@
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<div id="twitter">
+		<div id="twitter-feed">
 		</div>
 			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
 		<p></p>

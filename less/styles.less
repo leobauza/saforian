@@ -782,13 +782,26 @@ section.safo-jobs {
 	}
 }
 
-#twitter {
+#twitter-feed {
+	margin: 0 auto;
 	font-weight: 300;
 	font-size: 22px;
 	color: @white;
 	text-align: center;
 	color: #fff;
 	line-height: 30px;
+	list-style-type: none;
+	a {
+		color: #fff;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	.time-stamp {
+		font-size: 15px;
+		text-decoration: none;
+	}
 }
 
 .twitter-click {
