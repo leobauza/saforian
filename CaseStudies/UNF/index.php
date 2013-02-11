@@ -97,20 +97,6 @@
 	</section> <!-- end of block -->
 	
 	<section class="block">
-		<article class="row-fluid">
-			<div class="span8">
-				<img src="../../images/caseStudies/unf_targetgoals.png" alt="Targeting Business + Site Goals">
-			</div>
-			<div class="span5 l">
-				<h2>Targeting Business + Site Goals</h2>
-				<p>To meet Clean Cookstoves’ goal of increasing awareness and mobilizing partners, we set up a few steps to maximize the return on investment. We provided support for Clean Cookstoves to develop engaging campaigns and target select audience groups to meet their strategic goals.</p>
-					<br/>
-				<p><strong>Decreased bounce rate from 93% to 48%</strong> in a 7 month period, <strong>increased the average visit duration to 4 minutes and 35 seconds,</strong> and by the end of the 7 month period, there were <strong>86,120 visits—54.80% of them consisting of new visits.</strong></p>
-			</div>
-		</article>
-	</section> <!-- end of block -->
-	
-	<section class="block">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
 			<img src="../../images/caseStudies/unf_largeimage1.png" alt="Large Image">
