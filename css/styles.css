@@ -2071,6 +2071,9 @@ section.safo-jobs a:hover {
 }
 /*end media 940*/
 @media (max-width: 770px) {
+  section.safo-start {
+    padding-top: 50px;
+  }
   .client-list p {
     width: 47%;
   }
