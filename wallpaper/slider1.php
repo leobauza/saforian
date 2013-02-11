@@ -3,7 +3,7 @@
 
 		<!-- slide -->
 		<div class="slide">
-			<img src="/images/wallpaper/slider1-1.png" alt="Slide 1">
+			<a href="/images/wallpaper/slider1-1.png" target="_blank"><img src="/images/wallpaper/slider1-1.png" alt="Slide 1"></a>
 		</div>
 		<!-- end slide -->
 
@@ -18,9 +18,6 @@
 			<img src="/images/wallpaper/slider1-1.png" alt="Slide 1">
 		</div>
 		<!-- end slide -->
-
-
-
 
 	</section>
 

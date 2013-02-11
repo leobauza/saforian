@@ -14,7 +14,7 @@
 			<div class="span4">
 				<div="wallpaper-background">
 					<div class="wallpaper-slider">
-						<section id="container" data-duration="1000" data-auto="true" data-slider="slider" >
+						<section id="wallpaperOne" data-duration="1000"  data-slider="slider" data-height="78.247734%">
 							<?php include("slider1.php");?>
 						</section>
 					</div>
@@ -49,7 +49,7 @@
 			<div class="span4">
 				<div="wallpaper-background">
 					<div class="wallpaper-slider">
-						<section id="container" data-duration="1000" data-auto="true" data-slider="slider" >
+						<section id="wallpaperTwo" data-duration="1000" data-slider="slider" data-height="53.398058%">
 							<?php include("slider2.php");?>
 						</section>
 					</div>
@@ -69,6 +69,8 @@
 		</div>
 		
 	</section>
+	
+
 </section>
 
 <?php include("footer.php");?>

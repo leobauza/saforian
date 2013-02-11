@@ -106,7 +106,9 @@ function gallerySetUp() {
 var winWidth = $(window).width();
 
 //make the carousels
-function makeFred(container) {
+function makeFred(container, height) {
+
+	console.log(height);
 
 	//is it auto scrolling or not
 	var $auto = $(container).attr('data-auto');
@@ -118,7 +120,7 @@ function makeFred(container) {
 		auto: true,
 		items: {
 			visible:1,
-			height: "39.509804%", //"47.6666666%",
+			height: height,//"53.398058%",//2560 by 1440 "78.247734%" ,//SLIDERS IN CAREERS "39.509804%", //"47.6666666%",
 			width: winWidth
 		},
 		scroll: {
@@ -230,8 +232,13 @@ $(window).load(function(){
 	if($('.slides').length) {
 
 		$('[data-slider="slider"]').each(function(){
-			var $sliderID = "#" + $(this).attr('id');
-			makeFred($sliderID)
+			var
+				$sliderID = "#" + $(this).attr('id')
+			, data = $(this).data()
+			, height = data.height || "39.509804%"
+			;
+			
+			makeFred($sliderID, height)
 			// pagiWidth($sliderID);
 		});
 		var sd = 200;
@@ -248,11 +255,13 @@ $(window).load(function(){
  * =============================================================
  */
 
-	$('.wallpaperbutton.next').click(function(){
-		$('.slide').trigger('next', 1);
+	$('.wallpaperbutton.next').click(function(e){
+		$(this).closest('.row-fluid').find('.slide').trigger('next', 1);
+		e.preventDefault();
 	});
-	$('.wallpaperbutton.prev').click(function(){
-		$('.slide').trigger('prev', 1);
+	$('.wallpaperbutton.prev').click(function(e){
+		$(this).closest('.row-fluid').find('.slide').trigger('prev', 1);
+		e.preventDefault();
 	});
 
 
@@ -372,7 +381,7 @@ $(function(){
  * =============================================================
 */
 	$('.dl-button').live('click', function() {
-		window.open('slide'.href);
+		window.open($('.slide img').attr('src'));
 	});
 	
 	
