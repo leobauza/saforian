@@ -242,6 +242,20 @@ $(window).load(function(){
 		$('.next-prev').fadeIn(700);
 	}
 
+/* 
+ * =============================================================
+ * wallpaper clicks
+ * =============================================================
+ */
+
+	$('.wallpaperbutton.next').click(function(){
+		$('.slide').trigger('next', 1);
+	});
+	$('.wallpaperbutton.prev').click(function(){
+		$('.slide').trigger('prev', 1);
+	});
+
+
 }); //end load
 $(function(){
 	/* 

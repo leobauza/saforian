@@ -78,12 +78,11 @@
 		
 	</head>
 	<body>
-		
 		<section id="header-wrap">
 			<header id="site-header" class="group">
 				<div id='brand'>
 					<h1>saforian</h1>
-					<img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White">
+					<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>

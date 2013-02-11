@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php include("../header.php");?>
 
 
 <article class="job-block l">
@@ -72,27 +72,4 @@
 	</footer>
 </article>
 
-	<div class="slider-bg">
-		<section id="career-slider" data-duration="1000" data-auto="true" data-slider="slider">
-			<?php include("slider.php");?>
-		</section>
-	</div>
-
-
-
-<footer id="career-footer">
-	<section class="section-contents">
-		<div class="row-fluid">
-			<div class="span5">
-				<h4>Don't See Your Job?</h4>
-				<p>Competitive salaries and health benefits, for a start. But now, we want to hear from you. Apply to the left or drop us an email at <a href="mailto:jobs@saforian.com?subject=Didn't see my job">jobs@saforian.com.</a></p>
-			</div>
-			<div class="span7">
-				<img src="/images/photo_footer.png" alt="">
-			</div>
-		</div>
-	</section>
-</footer>
-
-
-<?php include("footer.php");?>
+<?php include("../footer.php");?>

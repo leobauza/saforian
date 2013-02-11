@@ -14,13 +14,13 @@
 		<h1>Specialicious</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>Specialicious, a daily deals site from Northern Virginia Magazine, features exclusive specials for restaurants, shopping, and entertainment from local businesses. With the goal of boosting sales and increasing web and mobile traffic, Specialicious reached out to us to develop an innovative digital solution. Our goal was to rebuild their architecture to be more reusable and easier to maintain while making sure they hit their audience where they want to be reached and when they want to be reached. We added two iOS mobile applications: a merchant app to allow more automated real time redemption system and a more reliable end-user application. The four major tasks we performed were initial site maintenance activities, Merchant iOS App, End User iOS App for deploying Specialicious functionality, and specification development for Specialicious admin functionality changes.</p>
+				<p>Specialicious, a daily deals site from Northern Virginia Magazine, features exclusive specials for restaurants, shopping, and entertainment from local businesses. With the goal of boosting sales and increasing web and mobile traffic, Specialicious reached out to us to develop an innovative digital solution. Our goal was to rebuild their architecture to be more reusable and easier to maintain while making sure they hit their target audiences where they want to be reached and when they want to be reached. The four major tasks we performed were initial site maintenance activities, the creation of a Merchant iOS App and End User iOS App for deploying Specialicious functionality, and custom back-end development to support Specialicious administration requirements.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
 					<li><strong>Industry</strong><span>Commercial, Retail</span></li>
 					<li><strong>Solutions</strong><span>Outreach, iOS, Custom Admin, CRM Integration, Salesforce Integration, Reporting</span></li>
-					<li><strong>Technology</strong><span>PHP, Native iOS</span></li>
+					<li><strong>Technology</strong><span>ElisLabs CodeIgniter PHP, Salesforce, Native iOS</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
@@ -32,8 +32,8 @@
 				</figure>
 			</article>
 			<article class="span8">
-				<h2>Custom PHP</h2>
-				<p>Our interactive engineers custom coded PHP modules to fit the goals of Specialicious. The major components include the customer website, merchant website, admin tools, merchant app interface module, and Specialicious app interface module. We migrated the customer and merchant sites from another PHP framework into the new CodeIgniter framework and developed the admin tools and app modules from scratch. To handle web-based transactions, we wrote custom code in the MVC framework which also serves as a back-end service for the mobile app.</p>
+				<h2>Custom Application</h2>
+				<p>Our interactive engineers created a custom PHP based application to fit the goals of Specialicious. The major components include the customer website, merchant website, admin tools, merchant app interface module, and Specialicious app interface module. We migrated the customer and merchant sites from another PHP framework into the new CodeIgniter framework and developed the admin tools and app modules from scratch. To handle web-based transactions, we wrote custom code in the MVC framework, which also serves as a back-end service for the mobile app.</p>
 			</article>
 		</div> <!-- end of first row -->
 	</section>
@@ -46,29 +46,29 @@
 				</figure>
 			</article>
 			<article class="span8">
-				<h2>Native iOS Modules</h2>
-				<p>We developed an iOS app app similar to the functionality of Groupon and LivingSocial available in the Apple App store that allows users to view, purchase, and redeem specials. The app is personalized to each user and stores individuals’ profile information, purchases, special data and lists, and user account deals. The app lets users go green by alleviating the need to print out and present vouchers to merchants. We also developed a Merchant iOS app for Specialicious merchants to allow them to scan printed vouchers, input sales transaction costs, view redemption history, and verify voucher status.</p>
+				<h2>iOS App Development</h2>
+				<p>We developed an iOS app that allows audiences to view, purchase, and redeem specials with similar functionality to Groupon and LivingSocial. The app is personalized to each user and stores individuals’ profile information, purchases, special data and lists, and account deals. The app lets users go green by alleviating the need to print out and present vouchers to merchants. To support the merchant during coupon fulfilment, we developed a Merchant iOS app. This app lets merchants scan printed vouchers, input sales transaction costs, view redemption history, and verify voucher statuses.</p>
 			</article>
 		</div> <!-- end of first row -->
-		<article class="row-fluid">
-			<div class="span6">
-					<div class="do_icon_left">
-						<img src="../../images/caseStudies/global_location_logo.png" alt="Map">
-					</div>
-					<div class="do_icon_right">
-						<h2>Location</h2>
-						<p>We leveraged the location abilities of mobile phones to allow users to discover nearby deals more efficiently.</p>
-					</div>
-			</div>
-			<div class="span6 l">
-					<div class="do_icon_left2">
-						<img src="../../images/caseStudies/global_notification_logo.png" alt="Facebook">
-					</div>
-					<div class="do_icon_right2">
-						<h2>Notifications</h2>
-						<p>To create a personalized experience, we architected the app to give users control over how often they want to be notified about categories of their choice.</p>
-					</div>
-			</div>
+		<div class="row-fluid">
+			<article class="span2">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_location_logo.png" alt="Map">
+				</figure>
+			</article>
+			<article class="span4">
+				<h2>Location</h2>
+				<p>Leveraging GEOcode location abilities of mobile phones, we provided support that allows users to discover nearby deals more efficiently.</p>
+			</article>
+			<article class="span2">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_notification_logo.png" alt="Facebook">
+				</figure>
+			</article>
+			<article class="span4">
+				<h2>Notifications</h2>
+				<p>To create an enhanced, personalized user experience, we architected the app to give users control over how often they want to be notified about categories of their choice.</p>
+			</article>
 		</article> <!-- end of row -->
 	</section> <!-- end of block -->
 

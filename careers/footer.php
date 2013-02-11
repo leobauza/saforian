@@ -14,17 +14,13 @@
 	</div>
 </section>
 
-<section class="twitter-block">
-	<div class="std-block">
-		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<div id="twitter">
-		</div>
-			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
-		<p></p>
-	</div>
-</section>
+<div class="slider-bg">
+	<section id="career-slider" data-duration="1000" data-auto="true" data-slider="slider">
+		<?php include("slider.php");?>
+	</section>
+</div>
 
-<footer id="casestudy-footer">
+<footer id="career-footer">
 	<section class="section-contents">
 		<div class="row-fluid">
 			<h1>We are Interactive Engineers</h1>
@@ -58,6 +54,11 @@
 	</div>
 </section>
 
+<script type="text/javascript">
+	$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
+     $("#twitter").html(data[0].text);
+	});
+</script>
 
 <script type="text/javascript">
 
@@ -73,24 +74,16 @@
 
 </script>
 
-
-<script type='text/javascript'>
-	// this should fix the console problem in IE 
-	if (typeof console == "undefined") {
-		this.console = {log: function() {}};
-	}
-</script>
-<script type="text/javascript" src="../../js/carouFredSel.min.js"></script>
-<script type='text/javascript' src='../../js/waypoints.min.js'></script>
-<script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
-<script type='text/javascript' src='../../js/safo.js'></script>
-
-<script type="text/javascript">
-	$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
-     $("#twitter").html(data[0].text);
-	});
-</script>
-
+	<script type='text/javascript'>
+		// this should fix the console problem in IE 
+		if (typeof console == "undefined") {
+			this.console = {log: function() {}};
+		}
+	</script>
+	<script type="text/javascript" src="/js/carouFredSel.min.js"></script>
+	<script type='text/javascript' src='/js/waypoints.min.js'></script>
+	<script type='text/javascript' src='/js/jquery.scrollTo.min.js'></script>
+	<script type='text/javascript' src='/js/safo.js'></script>
 
 	</body>
 </html>

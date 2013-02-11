@@ -14,7 +14,9 @@
 		<h1>Grunley</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>Specializing in renovations, restorations, and modernizations of large government and commercial buildings and facilities, Grunley reached out to us to develop a digital strategy to jumpstart their expansion into new markets. We developed the site using responsive design to ensure content is flexible to the space you are viewing it in to optimize the user experience. Our content strategists condensed lengthy, wordy blocks of text into condensed, easily digestible pieces to improve the user experience. We developed a CMS tailored to Grunley’s needs, which allows them to control, manage, and update site content when needed.</p>
+				<p>Specializing in renovations, restorations, and modernizations of occupied large government and commercial buildings and facilities, Grunley reached out to us to develop a digital strategy to jumpstart their expansion into new markets and help tell the Grunley story more effectively.</p>
+				<br/>
+				<p>We developed the site using responsive design to ensure content is flexible to the space you are viewing it in. Our content strategists condensed lengthy, wordy blocks of text into concise, easily digestible pieces to improve content consumption and scan-ability. To support ongoing upkeep and content changes, we developed the site within Drupal’s CMS environment. We tailored the CMS to meet Grunley’s specific needs and allow for a streamlined publishing workflow.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
@@ -37,44 +39,46 @@
 			</div>
 			<div class="span5 l">
 				<h2>Navigational Models</h2>
-				<p>To improve the user experience, we created navigational models to make the site easy to navigate. We condensed wordy content to reduce the number of pages so the user does not have to click around as much. We implemented drop down menus to enable the user to jump to tertiary pages faster.</p>
+				<p>To improve the user experience, we created navigational models to make the site easy to navigate. We streamlined the main sections of the site to provide better groupings of content and created drop down menus to give audiences the ability to jump to tertiary pages more efficiently.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
 
 	<section class="block">
 		<div class="row-fluid first">
-			<figure class="left1">
-				<img src="../../images/caseStudies/global_drupal_logo.png" alt="Drupal">
-			</figure>
-			<div class="left2">
-				<h2>Custom Drupal Modules</h2>
-				<p>Our Drupal experts guided Grunley to find a CMS approach that fit their needs. We chose to develop custom Drupal modules to allow Grunley to freely update site content and add new information. To provide dynamic filtering based on tags we used View and jQuery Isotope.</p>
-			</div>
+			<article class="span5">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_drupal_logo.png" alt="Drupal">
+				</figure>
+			</article>
+			<article class="span8">
+				<h2>Content Management</h2>
+				<p>The Drupal CMS was chosen for its flexibility and growth potential. We started with available modules and tailored areas to fit specific project requirements. From there, we configured a taxonomy to provide dynamic filtering capabilities based on tags. The foundation put in place will allow for continued future growth as Grunley’s needs evolve over time.</p>
+			</article>
 		</div> <!-- end of first row -->
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_photo_logo.png" alt="Stats">
 				</figure>
-				<h2>Onsite Photoshoot</h2>
-				<p>Choosing the right photos makes all the difference. We took advantage of custom photography to create an artistic direction for Grunley’s site. The result? Stunning visuals that showcase Grunley’s projects.</p>
+				<h2>Photography</h2>
+				<p>Choosing the right photos makes all the difference. We took advantage of custom photography to create an artistic direction for Grunley’s site. The result? Stunning visuals that showcase Grunley’s projects while supporting the aesthetic direction of the site.</p>
 			</article>
 			
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_menu_logo.png" alt="Stats">
 				</figure>
-				<h2>Mega Menus</h2>
-				<p>We used Drupal to create a Megamenu module for Grunley's site containing customizable elements like image, text, and videos. To create a streamlined menu navigation for Grunley, we leveraged jQuery and the existing Drupal menu system.</p>
+				<h2>Navigation</h2>
+				<p>Giving audiences an easy and effective way to discover the content areas within a site is always the number one priority. To accomplish this, we built a dedicated Drupal module. This module supports customizable elements like image, text, and videos and ties in with Drupal’s existing menu system for easy updating.</p>
 			</article>
 			
 			<article class="span4 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_responsive_logo.png" alt="Responsive">
 				</figure>
-				<h2>Responsive Design</h2>
-				<p>To accommodate Grunley’s diverse audience, we built the site using responsive design to adapt to different devices. Whether you access the site on a tablet, phone, laptop, desktop computer, or TV, we ensured that the content works the same across all devices and platforms. </p>
+				<h2>Responsive</h2>
+				<p>To accommodate Grunley’s diverse audience, we built the site using responsive design to adapt to different devices. Whether you access the site on a tablet, phone, laptop, desktop computer, or TV, we ensured that the content works the same across all devices and platforms.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
