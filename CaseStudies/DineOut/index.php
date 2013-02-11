@@ -7,7 +7,7 @@
 				<img src="../../images/caseStudies/dineout_logo.png" alt="No Smoking">
 			</div>
 			<blockquote>
-				<span class="quote">"The creative minds at Saforian have allowed us to give both our partners and consumers a more engaging and active experience."</span>
+				<span class="quote">"The creative minds at Saforian have allowed us to give both our partners and consumers a more engaging experience."</span>
 				<span class="byline">— Molly Burke<br/>Share Our Strength</span>
 			</blockquote>
 		</div>
