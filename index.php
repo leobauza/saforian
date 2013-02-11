@@ -196,7 +196,7 @@
 							<div class='row-fluid'>
 								<div class='span4 show'>
 									<img src="images/icon_competencies_campaignmarketing.png" alt="">
-									<h3>Compaign + Marketing</h3>
+									<h3>Campaign + Marketing</h3>
 									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile user needs, corporate goals, and an array of interactive technologies to establish a strategic roadmap for the continued evolution of an organization or cause.</p>
 								</div>
 								<div class='span4'>
