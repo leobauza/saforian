@@ -438,6 +438,40 @@ section.safo-methodology {
   color: #fff;
   padding: 88px 0;
 }
+section.safo-methodology.offwhite {
+  background: #f6f6f7;
+}
+section.safo-methodology.offwhite .method-nav {
+  border: 2px solid #000000;
+}
+section.safo-methodology.offwhite .method-nav .button {
+  color: #000000;
+}
+section.safo-methodology.offwhite .method-nav .button.on {
+  color: #ffffff;
+  background: #000000;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon {
+  background: none;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon img {
+  opacity: .2;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body h3 {
+  color: #e6e6e7;
+  text-align: center;
+  margin: -20px 0 30px;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body p {
+  color: #e6e6e7;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide.active .body .icon img {
+  opacity: 1;
+}
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide.active .body h3,
+section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide.active .body p {
+  color: #000000;
+}
 section.safo-methodology .section-contents {
   padding: 0;
 }
@@ -447,7 +481,7 @@ section.safo-methodology h2 {
   padding: 0 20px;
 }
 section.safo-methodology .method-nav {
-  margin: 0 auto 35px;
+  margin: 20px auto 20px;
   max-width: 500px;
   *width: 500px;
   border: 2px solid #fff;
@@ -474,6 +508,7 @@ section.safo-methodology .method-nav .button.on {
 }
 section.safo-methodology h2.our-services {
   display: none;
+  color: #000000;
 }
 section.safo-methodology .our-services .row-fluid {
   padding-bottom: 0px;

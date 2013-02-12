@@ -30,7 +30,9 @@ $(document).ready(function() {
 			$('.'+showdiv).fadeIn();
 			$('.method-nav .button[rel='+showdiv+']').addClass('on');
 		}
+		$('section.safo-methodology').toggleClass('offwhite');
 	});
+	
 	$('.contact-form input[type=text]').focus(function(e){
 		var formEl = $(this).attr('name');
 		$('label[for='+formEl+']').hide();
@@ -222,6 +224,7 @@ $(window).load(function(){
 	 */
 	$('.method-nav-second a').click(function(e){
 		var $theId = $(this).attr('href');
+		
 		$(this).closest('.method-group').find('.show').removeClass('show').fadeOut(function(){
 			$(this).closest('.method-group').find($theId).fadeIn().addClass('show');
 		});
