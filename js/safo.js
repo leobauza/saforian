@@ -30,7 +30,10 @@ $(document).ready(function() {
 			$('.'+showdiv).fadeIn();
 			$('.method-nav .button[rel='+showdiv+']').addClass('on');
 		}
-		$('section.safo-methodology').toggleClass('offwhite');
+		var theRel = $(this).attr('rel');
+		//add or remove according to the rel attribute
+		(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+		
 	});
 	
 	$('.contact-form input[type=text]').focus(function(e){
