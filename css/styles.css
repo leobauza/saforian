@@ -2401,99 +2401,99 @@ section.safo-jobs a:hover {
   section.safo-methodology.offwhite .icon-text-slider .slides .slide .body h3 {
     color: #000000 !important;
   }
-}
-.method-lines {
-  display: none;
-}
-.client-list p {
-  display: none;
-}
-.client-list p.feat {
-  display: block;
-}
-.client-list .show-more {
-  display: block;
-  text-align: center;
-  border: 1px solid #ffffff;
-  font-size: 1.5em;
-  font-style: italic;
-  position: relative;
-  padding: 10px 0;
-}
-.client-list .show-more span {
-  position: absolute;
-  display: block;
-  background: url('../images/bg_navdrop.png') 50% 50% no-repeat;
-  width: 30px;
-  height: 30px;
-}
-.client-list .show-more span:first-child {
-  top: 0;
-  left: 5px;
-}
-.client-list .show-more span:last-child {
-  top: 0;
-  right: 5px;
-}
-.contact-form {
-  margin: 0 0 40px;
-}
-.contact-form input[type="text"] {
-  max-width: 100%;
-  width: 90%;
-}
-section.safo-contact .about-contact p {
-  padding: 0;
-}
-section.safo-clients .client-list p {
-  width: 100%;
-  padding: 0;
-  float: none;
-}
-.maps .span6 {
-  margin-bottom: 40px;
-}
-.client-intro {
-  padding-bottom: 0px;
-  margin-bottom: 50px;
-}
-section.safo-contact .social-links {
-  margin-bottom: 0px;
-}
-section.safo-jobs .job-post {
-  margin: 0 0 5px;
-}
-section.safo-jobs .job-post:last-child {
-  margin: 0 0 20px;
-}
-/*careers page*/
-#career-header #brand {
-  float: none;
-}
-#career-header .main-site-link {
-  float: none;
-  padding: 10px 20px 10px 40px;
-  margin: 0 0 10px;
-}
-.job-block .job-head h3 {
-  margin: 0 0 20px;
-}
-.job-share {
-  float: none;
-}
-#career-footer h4 {
-  padding-top: 20px;
-}
-/*margin right instead of margin left to do overflow hidden*/
-.row-fluid > [class*="span"] {
-  float: none;
-  width: auto;
-  margin-right: 0;
-}
-/*Use this to set exact percentages and have the last box be ok*/
-.row-fluid > [class*="span"]:last-child {
-  overflow: auto;
-}
-.copyright .span4 {
-  float: left;
+  .method-lines {
+    display: none;
+  }
+  .client-list p {
+    display: none;
+  }
+  .client-list p.feat {
+    display: block;
+  }
+  .client-list .show-more {
+    display: block;
+    text-align: center;
+    border: 1px solid #ffffff;
+    font-size: 1.5em;
+    font-style: italic;
+    position: relative;
+    padding: 10px 0;
+  }
+  .client-list .show-more span {
+    position: absolute;
+    display: block;
+    background: url('../images/bg_navdrop.png') 50% 50% no-repeat;
+    width: 30px;
+    height: 30px;
+  }
+  .client-list .show-more span:first-child {
+    top: 0;
+    left: 5px;
+  }
+  .client-list .show-more span:last-child {
+    top: 0;
+    right: 5px;
+  }
+  .contact-form {
+    margin: 0 0 40px;
+  }
+  .contact-form input[type="text"] {
+    max-width: 100%;
+    width: 90%;
+  }
+  section.safo-contact .about-contact p {
+    padding: 0;
+  }
+  section.safo-clients .client-list p {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+  .maps .span6 {
+    margin-bottom: 40px;
+  }
+  .client-intro {
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+  }
+  section.safo-contact .social-links {
+    margin-bottom: 0px;
+  }
+  section.safo-jobs .job-post {
+    margin: 0 0 5px;
+  }
+  section.safo-jobs .job-post:last-child {
+    margin: 0 0 20px;
+  }
+  /*careers page*/
+  #career-header #brand {
+    float: none;
+  }
+  #career-header .main-site-link {
+    float: none;
+    padding: 10px 20px 10px 40px;
+    margin: 0 0 10px;
+  }
+  .job-block .job-head h3 {
+    margin: 0 0 20px;
+  }
+  .job-share {
+    float: none;
+  }
+  #career-footer h4 {
+    padding-top: 20px;
+  }
+  /*margin right instead of margin left to do overflow hidden*/
+  .row-fluid > [class*="span"] {
+    float: none;
+    width: auto;
+    margin-right: 0;
+  }
+  /*Use this to set exact percentages and have the last box be ok*/
+  .row-fluid > [class*="span"]:last-child {
+    overflow: auto;
+  }
+  .copyright .span4 {
+    float: left;
+  }
 }
