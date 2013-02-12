@@ -84,7 +84,7 @@
 	
 	
 		$("#submit").click(function(e) {
-			console.log("click");
+			var something = $("#contact").serialize();
 			if($(this).closest('form').find(".LV_valid").length && !$(this).closest('form').find(".LV_invalid").length) {
 				e.preventDefault();
 				var url = "../contact.php"; // the script where you handle the form input.
@@ -93,7 +93,6 @@
 					url: url,
 					data: $("#contact").serialize(), // serializes the form's elements.
 					success: function(data) {
-						//console.log(data);
 						$("#contact").remove();
 						$("#thankyou").show();
 					 }

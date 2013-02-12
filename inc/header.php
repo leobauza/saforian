@@ -33,6 +33,13 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
+	<!--[if IE 9]>
+	
+	
+	
+	
+		<![endif]-->
+		
 	<!--[if IE 8]>
 	<style>
 		#site-header {
@@ -74,6 +81,20 @@
 		.section-contents {
 			width: 1020px;
 		}
+		
+		.slides .slide .body .icon img {
+			display:none;
+		}
+		.slides .slide .body .icon h2 {
+			display:none;
+		}
+		.slides .slide.active .body .icon img {
+			display:block;
+		}
+		.slides .slide.active .body .icon h2 {
+			display:block;
+		}
+		
 	</style>
 	<![endif]-->
 

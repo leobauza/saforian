@@ -47,141 +47,40 @@
 			</div>
 		</section>
 		
-		<!-- methodology -->
+		<!-- TWO SLIDERS -->
 		<section class='safo-methodology' data-section='safo-methodology'>
 			<div class='section-contents'>
-				<h2 class='method-section our-method'>Methodology made better.</h2>
-				<h2 class='method-section our-services'>It all comes down to your audience.</h2>
-			<!--
+				<h2 class='method-section our-method'>As expers of digital strategy, we <br> focus on the five most important challenges</h2>
+				<h2 class='method-section our-services'>We design and build based on these audience behaviours</h2>
+			</div>
+			<div class='method-section our-method'>
+				<!-- <div class="pad20"> -->
+					<div class="method-group">
+						<section id="strategy-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="490" data-items="1">
+							<?php include('inc/strategySlides.php');?>
+						</section>
+					</div>
+				<!-- </div> -->
+			</div><!-- end our-method -->
+			<div class='method-section our-services'>
+				<div class="method-group">
+
+					<section id="audience-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="490" data-items="1">
+						<?php include('inc/strategySlides.php');?>
+					</section>
+
+
+				</div>
+			</div><!-- end our-services -->
+			<div class="section-contents">
 				<div class='pad20'>
 					<div class='method-nav group'>
-						<div class='button on' rel='our-method'>Our Method</div>
-						<div class='button l' rel='our-services'>Our Services</div>
+						<div class='button on' rel='our-method'>Focus Areas</div>
+						<div class='button l' rel='our-services'>Audience</div>
 						<div class='clear'></div>
 					</div>
 				</div>
-			-->
-				<div class='method-section our-method'>
-					<div class='method-lines'></div>
-					<div class="pad20">
-						<div class="method-group">
-							<nav class="method-nav-second">
-								<ul class="group">
-									<li><a class="active" href="#insight">Insight</a></li>
-									<li><a href="#inspire">Inspire</a></li>
-									<li><a href="#ignite">Ignite</a></li>
-								</ul>
-							</nav>
-							<div class='row-fluid'>
-								<div id="insight" class='span4 show'>
-									<h3>Insight</h3>
-									<p>We’ve been a part of the internet since its 
-									inception. And with that, comes tremendous 
-									insight. We know the web’s in-and-outs, 
-									ups-and-downs &mdash; its past, present and its 
-									ever-evolving future. We look at the trends, 
-									study the industry and master the technology. 
-									Our knowledge gives us, and you, a strategic 
-									advantage.</p> 
-								</div>
-								<div id="inspire" class='span4'>
-									<h3>Inspire</h3>
-									<p>We delve into your category, your cause and 
-									your consumer. We leverage what we learn 
-									with what we love &mdash; creativity and technology
-									&mdash; to inspire, innovate and design. Our 
-									process goes broad and narrow to best 
-									deliver your objectives and outcomes.</p>
-								</div>
-								<div id="ignite" class='span4 l'>
-									<h3>Ignite</h3>
-									<p>The end result? A great end-user experience 
-									that ignites action and reaction in your target 
-									audience. We’ll effectively launch your site or 
-									product and happily step-in to support 
-									ongoing growth. We can build your best 
-									solution and help you take it to the next level.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- end our-method -->
-				<!--
-				<div class='method-section our-services'>
-									<div class="pad20">
-										<div class="method-group">
-											<nav class="method-nav-second">
-												<ul class="group">
-													<li><a class="active" href="#d-strategy">Digital <br> Strategy</a></li>
-													<li><a href="#e-websites">Enterprise Websites</a></li>
-													<li><a href="#m-management">Multisite Management</a></li>
-												</ul>
-											</nav>
-											<div class='row-fluid'>
-												<div id="d-strategy" class='span4 show'>
-													<h3>Digital Strategy</h3>
-													<p>Meet your business goals, connect with users, 
-													and stand out from the competition with a 
-													vibrant, scalable digital presence that’s built 
-													to evolve alongside your needs. </p>
-												</div>
-												<div id="e-websites" class='span4'>
-													<h3>Enterprise Websites</h3>
-													<p>With built in CMS and web analytics, your new 
-													customizable website will help you stay on 
-													top of your market by delivering an immersive 
-													digital experience that differentiates your 
-													brand.</p>
-												</div>
-												<div id="m-management" class='span4 l'>
-													<h3>Multisite Management</h3>
-													<p>By integrating your existing architecture with 
-													the latest CMS technology, we help you 
-													smoothly manage content while increasing 
-													deployment speed and impacting your 
-													bottom line.</p>
-												</div>
-											</div>
-										</div>
-										<div class="method-group">
-											<nav class="method-nav-second">
-												<ul class="group">
-													<li><a class="active" href="#c-development">Custom <br>Dev</a></li>
-													<li><a href="#m-responsive">Mobile &amp; Responsive</a></li>
-													<li><a href="#a-tracking">Analytics &amp; Tracking</a></li>
-												</ul>
-											</nav>
-											<div class='row-fluid'>
-												<div id="c-development" class='span4 show'>
-													<h3>Custom Development</h3>
-													<p>From integrated search systems to custom 
-													mapping apps, we can tailor your project to 
-													create a more compelling experience for 
-													your brand, delivering maximum usability 
-													and greater business value. </p>
-												</div>
-												<div id="m-responsive" class='span4'>
-													<h3>Mobile &amp; Responsive</h3>
-													<p>Our mobile development process works in 
-													tandem with your other digital facings, 
-													reinforcing your business strategy and 
-													extending your user experience into the 
-													mobile sphere.</p>
-												</div>
-												<div id="a-tracking" class='span4 l'>
-													<h3>Analytics &amp; Tracking</h3>
-													<p>Put the data your business needs to succeed 
-													at your fingertips, with analytics that track 
-													which content is propelling you forward, 
-													helping you connect with users quickly and 
-													intuitively.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							-->
-							<!-- end our-services -->
+			</div>
 			</div><!-- end section-contents -->
 		</section><!-- end safo-start -->
 		
@@ -460,7 +359,8 @@
 								<input type='text' id="type" name='type' value='' />
 							</div>
 							<div class="input-group">
-								<input type='submit' id="submit" value='Submit' />
+								<input type="hidden" name="submitted" value="submitted">
+								<input type='submit' id="submit" name="submit" value='submit' />
 							</div>
 						</form>
 						<div id="thankyou">

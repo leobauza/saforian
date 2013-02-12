@@ -442,6 +442,7 @@ section.safo-methodology .section-contents {
   padding: 0;
 }
 section.safo-methodology h2 {
+  line-height: 1.3em;
   margin-bottom: 65px;
   padding: 0 20px;
 }
@@ -471,11 +472,8 @@ section.safo-methodology .method-nav .button.on {
   background: #fff;
   cursor: default;
 }
-section.safo-methodology .our-services {
+section.safo-methodology h2.our-services {
   display: none;
-}
-section.safo-methodology div.our-services {
-  padding-top: 71px;
 }
 section.safo-methodology .our-services .row-fluid {
   padding-bottom: 0px;
@@ -1422,11 +1420,123 @@ section.safo-jobs a:hover {
   margin: 0 0 20px 0;
 }
 /******SLIDER END******/
-/******SLIDER START******/
+/******LB SLIDER START******/
 #career-slider {
   max-width: 1020px;
   *width: 1020px;
   margin: 0 auto;
+}
+.icon-text-slider {
+  overflow: hidden;
+}
+.icon-text-slider .slider-wrap {
+  width: 480px;
+  margin: 0 auto;
+}
+.icon-text-slider .slider-wrap .caroufredsel_wrapper {
+  overflow: visible!important;
+  left: -480px !important;
+}
+.icon-text-slider .slider-wrap .slides .slide {
+  width: 480px!important;
+}
+.icon-text-slider .slider-wrap .slides .slide .body {
+  padding: 0 20px;
+}
+.icon-text-slider .slider-wrap .slides .slide .body .icon {
+  position: relative;
+  width: 224px;
+  height: 225px;
+  display: block;
+  margin: 20px auto 80px;
+  background: url('../images/homeSlider/services_slider_nextprev.png') 50% 50% no-repeat;
+}
+.icon-text-slider .slider-wrap .slides .slide .body .icon img {
+  opacity: 0;
+  transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  /* Firefox 4 */
+
+  -webkit-transition: opacity 0.5s;
+  /* Safari and Chrome */
+
+  -o-transition: opacity 0.5s;
+  /* Opera */
+
+  *display: none;
+}
+.icon-text-slider .slider-wrap .slides .slide .body .icon h2 {
+  font-size: 3.5em;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  /* Firefox 4 */
+
+  -webkit-transition: opacity 0.1s;
+  /* Safari and Chrome */
+
+  -o-transition: opacity 0.1s;
+  /* Opera */
+
+  *display: none;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 0;
+  color: #000000;
+  margin: -25px 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+.icon-text-slider .slider-wrap .slides .slide .body .icon h2.alt {
+  margin: -50px 0 0 0;
+}
+.icon-text-slider .slider-wrap .slides .slide .body p {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  color: #333333;
+}
+.icon-text-slider .slider-wrap .slides .slide.active .icon img {
+  opacity: 1;
+  *display: block;
+}
+.icon-text-slider .slider-wrap .slides .slide.active .icon h2 {
+  z-index: 200;
+  opacity: 1;
+  *display: block;
+}
+.icon-text-slider .slider-wrap .slides .slide.active p {
+  color: #ffffff;
+}
+.icon-text-slider .next-prev {
+  height: 0px;
+}
+.icon-text-slider .next-prev .next-slide {
+  top: 0;
+  left: 100%;
+  width: 480px;
+  height: 490px;
+  position: absolute;
+}
+.icon-text-slider .next-prev .next-slide .inner {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.icon-text-slider .next-prev .prev-slide {
+  top: 0;
+  left: auto;
+  right: 100%;
+  width: 480px;
+  height: 490px;
+  position: absolute;
+}
+.icon-text-slider .next-prev .prev-slide .inner {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .slider-bg {
   background: #000;
@@ -2208,6 +2318,43 @@ section.safo-jobs a:hover {
   }
   section.safo-methodology div.our-services .row-fluid > [class*="span"] {
     padding-bottom: 30px;
+  }
+  section.safo-methodology h2 {
+    font-size: 2.2em;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+  }
+  /*HOME PAGE SLIDERS*/
+  .icon-text-slider .slider-wrap {
+    width: 320px;
+  }
+  .icon-text-slider .slider-wrap .caroufredsel_wrapper {
+    overflow: visible!important;
+    left: auto !important;
+  }
+  .icon-text-slider .slider-wrap .slides .slide {
+    width: 320px!important;
+  }
+  .icon-text-slider .slider-wrap .slides .slide .body {
+    padding: 0;
+  }
+  .icon-text-slider .slider-wrap .slides .slide .body .icon {
+    width: 224px;
+    height: 225px;
+    display: block;
+    margin: 40px auto 50px;
+  }
+  .icon-text-slider .slider-wrap .slides .slide .body .icon img {
+    opacity: 1;
+  }
+  .icon-text-slider .slider-wrap .slides .slide .body .icon h2 {
+    opacity: 1;
+  }
+  .icon-text-slider .slider-wrap .slides .slide .body p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
   }
   .method-lines {
     display: none;

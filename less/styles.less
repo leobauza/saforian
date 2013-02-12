@@ -311,7 +311,7 @@ section.safo-history {
 		font-weight: bold;
 	}
 }
-	
+
 /* 3rd section: Our Method */
 section.safo-methodology {
 	//background: #0096bd;
@@ -322,6 +322,7 @@ section.safo-methodology {
 		padding:0;
 	}
 	h2 {
+		line-height: 1.3em;
 		margin-bottom: 65px;
 		padding:0 20px;
 	}
@@ -350,10 +351,13 @@ section.safo-methodology {
 		cursor: default;
 	}
 	.our-services {
-		display: none;
+		//display: none;
+	}
+	h2.our-services {
+		display:none;
 	}
 	div.our-services {
-		padding-top: 71px;
+	
 	}
 	.our-services .row-fluid {
 		padding-bottom: 0px;
@@ -1369,12 +1373,115 @@ section.safo-jobs {
 
 /******SLIDER END******/
 
-/******SLIDER START******/
+/******LB SLIDER START******/
 #career-slider {
 	max-width:1020px;
 	*width:1020px;
 	margin:0 auto;
 }
+.icon-text-slider {
+	overflow:hidden;
+	.slider-wrap {
+		width:480px;
+		margin:0 auto;
+		.caroufredsel_wrapper {
+			overflow:visible!important;
+			left:-480px !important;
+		}
+		.slides {
+			.slide {
+				width:480px!important;
+				.body {
+					padding:0 20px;
+					.icon {
+						position:relative;
+						width:224px;
+						height:225px;
+						display:block;
+						margin:20px auto 80px;
+						background:url('../images/homeSlider/services_slider_nextprev.png') 50% 50% no-repeat;
+						img {
+							opacity:0;
+							#CSS3 > .transition(opacity, .5s);
+							*display:none;
+						}
+						h2 {
+							font-size:3.5em;
+							z-index:0;
+							opacity:0;
+							#CSS3 > .transition(opacity, .1s);
+							*display:none;
+							position:absolute;
+							top:50%;
+							text-align:center;
+							left:0;
+							color:@black;
+							margin:-25px 0 0 0;
+							padding:0;
+							width:100%;
+							&.alt {
+								margin:-50px 0 0 0;
+							}
+						}
+					}
+					p {
+						text-align:center;
+						margin:0 auto;
+						width:400px;
+						color:@dark-gray;
+					}
+				}
+				&.active {
+					.icon {
+						img {
+							opacity:1;
+							*display:block;
+						}
+						h2 {
+							z-index:200;
+							opacity:1;
+							*display:block;
+						}
+					}
+					p {
+						color:@white;
+					}
+				}
+			}
+		}
+	}
+
+	.next-prev {
+		height:0px;
+		.next-slide {
+			top:0;
+			left:100%;
+			width:480px;
+			height:490px;
+			position:absolute;
+			.inner {
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.prev-slide {
+			top:0;
+			left:auto;
+			right:100%;
+			width:480px;
+			height:490px;
+			position:absolute;
+			.inner {
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+
+}
+
 .slider-bg {
 	background:#000;
 }
@@ -2234,6 +2341,51 @@ section.safo-jobs {
 			}
 		}
 	}
+
+	section.safo-methodology h2 {
+		font-size: 2.2em;
+		line-height: 1.3em;
+		margin-bottom: 15px;
+	}
+
+	/*HOME PAGE SLIDERS*/
+	.icon-text-slider {
+		.slider-wrap {
+			width:320px;
+			.caroufredsel_wrapper {
+				overflow:visible!important;
+				left:auto !important;
+			}
+			.slides {
+				.slide {
+					width:320px!important;
+					.body {
+						padding:0;
+						.icon {
+							width:224px;
+							height:225px;
+							display:block;
+							margin:40px auto 50px;
+							img {
+								opacity:1;
+							}
+							h2 {
+								opacity:1;
+							}
+						}
+						p {
+							color:@white;
+							text-align:center;
+							margin:0 auto;
+							width:200px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
 
 	.method-lines {
 		display:none;

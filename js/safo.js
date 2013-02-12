@@ -8,18 +8,20 @@ $(window).resize(function(){
 	} else {
 		//$('#site-nav ul').hide();
 	}
-	//responsive stuff for process stuff
-	if($winWidth > 550) {
-		$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").show();
-	} else {
-		$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").not('.show').hide();
-	}
+	//OLD OLD OLD responsive stuff for process stuff
+	// if($winWidth > 550) {
+	// 	$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").show();
+	// } else {
+	// 	$("#insight, #inspire, #ignite, #d-strategy, #e-websites, #m-management, #c-development, #m-responsive, #a-tracking").not('.show').hide();
+	// }
 });
 
 
 
 // On document ready 
 $(document).ready(function() {
+	
+	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
 	$('.method-nav .button').click(function(e){
 		if (!$(this).hasClass('on')) {
 			$('.method-nav .button').removeClass('on');
@@ -106,9 +108,10 @@ function gallerySetUp() {
 var winWidth = $(window).width();
 
 //make the carousels
-function makeFred(container, height) {
+//uhhhh why am I passing all these things in if I could get them from the container #silly
+function makeFred(container, height, items, width) {
 
-	console.log(height);
+	console.log(width);
 
 	//is it auto scrolling or not
 	var $auto = $(container).attr('data-auto');
@@ -119,11 +122,16 @@ function makeFred(container, height) {
 		infinite:true,
 		auto: true,
 		items: {
-			visible:1,
+			visible:items,
 			height: height,//"53.398058%",//2560 by 1440 "78.247734%" ,//SLIDERS IN CAREERS "39.509804%", //"47.6666666%",
-			width: winWidth
+			width: width
 		},
 		scroll: {
+			onAfter: function(oldItems, newItems, newSizes) {
+				//$(oldItems).next
+				$(newItems).closest('.slides').find('.slide.active').removeClass("active");
+				$(newItems).next('.slide').addClass("active");
+			},
 			duration : $duration
 		},
 		items:1,
@@ -209,7 +217,7 @@ $(window).load(function(){
 
 	/* 
 	 * =============================================================
-	 * mobile methodology
+	 * mobile methodology (old handler for mobile nav of methodology sections...possibly use for new core competencies section)
 	 * =============================================================
 	 */
 	$('.method-nav-second a').click(function(e){
@@ -220,7 +228,7 @@ $(window).load(function(){
 		$(this).closest('.method-nav-second').find('.active').removeClass('active');
 		$(this).addClass('active');
 		e.preventDefault();
-});
+	});
 
 
 /* 
@@ -236,9 +244,11 @@ $(window).load(function(){
 				$sliderID = "#" + $(this).attr('id')
 			, data = $(this).data()
 			, height = data.height || "39.509804%"
+			, items = parseFloat(data.items) || 1
+			, width = parseFloat(data.width) || winWidth
 			;
 			
-			makeFred($sliderID, height)
+			makeFred($sliderID, height, items, width)
 			// pagiWidth($sliderID);
 		});
 		var sd = 200;
@@ -247,6 +257,11 @@ $(window).load(function(){
 				sd += 200;
 		});
 		$('.next-prev').fadeIn(700);
+		
+		if($('.our-services').length){
+			$('section.safo-methodology .our-services').hide();
+		}
+	
 	}
 
 /* 
