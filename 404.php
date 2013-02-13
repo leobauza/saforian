@@ -1,4 +1,4 @@
-<?php include("inc/header.php");?>
+<?php include("inc/headernv.php");?>
 
 <!-- header -->
 <section id="header-wrap">
@@ -23,12 +23,10 @@
 	</header>
 </section>
 
-
 <section class="reg-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Page Not Found - Old Man Krickety Persona</h1>
-			<img src="../../images/404man.png" alt="Drupal CMS">
+			<div id="contentArea"></div>
 		</header>
 		<article class="std-body">
 			<h3>The importance of a persona</h3>
