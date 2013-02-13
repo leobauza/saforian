@@ -464,6 +464,7 @@ section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide 
 }
 section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body p {
   color: #e6e6e7;
+  font-size: 1.5em;
 }
 section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide.active .body .icon img {
   opacity: 1;
@@ -1626,6 +1627,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   width: 400px;
   color: #333333;
+  font-size: 1.5em;
 }
 .icon-text-slider .slider-wrap .slides .slide.active .icon img {
   opacity: 1;

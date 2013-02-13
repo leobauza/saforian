@@ -7,8 +7,8 @@
 				<span class="icon">
 					<img src="../images/homeSlider/audience_slide_acquiring.png" alt="Strategy Slide One">
 				</span>
-				<h3>Acquiring</h3>
-				<p>This org has fulfilled my request I want to remember them. I am now a customer what benefits do I get?</p>
+				<h3>Retaining</h3>
+				<p>I am happy with my decision, how do I stay informed?<br/>What are my benefits? Assist audiences in building a relationship with the brand</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -20,7 +20,7 @@
 					<img src="../images/homeSlider/audience_slide_browsing.png" alt="Strategy Slide One">
 				</span>
 				<h3>Browsing</h3>
-				<p>I have a need or desire. What is available to meet my needs?</p>
+				<p>What is available to meet my needs?<br/>Support finding and discovering valuable content</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -32,7 +32,7 @@
 					<img src="../images/homeSlider/audience_slide_evaluating.png" alt="Strategy Slide One">
 				</span>
 				<h3>Evaluating</h3>
-				<p>Does this solve my problem? Let me compare it with others.</p>
+				<p>Does this meet my needs?<br/>Provide details and ways to compare against others</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -44,7 +44,7 @@
 					<img src="../images/homeSlider/audience_slide_transacting.png" alt="Strategy Slide One">
 				</span>
 				<h3>Transacting</h3>
-				<p>This looks like what I want how do I take the next step? Let me purchase, download, fill out form etc.</p>
+				<p>This looks like what I want, how do I take the next step?<br/>Fulfilling the decision goal: purchasing, downloading content, form submissions, etc.</p>
 			</article>
 		</div>
 		<!-- end slide -->
