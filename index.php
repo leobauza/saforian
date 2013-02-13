@@ -89,7 +89,7 @@
 		<!-- SERVICES -->
 		<section class="standard-section safo-services" data-section='safo-services'>
 			<div class='section-contents'>
-				<h2 class='method-section our-services'>Our Core Competencies</h2>
+				<h2 class='our-services'>Our Core Competencies</h2>
 
 					<div class="pad20">
 							<div class='row-fluid'>
