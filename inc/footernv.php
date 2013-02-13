@@ -56,7 +56,7 @@
 			<div class="span4">
 				<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
 			</div>
-			<div class="span8">
+			<div class="span8 l">
 				<p>&copy; 2013</p>
 			</div>
 		</div>

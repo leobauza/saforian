@@ -1,4 +1,19 @@
 /* safo.js - jquery required */
+function getInternetExplorerVersion() {
+	var rv = -1; // Return value assumes failure.
+	if (navigator.appName == 'Microsoft Internet Explorer') {
+		var ua = navigator.userAgent;
+		var re	= new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+		if (re.exec(ua) != null) {
+			rv = parseFloat( RegExp.$1 );
+		}
+	}
+	return rv;
+}
+//ie version variable
+var ieVer = getInternetExplorerVersion();
+
+
 
 var $winWidth = $(window).width();
 $(window).resize(function(){
@@ -190,7 +205,9 @@ $(window).load(function(){
 	// Fade in images so there isn't a color "pop" document load and then on window load
 	$(".safo-work img").animate({opacity:1},500);
 	
-	gallerySetUp();
+	if(ieVer == -1 || ieVer == 9) {
+		gallerySetUp();
+	}
 	
 	// Fade image 
 	$('.safo-work img').mouseover(function(){
@@ -554,6 +571,9 @@ $(window).resize(function(){
 	
 	
 // Grayscale w canvas method
+
+
+
 function grayscale(src){
 	var canvas = document.createElement('canvas');
 	var ctx = canvas.getContext('2d');
@@ -575,6 +595,8 @@ function grayscale(src){
 	ctx.putImageData(imgPixels, 0, 0, 0, 0, imgPixels.width, imgPixels.height);
 	return canvas.toDataURL();
 }
+
+
 
 
 
