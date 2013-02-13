@@ -27,7 +27,7 @@
 <section class="reg-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Page Not Found - Old man Krickety Persona</h1>
+			<h1>Page Not Found - Old Man Krickety Persona</h1>
 			<img src="../../images/404man.png" alt="Drupal CMS">
 		</header>
 		<article class="std-body">
