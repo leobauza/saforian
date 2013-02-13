@@ -51,7 +51,7 @@
 		<section class='safo-methodology' data-section='safo-methodology'>
 			<div class='section-contents'>
 				<h2 class='method-section our-method'>As experts of digital strategy, we <br> focus on the five most important challenges</h2>
-				<h2 class='method-section our-services'>We design and build based<br> on these audience behaviors</h2>
+				<h2 class='method-section our-services'>Our design methodology is rooted in the deep understanding of key audience behaviors</h2>
 			</div>
 			<div class='method-section our-method'>
 				<!-- <div class="pad20"> -->
