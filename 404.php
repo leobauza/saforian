@@ -30,7 +30,7 @@
 		</header>
 		<article class="std-body">
 			<h3>The importance of a persona</h3>
-			<p>Like all good things personas are actually very simple – they are basically fictional (but based on fact) representations of your users. They represent the goals, motivations, characteristics and behaviors of a real group of users (the most important part). For example, if you’re designing an e-commerce website you might create a new shopper persona, and a frequent shopper persona (among others) to help with the design.</p>
+			<p>Believe it or not, personas are actually very simple. Essentially, personas represent the characteristics, goals, motivations, and behaviors of your audience. Think of your persona as a mini marketing campaign designed to engage your audience. For example, if you are designing an online shopping site, you could create a frequent shopper persona, Julie the shopaholic, and a new shopper persona, Betty the working mother. Do your homework and find out as much as possible about your audience to make personas believable and memorable. Challenge yourself and be creative.</p>
 		</article>
 		
 	</div>
