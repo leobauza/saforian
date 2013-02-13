@@ -115,9 +115,11 @@ var winWidth = $(window).width();
 //make the carousels
 //uhhhh why am I passing all these things in if I could get them from the container #silly
 function makeFred(container, height, items, width) {
+
 	//is it auto scrolling or not
 	var $auto = $(container).attr('data-auto');
 	var $duration = parseFloat($(container).attr('data-duration'));
+
 
 	$(container + ' .slides').carouFredSel({
 		responsive:true,
@@ -251,7 +253,7 @@ $(window).load(function(){
 			, width = parseFloat(data.width) || winWidth
 			;
 			
-			makeFred($sliderID, height, items, width)
+			makeFred($sliderID, height, items, width);
 			// pagiWidth($sliderID);
 		});
 		var sd = 200;
