@@ -32,9 +32,7 @@
 		</header>
 		<article class="std-body">
 			<h3>The importance of a persona</h3>
-			
 			<p>Like all good things personas are actually very simple – they are basically fictional (but based on fact) representations of your users. They represent the goals, motivations, characteristics and behaviors of a real group of users (the most important part). For example, if you’re designing an e-commerce website you might create a new shopper persona, and a frequent shopper persona (among others) to help with the design.</p>
-			
 		</article>
 		
 	</div>
