@@ -115,9 +115,6 @@ var winWidth = $(window).width();
 //make the carousels
 //uhhhh why am I passing all these things in if I could get them from the container #silly
 function makeFred(container, height, items, width) {
-
-	console.log(width);
-
 	//is it auto scrolling or not
 	var $auto = $(container).attr('data-auto');
 	var $duration = parseFloat($(container).attr('data-duration'));
@@ -546,6 +543,9 @@ $(window).resize(function(){
 		//siteNavWidth();
 		$("#site-nav ul").width($navWidth);
 	}
+
+
+
 });
 
 }); //end my ready
