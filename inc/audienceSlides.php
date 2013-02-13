@@ -31,8 +31,8 @@
 				<span class="icon">
 					<img src="../images/homeSlider/audience_slide_one.png" alt="Strategy Slide One">
 				</span>
-				<h3>Evaluation</h3>
-				<p>Establishing meaningful connections through your digital ecosystem that promote participation</p>
+				<h3>Evaluating</h3>
+				<p>Does this solve my problem? Let me compare it with others.</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -43,20 +43,8 @@
 				<span class="icon">
 					<img src="../images/homeSlider/audience_slide_one.png" alt="Strategy Slide One">
 				</span>
-				<h3>title</h3>
-				<p>Transitioning your site visitors into believers of your brand, cause, or organization</p>
-			</article>
-		</div>
-		<!-- end slide -->
-
-		<!-- slide -->
-		<div class="slide">
-			<article class="body">
-				<span class="icon">
-					<img src="../images/homeSlider/audience_slide_one.png" alt="Strategy Slide One">
-				</span>
-				<h3>title</h3>
-				<p>Strengthening the relationship with your audience to foster ongoing commitment</p>
+				<h3>Transacting</h3>
+				<p>This looks like what I want how do I take the next step? Let me purchase, download, fill out form etc.</p>
 			</article>
 		</div>
 		<!-- end slide -->

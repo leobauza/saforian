@@ -20,7 +20,7 @@
 					<h2>Access</h2>
 					<img src="../images/homeSlider/strategy_slide.png" alt="Strategy Slide One">
 				</span>
-				<p>connecting your audience, when they want to be reached, on the platforms that matter most</p>
+				<p>Connecting with your audience, when they want to be reached, on the platforms that matter most</p>
 			</article>
 		</div>
 		<!-- end slide -->
