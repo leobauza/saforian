@@ -1263,6 +1263,90 @@ section.safo-jobs a:hover {
   color: #666;
   text-decoration: none;
 }
+.nova-bg {
+  background: #ffffff;
+}
+.nova-bg .std-header h1 {
+  color: #000000;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 300;
+  margin: 0 0 85px;
+  padding-top: 50px;
+}
+.nova-bg .std-header img {
+  display: block;
+  margin: 0 auto 85px;
+}
+.nova-bg .std-body {
+  color: #000000;
+}
+.nova-bg .std-body h3 {
+  font-size: 2.8em;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #000000;
+  padding: 20px 0 20px 0;
+}
+.nova-bg .std-body p {
+  font-size: 22px;
+  margin: 0 0 40px;
+  font-weight: 300;
+}
+.nova-bg .std-body li {
+  font-size: 22px;
+  margin: 0 0 40px;
+  font-weight: 300;
+  margin-left: 25px;
+  padding-left: 10px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.nova-bg li.indent {
+  margin-left: 50px;
+}
+.reg-bg {
+  background: #ffffff;
+}
+.reg-bg .std-header h1 {
+  color: #000000;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 300;
+  margin: 0 0 85px;
+  padding-top: 50px;
+}
+.reg-bg .std-header img {
+  display: block;
+  margin: 0 auto 85px;
+}
+.reg-bg .std-body {
+  color: #000000;
+}
+.reg-bg .std-body h3 {
+  font-size: 2.8em;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #000000;
+  padding: 20px 0 20px 0;
+}
+.reg-bg .std-body p {
+  font-size: 22px;
+  margin: 0 0 40px;
+  font-weight: 300;
+}
+.reg-bg .std-body li {
+  font-size: 22px;
+  margin: 0 0 40px;
+  font-weight: 300;
+  margin-left: 25px;
+  padding-left: 10px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.reg-bg li.indent {
+  margin-left: 50px;
+}
 /******CASE STUDY FOOTER******/
 #casestudy-footer {
   background: #f6f6f7;

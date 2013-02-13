@@ -28,7 +28,7 @@
 	<section class="section-contents">
 		<div class="row-fluid">
 			<h1>We are Interactive Engineers</h1>
-			<p>We believe in human-centered design and pride ourselves on delivering innovative digital solutions tailored to each audience and situation.</p>
+			<p>Defined as an interdisciplinary field with web and software development, interaction design, aesthetic, psychology and usability factors involved. We evaluate  trends in technology and design experiences for humans.</p>
 			<div class="span4">
 				<img src="/images/footer-image1.jpg" alt="">
 				<p class="caption">Enter our realm. Revolving around delivering awe-inspiring user experiences, our methodology puts us on top of the latest technology trends.</p>
