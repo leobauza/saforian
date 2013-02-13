@@ -116,11 +116,10 @@ var winWidth = $(window).width();
 //uhhhh why am I passing all these things in if I could get them from the container #silly
 function makeFred(container, height, items, width) {
 
-	console.log(width);
-
 	//is it auto scrolling or not
 	var $auto = $(container).attr('data-auto');
 	var $duration = parseFloat($(container).attr('data-duration'));
+
 
 	$(container + ' .slides').carouFredSel({
 		responsive:true,
@@ -254,7 +253,7 @@ $(window).load(function(){
 			, width = parseFloat(data.width) || winWidth
 			;
 			
-			makeFred($sliderID, height, items, width)
+			makeFred($sliderID, height, items, width);
 			// pagiWidth($sliderID);
 		});
 		var sd = 200;
@@ -546,6 +545,9 @@ $(window).resize(function(){
 		//siteNavWidth();
 		$("#site-nav ul").width($navWidth);
 	}
+
+
+
 });
 
 }); //end my ready
