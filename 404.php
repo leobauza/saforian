@@ -11,7 +11,7 @@
 			<ul class='topnav group'>
 				<li><a href='/#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
 				<li><a href='/#history' id='topnav-history' data-scrollto='safo-history'>History</a></li>
-				<li><a href='/#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
+				<li><a href='/#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li>
 				<li><a href="/#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 				<li><a href='/#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
 				<li><a href='/#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
@@ -32,9 +32,7 @@
 		</header>
 		<article class="std-body">
 			<h3>The importance of a persona</h3>
-			
 			<p>Like all good things personas are actually very simple – they are basically fictional (but based on fact) representations of your users. They represent the goals, motivations, characteristics and behaviors of a real group of users (the most important part). For example, if you’re designing an e-commerce website you might create a new shopper persona, and a frequent shopper persona (among others) to help with the design.</p>
-			
 		</article>
 		
 	</div>
