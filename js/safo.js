@@ -498,7 +498,7 @@ if($theHash){
 					type:'GET',
 					dataType:'jsonp',
 					url:'http://api.twitter.com/1/statuses/user_timeline.json',
-					data:{screen_name:'saforian', count:3},
+					data:{screen_name:'saforian', count:10},
 					success:function(data, textStatus, XMLHttpRequest) {
 						twitterCallback2(data);
 					}
