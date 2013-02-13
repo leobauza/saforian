@@ -43,7 +43,6 @@
 					<li>Invented</li>
 					<li>Experiential</li>
 					<li>Evocative</li>
-					<li>Make you unforgettable</li>
 				</ul>
 			</p>
 			
