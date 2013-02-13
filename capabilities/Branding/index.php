@@ -74,7 +74,7 @@
 				</ul>
 			</p>
 					
-			<p>A) Poetically constructed names based on rhythm and the experience of saying them<br/>
+			<p>B) Poetically constructed names based on rhythm and the experience of saying them<br/>
 			Examples: Snapple, Google, Oreo</p>
 				<ul>
 					<li>Target audience likes saying these fun names</li>
