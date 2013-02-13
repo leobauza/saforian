@@ -93,7 +93,7 @@ $(document).ready(function() {
 		if($winWidth < 700) {
 			var $navHeight = $('.opennav').height();
 		} else {
-			var $navHeight = 56;
+			var $navHeight = 55;
 		}
 
 		
@@ -543,8 +543,8 @@ if($theHash){
 
 var $navWidth = $("#site-nav").width();
 
-if($navWidth < 685) {
-	$navWidth = 685;
+if($navWidth < 656) {
+	$navWidth = 656;
 }
 $("#site-nav ul").width($navWidth);
 

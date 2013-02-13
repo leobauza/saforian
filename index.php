@@ -15,8 +15,8 @@
 						<li><a href="#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
 						<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
-						<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
-						<li class="last"><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+						<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+						<li class="last"><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 					</ul>
 					<span class="opennav"></span>
 				</nav>
@@ -333,8 +333,71 @@
 				</div>
 			</div><!-- end section-contents -->
 		</section><!-- end safo-work -->
-		
+		<!-- jobs -->
+		<section class='safo-jobs' data-section='safo-jobs'>
+			<div class='section-contents'>
+				<h2>Ready to spread your wings and start a new career?</h2>
+				<p>Saforian is looking for new team members who want to create unique 
+				experiences for the digital world in an open, creatively driven company.  
+				Our people are our strongest creative asset. Everyone has a place at 
+				the drawing table, and if you’ve got a positive attitude and firmly 
+				believe there’s no such thing as a bad idea, you’ll fit right in. We 
+				believe people do their best work when they’re happy, so we pair people 
+				with projects they like and roles they can thrive in. We want to help 
+				people do great work in the present, and put them on a course that will 
+				continue to let them grow and succeed 5 or 10 years in the future.</p>
+				<figure class="img-center-solo">
+					<img src="images/img_join_saforian.png" alt="Img Join Saforian">
+				</figure>
+				<!-- <div class='safo-staff-pics'></div> -->
+				<div class='row-fluid jobs'>
+					<div class='span7'>
+						<h3 class='open-jobs'>
+							Open Positions
+							<span class='job-date date-header'>Post Date</span>
+						</h3>
+						<!-- <p class='job-post first'>
+							<a href='./careers' class="group">
+								<span class='job-title'>Digital Analyst</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>October 5, 2012</span>
+							</a>
+						</p> -->
+						<p class='job-post'>
+							<a href='/careers/DrupalDeveloper' class="group">
+								<span class='job-title'>Drupal Developer</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>September 5, 2012</span>
+							</a>
+						</p>
+						<p class='job-post'>
+							<a href='/careers/BusinessDevelopment' class="group">
+								<span class='job-title'>Business Development</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>January 15, 2013</span>
+							</a>
+						</p>
+						<!-- <p class='job-post'>
+							<a href='/careers/FrontEndDeveloper' class="group">
+								<span class='job-title'>Front End Developer</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>February 5, 2013</span>
+							</a>
+						</p> -->
+					</div>
+					<div class='span5 l more-about-jobs'>
+						<h3>What else can you expect?</h3>
+						<p>Competitive salaries and health benefits, for a start. 
+						But now, we want to hear from you. Apply to the left or drop us 
+						an email at 
+						<a href='mailto:hello@saforian.com'>hello@saforian.com</a>.</p>
 
+
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div>
+		</section>
 		<!-- contact us -->
 		<section class='safo-contact' data-section='safo-contact'>
 			<div class='section-contents'>
@@ -402,72 +465,6 @@
 						<p><a href='mailto:events@saforian.com'>events@saforian.com</a></p>
 						</p>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- jobs -->
-		<section class='safo-jobs' data-section='safo-jobs'>
-			<div class='section-contents'>
-				<h2>Ready to spread your wings and start a new career?</h2>
-				<p>Saforian is looking for new team members who want to create unique 
-				experiences for the digital world in an open, creatively driven company.  
-				Our people are our strongest creative asset. Everyone has a place at 
-				the drawing table, and if you’ve got a positive attitude and firmly 
-				believe there’s no such thing as a bad idea, you’ll fit right in. We 
-				believe people do their best work when they’re happy, so we pair people 
-				with projects they like and roles they can thrive in. We want to help 
-				people do great work in the present, and put them on a course that will 
-				continue to let them grow and succeed 5 or 10 years in the future.</p>
-				<figure class="img-center-solo">
-					<img src="images/img_join_saforian.png" alt="Img Join Saforian">
-				</figure>
-				<!-- <div class='safo-staff-pics'></div> -->
-				<div class='row-fluid jobs'>
-					<div class='span7'>
-						<h3 class='open-jobs'>
-							Open Positions
-							<span class='job-date date-header'>Post Date</span>
-						</h3>
-						<!-- <p class='job-post first'>
-							<a href='./careers' class="group">
-								<span class='job-title'>Digital Analyst</span>
-								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>October 5, 2012</span>
-							</a>
-						</p> -->
-						<p class='job-post'>
-							<a href='/careers/DrupalDeveloper' class="group">
-								<span class='job-title'>Drupal Developer</span>
-								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>September 5, 2012</span>
-							</a>
-						</p>
-						<p class='job-post'>
-							<a href='/careers/BusinessDevelopment' class="group">
-								<span class='job-title'>Business Development</span>
-								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>January 15, 2013</span>
-							</a>
-						</p>
-						<!-- <p class='job-post'>
-							<a href='/careers/FrontEndDeveloper' class="group">
-								<span class='job-title'>Front End Developer</span>
-								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>February 5, 2013</span>
-							</a>
-						</p> -->
-					</div>
-					<div class='span5 l more-about-jobs'>
-						<h3>What else can you expect?</h3>
-						<p>Competitive salaries and health benefits, for a start. 
-						But now, we want to hear from you. Apply to the left or drop us 
-						an email at 
-						<a href='mailto:hello@saforian.com'>hello@saforian.com</a>.</p>
-
-
-					</div>
-					<div class='clear'></div>
 				</div>
 			</div>
 		</section>

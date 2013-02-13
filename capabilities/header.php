@@ -97,8 +97,8 @@
 						<li><a href="/#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 						<li><a href='/#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
 						<li><a href='/#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
-						<li><a href='/#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
-						<li class="last"><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+						<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+						<li class="last"><a href='/#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 					</ul>
 					<span class="opennav"></span>
 				</nav>
