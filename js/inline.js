@@ -2,7 +2,7 @@
 function loadExternalHTMLPage() {
 
 var xmlhttp;
-var pagesToDisplay = ['man.htm', 'woman.htm'];
+var pagesToDisplay = ['errors/man.htm', 'errors/woman.htm'];
 if (window.XMLHttpRequest) {
 
 xmlhttp = new XMLHttpRequest();

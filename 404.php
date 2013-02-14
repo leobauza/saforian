@@ -26,7 +26,10 @@
 <section class="reg-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<div id="contentArea"></div>
+			<div id="contentArea">
+				<h1>&nbsp;</h1>
+				<img src="../../images/404.gif" alt="Drupal CMS">
+			</div>
 		</header>
 		<article class="std-body">
 			<h3>The importance of a persona</h3>
