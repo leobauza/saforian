@@ -124,7 +124,7 @@
 								<div id="a-tracking" class='span4 l'>
 									<img src="images/icon_competencies_digitools.png" alt="">
 									<h3>Digital Tool Sets</h3>
-									<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will help you maximize your digital potential.</p>
+									<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
 								</div>
 							</div>
 					</div>
