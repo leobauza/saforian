@@ -96,17 +96,17 @@
 								<div class='span4 show'>
 									<img src="images/icon_competencies_campaignmarketing.png" alt="">
 									<h3>Campaign + Marketing</h3>
-									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile user needs, corporate goals, and an array of interactive technologies to establish a strategic roadmap for the continued evolution of an organization or cause.</p>
+									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of interactive technologies to establish a strategic roadmap for the continued evolution of an organization or cause.</p>
 								</div>
 								<div class='span4'>
 									<img src="images/icon_competencies_websitesintranets.png"alt="">
 									<h3>Websites + Intranets</h3>
-									<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational goals. We help you maximize business goals and user needs against the technical and economic realities of a robust system.</p>
+									<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
 								</div>
 								<div class='span4 l'>
 									<img src="images/icon_competencies_digiinfrastructure.png" alt="">
 									<h3>Digital Infrastructure</h3>
-									<p>Today’s technology is powerful. Our engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving training quality and speed.
+									<p>Today’s technology is powerful. Our engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and performance.
 									</p>
 								</div>
 							</div>
@@ -119,12 +119,12 @@
 								<div class='span4'>
 									<img src="images/icon_competencies_mobile.png" alt="">
 									<h3>Mobile + Responsive</h3>
-									<p>The digital landscape is competitive, and in order to stay afloat/above water, your digital arm needs to extend to the “on-the-go” world. We leverage device capabilities and streamlined navigation to bring you a superior and customized mobile experience. </p>
+									<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
 								</div>
 								<div id="a-tracking" class='span4 l'>
 									<img src="images/icon_competencies_digitools.png" alt="">
 									<h3>Digital Tool Sets</h3>
-									<p>Revolving around creating an incredible user experience, our tools were developed to help your online organization to run more smoothly. From targeting members and out of the box engagement to storing assets in the cloud and running a gamut, these products will help you and your members maximize your potential.</p>
+									<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will help you maximize your digital potential.</p>
 								</div>
 							</div>
 					</div>
