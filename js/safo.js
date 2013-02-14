@@ -162,8 +162,8 @@ function makeFred(container, height, items, width) {
 		prev: { 
 			button: container + " .prev-slide",
 			key: "left"
-		}
-		//pagination: container + " .slide-pag"
+		},
+		pagination: container + " .slide-pag"
 	});
 	if($auto == undefined) {
 		$(container + ' .slides').trigger("pause");

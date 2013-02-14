@@ -56,7 +56,7 @@
 			<div class='method-section our-method'>
 				<!-- <div class="pad20"> -->
 					<div class="method-group">
-						<section id="strategy-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="490" data-items="1">
+						<section id="strategy-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="500" data-items="1">
 							<?php include('inc/strategySlides.php');?>
 						</section>
 					</div>
@@ -65,8 +65,9 @@
 			<div class='method-section our-services'>
 				<div class="method-group">
 
-					<section id="audience-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="490" data-items="1">
+					<section id="audience-slider" class="icon-text-slider" data-duration="500"  data-slider="slider" data-height="500" data-items="1">
 						<?php include('inc/audienceSlides.php');?>
+						
 					</section>
 
 

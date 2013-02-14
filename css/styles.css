@@ -482,7 +482,7 @@ section.safo-methodology h2 {
   padding: 0 20px;
 }
 section.safo-methodology .method-nav {
-  margin: 20px auto 20px;
+  margin: 40px auto 20px;
   max-width: 500px;
   *width: 500px;
   border: 2px solid #fff;
@@ -1463,95 +1463,6 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 30px 0;
 }
-.wallpaper-slider {
-  /******SLIDER END******/
-
-  /******HEADER******/
-
-  /****** FOOTER ******/
-
-  /******STRUCTURE******/
-
-}
-.wallpaper-slider .bottomslide {
-  z-index: 0;
-  position: relative;
-  top: -150px;
-}
-.wallpaper-slider .topslide {
-  z-index: 100;
-}
-.wallpaper-slider .container {
-  padding: 50px 200px;
-}
-.wallpaper-slider .slider-wrap {
-  position: relative;
-}
-.wallpaper-slider .slides {
-  opacity: 0;
-  background: #ffffff;
-  *height: 458px;
-}
-.wallpaper-slider .slides .slide {
-  display: none;
-  position: relative;
-  *height: 458px;
-  float: left;
-}
-.wallpaper-slider .slides .slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.wallpaper-slider .caroufredsel_wrapper .slides .slide {
-  display: block;
-}
-.wallpaper-slider .pag-wrap {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 25px;
-}
-.wallpaper-slider .pag-wrap .slide-pag {
-  margin: 0 auto;
-}
-.wallpaper-slider .pag-wrap .slide-pag a {
-  display: block;
-  float: left;
-  margin: 0 7px;
-  width: 11px;
-  height: 11px;
-  background-image: url('../img/slider_pagination.png');
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
-}
-.wallpaper-slider .pag-wrap .slide-pag a span {
-  display: none;
-}
-.wallpaper-slider .pag-wrap .slide-pag a:hover {
-  background-position: 50% 100%;
-}
-.wallpaper-slider .pag-wrap .slide-pag a.selected {
-  background-position: 50% 100%;
-}
-.wallpaper-slider .container {
-  padding: 20px 40px;
-}
-.wallpaper-slider .container-alt {
-  padding: 20px 1%;
-  background: #f5f5f5;
-}
-.wallpaper-slider .container.fixed {
-  width: 920px;
-  padding: 20px;
-  background: #ffffff;
-  margin: 0 auto;
-}
-.wallpaper-slider .row-fluid {
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-/******SLIDER END******/
 /******LB SLIDER START******/
 #career-slider {
   max-width: 1020px;
@@ -1559,12 +1470,13 @@ section.safo-jobs a:hover {
   margin: 0 auto;
 }
 .icon-text-slider {
-  height: 490px;
+  height: 500px;
   overflow: hidden;
 }
 .icon-text-slider .slider-wrap {
   width: 480px;
   margin: 0 auto;
+  height: 500px;
 }
 .icon-text-slider .slider-wrap .caroufredsel_wrapper {
   overflow: visible!important;
@@ -1672,6 +1584,60 @@ section.safo-jobs a:hover {
   height: 100%;
   width: 100%;
 }
+.wallpaper-slider {
+  /******STRUCTURE******/
+
+}
+.wallpaper-slider .bottomslide {
+  z-index: 0;
+  position: relative;
+  top: -150px;
+}
+.wallpaper-slider .topslide {
+  z-index: 100;
+}
+.wallpaper-slider .container {
+  padding: 50px 200px;
+}
+.wallpaper-slider .slider-wrap {
+  position: relative;
+}
+.wallpaper-slider .slides {
+  opacity: 0;
+  background: #ffffff;
+  *height: 458px;
+}
+.wallpaper-slider .slides .slide {
+  display: none;
+  position: relative;
+  *height: 458px;
+  float: left;
+}
+.wallpaper-slider .slides .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wallpaper-slider .caroufredsel_wrapper .slides .slide {
+  display: block;
+}
+.wallpaper-slider .container {
+  padding: 20px 40px;
+}
+.wallpaper-slider .container-alt {
+  padding: 20px 1%;
+  background: #f5f5f5;
+}
+.wallpaper-slider .container.fixed {
+  width: 920px;
+  padding: 20px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.wallpaper-slider .row-fluid {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
 .slider-bg {
   background: #000;
 }
@@ -1726,31 +1692,36 @@ section.safo-jobs a:hover {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: 25px;
+  bottom: 0px;
 }
 .pag-wrap .slide-pag {
   margin: 0 auto;
+  width: 130px;
 }
 .pag-wrap .slide-pag a {
   display: block;
   float: left;
   margin: 0 7px;
-  width: 11px;
-  height: 11px;
-  background-image: url('../img/slider_pagination.png');
-  background-repeat: no-repeat;
-  background-position: 50% 0%;
-}
-.pag-wrap .slide-pag a span {
-  display: none;
+  color: #ffffff;
+  font-size: 2em;
+  font-style: italic;
 }
 .pag-wrap .slide-pag a:hover {
-  background-position: 50% 100%;
+  text-decoration: none;
 }
 .pag-wrap .slide-pag a.selected {
-  background-position: 50% 100%;
+  border-bottom: 1px solid #ffffff;
 }
-/******WALLPAPER SLIDER END******/
+.pag-wrap.alt .slide-pag {
+  width: 105px;
+}
+.pag-wrap.alt .slide-pag a {
+  color: #000000;
+}
+.pag-wrap.alt .slide-pag a.selected {
+  border-bottom: 1px solid #000000;
+}
+/******SLIDER END******/
 /****** CASE STUDIES ******/
 .hero {
   height: 496px;

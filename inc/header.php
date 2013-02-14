@@ -102,4 +102,4 @@
 
 
 	</head>
-	<body onload="loadExternalHTMLPage()"> 
+	<body> 
