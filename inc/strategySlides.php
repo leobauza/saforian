@@ -66,5 +66,9 @@
 		<a href="#" class="next-slide"><span class="inner"></span></a>
 		<a href="#" class="prev-slide"><span class="inner"></span></a>
 	</div>
+	<!-- slider pagination -->
+	<div class="pag-wrap">
+		<div class="slide-pag group"></div>
+	</div>
 </div>
 

@@ -162,8 +162,8 @@ function makeFred(container, height, items, width) {
 		prev: { 
 			button: container + " .prev-slide",
 			key: "left"
-		}
-		//pagination: container + " .slide-pag"
+		},
+		pagination: container + " .slide-pag"
 	});
 	if($auto == undefined) {
 		$(container + ' .slides').trigger("pause");
@@ -548,30 +548,38 @@ if($navWidth < 656) {
 }
 $("#site-nav ul").width($navWidth);
 
-$(window).resize(function(){
-	if($winWidth > 0) {
-		var $navWidth = $("#site-nav").width();
-	}
+	$(window).resize(function(){
+		if($winWidth > 0) {
+			var $navWidth = $("#site-nav").width();
+		}
 
-	if($navWidth < 682) {
-		$navWidth = 682;
-	}
+		if($navWidth < 682) {
+			$navWidth = 682;
+		}
 
-	$newWinWidth = $(window).width();
-	if($newWinWidth > 940) {
-		//siteNavWidth();
-		$("#site-nav ul").width($navWidth);
-	}
+		$newWinWidth = $(window).width();
+		if($newWinWidth > 940) {
+			//siteNavWidth();
+			$("#site-nav ul").width($navWidth);
+		}
 
 
 
-});
+	});//end resize
+	
+	//get a random number between 0 9???
+	var mathraw = Math.random();
+	var mathrandom = mathraw*10;
+	var floorit = Math.floor(mathrandom);
+	
+	var random = Math.floor(Math.random()*3);
+
+	//console.log(mathraw + " " + mathrandom + " " + floorit);
 
 }); //end my ready
 	
 	
 // Grayscale w canvas method
-
 
 
 function grayscale(src){

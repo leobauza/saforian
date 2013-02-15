@@ -8,7 +8,7 @@
 					<img src="../images/homeSlider/audience_slide_acquiring.png" alt="Strategy Slide One">
 				</span>
 				<h3>Retaining</h3>
-				<p>I am happy with my decision, how do I stay informed?<br/>What are my benefits? Assist audiences in building a relationship with the brand</p>
+				<p><strong>I am happy with my decision, how do I stay informed?</strong> Assist audiences in building a relationship with the brand</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -20,7 +20,7 @@
 					<img src="../images/homeSlider/audience_slide_browsing.png" alt="Strategy Slide One">
 				</span>
 				<h3>Browsing</h3>
-				<p>What is available to meet my needs?<br/>Support finding and discovering valuable content</p>
+				<p><strong>What is available to meet my needs?</strong> Support finding and discovering valuable content</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -32,7 +32,7 @@
 					<img src="../images/homeSlider/audience_slide_evaluating.png" alt="Strategy Slide One">
 				</span>
 				<h3>Evaluating</h3>
-				<p>Does this meet my needs?<br/>Provide details and ways to compare against others</p>
+				<p><strong>Does this meet my needs?</strong> Provide details and ways to compare against others</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -44,7 +44,7 @@
 					<img src="../images/homeSlider/audience_slide_transacting.png" alt="Strategy Slide One">
 				</span>
 				<h3>Transacting</h3>
-				<p>This looks like what I want, how do I take the next step?<br/>Fulfilling the decision goal: purchasing, downloading content, form submissions, etc.</p>
+				<p><strong>This is what I want, what's next?</strong> Fulfilling the decision goal: purchasing, downloading content, form submissions, etc.</p>
 			</article>
 		</div>
 		<!-- end slide -->
@@ -53,6 +53,10 @@
 	<div class="next-prev">
 		<a href="#" class="next-slide"><span class="inner"></span></a>
 		<a href="#" class="prev-slide"><span class="inner"></span></a>
+	</div>
+	<!-- slider pagination -->
+	<div class="pag-wrap alt">
+		<div class="slide-pag group"></div>
 	</div>
 </div>
 
