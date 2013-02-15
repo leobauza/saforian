@@ -1702,7 +1702,7 @@ section.safo-jobs a:hover {
   display: block;
   float: left;
   margin: 0 7px;
-  color: #ffffff;
+  color: #333333;
   font-size: 2em;
   font-style: italic;
 }
@@ -1710,15 +1710,17 @@ section.safo-jobs a:hover {
   text-decoration: none;
 }
 .pag-wrap .slide-pag a.selected {
+  color: #ffffff;
   border-bottom: 1px solid #ffffff;
 }
 .pag-wrap.alt .slide-pag {
   width: 105px;
 }
 .pag-wrap.alt .slide-pag a {
-  color: #000000;
+  color: #dedede;
 }
 .pag-wrap.alt .slide-pag a.selected {
+  color: #000000;
   border-bottom: 1px solid #000000;
 }
 /******SLIDER END******/
@@ -2429,12 +2431,20 @@ section.safo-jobs a:hover {
     margin-bottom: 15px;
   }
   /*HOME PAGE SLIDERS*/
+  .icon-text-slider {
+    height: 450px;
+  }
   .icon-text-slider .slider-wrap {
+    height: 450px;
     width: 320px;
   }
   .icon-text-slider .slider-wrap .caroufredsel_wrapper {
     overflow: visible!important;
-    left: auto !important;
+    left: -320px !important;
+    height: 450px;
+  }
+  .icon-text-slider .slider-wrap .slides {
+    height: 450px;
   }
   .icon-text-slider .slider-wrap .slides .slide {
     width: 320px!important;
@@ -2458,17 +2468,26 @@ section.safo-jobs a:hover {
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
-    width: 200px;
+    width: 250px;
   }
-  section.safo-methodology.offwhite .icon-text-slider .slides .slide .body .icon img {
-    opacity: 1!important;
+  .pag-wrap {
+    bottom: 25px;
   }
-  section.safo-methodology.offwhite .icon-text-slider .slides .slide .body .icon h2 {
-    opacity: 1!important;
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon {
+    width: 204px;
+    height: 205px;
+    margin: 10px auto 20px;
   }
-  section.safo-methodology.offwhite .icon-text-slider .slides .slide .body p,
-  section.safo-methodology.offwhite .icon-text-slider .slides .slide .body h3 {
-    color: #000000 !important;
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon img {
+    opacity: 1;
+  }
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon h2 {
+    opacity: 1;
+  }
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body p,
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body h3 {
+    color: #000000;
+    margin: 0 auto 10px;
   }
   .method-lines {
     display: none;
