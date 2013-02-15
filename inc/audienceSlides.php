@@ -8,7 +8,7 @@
 					<img src="../images/homeSlider/audience_slide_acquiring.png" alt="Strategy Slide One">
 				</span>
 				<h3>Retaining</h3>
-				<p>I am happy with my decision, how do I stay informed?<br/>What are my benefits? Assist audiences in building a relationship with the brand</p>
+				<p>I am happy with my decision, how do I stay informed?<br/> Assist audiences in building a relationship with the brand</p>
 			</article>
 		</div>
 		<!-- end slide -->

@@ -97,7 +97,7 @@
 								<div class='span4 show'>
 									<img src="images/icon_competencies_campaignmarketing.png" alt="">
 									<h3>Campaign + Marketing</h3>
-									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of interactive technologies to establish a strategic roadmap for the continued evolution of an organization or cause.</p>
+									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of technologies to establish a strategic roadmap for the continued evolution of your organization or cause.</p>
 								</div>
 								<div class='span4'>
 									<img src="images/icon_competencies_websitesintranets.png"alt="">
@@ -107,7 +107,7 @@
 								<div class='span4 l'>
 									<img src="images/icon_competencies_digiinfrastructure.png" alt="">
 									<h3>Digital Infrastructure</h3>
-									<p>Today’s technology is powerful. Our engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and performance.
+									<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.
 									</p>
 								</div>
 							</div>
