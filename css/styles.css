@@ -440,6 +440,8 @@ section.safo-methodology {
 }
 section.safo-methodology.offwhite {
   background: #f6f6f7;
+  /*offwhite icon text slider*/
+
 }
 section.safo-methodology.offwhite .method-nav {
   border: 2px solid #000000;
@@ -465,6 +467,7 @@ section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide 
 section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body p {
   color: #e6e6e7;
   font-size: 1.5em;
+  width: 410px;
 }
 section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide.active .body .icon img {
   opacity: 1;
@@ -1544,6 +1547,9 @@ section.safo-jobs a:hover {
   color: #333333;
   font-size: 1.5em;
 }
+.icon-text-slider .slider-wrap .slides .slide .body p strong {
+  display: block;
+}
 .icon-text-slider .slider-wrap .slides .slide.active .icon img {
   opacity: 1;
   *display: block;
@@ -2456,7 +2462,7 @@ section.safo-jobs a:hover {
     width: 224px;
     height: 225px;
     display: block;
-    margin: 40px auto 50px;
+    margin: 30px auto 20px;
   }
   .icon-text-slider .slider-wrap .slides .slide .body .icon img {
     opacity: 1;
@@ -2469,13 +2475,14 @@ section.safo-jobs a:hover {
     text-align: center;
     margin: 0 auto;
     width: 250px;
+    font-size: 15px;
   }
   .pag-wrap {
     bottom: 25px;
   }
   section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon {
-    width: 204px;
-    height: 205px;
+    width: 194px;
+    height: 195px;
     margin: 10px auto 20px;
   }
   section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon img {
@@ -2488,6 +2495,10 @@ section.safo-jobs a:hover {
   section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body h3 {
     color: #000000;
     margin: 0 auto 10px;
+  }
+  section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body p {
+    width: 280px;
+    font-size: 15px;
   }
   .method-lines {
     display: none;
