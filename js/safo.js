@@ -522,6 +522,85 @@ if($theHash){
 		}
 	});
 	
+	
+/* 
+ * =============================================================
+ * Google Map
+ * =============================================================
+*/
+	
+	var myCenter=new google.maps.LatLng(38.751064, -77.475197);
+		
+	function initialize()
+	{
+		var mapProp = {
+			center:myCenter,
+			zoom:11,
+			disableDefaultUI:true,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+	
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	
+	var marker=new google.maps.Marker({
+		position:myCenter,
+		icon:'http://www.saforian.com/images/google-pin.png'
+	});
+	
+	marker.setMap(map);
+	
+	
+	var infowindow = new google.maps.InfoWindow ({
+		content: '<div class="google-box">\
+		<div class="title">Old Town Manassas, VA</div>\
+			<div>\
+				<p><a href="7033304499">703.330.4499</a> | <a href="mailto:hello@saforian.com">hello@saforian.com</a></p>\
+			</div>\
+		</div>'
+	});
+	
+	infowindow.open(map, marker);
+	}
+	
+	
+	
+	
+	
+	
+	function offsetCenter(latlng,offsetx,offsety) {
+
+	// latlng is the apparent centre-point
+	// offsetx is the distance you want that point to move to the right, in pixels
+	// offsety is the distance you want that point to move upwards, in pixels
+	// offset can be negative
+	// offsetx and offsety are both optional
+
+	var scale = Math.pow(2, map.getZoom());
+	var nw = new google.maps.LatLng(
+	    map.getBounds().getNorthEast().lat(),
+	    map.getBounds().getSouthWest().lng()
+	);
+
+	var worldCoordinateCenter = map.getProjection().fromLatLngToPoint(latlng);
+	var pixelOffset = new google.maps.Point((offsetx/scale) || 0,(offsety/scale) ||0)
+
+	var worldCoordinateNewCenter = new google.maps.Point(
+	    worldCoordinateCenter.x - pixelOffset.x,
+	    worldCoordinateCenter.y + pixelOffset.y
+	);
+
+	var newCenter = map.getProjection().fromPointToLatLng(worldCoordinateNewCenter);
+
+	map.setCenter(newCenter);
+
+	}
+	
+	
+	
+	
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
+	
 /* 
  * =============================================================
  * inline li items wreck my day when resizing upward because the ul gets its own size wrong...this sorta fixes it not really the overflow:hidden does though
