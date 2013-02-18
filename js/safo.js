@@ -62,12 +62,12 @@ $(document).ready(function() {
 					'z-index': '50'
 				});
 			});
-			
+			$('#sliders-cont').addClass('lighten');
 		} else {
 			$('#focus-wrap').css({
 				'z-index': '200'
 			}).fadeTo('fast',1);
-
+			$('#sliders-cont').removeClass('lighten');
 		}
 	});
 	

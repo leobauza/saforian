@@ -161,6 +161,7 @@ body {
   font-size: 63.7%;
   color: #666;
   font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
 }
 section h2 {
   font-size: 4em;
@@ -529,6 +530,17 @@ section.safo-methodology .our-services .row-fluid > [class*="span"] {
 #sliders-cont {
   position: relative;
   height: 980px;
+  background: #000000;
+}
+#sliders-cont .inside {
+  *height: 980px;
+  *position: relative;
+  *width: 1020px;
+  *margin: 0 auto;
+  *overflow: hidden;
+}
+#sliders-cont.lighten {
+  background: #f6f6f7;
 }
 #focus-wrap {
   position: absolute;
