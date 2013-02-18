@@ -37,40 +37,19 @@ $(window).resize(function(){
 $(document).ready(function() {
 	
 	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
-	// $('.method-nav .button').click(function(e){
-	// 	if (!$(this).hasClass('on')) {
-	// 		$('.method-nav .button').removeClass('on');
-	// 		var showdiv = $(this).attr('rel');
-	// 		$('.method-section').hide();
-	// 		$('.'+showdiv).fadeIn();
-	// 		$('.method-nav .button[rel='+showdiv+']').addClass('on');
-	// 	}
-	// 	var theRel = $(this).attr('rel');
-	// 	//add or remove according to the rel attribute
-	// 	(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
-	// 	
-	// });
-	
-	
-	
-	$('.method-nav .button').click(function(){
+	$('.method-nav .button').click(function(e){
+		if (!$(this).hasClass('on')) {
+			$('.method-nav .button').removeClass('on');
+			var showdiv = $(this).attr('rel');
+			$('.method-section').hide();
+			$('.'+showdiv).fadeIn();
+			$('.method-nav .button[rel='+showdiv+']').addClass('on');
+		}
 		var theRel = $(this).attr('rel');
 		//add or remove according to the rel attribute
-		if(theRel == "our-services"){
-			$('#focus-wrap').fadeTo('fast',0.2, function(){
-				$(this).css({
-					'z-index': '50'
-				});
-			});
-			
-		} else {
-			$('#focus-wrap').css({
-				'z-index': '200'
-			}).fadeTo('fast',1);
-
-		}
+		(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+		
 	});
-	
 	
 	$('.contact-form input[type=text]').focus(function(e){
 		var formEl = $(this).attr('name');
@@ -302,7 +281,7 @@ $(window).load(function(){
 		$('.next-prev').fadeIn(700);
 		
 		if($('.our-services').length){
-			//$('section.safo-methodology .our-services').hide();
+			$('section.safo-methodology .our-services').hide();
 		}
 	
 	}
@@ -550,8 +529,10 @@ if($theHash){
  * =============================================================
 */
 	
-	var myCenter=new google.maps.LatLng(38.751064, -77.475197);
-		
+	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
+	
+	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	
 	function initialize()
 	{
 		var mapProp = {
@@ -559,17 +540,17 @@ if($theHash){
 			zoom:11,
 			disableDefaultUI:true,
 			mapTypeId:google.maps.MapTypeId.ROADMAP
+
 		};
 	
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	
 	var marker=new google.maps.Marker({
-		position:myCenter,
+		position: newCenter,
 		icon:'http://www.saforian.com/images/google-pin.png'
 	});
 	
 	marker.setMap(map);
-	
 	
 	var infowindow = new google.maps.InfoWindow ({
 		content: '<div class="google-box">\
@@ -582,41 +563,6 @@ if($theHash){
 	
 	infowindow.open(map, marker);
 	}
-	
-	
-	
-	
-	
-	
-	function offsetCenter(latlng,offsetx,offsety) {
-
-	// latlng is the apparent centre-point
-	// offsetx is the distance you want that point to move to the right, in pixels
-	// offsety is the distance you want that point to move upwards, in pixels
-	// offset can be negative
-	// offsetx and offsety are both optional
-
-	var scale = Math.pow(2, map.getZoom());
-	var nw = new google.maps.LatLng(
-	    map.getBounds().getNorthEast().lat(),
-	    map.getBounds().getSouthWest().lng()
-	);
-
-	var worldCoordinateCenter = map.getProjection().fromLatLngToPoint(latlng);
-	var pixelOffset = new google.maps.Point((offsetx/scale) || 0,(offsety/scale) ||0)
-
-	var worldCoordinateNewCenter = new google.maps.Point(
-	    worldCoordinateCenter.x - pixelOffset.x,
-	    worldCoordinateCenter.y + pixelOffset.y
-	);
-
-	var newCenter = map.getProjection().fromPointToLatLng(worldCoordinateNewCenter);
-
-	map.setCenter(newCenter);
-
-	}
-	
-	
 	
 	
 	
