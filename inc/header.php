@@ -27,7 +27,10 @@
 			}
 		});
 		</script>
-
+		
+		<script type="text/javascript"
+		      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_oHCo6owmIGzzdFcXxvBb5ucqxHZd9kI&sensor=false">
+		</script>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>

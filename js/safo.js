@@ -37,25 +37,19 @@ $(window).resize(function(){
 $(document).ready(function() {
 	
 	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
-	// $('.method-nav .button').click(function(e){
-	// 	if (!$(this).hasClass('on')) {
-	// 		$('.method-nav .button').removeClass('on');
-	// 		var showdiv = $(this).attr('rel');
-	// 		$('.method-section').hide();
-	// 		$('.'+showdiv).fadeIn();
-	// 		$('.method-nav .button[rel='+showdiv+']').addClass('on');
-	// 	}
-	// 	var theRel = $(this).attr('rel');
-	// 	//add or remove according to the rel attribute
-	// 	(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
-	// 	
-	// });
-	
-	
-	
-	$('.method-nav .button').click(function(){
+	$('.method-nav .button').click(function(e){
+		// if (!$(this).hasClass('on')) {
+		// 	$('.method-nav .button').removeClass('on');
+		// 	var showdiv = $(this).attr('rel');
+		// 	$('.method-section').hide();
+		// 	$('.'+showdiv).fadeIn();
+		// 	$('.method-nav .button[rel='+showdiv+']').addClass('on');
+		// }
+		// var theRel = $(this).attr('rel');
+		// //add or remove according to the rel attribute
+		// (theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+		
 		var theRel = $(this).attr('rel');
-		//add or remove according to the rel attribute
 		if(theRel == "our-services"){
 			$('#focus-wrap').fadeTo('fast',0.2, function(){
 				$(this).css({
@@ -70,7 +64,6 @@ $(document).ready(function() {
 			$('#sliders-cont').removeClass('lighten');
 		}
 	});
-	
 	
 	$('.contact-form input[type=text]').focus(function(e){
 		var formEl = $(this).attr('name');
@@ -542,6 +535,52 @@ if($theHash){
 				});
 		}
 	});
+	
+	
+/* 
+ * =============================================================
+ * Google Map
+ * =============================================================
+*/
+	
+	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
+	
+	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	
+	function initialize()
+	{
+		var mapProp = {
+			center:myCenter,
+			zoom:11,
+			disableDefaultUI:true,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+
+		};
+	
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	
+	var marker=new google.maps.Marker({
+		position: newCenter,
+		icon:'http://www.saforian.com/images/google-pin.png'
+	});
+	
+	marker.setMap(map);
+	
+	var infowindow = new google.maps.InfoWindow ({
+		content: '<div class="google-box">\
+		<div class="title">Old Town Manassas, VA</div>\
+			<div>\
+				<p><a href="7033304499">703.330.4499</a> | <a href="mailto:hello@saforian.com">hello@saforian.com</a></p>\
+			</div>\
+		</div>'
+	});
+	
+	infowindow.open(map, marker);
+	}
+	
+	
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
 	
 /* 
  * =============================================================
