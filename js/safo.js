@@ -37,19 +37,40 @@ $(window).resize(function(){
 $(document).ready(function() {
 	
 	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
-	$('.method-nav .button').click(function(e){
-		if (!$(this).hasClass('on')) {
-			$('.method-nav .button').removeClass('on');
-			var showdiv = $(this).attr('rel');
-			$('.method-section').hide();
-			$('.'+showdiv).fadeIn();
-			$('.method-nav .button[rel='+showdiv+']').addClass('on');
-		}
+	// $('.method-nav .button').click(function(e){
+	// 	if (!$(this).hasClass('on')) {
+	// 		$('.method-nav .button').removeClass('on');
+	// 		var showdiv = $(this).attr('rel');
+	// 		$('.method-section').hide();
+	// 		$('.'+showdiv).fadeIn();
+	// 		$('.method-nav .button[rel='+showdiv+']').addClass('on');
+	// 	}
+	// 	var theRel = $(this).attr('rel');
+	// 	//add or remove according to the rel attribute
+	// 	(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+	// 	
+	// });
+	
+	
+	
+	$('.method-nav .button').click(function(){
 		var theRel = $(this).attr('rel');
 		//add or remove according to the rel attribute
-		(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
-		
+		if(theRel == "our-services"){
+			$('#focus-wrap').fadeTo('fast',0.2, function(){
+				$(this).css({
+					'z-index': '50'
+				});
+			});
+			
+		} else {
+			$('#focus-wrap').css({
+				'z-index': '200'
+			}).fadeTo('fast',1);
+
+		}
 	});
+	
 	
 	$('.contact-form input[type=text]').focus(function(e){
 		var formEl = $(this).attr('name');
@@ -281,7 +302,7 @@ $(window).load(function(){
 		$('.next-prev').fadeIn(700);
 		
 		if($('.our-services').length){
-			$('section.safo-methodology .our-services').hide();
+			//$('section.safo-methodology .our-services').hide();
 		}
 	
 	}

@@ -511,7 +511,6 @@ section.safo-methodology .method-nav .button.on {
   cursor: default;
 }
 section.safo-methodology h2.our-services {
-  display: none;
   color: #000000;
 }
 section.safo-methodology .our-services .row-fluid {
@@ -526,6 +525,24 @@ section.safo-methodology .our-services .row-fluid > [class*="span"] {
   height: 255px;
   margin-bottom: 66px;
   background: url(../images/site/method-lines.png) no-repeat top;
+}
+#sliders-cont {
+  position: relative;
+  height: 980px;
+}
+#focus-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+}
+#audience-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 /* 4th section: Our Work */
 section.safo-work {
