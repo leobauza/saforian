@@ -448,26 +448,15 @@
 						
 					</div>
 				</div>
-				<div class='row-fluid maps'>
-					<div class='span6'>
-						<p><a href='http://goo.gl/maps/ydC5U'><img src='images/site/map-manassas-black.png' 
-							alt='Map: Saforian Manassas Headquarters' /></a></p>
-						<p><span class='address-name'>Manassas, VA Main Headquarters</span><br />
-						<span class='address'>9408 Grant Ave. Suite 403, Manassas VA, 20110</span>
-						<p><a class='phone' href='tel:7033304499'>703.330.4499</a> | 
-						<a href='mailto:hello@saforian.com'>hello@saforian.com</a></p>
-						</p>
-					</div>
-					<div class='span6 l'>
-						<p><a href='http://goo.gl/maps/7gQBQ'><img src='images/site/map-tysons-black.png' 
-							alt='Map: Saforian McLean Office' /></a></p>
-						<p><span class='address-name'>McLean Training + Testing Center</span><br />
-						<span class='address'>1616 Anderson Rd., McLean, VA 22102</span>
-						<p><a href='mailto:events@saforian.com'>events@saforian.com</a></p>
-						</p>
-					</div>
-				</div>
 			</div>
+		</section>
+		
+		<section>
+			
+			
+			
+			<div id="googleMap" style="width:100%; height: 450px;"></div>
+			
 		</section>
 
 
