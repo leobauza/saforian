@@ -8,7 +8,7 @@
 		</header>
 		<article class="std-body">
 			<!-- <h3>What is Drupal CMS</h3> -->
-			<p>SEO, SEO, SEO, it’s a term that’s spoken often at Saforian and tends to come up in most our conversations… sometimes quietly, sometimes loudly. How does SEO fit into this campaign, that digital strategy, or this clients budget? The questions seemingly go on and on. It can be overwhelming at times, but when used with the right strategic plan it can be a real game changer.</p>
+			<p>SEO, SEO, SEO, it’s a term that’s spoken often at Saforian and tends to come up in most our conversations… sometimes quietly, sometimes loudly. How does SEO fit into this campaign, that digital strategy, or this client's budget? The questions seemingly go on and on. It can be overwhelming at times, but when used with the right strategic plan it can be a real game changer.</p>
 			
 			<p>So what’s this SEO thing all about? Search engine optimization, or SEO, is a fast-growing discipline in website design and internet marketing. The central idea behind SEO is driving traffic to a site by increasing its visibility, especially on search engines. SEO works by identifying keywords and target phrases your audience uses to seek your content, then using them selectively throughout your site. Search engines will pick up on these phrases and users who search for them, which enables more users to discover your content. Creating relevant content to drive traffic to your site, linking to other sites, and being linked by other sites are also integral parts of an effective SEO strategy.</p>
 
