@@ -421,11 +421,12 @@
 			</div>
 		</section>
 		
+			
 		<section>
 			
-			
-			
 			<div id="googleMap" style="width:100%; height: 450px;"></div>
+			
+			
 			
 		</section>
 
