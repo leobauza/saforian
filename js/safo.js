@@ -701,21 +701,21 @@ $("#site-nav ul").width($navWidth);
 	};
 
 	//container var
-	$container = $('#projects');
+	$container = $('#iso-cont');
 	//call isotope
 	$container.isotope({
 		// options
 		itemSelector : '.item',
 		masonry: {
-			columnWidth: 186 + 60
+			columnWidth: 340
 		}
 	});
 	//filtering stuff
-	$('#filters a').click(function(e){
-		var selector = $(this).attr('data-filter');
-		$container.isotope({ filter: selector });
-		e.preventDefault();
-	});
+	// $('#filters a').click(function(e){
+	// 	var selector = $(this).attr('data-filter');
+	// 	$container.isotope({ filter: selector });
+	// 	e.preventDefault();
+	// });
 
 
 

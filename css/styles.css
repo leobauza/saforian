@@ -602,6 +602,17 @@ section.safo-work img.mobile-img {
   left: 34.3333333333%;
   top: 290px;
 }
+/***** ISOTOPE WORK *****/
+#iso-cont {
+  margin: 0 auto;
+}
+#iso-cont .item {
+  margin-bottom: 20px;
+}
+#iso-cont .item img {
+  display: block;
+  margin: 0 24px;
+}
 /* 5th section: Clients */
 section.safo-clients {
   background: #000;
