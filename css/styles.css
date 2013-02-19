@@ -2591,6 +2591,9 @@ img[src*="iw3.png"] {
     margin-bottom: 15px;
   }
   /*HOME PAGE SLIDERS*/
+  #sliders-cont {
+    height: 725px;
+  }
   .icon-text-slider {
     height: 450px;
   }

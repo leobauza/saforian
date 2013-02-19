@@ -38,17 +38,31 @@ $(document).ready(function() {
 	
 	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
 	$('.method-nav .button').click(function(e){
-		if (!$(this).hasClass('on')) {
-			$('.method-nav .button').removeClass('on');
-			var showdiv = $(this).attr('rel');
-			$('.method-section').hide();
-			$('.'+showdiv).fadeIn();
-			$('.method-nav .button[rel='+showdiv+']').addClass('on');
-		}
+		// if (!$(this).hasClass('on')) {
+		// 	$('.method-nav .button').removeClass('on');
+		// 	var showdiv = $(this).attr('rel');
+		// 	$('.method-section').hide();
+		// 	$('.'+showdiv).fadeIn();
+		// 	$('.method-nav .button[rel='+showdiv+']').addClass('on');
+		// }
+		// var theRel = $(this).attr('rel');
+		// //add or remove according to the rel attribute
+		// (theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+
 		var theRel = $(this).attr('rel');
-		//add or remove according to the rel attribute
-		(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
-		
+		if(theRel == "our-services"){
+			$('#focus-wrap').fadeTo('fast',0.2, function(){
+				$(this).css({
+					'z-index': '50'
+				});
+			});
+			$('#sliders-cont').addClass('lighten');
+		} else {
+			$('#focus-wrap').css({
+				'z-index': '200'
+			}).fadeTo('fast',1);
+			$('#sliders-cont').removeClass('lighten');
+		}
 	});
 	
 	$('.contact-form input[type=text]').focus(function(e){
@@ -281,7 +295,7 @@ $(window).load(function(){
 		$('.next-prev').fadeIn(700);
 		
 		if($('.our-services').length){
-			$('section.safo-methodology .our-services').hide();
+			//$('section.safo-methodology .our-services').hide();
 		}
 	
 	}
@@ -594,8 +608,8 @@ if($theHash){
 
 var $navWidth = $("#site-nav").width();
 
-if($navWidth < 656) {
-	$navWidth = 656;
+if($navWidth < 575) {
+	$navWidth = 575;
 }
 $("#site-nav ul").width($navWidth);
 
@@ -604,8 +618,8 @@ $("#site-nav ul").width($navWidth);
 			var $navWidth = $("#site-nav").width();
 		}
 
-		if($navWidth < 682) {
-			$navWidth = 682;
+		if($navWidth < 575) {
+			$navWidth = 575;
 		}
 
 		$newWinWidth = $(window).width();
