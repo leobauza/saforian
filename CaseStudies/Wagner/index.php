@@ -91,7 +91,7 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/wagner_ipad.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/wagner_ipad.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>In-store Interactive Data Collection Tool</h2>

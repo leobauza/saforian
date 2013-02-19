@@ -34,7 +34,7 @@
 	<section class="block">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/unf_ia.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/unf_ia.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Information Architecture</h2>
@@ -139,7 +139,7 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/unf_outreach.png" alt="Outreach Support">
+				<img src="../../images/caseStudies/unf_outreach.png" alt="Outreach Support" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Outreach Support</h2>

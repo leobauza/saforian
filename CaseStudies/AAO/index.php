@@ -37,7 +37,7 @@
 	<section class="block">
 		<article class="row-fluid">
 			<div class="span7">
-				<img src="../../images/caseStudies/aao_iaimage.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/aao_iaimage.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Information Architecture</h2>
@@ -127,7 +127,7 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span7">
-				<img src="../../images/caseStudies/aao_ipad.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/aao_ipad.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Personalized Member Experience</h2>

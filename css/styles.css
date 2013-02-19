@@ -2220,6 +2220,19 @@ img[src*="iw3.png"] {
   width: 96.99999996%;
 }
 /******RESPONSIVE******/
+@media (max-width: 1060px) {
+  .hero.aao-hero blockquote,
+  .hero.ata-hero blockquote,
+  .hero.dineout-hero blockquote,
+  .hero.fhi-hero blockquote,
+  .hero.grunley-hero blockquote,
+  .hero.nkh-hero blockquote,
+  .hero.specialicious-hero blockquote,
+  .hero.unf-hero blockquote,
+  .hero.wagner-hero blockquote {
+    padding-left: 50px;
+  }
+}
 @media (max-width: 1020px) {
   .safo-nav {
     font-size: 1.7em;
@@ -2367,6 +2380,73 @@ img[src*="iw3.png"] {
   }
 }
 /*end media 940*/
+@media (max-width: 939px) {
+  .hero.nkh-hero blockquote .quote {
+    font-size: 3.3em;
+  }
+}
+@media (max-width: 906px) {
+  .hero.dineout-hero blockquote .quote {
+    font-size: 3.5em;
+  }
+  .hero.dineout-hero blockquote .byline {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 877px) {
+  .hero.grunley-hero blockquote {
+    padding-left: 50px;
+  }
+  .hero.grunley-hero blockquote .quote {
+    font-size: 3.5em;
+  }
+  .hero.grunley-hero blockquote .byline {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 832px) {
+  .hero.kbd-hero blockquote .quote {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 792px) {
+  .hero.aao-hero blockquote,
+  .hero.fhi-hero blockquote,
+  .hero.grunley-hero blockquote,
+  .hero.ata-hero blockquote,
+  .hero.nkh-hero blockquote,
+  .hero.unf-hero blockquote,
+  .hero.wagner-hero blockquote {
+    padding-left: 50px;
+  }
+  .hero.aao-hero blockquote .quote,
+  .hero.fhi-hero blockquote .quote,
+  .hero.grunley-hero blockquote .quote,
+  .hero.ata-hero blockquote .quote,
+  .hero.nkh-hero blockquote .quote,
+  .hero.unf-hero blockquote .quote,
+  .hero.wagner-hero blockquote .quote {
+    font-size: 3.5em;
+  }
+  .hero.aao-hero blockquote .byline,
+  .hero.fhi-hero blockquote .byline,
+  .hero.grunley-hero blockquote .byline,
+  .hero.ata-hero blockquote .byline,
+  .hero.nkh-hero blockquote .byline,
+  .hero.unf-hero blockquote .byline,
+  .hero.wagner-hero blockquote .byline {
+    margin-top: 20px;
+  }
+  .hero.kbd-hero blockquote {
+    padding-left: 0px;
+  }
+  .hero.kbd-hero blockquote .quote {
+    font-size: 3.5em;
+  }
+  .hero.kbd-hero blockquote .byline {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 770px) {
   section.safo-start {
     padding-top: 50px;
@@ -2387,6 +2467,15 @@ img[src*="iw3.png"] {
 }
 /*end 770 media*/
 @media (max-width: 760px) {
+  #work-block .highlights {
+    padding-top: 20px;
+  }
+  .padding-bottom {
+    padding-bottom: 50px;
+  }
+  #work-block .center-img {
+    padding: 50px 0 20px 0;
+  }
   #capabilities-footer .caption {
     text-align: center;
   }
@@ -2656,5 +2745,53 @@ img[src*="iw3.png"] {
   }
   .copyright .span4 {
     float: left;
+  }
+}
+@media (max-width: 600px) {
+  .hero.aao-hero blockquote,
+  .hero.ata-hero blockquote,
+  .hero.dineout-hero blockquote,
+  .hero.fhi-hero blockquote,
+  .hero.grunley-hero blockquote,
+  .hero.nkh-hero blockquote,
+  .hero.specialicious-hero blockquote,
+  .hero.unf-hero blockquote,
+  .hero.wagner-hero blockquote {
+    padding-left: 50px;
+  }
+  .hero.aao-hero blockquote .quote,
+  .hero.ata-hero blockquote .quote,
+  .hero.dineout-hero blockquote .quote,
+  .hero.fhi-hero blockquote .quote,
+  .hero.grunley-hero blockquote .quote,
+  .hero.nkh-hero blockquote .quote,
+  .hero.specialicious-hero blockquote .quote,
+  .hero.unf-hero blockquote .quote,
+  .hero.wagner-hero blockquote .quote {
+    font-size: 3em;
+  }
+}
+@media (max-width: 588px) {
+  .hero.dineout-hero blockquote {
+    width: 100%;
+    padding: 20px 0 0 30px;
+  }
+  .hero.dineout-hero blockquote .quote {
+    font-size: 2.5em;
+  }
+  .hero.dineout-hero .quote_image {
+    padding-left: 30px;
+  }
+  .hero.kbd-hero blockquote {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .hero.kbd-hero blockquote .quote {
+    font-size: 2.5em;
+    padding: 0px 0 0 30px;
+    display: block;
+  }
+  .hero.kbd-hero .quote_image {
+    padding-left: 30px;
   }
 }
