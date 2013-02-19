@@ -131,6 +131,20 @@ function gallerySetUp() {
 	});
 }
 
+//new gallery set up
+function gallerySetUp2() {
+	// clone image
+	$('#iso-cont img').not('.ignore').each(function(){
+		var el = $(this);
+		el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: block'>").clone().addClass('img_grayscale').css({"position":"absolute","z-index":"998","opacity":"0"}).insertBefore(el).queue(function(){
+			var el = $(this);
+			el.parent().css({"width":this.width + 28,"height":this.height});
+			el.dequeue();
+		});
+		this.src = grayscale(this.src);
+	});
+}
+
 
 /* 
  * =============================================================
@@ -221,6 +235,7 @@ $(window).load(function(){
 	
 	if(ieVer == -1 || ieVer == 9) {
 		gallerySetUp();
+		gallerySetUp2();
 	}
 	
 	// Fade image 
@@ -231,6 +246,17 @@ $(window).load(function(){
 		$(this).stop().animate({opacity:0}, 1000);
 	});
 
+	// NEW FADE IMAGE 
+	$('#iso-cont img').mouseover(function(){
+		$(this).parent().find('img:first').stop().animate({opacity:1}, 1000);
+	});
+	$('.img_grayscale').mouseout(function(){
+		$(this).stop().animate({opacity:0}, 1000);
+	});
+
+
+
+
 	/* 
 	 * =============================================================
 	 * COPY THE IMAGES FOR MOBILE
@@ -239,6 +265,11 @@ $(window).load(function(){
 	$('.safo-client').each(function(){
 		var imgSrc = $(this).find('img').attr('src');
 		$(this).find('h3').before("<img class='mobile-img' src='"+ imgSrc +"' />");
+	});
+
+	$('#iso-cont .safo-client').each(function(){
+		var imgSrc = $(this).find('img').attr('src');
+		$(this).find('p').before("<img class='mobile-img' src='"+ imgSrc +"' />");
 	});
 
 	/* 
@@ -543,8 +574,8 @@ if($theHash){
  * =============================================================
 */
 	
-	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
 	
+	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
 	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
 	
 	
@@ -631,15 +662,91 @@ $("#site-nav ul").width($navWidth);
 
 
 	});//end resize
-	
-	//get a random number between 0 9???
-	var mathraw = Math.random();
-	var mathrandom = mathraw*10;
-	var floorit = Math.floor(mathrandom);
-	
-	var random = Math.floor(Math.random()*3);
 
-	//console.log(mathraw + " " + mathrandom + " " + floorit);
+/* 
+ * =============================================================
+ * ISOTOPE
+ * =============================================================
+ */
+
+
+	//center
+	$.Isotope.prototype._getCenteredMasonryColumns = function() {
+		this.width = this.element.width();
+		
+		var parentWidth = this.element.parent().width();
+		
+									// i.e. options.masonry && options.masonry.columnWidth
+		var colW = this.options.masonry && this.options.masonry.columnWidth ||
+									// or use the size of the first item
+									this.$filteredAtoms.outerWidth(true) ||
+									// if there's no items, use size of container
+									parentWidth;
+		
+		var cols = Math.floor( parentWidth / colW );
+		cols = Math.max( cols, 1 );
+	
+		// i.e. this.masonry.cols = ....
+		this.masonry.cols = cols;
+		// i.e. this.masonry.columnWidth = ...
+		this.masonry.columnWidth = colW;
+	};
+	
+	$.Isotope.prototype._masonryReset = function() {
+		// layout-specific props
+		this.masonry = {};
+		// FIXME shouldn't have to call this again
+		this._getCenteredMasonryColumns();
+		var i = this.masonry.cols;
+		this.masonry.colYs = [];
+		while (i--) {
+			this.masonry.colYs.push( 0 );
+		}
+	};
+	
+	$.Isotope.prototype._masonryResizeChanged = function() {
+		var prevColCount = this.masonry.cols;
+		// get updated colCount
+		this._getCenteredMasonryColumns();
+		return ( this.masonry.cols !== prevColCount );
+	};
+	
+	$.Isotope.prototype._masonryGetContainerSize = function() {
+		var unusedCols = 0,
+				i = this.masonry.cols;
+		// count unused columns
+		while ( --i ) {
+			if ( this.masonry.colYs[i] !== 0 ) {
+				break;
+			}
+			unusedCols++;
+		}
+		
+		return {
+					height : Math.max.apply( Math, this.masonry.colYs ),
+					// fit container to columns that have been used;
+					width : (this.masonry.cols - unusedCols) * this.masonry.columnWidth
+				};
+	};
+
+	//container var
+	$container = $('#iso-cont');
+	//call isotope
+	$container.isotope({
+		filter: '.first-page',
+		// options
+		itemSelector : '.item',
+		masonry: {
+			columnWidth: 320
+		}
+	});
+	//filtering stuff
+	$('.filter a').click(function(e){
+		var selector = $(this).attr('data-filter');
+		$container.isotope({ filter: selector });
+		e.preventDefault();
+	});
+
 
 }); //end my ready
 	

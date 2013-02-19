@@ -515,6 +515,39 @@ section.safo-work {
 }
 
 
+/***** ISOTOPE WORK *****/
+#iso-wrap {
+	max-width:1020px;
+	*width:1020px;
+	margin:0 auto;
+	padding:60px 0;
+	h2 {
+		font-size: 4em;
+		font-weight: 300;
+		margin-bottom: 77px;
+		text-align: center;
+		color:@black;
+	}
+}
+
+#iso-cont {
+	margin:0px auto;
+	.item {
+		margin-bottom:20px;
+		p {
+			padding:10px 0px;
+			text-align:center;
+		}
+		img {
+			display:block;
+			margin:0 14px;
+			&.mobile-img {
+				display:none;
+			}
+		}
+	}
+}
+
 /* 5th section: Clients */
 section.safo-clients {
 	background: #000;
@@ -2451,9 +2484,10 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	.img_wrapper {
 		display:none!important;
 	}
-	section.safo-work img.mobile-img {
+
+	section.safo-work img.mobile-img, #iso-cont .item img.mobile-img {
 		display:block;
-		margin:0 auto;
+		margin:0 14px;
 	}
 	section.safo-methodology {
 		.method-nav {
@@ -2573,7 +2607,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			}
 		}
 	}
-}	
+}
 	
 @media (max-width: 770px) {
 	section.safo-start {
@@ -2601,6 +2635,14 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	
 } /*end 770 media*/
 @media (max-width: 760px) {
+	
+	#iso-cont .item {
+		width:100%;
+		img.mobile-img {
+			margin:0 auto;
+		}
+	}
+	
 	
 	#work-block .highlights {
 		padding-top: 20px;
@@ -2733,7 +2775,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 
 	section.safo-methodology h2 {
-		font-size: 2.2em;
+		font-size: 2.1em;
 		line-height: 1.3em;
 		margin-bottom: 15px;
 	}
@@ -2792,8 +2834,8 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 				.slide {
 					.body {
 						.icon {
-							width:194px;
-							height:195px;
+							width:174px;
+							height:175px;
 							margin:10px auto 20px;
 							img {
 								opacity:1;
@@ -2889,6 +2931,16 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 				margin:0 0 20px
 			}
 		}
+		a .job-title {
+			float:none;
+		}
+		.job-location {
+			display:block;
+			float:none;
+		}
+		.job-date {
+			margin:0;
+		}
 	}
 	
 	/*careers page*/
@@ -2916,6 +2968,10 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 	
+	
+	
+	
+	
 	/*margin right instead of margin left to do overflow hidden*/
 	.row-fluid > [class*="span"] {
 		float: none;
@@ -2935,6 +2991,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 	
 }
+
 
 @media (max-width: 600px) {
  
@@ -2978,5 +3035,6 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 }
+
 
 

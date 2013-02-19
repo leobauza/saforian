@@ -602,6 +602,37 @@ section.safo-work img.mobile-img {
   left: 34.3333333333%;
   top: 290px;
 }
+/***** ISOTOPE WORK *****/
+#iso-wrap {
+  max-width: 1020px;
+  *width: 1020px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+#iso-wrap h2 {
+  font-size: 4em;
+  font-weight: 300;
+  margin-bottom: 77px;
+  text-align: center;
+  color: #000000;
+}
+#iso-cont {
+  margin: 0px auto;
+}
+#iso-cont .item {
+  margin-bottom: 20px;
+}
+#iso-cont .item p {
+  padding: 10px 0px;
+  text-align: center;
+}
+#iso-cont .item img {
+  display: block;
+  margin: 0 14px;
+}
+#iso-cont .item img.mobile-img {
+  display: none;
+}
 /* 5th section: Clients */
 section.safo-clients {
   background: #000;
@@ -2415,9 +2446,10 @@ img[src*="iw3.png"] {
   .img_wrapper {
     display: none!important;
   }
-  section.safo-work img.mobile-img {
+  section.safo-work img.mobile-img,
+  #iso-cont .item img.mobile-img {
     display: block;
-    margin: 0 auto;
+    margin: 0 14px;
   }
   section.safo-methodology .method-nav {
     font-size: 2.5em;
@@ -2527,6 +2559,12 @@ img[src*="iw3.png"] {
 }
 /*end 770 media*/
 @media (max-width: 760px) {
+  #iso-cont .item {
+    width: 100%;
+  }
+  #iso-cont .item img.mobile-img {
+    margin: 0 auto;
+  }
   #work-block .highlights {
     padding-top: 20px;
   }
@@ -2643,7 +2681,7 @@ img[src*="iw3.png"] {
     padding-bottom: 30px;
   }
   section.safo-methodology h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     line-height: 1.3em;
     margin-bottom: 15px;
   }
@@ -2695,8 +2733,8 @@ img[src*="iw3.png"] {
     bottom: 25px;
   }
   section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon {
-    width: 194px;
-    height: 195px;
+    width: 174px;
+    height: 175px;
     margin: 10px auto 20px;
   }
   section.safo-methodology.offwhite .icon-text-slider .slider-wrap .slides .slide .body .icon img {
@@ -2777,6 +2815,16 @@ img[src*="iw3.png"] {
   }
   section.safo-jobs .job-post:last-child {
     margin: 0 0 20px;
+  }
+  section.safo-jobs a .job-title {
+    float: none;
+  }
+  section.safo-jobs .job-location {
+    display: block;
+    float: none;
+  }
+  section.safo-jobs .job-date {
+    margin: 0;
   }
   /*careers page*/
   #career-header #brand {
