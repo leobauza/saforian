@@ -533,6 +533,7 @@ if($theHash){
 	
 	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
 	
+	
 	function initialize()
 	{
 		var mapProp = {
@@ -543,11 +544,13 @@ if($theHash){
 
 		};
 	
+	
+	
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	
 	var marker=new google.maps.Marker({
 		position: newCenter,
-		icon:'http://www.saforian.com/images/google-pin.png'
+		icon:'http://www.saforian.com/images/google-pin-smaller.png'
 	});
 	
 	marker.setMap(map);
@@ -562,6 +565,10 @@ if($theHash){
 	});
 	
 	infowindow.open(map, marker);
+	
+	var zoomlevel = { minZoom: 11, maxZoom: 11 };
+		map.setOptions(zoomlevel);
+		
 	}
 	
 	
