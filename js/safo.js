@@ -38,31 +38,17 @@ $(document).ready(function() {
 	
 	//now the toggle between strategy and services...not changing the class names though...next time don't name things DUMBLLLLLYYYYY
 	$('.method-nav .button').click(function(e){
-		// if (!$(this).hasClass('on')) {
-		// 	$('.method-nav .button').removeClass('on');
-		// 	var showdiv = $(this).attr('rel');
-		// 	$('.method-section').hide();
-		// 	$('.'+showdiv).fadeIn();
-		// 	$('.method-nav .button[rel='+showdiv+']').addClass('on');
-		// }
-		// var theRel = $(this).attr('rel');
-		// //add or remove according to the rel attribute
-		// (theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
-		
-		var theRel = $(this).attr('rel');
-		if(theRel == "our-services"){
-			$('#focus-wrap').fadeTo('fast',0.2, function(){
-				$(this).css({
-					'z-index': '50'
-				});
-			});
-			$('#sliders-cont').addClass('lighten');
-		} else {
-			$('#focus-wrap').css({
-				'z-index': '200'
-			}).fadeTo('fast',1);
-			$('#sliders-cont').removeClass('lighten');
+		if (!$(this).hasClass('on')) {
+			$('.method-nav .button').removeClass('on');
+			var showdiv = $(this).attr('rel');
+			$('.method-section').hide();
+			$('.'+showdiv).fadeIn();
+			$('.method-nav .button[rel='+showdiv+']').addClass('on');
 		}
+		var theRel = $(this).attr('rel');
+		//add or remove according to the rel attribute
+		(theRel == "our-services") ? $('section.safo-methodology').addClass('offwhite') : $('section.safo-methodology').removeClass('offwhite'); 
+		
 	});
 	
 	$('.contact-form input[type=text]').focus(function(e){
@@ -326,7 +312,7 @@ $(window).load(function(){
 		$('.next-prev').fadeIn(700);
 		
 		if($('.our-services').length){
-			//$('section.safo-methodology .our-services').hide();
+			$('section.safo-methodology .our-services').hide();
 		}
 	
 	}
@@ -573,10 +559,11 @@ if($theHash){
  * Google Map
  * =============================================================
 */
-	if($('#googleMap').length) {
-		var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
-		var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
-	}
+	
+	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
+	
+	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	
 	
 	function initialize()
 	{
@@ -598,7 +585,7 @@ if($theHash){
 	});
 	
 	marker.setMap(map);
-	
+			
 	var infowindow = new google.maps.InfoWindow ({
 		content: '<div class="google-box">\
 		<div class="title">Old Town Manassas, VA</div>\
@@ -615,11 +602,8 @@ if($theHash){
 		
 	}
 	
-	
-	if($('#googleMap').length) {
-		google.maps.event.addDomListener(window, 'load', initialize);
-	}
-	
+	google.maps.event.addDomListener(window, 'load', initialize);
+
 /* 
  * =============================================================
  * inline li items wreck my day when resizing upward because the ul gets its own size wrong...this sorta fixes it not really the overflow:hidden does though
@@ -641,8 +625,8 @@ if($theHash){
 
 var $navWidth = $("#site-nav").width();
 
-if($navWidth < 575) {
-	$navWidth = 575;
+if($navWidth < 656) {
+	$navWidth = 656;
 }
 $("#site-nav ul").width($navWidth);
 
@@ -651,8 +635,8 @@ $("#site-nav ul").width($navWidth);
 			var $navWidth = $("#site-nav").width();
 		}
 
-		if($navWidth < 575) {
-			$navWidth = 575;
+		if($navWidth < 682) {
+			$navWidth = 682;
 		}
 
 		$newWinWidth = $(window).width();

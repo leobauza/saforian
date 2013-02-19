@@ -995,6 +995,9 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
 }
+.scroll-top {
+  padding-left: 25px;
+}
 .twitter-block {
   background: #000;
 }
