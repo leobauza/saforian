@@ -102,40 +102,40 @@
 			
 			-->
 			<article class="item safo-client second-page">
-				<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
-				<p>Share Our Strength Initiative</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
 			</article>
 			<article class="item safo-client second-page">
 				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
 				<p>United Nations Foundation</p>
 			</article>
 			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
-				<p>Society for Human Resource Management</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
 			</article>
 			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-				<p>Wagner Custom Skis</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
 			</article>
 			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
-				<p>American Trucking Association</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
 			</article>
 			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
-				<p>American Association of Orthodontists</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
+			</article>
+			<article class="item safo-client second-page filter">
+				<a href='#' data-filter=".first-page"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>PREV</p>
 			</article>
 			<article class="item safo-client second-page">
-				<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>Northern Virginia Magazine</p>
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>United Nations Foundation</p>
 			</article>
-			<article class="item safo-client filter second-page">
-				<a href="#" data-filter="*"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>NEXT</p>
+			<article class="item safo-client second-page">
+				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+				<p>project</p>
 			</article>
 			<!-- 
 			

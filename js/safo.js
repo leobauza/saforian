@@ -745,11 +745,6 @@ $("#site-nav ul").width($navWidth);
 	});
 
 
-
-
-
-
-
 }); //end my ready
 	
 	
