@@ -87,7 +87,7 @@
 				<nav id="site-nav">
 					<ul class='topnav group'>
 						<li><a href='/#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
-						<li><a href='/#history' id='topnav-history' data-scrollto='safo-history'>History</a></li>
+						<!-- <li><a href='/#history' id='topnav-history' data-scrollto='safo-history'>History</a></li> -->
 						<li><a href='/#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li>
 						<li><a href="/#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 						<li><a href='/#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
