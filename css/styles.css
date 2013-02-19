@@ -613,6 +613,9 @@ section.safo-work img.mobile-img {
   display: block;
   margin: 0 24px;
 }
+#iso-cont .item img.mobile-img {
+  display: none;
+}
 /* 5th section: Clients */
 section.safo-clients {
   background: #000;
@@ -2366,7 +2369,8 @@ img[src*="iw3.png"] {
   .img_wrapper {
     display: none!important;
   }
-  section.safo-work img.mobile-img {
+  section.safo-work img.mobile-img,
+  #iso-cont .item img.mobile-img {
     display: block;
     margin: 0 auto;
   }

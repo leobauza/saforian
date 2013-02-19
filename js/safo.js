@@ -267,6 +267,11 @@ $(window).load(function(){
 		$(this).find('h3').before("<img class='mobile-img' src='"+ imgSrc +"' />");
 	});
 
+	$('#iso-cont .safo-client').each(function(){
+		var imgSrc = $(this).find('img').attr('src');
+		$(this).find('p').before("<img class='mobile-img' src='"+ imgSrc +"' />");
+	});
+
 	/* 
 	 * =============================================================
 	 * TEMPORARILY CANCEL CLICKS ON WORK
