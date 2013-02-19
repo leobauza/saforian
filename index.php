@@ -14,7 +14,7 @@
 						<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li>
 						<li><a href="#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
-						<li><a href='#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
+						<li><a href='#work' id='topnav-work' data-scrollto='our-work'>Work</a></li>
 						<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
 						<li class="last"><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 					</ul>
@@ -46,108 +46,6 @@
 				we dig it.</p>
 			</div>
 		</section>
-		
-		
-		
-		<section class="safo-work">
-			<div class="section-contents">
-				<h2>Work</h2>
-			</div>
-		</section>
-		<section id="iso-cont">
-			<!-- 
-			
-			FIRST PAGE START
-			
-			-->
-			<article class="item safo-client first-page">
-				<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
-				<p>Share Our Strength Initiative</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
-				<p>Society for Human Resource Management</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-				<p>Wagner Custom Skis</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
-				<p>American Trucking Association</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
-				<p>American Association of Orthodontists</p>
-			</article>
-			<article class="item safo-client first-page">
-				<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client filter first-page">
-				<a href="#" data-filter=".second-page"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-				<p>NEXT</p>
-			</article>
-			<!-- 
-			
-			FIRST PAGE END | START SECOND PAGE
-			
-			-->
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page filter">
-				<a href='#' data-filter=".first-page"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>PREV</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>United Nations Foundation</p>
-			</article>
-			<article class="item safo-client second-page">
-				<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-				<p>project</p>
-			</article>
-			<!-- 
-			
-			SECOND PAGE END
-			
-			-->
-
-
-		</section>
-		
-		
-		
 		
 		<div id="sliders-cont">
 			<div class="inside">
@@ -345,65 +243,98 @@
 		
 		
 		<!-- our work -->
-		<section class='safo-work' data-section='safo-work'>
-			<div class='section-contents'>
-				<article class="client-intro">
-					<h2>Our work</h2>
-					<p class='narrow'>Working with Saforian has its privileges. 
-					It's not every day you get a partner who
-					focuses all of their energies on ensuring 
-					your project is a success. Our creative 
-					experts enjoy what they do and work hard
-					applying their strategic thinking 
-					across the full scope of your project.</p>
-					<p class='narrow comingsoon'>Case Studies launching in early 2013.</p>
+		<div id="iso-wrap" class="our-work" data-section="our-work">
+			<h2>Work</h2>
+			<section id="iso-cont">
+				<!-- 
+
+				FIRST PAGE START
+
+				-->
+				<article class="item safo-client first-page">
+					<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
+					<p>Northern Virginia Magazine</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
+					<p>Share Our Strength Initiative</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
+					<p>Society for Human Resource Management</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<p>Wagner Custom Skis</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
+					<p>American Trucking Association</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
+					<p>American Association of Orthodontists</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
+					<p>Northern Virginia Magazine</p>
+				</article>
+				<article class="item safo-client first-page filter">
+					<a href='#' data-filter=".second-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
+				</article>
+				<!-- 
+
+				FIRST PAGE END | START SECOND PAGE
+
+				-->
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>United Nations Foundation</p>
+				</article>
+				<article class="item safo-client second-page">
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
+					<p>project</p>
+				</article>
+				<article class="item safo-client second-page filter">
+					<a href='#' data-filter=".first-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
 				</article>
 				
-				<div class='row-fluid'>
-					<div class='span4'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
-							<h3><a href='#'>No Kid Hungry</a></h3>
-							<p>Share Our Strength Initiative</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-							<h3><a href='#'>Clean Cookstoves</a></h3>
-							<p>United Nations Foundation</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
-							<h3><a href='#'>SHRM</a></h3>
-							<p>Society for Human Resource Management</p>
-						</div>
-					</div>
-					<div class='span4'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-							<h3><a href='#'>Wagner</a></h3>
-							<p>Wagner Custom Skis</p>
-						</div>
-					</div>
-					<div class='span4 l'>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-							<h3><a href='#'>Specialicious</a></h3>
-							<p>Northern Virginia Magazine</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
-							<h3><a href='#'>American Trucking</a></h3>
-							<p>American Trucking Association</p>
-						</div>
-						<div class='safo-client'>
-							<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
-							<h3><a href='#'>AAO</a></h3>
-							<p>American Association of Orthodontists</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- end section-contents -->
-		</section><!-- end safo-work -->
+				<!-- 
+
+				SECOND PAGE END
+
+				-->
+			</section>
+		</div>
+
 		
 
 

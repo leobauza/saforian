@@ -603,11 +603,28 @@ section.safo-work img.mobile-img {
   top: 290px;
 }
 /***** ISOTOPE WORK *****/
-#iso-cont {
+#iso-wrap {
+  max-width: 1020px;
+  *width: 1020px;
   margin: 0 auto;
+  padding: 60px 0;
+}
+#iso-wrap h2 {
+  font-size: 4em;
+  font-weight: 300;
+  margin-bottom: 77px;
+  text-align: center;
+  color: #000000;
+}
+#iso-cont {
+  margin: 0px auto;
 }
 #iso-cont .item {
   margin-bottom: 20px;
+}
+#iso-cont .item p {
+  padding: 10px 0px;
+  text-align: center;
 }
 #iso-cont .item img {
   display: block;
@@ -2741,6 +2758,16 @@ img[src*="iw3.png"] {
   }
   section.safo-jobs .job-post:last-child {
     margin: 0 0 20px;
+  }
+  section.safo-jobs a .job-title {
+    float: none;
+  }
+  section.safo-jobs .job-location {
+    display: block;
+    float: none;
+  }
+  section.safo-jobs .job-date {
+    margin: 0;
   }
   /*careers page*/
   #career-header #brand {

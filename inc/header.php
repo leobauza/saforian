@@ -109,7 +109,9 @@ header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 		.slides .slide.active .body .icon h2 {
 			display:block;
 		}
-		
+		#iso-wrap {
+			width:1020px;
+		}
 	</style>
 	<![endif]-->
 

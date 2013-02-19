@@ -134,11 +134,11 @@ function gallerySetUp() {
 //new gallery set up
 function gallerySetUp2() {
 	// clone image
-	$('#iso-cont img').each(function(){
+	$('#iso-cont img').not('.ignore').each(function(){
 		var el = $(this);
-		el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: inline-block'>").clone().addClass('img_grayscale').css({"position":"absolute","z-index":"998","opacity":"0"}).insertBefore(el).queue(function(){
+		el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: block'>").clone().addClass('img_grayscale').css({"position":"absolute","z-index":"998","opacity":"0"}).insertBefore(el).queue(function(){
 			var el = $(this);
-			el.parent().css({"width":this.width,"height":this.height});
+			el.parent().css({"width":this.width + 28,"height":this.height});
 			el.dequeue();
 		});
 		this.src = grayscale(this.src);

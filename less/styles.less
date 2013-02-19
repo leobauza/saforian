@@ -516,10 +516,28 @@ section.safo-work {
 
 
 /***** ISOTOPE WORK *****/
-#iso-cont {
+#iso-wrap {
+	max-width:1020px;
+	*width:1020px;
 	margin:0 auto;
+	padding:60px 0;
+	h2 {
+		font-size: 4em;
+		font-weight: 300;
+		margin-bottom: 77px;
+		text-align: center;
+		color:@black;
+	}
+}
+
+#iso-cont {
+	margin:0px auto;
 	.item {
 		margin-bottom:20px;
+		p {
+			padding:10px 0px;
+			text-align:center;
+		}
 		img {
 			display:block;
 			margin:0 14px;
@@ -2850,6 +2868,16 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 				margin:0 0 20px
 			}
 		}
+		a .job-title {
+			float:none;
+		}
+		.job-location {
+			display:block;
+			float:none;
+		}
+		.job-date {
+			margin:0;
+		}
 	}
 	
 	/*careers page*/
@@ -2876,6 +2904,10 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			padding-top:20px;
 		}
 	}
+	
+	
+	
+	
 	
 	/*margin right instead of margin left to do overflow hidden*/
 	.row-fluid > [class*="span"] {
