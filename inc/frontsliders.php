@@ -1,7 +1,7 @@
 <!-- FOCUS AREA SLIDER -->
 <section id="focus-wrap" class='safo-methodology' data-section='safo-methodology'>
 	<div class='section-contents'>
-		<h2 class='method-section our-method'>As experts of digital strategy, we focus on the five most important challenges</h2>
+		<h2 class='method-section our-method'>As experts of digital strategy,<br> we focus on the five most important challenges</h2>
 	</div>
 	<div class='method-section our-method'>
 			<div class="method-group">
