@@ -21,7 +21,8 @@ input,select{vertical-align:middle}
 body {
 	font-size:@base-size;
 	color: #666;
-	font-family: @sans-serif; 
+	font-family: @sans-serif;
+	font-weight:400;
 }
 section {
 	h2 {
@@ -435,6 +436,17 @@ section.safo-methodology {
 #sliders-cont {
 	position:relative;
 	height:980px;
+	background:@black;
+	.inside {
+		*height:980px;
+		*position:relative;
+		*width:1020px;
+		*margin:0 auto;
+		*overflow:hidden;
+	}
+	&.lighten {
+		background:@offwhite;
+	}
 }
 
 #focus-wrap {

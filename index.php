@@ -49,7 +49,9 @@
 		
 		
 		<div id="sliders-cont">
-			<?php include('inc/frontsliders.php');?>
+			<div class="inside">
+				<?php include('inc/frontsliders.php');?>
+			</div>
 		</div>
 		
 		
