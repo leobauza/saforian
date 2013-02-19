@@ -131,6 +131,20 @@ function gallerySetUp() {
 	});
 }
 
+//new gallery set up
+function gallerySetUp2() {
+	// clone image
+	$('#iso-cont img').each(function(){
+		var el = $(this);
+		el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: inline-block'>").clone().addClass('img_grayscale').css({"position":"absolute","z-index":"998","opacity":"0"}).insertBefore(el).queue(function(){
+			var el = $(this);
+			el.parent().css({"width":this.width,"height":this.height});
+			el.dequeue();
+		});
+		this.src = grayscale(this.src);
+	});
+}
+
 
 /* 
  * =============================================================
@@ -221,6 +235,7 @@ $(window).load(function(){
 	
 	if(ieVer == -1 || ieVer == 9) {
 		gallerySetUp();
+		gallerySetUp2();
 	}
 	
 	// Fade image 
@@ -230,6 +245,17 @@ $(window).load(function(){
 	$('.img_grayscale').mouseout(function(){
 		$(this).stop().animate({opacity:0}, 1000);
 	});
+
+	// NEW FADE IMAGE 
+	$('#iso-cont img').mouseover(function(){
+		$(this).parent().find('img:first').stop().animate({opacity:1}, 1000);
+	});
+	$('.img_grayscale').mouseout(function(){
+		$(this).stop().animate({opacity:0}, 1000);
+	});
+
+
+
 
 	/* 
 	 * =============================================================

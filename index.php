@@ -48,6 +48,54 @@
 		</section>
 		
 		
+		
+		<section class="safo-work">
+			<div class="section-contents">
+				<h2>Work</h2>
+			</div>
+		</section>
+		<section id="iso-cont">
+			<article class="item safo-client">
+				<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>Northern Virginia Magazine</p>
+			</article>
+			<article class="item safo-client">
+				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
+				<p>NEXT</p>
+			</article>
+		</section>
+		
+		
+		
+		
 		<div id="sliders-cont">
 			<div class="inside">
 				<?php include('inc/frontsliders.php');?>
@@ -306,44 +354,6 @@
 		</section><!-- end safo-work -->
 		
 
-		<section id="iso-cont">
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>Northern Virginia Magazine</p>
-			</article>
-			<article class="item safo-client">
-				<img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' />
-				<p>NEXT</p>
-			</article>
-		</section>
 
 
 		
