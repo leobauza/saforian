@@ -560,8 +560,8 @@ if($theHash){
  * =============================================================
 */
 	
-	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
 	
+	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
 	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
 	
 	
@@ -723,7 +723,7 @@ $("#site-nav ul").width($navWidth);
 		// options
 		itemSelector : '.item',
 		masonry: {
-			columnWidth: 340
+			columnWidth: 320
 		}
 	});
 	//filtering stuff

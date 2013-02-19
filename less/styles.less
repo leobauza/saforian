@@ -522,7 +522,7 @@ section.safo-work {
 		margin-bottom:20px;
 		img {
 			display:block;
-			margin:0 24px;
+			margin:0 14px;
 			&.mobile-img {
 				display:none;
 			}
@@ -2403,9 +2403,10 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	.img_wrapper {
 		display:none!important;
 	}
+
 	section.safo-work img.mobile-img, #iso-cont .item img.mobile-img {
 		display:block;
-		margin:0 auto;
+		margin:0 14px;
 	}
 	section.safo-methodology {
 		.method-nav {
@@ -2525,7 +2526,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			}
 		}
 	}
-}	
+}
 	
 @media (max-width: 770px) {
 	section.safo-start {
@@ -2553,6 +2554,14 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	
 } /*end 770 media*/
 @media (max-width: 760px) {
+	
+	#iso-cont .item {
+		width:100%;
+		img.mobile-img {
+			margin:0 auto;
+		}
+	}
+	
 	
 	#work-block .highlights {
 		padding-top: 20px;

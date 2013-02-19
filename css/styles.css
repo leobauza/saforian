@@ -611,7 +611,7 @@ section.safo-work img.mobile-img {
 }
 #iso-cont .item img {
   display: block;
-  margin: 0 24px;
+  margin: 0 14px;
 }
 #iso-cont .item img.mobile-img {
   display: none;
@@ -2375,7 +2375,7 @@ img[src*="iw3.png"] {
   section.safo-work img.mobile-img,
   #iso-cont .item img.mobile-img {
     display: block;
-    margin: 0 auto;
+    margin: 0 14px;
   }
   section.safo-methodology .method-nav {
     font-size: 2.5em;
@@ -2485,6 +2485,12 @@ img[src*="iw3.png"] {
 }
 /*end 770 media*/
 @media (max-width: 760px) {
+  #iso-cont .item {
+    width: 100%;
+  }
+  #iso-cont .item img.mobile-img {
+    margin: 0 auto;
+  }
   #work-block .highlights {
     padding-top: 20px;
   }
