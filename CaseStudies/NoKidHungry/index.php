@@ -94,7 +94,7 @@
 	<section class="block">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/nkh_ia.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/nkh_ia.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Information Architecture</h2>
@@ -107,7 +107,7 @@
 	<section class="block">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/nkh_chart.png" alt="Navigational Models">
+				<img src="../../images/caseStudies/nkh_chart.png" alt="Navigational Models" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Navigational Models</h2>
@@ -129,7 +129,7 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/nkh_story.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/nkh_story.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Interactive Storytelling</h2>

@@ -34,7 +34,7 @@
 	<section class="block">
 		<h2>Event Campaign Tracking</h2>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/dineout_ipad.png" alt="Large Image">
+			<img src="../../images/caseStudies/dineout_ipad.png" alt="Large Image" class="padding-bottom">
 		</figure>
 		<div class="row-fluid">
 			<article class="span6">
@@ -123,7 +123,7 @@
 					<img src="../../images/caseStudies/dineout_large1.png" alt="Admin Roles and Permissions">
 				</figure>	
 				<figure class="center-img">
-					<img src="../../images/caseStudies/dineout_large2.png" alt="Admin Roles and Permissions">
+					<img src="../../images/caseStudies/dineout_large2.png" alt="Admin Roles and Permissions" class="padding-bottom">
 				</figure>
 			</div>
 			<div class="span5 l">

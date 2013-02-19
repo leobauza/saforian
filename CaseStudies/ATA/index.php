@@ -1,17 +1,5 @@
 <?php include("../header.php");?>
 
-<nav class="safo-nav open group">
-	<ul class='topnav group'>
-		<li><a href='#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
-		<li><a href='#method' id='topnav-history' data-scrollto='safo-history'>Our History</a></li>
-		<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Our Method</a></li>
-		<li><a href='#work' class='on' id='topnav-work' data-scrollto='safo-work'>Our Work</a></li>
-		<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Our Clients</a></li>
-		<li><a href='#contact' id='topnav-contact' data-scrollto='safo-contact'>Get in Touch</a></li>
-		<li><a href='#careers' id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
-	</ul>
-	<span class="opennav"></span>
-</nav>
 <article class="hero ata-hero ">
 	<div class="inner">
 		<blockquote>
@@ -89,7 +77,7 @@
 	<section class="block-last">
 		<article class="row-fluid">
 			<div class="span7">
-				<img src="../../images/caseStudies/ata_ipad.png" alt="Capturing + Connecting Audiences">
+				<img src="../../images/caseStudies/ata_ipad.png" alt="Capturing + Connecting Audiences" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Capturing and Connecting Audiences</h2>

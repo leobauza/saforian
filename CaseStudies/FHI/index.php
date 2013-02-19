@@ -35,7 +35,7 @@
 	<section class="block">
 		<article class="row-fluid">
 			<div class="span8">
-				<img src="../../images/caseStudies/fhi_ia.png" alt="Information Architecture Image">
+				<img src="../../images/caseStudies/fhi_ia.png" alt="Information Architecture Image" class="padding-bottom">
 			</div>
 			<div class="span5 l">
 				<h2>Informational Architecture</h2>
