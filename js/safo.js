@@ -561,9 +561,6 @@ if($theHash){
 			<div>\
 				<p><a href="7033304499">703.330.4499</a> | <a href="mailto:hello@saforian.com">hello@saforian.com</a></p>\
 			</div>\
-			<div>\
-				<a href="#" class="toppage"><img src="/images/scroll-up-smaller.png" alt="Scroll to Top" class="scroll-top"></a>\
-			</div>\
 		</div>'
 	});
 	
@@ -574,10 +571,8 @@ if($theHash){
 		
 	}
 	
-	
-	
 	google.maps.event.addDomListener(window, 'load', initialize);
-	
+
 /* 
  * =============================================================
  * inline li items wreck my day when resizing upward because the ul gets its own size wrong...this sorta fixes it not really the overflow:hidden does though
