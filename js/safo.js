@@ -730,6 +730,7 @@ $("#site-nav ul").width($navWidth);
 	$container = $('#iso-cont');
 	//call isotope
 	$container.isotope({
+		filter: '.first-page',
 		// options
 		itemSelector : '.item',
 		masonry: {
@@ -737,11 +738,11 @@ $("#site-nav ul").width($navWidth);
 		}
 	});
 	//filtering stuff
-	// $('#filters a').click(function(e){
-	// 	var selector = $(this).attr('data-filter');
-	// 	$container.isotope({ filter: selector });
-	// 	e.preventDefault();
-	// });
+	$('.filter a').click(function(e){
+		var selector = $(this).attr('data-filter');
+		$container.isotope({ filter: selector });
+		e.preventDefault();
+	});
 
 
 
