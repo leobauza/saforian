@@ -1712,6 +1712,7 @@ section.safo-jobs a:hover {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 500;
 }
 .next-prev a {
   display: block;
@@ -1740,7 +1741,7 @@ section.safo-jobs a:hover {
 .pag-wrap .slide-pag {
   margin: 0 auto;
   width: 130px;
-  *width: 135px;
+  *width: 155px;
 }
 .pag-wrap .slide-pag a {
   display: block;
@@ -1759,7 +1760,7 @@ section.safo-jobs a:hover {
 }
 .pag-wrap.alt .slide-pag {
   width: 105px;
-  *width: 110px;
+  *width: 130px;
 }
 .pag-wrap.alt .slide-pag a {
   color: #dedede;
