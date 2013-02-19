@@ -542,11 +542,10 @@ if($theHash){
  * Google Map
  * =============================================================
 */
-	
-	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
-	
-	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
-	
+	if($('#googleMap').length) {
+		var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
+		var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	}
 	
 	function initialize()
 	{
@@ -586,8 +585,9 @@ if($theHash){
 	}
 	
 	
-	
-	google.maps.event.addDomListener(window, 'load', initialize);
+	if($('#googleMap').length) {
+		google.maps.event.addDomListener(window, 'load', initialize);
+	}
 	
 /* 
  * =============================================================
@@ -610,8 +610,8 @@ if($theHash){
 
 var $navWidth = $("#site-nav").width();
 
-if($navWidth < 656) {
-	$navWidth = 656;
+if($navWidth < 575) {
+	$navWidth = 575;
 }
 $("#site-nav ul").width($navWidth);
 
@@ -620,8 +620,8 @@ $("#site-nav ul").width($navWidth);
 			var $navWidth = $("#site-nav").width();
 		}
 
-		if($navWidth < 682) {
-			$navWidth = 682;
+		if($navWidth < 575) {
+			$navWidth = 575;
 		}
 
 		$newWinWidth = $(window).width();

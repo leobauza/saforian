@@ -1606,6 +1606,7 @@ section.safo-jobs a:hover {
   width: 480px;
   height: 490px;
   position: absolute;
+  z-index: 500;
 }
 .icon-text-slider .next-prev .next-slide .inner {
   display: block;
@@ -1619,6 +1620,7 @@ section.safo-jobs a:hover {
   width: 480px;
   height: 490px;
   position: absolute;
+  z-index: 500;
 }
 .icon-text-slider .next-prev .prev-slide .inner {
   display: block;
@@ -1738,6 +1740,7 @@ section.safo-jobs a:hover {
 .pag-wrap .slide-pag {
   margin: 0 auto;
   width: 130px;
+  *width: 135px;
 }
 .pag-wrap .slide-pag a {
   display: block;
@@ -1756,6 +1759,7 @@ section.safo-jobs a:hover {
 }
 .pag-wrap.alt .slide-pag {
   width: 105px;
+  *width: 110px;
 }
 .pag-wrap.alt .slide-pag a {
   color: #dedede;

@@ -7,12 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script type="text/javascript" src="//use.typekit.net/czh0lmh.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<link rel='stylesheet' href='./css/styles.css' />
+		<link rel='stylesheet' href='/css/styles.css' />
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
-		<script type='text/javascript' src='./js/inline.js'></script>
 			
 		<script>
 		$(function(){
+			//makes the first panel the full screen height on mobile
 			var $winWidth = $(window).width();
 			if($winWidth < 940) {
 				var $winHeight = $(window).height();
@@ -29,7 +29,8 @@
 		</script>
 		
 		<script type="text/javascript"
-		      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_oHCo6owmIGzzdFcXxvBb5ucqxHZd9kI&sensor=false">
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_oHCo6owmIGzzdFcXxvBb5ucqxHZd9kI&sensor=false">
+			
 		</script>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
