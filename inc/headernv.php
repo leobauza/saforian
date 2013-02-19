@@ -6,11 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script type="text/javascript" src="//use.typekit.net/czh0lmh.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<link rel='stylesheet' href='../../css/styles.css' />
+		<link rel='stylesheet' href='/css/styles.css' />
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
-		<script type='text/javascript' src='./js/inline.js'></script>
+		<script type='text/javascript' src='/js/inline.js'></script>
 		
 		<script>
+		//makes the first panel the full screen height on mobile
 		$(function(){
 			var $winWidth = $(window).width();
 			if($winWidth < 940) {

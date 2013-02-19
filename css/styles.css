@@ -1606,6 +1606,7 @@ section.safo-jobs a:hover {
   width: 480px;
   height: 490px;
   position: absolute;
+  z-index: 500;
 }
 .icon-text-slider .next-prev .next-slide .inner {
   display: block;
@@ -1619,6 +1620,7 @@ section.safo-jobs a:hover {
   width: 480px;
   height: 490px;
   position: absolute;
+  z-index: 500;
 }
 .icon-text-slider .next-prev .prev-slide .inner {
   display: block;
