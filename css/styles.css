@@ -626,7 +626,13 @@ section.safo-work img.mobile-img {
   padding: 10px 0px;
   text-align: center;
 }
+#iso-cont .item a {
+  height: 217px;
+  width: 320px;
+  display: block;
+}
 #iso-cont .item img {
+  height: 217px;
   display: block;
   margin: 0 14px;
 }
