@@ -2857,6 +2857,18 @@ img[src*="iw3.png"] {
   .copyright .span4 {
     float: left;
   }
+  .capabilities-bg .std-header h1 {
+    font-size: 3.5em;
+  }
+  .capabilities-bg .std-body h3 {
+    font-size: 2.4em;
+  }
+  .capabilities-bg .std-body p {
+    font-size: 18px;
+  }
+  .capabilities-bg .std-body li {
+    font-size: 18px;
+  }
 }
 @media (max-width: 600px) {
   .hero.aao-hero blockquote,
