@@ -574,9 +574,10 @@ if($theHash){
  * =============================================================
 */
 	
-	
-	var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
-	var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	if($('#googleMap').length){
+		var myCenter=new google.maps.LatLng(38.8462096, -77.3063953);
+		var newCenter=new google.maps.LatLng(38.7453191, -77.4503217);
+	}
 	
 	
 	function initialize()
@@ -616,7 +617,9 @@ if($theHash){
 		
 	}
 	
-	google.maps.event.addDomListener(window, 'load', initialize);
+	if($('#googleMap').length){
+		google.maps.event.addDomListener(window, 'load', initialize);
+	}
 
 /* 
  * =============================================================
@@ -670,83 +673,82 @@ $("#site-nav ul").width($navWidth);
  */
 
 
-	//center
-	$.Isotope.prototype._getCenteredMasonryColumns = function() {
-		this.width = this.element.width();
+	if($('#iso-cont').length) {
+		//center
+		$.Isotope.prototype._getCenteredMasonryColumns = function() {
+			this.width = this.element.width();
 		
-		var parentWidth = this.element.parent().width();
+			var parentWidth = this.element.parent().width();
 		
-									// i.e. options.masonry && options.masonry.columnWidth
-		var colW = this.options.masonry && this.options.masonry.columnWidth ||
-									// or use the size of the first item
-									this.$filteredAtoms.outerWidth(true) ||
-									// if there's no items, use size of container
-									parentWidth;
+										// i.e. options.masonry && options.masonry.columnWidth
+			var colW = this.options.masonry && this.options.masonry.columnWidth ||
+										// or use the size of the first item
+										this.$filteredAtoms.outerWidth(true) ||
+										// if there's no items, use size of container
+										parentWidth;
 		
-		var cols = Math.floor( parentWidth / colW );
-		cols = Math.max( cols, 1 );
+			var cols = Math.floor( parentWidth / colW );
+			cols = Math.max( cols, 1 );
 	
-		// i.e. this.masonry.cols = ....
-		this.masonry.cols = cols;
-		// i.e. this.masonry.columnWidth = ...
-		this.masonry.columnWidth = colW;
-	};
-	
-	$.Isotope.prototype._masonryReset = function() {
-		// layout-specific props
-		this.masonry = {};
-		// FIXME shouldn't have to call this again
-		this._getCenteredMasonryColumns();
-		var i = this.masonry.cols;
-		this.masonry.colYs = [];
-		while (i--) {
-			this.masonry.colYs.push( 0 );
-		}
-	};
-	
-	$.Isotope.prototype._masonryResizeChanged = function() {
-		var prevColCount = this.masonry.cols;
-		// get updated colCount
-		this._getCenteredMasonryColumns();
-		return ( this.masonry.cols !== prevColCount );
-	};
-	
-	$.Isotope.prototype._masonryGetContainerSize = function() {
-		var unusedCols = 0,
-				i = this.masonry.cols;
-		// count unused columns
-		while ( --i ) {
-			if ( this.masonry.colYs[i] !== 0 ) {
-				break;
+			// i.e. this.masonry.cols = ....
+			this.masonry.cols = cols;
+			// i.e. this.masonry.columnWidth = ...
+			this.masonry.columnWidth = colW;
+		};
+		$.Isotope.prototype._masonryReset = function() {
+			// layout-specific props
+			this.masonry = {};
+			// FIXME shouldn't have to call this again
+			this._getCenteredMasonryColumns();
+			var i = this.masonry.cols;
+			this.masonry.colYs = [];
+			while (i--) {
+				this.masonry.colYs.push( 0 );
 			}
-			unusedCols++;
-		}
+		};
+		$.Isotope.prototype._masonryResizeChanged = function() {
+			var prevColCount = this.masonry.cols;
+			// get updated colCount
+			this._getCenteredMasonryColumns();
+			return ( this.masonry.cols !== prevColCount );
+		};
+		$.Isotope.prototype._masonryGetContainerSize = function() {
+			var unusedCols = 0,
+					i = this.masonry.cols;
+			// count unused columns
+			while ( --i ) {
+				if ( this.masonry.colYs[i] !== 0 ) {
+					break;
+				}
+				unusedCols++;
+			}
 		
-		return {
-					height : Math.max.apply( Math, this.masonry.colYs ),
-					// fit container to columns that have been used;
-					width : (this.masonry.cols - unusedCols) * this.masonry.columnWidth
-				};
-	};
+			return {
+						height : Math.max.apply( Math, this.masonry.colYs ),
+						// fit container to columns that have been used;
+						width : (this.masonry.cols - unusedCols) * this.masonry.columnWidth
+					};
+		};
 
-	//container var
-	$container = $('#iso-cont');
-	//call isotope
-	$container.isotope({
-		filter: '.first-page',
-		// options
-		itemSelector : '.item',
-		masonry: {
-			columnWidth: 320
-		}
-	});
-	//filtering stuff
-	$('.filter a').click(function(e){
-		var selector = $(this).attr('data-filter');
-		$container.isotope({ filter: selector });
-		e.preventDefault();
-	});
-
+		//container var
+		$container = $('#iso-cont');
+		//call isotope
+		$container.isotope({
+			filter: '.first-page',
+			// options
+			itemSelector : '.item',
+			masonry: {
+				columnWidth: 320
+			}
+		});
+		//filtering stuff
+		$('.filter a').click(function(e){
+			var selector = $(this).attr('data-filter');
+			$container.isotope({ filter: selector });
+			e.preventDefault();
+		});
+	} //end if iso
+	
 
 }); //end my ready
 	

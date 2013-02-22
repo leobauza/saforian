@@ -35,7 +35,7 @@
 		</section><!-- end safo-start -->
 
 		<!-- history -->
-		<section class='safo-history' data-section='safo-history'>
+		<section class='safo-history'>
 			<div class='section-contents group'>
 				<p class='established'>Est. <span>2002</span></p>
 				<p>Founded on the belief of creating incredible end-user experiences 
