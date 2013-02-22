@@ -252,36 +252,36 @@
 
 				-->
 				<article class="item safo-client first-page">
-					<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-					<p>Northern Virginia Magazine</p>
-				</article>
-				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='No Kid Hungry' /></a>
+					<a href="#"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
 					<p>Share Our Strength Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
+					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
+					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='SHRM' /></a>
-					<p>Society for Human Resource Management</p>
+					<a href='#'><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
+					<p>Northern Virginia Magazine Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-					<p>Wagner Custom Skis</p>
+					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
+					<p>United Nations Initiative</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='FHI 360' /></a>
+					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
 					<p>American Trucking Association</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='Orthodontists' /></a>
-					<p>American Association of Orthodontists</p>
+					<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='Society for Human Resource Management' /></a>
+					<p>Society for Human Resource Management</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="#"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Specialicious' /></a>
-					<p>Northern Virginia Magazine</p>
+					<a href="#"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page filter">
 					<a href='#' data-filter=".second-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>

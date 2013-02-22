@@ -625,6 +625,8 @@ section.safo-work img.mobile-img {
 #iso-cont .item p {
   padding: 10px 0px;
   text-align: center;
+  font-weight: 700;
+  color: #ddd;
 }
 #iso-cont .item a {
   height: 217px;
