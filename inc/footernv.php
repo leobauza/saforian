@@ -92,6 +92,7 @@
 	<script type='text/javascript' src='../../js/waypoints.min.js'></script>
 	<script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
 	<script type='text/javascript' src='../../js/safo.js'></script>
+	<script type='text/javascript' src='../../js/safo2.js'></script>
 
 
 	<script type="text/javascript">

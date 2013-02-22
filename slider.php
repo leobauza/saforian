@@ -34,12 +34,11 @@
 			<article class="span6">
 				<div class="lightbulb-bg">
 					<img src="/images/va-slider/lightbulb-bg.png">
-					<div id="lightbulb-yellow">
-						<img id="yellow" src="/images/va-slider/lightbulb-yellow.png" width="120" height="120">
-						
-						
-
-					</div>
+				</div>
+				<div>
+					
+					<a href="#" class="arrow">Light<span></span></a>
+					
 				</div>
 				
 			</article>
