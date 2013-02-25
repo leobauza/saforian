@@ -315,11 +315,6 @@
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Kick Butts Day</p>
 				</article>
-				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/nkh.jpg' alt='No Kid Hungry' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
-					<p>No Kid Hungry</p>
-				</article>
 				
 				<article class="item safo-client second-page filter">
 					<a href='#' data-filter=".first-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
