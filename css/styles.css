@@ -621,6 +621,7 @@ section.safo-work img.mobile-img {
 }
 #iso-cont .item {
   margin-bottom: 20px;
+  position: relative;
 }
 #iso-cont .item p {
   padding: 10px 0px;

@@ -745,6 +745,7 @@ $("#site-nav ul").width($navWidth);
 		$('.filter a').click(function(e){
 			var selector = $(this).attr('data-filter');
 			$container.isotope({ filter: selector });
+			$('body').scrollTo('.our-work', 500);
 			e.preventDefault();
 		});
 	} //end if iso
