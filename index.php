@@ -252,7 +252,7 @@
 
 				-->
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/NoKidHungry"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
+					<a href="http://www.saforian.com/CaseStudies/NoKidHungry" class="ignore"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
 					<p>Share Our Strength Initiative</p>
 					
 				</article>
@@ -267,7 +267,7 @@
 					<p>Northern Virginia Magazine Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='http://www.saforian.com/CaseStudies/UNF'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
+					<a href="http://www.saforian.com/CaseStudies/UNF" class="ignore"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
 					<p>United Nations Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
@@ -286,7 +286,7 @@
 					<p>Society for Human Resource Management</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/Wagner"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<a href="http://www.saforian.com/CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page filter">
@@ -298,7 +298,7 @@
 
 				-->
 				<article class="item safo-client second-page">
-					<a href='http://www.saforian.com/CaseStudies/DineOut'><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
+					<a href="http://www.saforian.com/CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
 					<p>The Great American DineOut</p>
 				</article>
 				<article class="item safo-client second-page">
@@ -307,7 +307,7 @@
 					<p>Grunley</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href='http://www.saforian.com/CaseStudies/KBD'><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
+					<a href="http://www.saforian.com/CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
 					<p>Kick Butts Day</p>
 				</article>
 				

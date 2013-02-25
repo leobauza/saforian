@@ -277,7 +277,7 @@ $(window).load(function(){
 	 * TEMPORARILY CANCEL CLICKS ON WORK
 	 * =============================================================
 	 */
-	$(".safo-client a").click(function(e){
+	$('.safo-client a').not('.ignore').click(function(e){
 		e.preventDefault();
 	});
 
