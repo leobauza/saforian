@@ -267,9 +267,9 @@ $(window).load(function(){
 		$(this).find('h3').before("<img class='mobile-img' src='"+ imgSrc +"' />");
 	});
 
-	$('#iso-cont .safo-client').each(function(){
+	$('#iso-cont .safo-client').not('.filter').each(function(){
 		var imgSrc = $(this).find('img').attr('src');
-		$(this).find('p').before("<img class='mobile-img' src='"+ imgSrc +"' />");
+		$(this).find('a').append("<img class='mobile-img' src='"+ imgSrc +"' />");
 	});
 
 	/* 
