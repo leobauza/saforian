@@ -2587,6 +2587,9 @@ img[src*="iw3.png"] {
   #iso-cont .item img.mobile-img {
     margin: 0 auto;
   }
+  #iso-cont .item p {
+    width: 50%;
+  }
   #work-block .highlights {
     padding-top: 20px;
   }
@@ -2890,6 +2893,17 @@ img[src*="iw3.png"] {
   }
   .capabilities-bg .std-body li {
     font-size: 18px;
+  }
+}
+@media (max-width: 639px) {
+  #iso-cont .item {
+    width: 100%;
+  }
+  #iso-cont .item img.mobile-img {
+    margin: 0 auto;
+  }
+  #iso-cont .item p {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
