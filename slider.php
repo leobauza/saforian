@@ -26,24 +26,27 @@
 
 <section class="novaslider-bg">
 	<div class="std-block">
-		<div class="row-fluid first">
-			<article class="span6">
-				&nbsp;
-			</article>
-				
-			<article class="span6">
-				<div class="lightbulb-bg">
-					<img src="/images/va-slider/lightbulb-bg.png">
-				</div>
-				<div>
-					
-					<a href="#" class="arrow">Light<span></span></a>
-					
-				</div>
-				
-			</article>
-		</div>
+		<div class="light-bulb">
+			
+		</div>	
 		
+		
+		<div class="std-header">
+			<h1>Virginia Web Design Firm with National Expertise</h1>
+			<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
+		</header>
+		<article class="std-body">
+		</article>
+		<div class="next">
+			<img src="../../images/va-slider/next.png" alt="Next">
+		</div>
+			
+		<header class="std-header">
+			<h1>Virginia Web Design Firm with National Expertise</h1>
+			<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
+		</header>
+		<article class="std-body">
+			
 	</div>
 </section>
 

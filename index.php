@@ -252,8 +252,7 @@
 
 				-->
 				<article class="item safo-client first-page">
-					<a href="#"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="http://www.saforian.com/CaseStudies/NoKidHungry"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
 					<p>Share Our Strength Initiative</p>
 					
 				</article>
@@ -268,8 +267,7 @@
 					<p>Northern Virginia Magazine Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href='http://www.saforian.com/CaseStudies/UNF'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
 					<p>United Nations Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
@@ -288,8 +286,7 @@
 					<p>Society for Human Resource Management</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="#"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="http://www.saforian.com/CaseStudies/Wagner"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page filter">
@@ -301,8 +298,7 @@
 
 				-->
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href='http://www.saforian.com/CaseStudies/DineOut'><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
 					<p>The Great American DineOut</p>
 				</article>
 				<article class="item safo-client second-page">
@@ -311,8 +307,7 @@
 					<p>Grunley</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href='http://www.saforian.com/CaseStudies/KBD'><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
 					<p>Kick Butts Day</p>
 				</article>
 				
@@ -405,7 +400,7 @@
 		<!-- contact us -->
 		<section class='safo-contact' data-section='safo-contact'>
 			<div class='section-contents'>
-				<h2>Let's start a conversation.</h2>
+				<h2>Let's start a conversation</h2>
 				<div class='row-fluid mid contact form'>
 					<div class='span6'>
 						<form name='contact' id='contact' class='contact-form' method='post'>
