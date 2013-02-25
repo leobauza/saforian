@@ -2246,6 +2246,23 @@ img[src*="iws3.png"],
 img[src*="iw3.png"] {
   display: none;
 }
+.port-overlay {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #000;
+  font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 300;
+  line-height: 58px;
+}
+.port-strip {
+  background: #fff;
+  opacity: 0.9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /******STRUCTURE******/
 .section-contents {
   max-width: 1020px;

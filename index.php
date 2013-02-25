@@ -253,34 +253,43 @@
 				-->
 				<article class="item safo-client first-page">
 					<a href="#"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Share Our Strength Initiative</p>
+					
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Northern Virginia Magazine Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>United Nations Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/wagner.jpg' alt='FHI 360' /></a>
+					<a href='#'><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>American Trucking Association</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='Society for Human Resource Management' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Society for Human Resource Management</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href="#"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page filter">
@@ -292,37 +301,26 @@
 
 				-->
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
+					<a href='#'><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>The Great American DineOut</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
+					<a href='#'><img src='images/site/client-thumbnails/grunley.jpg' alt='Grunley' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>Grunley</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
+					<a href='#'><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>Kick Butts Day</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
+					<a href='#'><img src='images/site/client-thumbnails/nkh.jpg' alt='No Kid Hungry' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>No Kid Hungry</p>
 				</article>
-				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
-				</article>
-				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
-				</article>
-				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>United Nations Foundation</p>
-				</article>
-				<article class="item safo-client second-page">
-					<a href='#'><img src='images/site/client-thumbnails/cookstoves.jpg' alt='UNF Clean Cookstoves' /></a>
-					<p>project</p>
-				</article>
+				
 				<article class="item safo-client second-page filter">
 					<a href='#' data-filter=".first-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
 				</article>
