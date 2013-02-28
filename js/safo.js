@@ -586,8 +586,8 @@ if($theHash){
 			center:myCenter,
 			zoom:11,
 			disableDefaultUI:true,
-			mapTypeId:google.maps.MapTypeId.ROADMAP
-
+			mapTypeId:google.maps.MapTypeId.ROADMAP,
+			scrollwheel: false
 		};
 	
 	
@@ -612,8 +612,8 @@ if($theHash){
 	
 	infowindow.open(map, marker);
 	
-	var zoomlevel = { minZoom: 11, maxZoom: 11 };
-		map.setOptions(zoomlevel);
+	// var zoomlevel = { minZoom: 11, maxZoom: 11 };
+	// map.setOptions(zoomlevel);
 		
 	}
 	
@@ -745,7 +745,9 @@ $("#site-nav ul").width($navWidth);
 		$('.filter a').click(function(e){
 			var selector = $(this).attr('data-filter');
 			$container.isotope({ filter: selector });
+			
 			$('body').scrollTo('.our-work', 500);
+			
 			e.preventDefault();
 		});
 	} //end if iso
