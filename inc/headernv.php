@@ -9,6 +9,7 @@
 		<link rel='stylesheet' href='/css/styles.css' />
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
 		<script type='text/javascript' src='/js/inline.js'></script>
+		<script type='text/javascript' src='/js/safo2.js'></script>
 		
 		<script>
 		//makes the first panel the full screen height on mobile

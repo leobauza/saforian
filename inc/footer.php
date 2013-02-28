@@ -34,6 +34,7 @@
 	<script type='text/javascript' src='./js/LiveValidation.1.3.min.js'></script>
 	<script type='text/javascript' src='./js/jquery.isotope.js'></script>
 	<script type='text/javascript' src='./js/safo.js'></script>
+	<script type='text/javascript' src='./js/safo2.js'></script>
 
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

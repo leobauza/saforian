@@ -1360,20 +1360,106 @@ section.safo-jobs {
 }
 
 .novaslider-bg {
-	background: #fff;
+	background: url('../images/va-slider/g-background.png') repeat;
+	
+	#contact {
+		overflow: hidden;
+	}
+	
+	.contact-form input {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		background-color: #dddedf;
+		border: 2px solid #000;
+		font-size: 2.7em;
+		font-weight: 300px;
+		padding: 8px 8px 8px 20px;
+		width: 30%;
+		display: block;
+		color: #666;
+		margin-bottom: 10px;
+		display: block;
+	}
+	
+	.input.btn:active {
+		background-color: #fff;
+	}
+	
+	.contact-form input[type="submit"] {
+		background: url('../images/va-slider/submit.png') no-repeat;
+		background-color: none;
+		width: 45px;
+		height: 45px;
+		padding: 12px;
+		cursor: pointer;
+		border: none;
+		text-indent: 50px;
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.submit-button {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.light {
+		width: 75%;
+		position: fixed;
+		left: 50%;
+		margin: 0 0 0 -37.5%;
+		top: 50px;
+		height: 200px;
+		background: url('../images/va-slider/lightstring.png') center top no-repeat;
+		
+		.bulb {
+			text-align: center;
+			margin-top: 128px;
+			margin-left: 4px;
+		}	
+	}
+	
+	.next {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 200px;
+		display: block;
+	}
+	
+	.first-next {
+		padding-top: 20px;
+	}
+	
+	.std-block {
+		max-width: 700px;
+		
+	}
+	
 	.std-header {
+		padding-top: 270px;
+		
 		h1 {
 			color: #000;
 			font-size: 2.6em;
-			text-align:center;
-			font-weight:300;
-			margin:0 0 85px;
+			text-align: center;
+			font-weight: 300;
+			margin: 0px 0 40px 0;
 		}
 		img {
 			display:block;
-			margin:0 auto 85px;
+			margin: 0 auto;
 		}
 	}
+	
+	.first {
+		padding-top: 100px;
+	}
+	
 	.std-body {
 		color:@black;
 		h3 {
@@ -1384,9 +1470,10 @@ section.safo-jobs {
 			padding: 20px 0 20px 0;
 		}
 		p {
-			font-size:22px;
-			margin:0 0 40px;
-			font-weight:300;
+			font-size: 14px;
+			margin: 0 0 40px;
+			font-weight: 300;
+			text-align: center;
 		}
 		li {
 			font-size: 22px;
@@ -1401,19 +1488,6 @@ section.safo-jobs {
 	li.indent {
 		margin-left: 50px;
 	}
-}
-
-.lightbulb-bg {
-	text-align: left;
-}
-
-#lightbulb-yellow {
-	position: relative;
-	left: -3px;
-	top: -37px;
-	z-index: 0;
-	width: 32px;
-	height: 40px;
 }
 
 .reg-bg {

@@ -99,19 +99,19 @@
 	<section class="block">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/unf_largeimage1.png" alt="Large Image">
+			<img src="../../images/caseStudies/unf_largeimage1.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/unf_largeimage2.png" alt="Large Image">
+			<img src="../../images/caseStudies/unf_largeimage2.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/unf_largeimage3.png" alt="Large Image">
+			<img src="../../images/caseStudies/unf_largeimage3.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/unf_largeimage4.png" alt="Large Image">
+			<img src="../../images/caseStudies/unf_largeimage4.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/unf_largeimage5.png" alt="Large Image">
+			<img src="../../images/caseStudies/unf_largeimage5.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 	
