@@ -13,7 +13,7 @@
 		<div class="row-fluid">
 			<div class="span4">
 				<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
-				<a href="#" class="toppage"><img src="/images/scroll-up-smaller.png" alt="Scroll to Top" class="scroll-top"></a>
+				<!-- <a href="#" class="toppage"><img src="/images/scroll-up-smaller.png" alt="Scroll to Top" class="scroll-top"></a> -->
 			</div>
 			<div class="span8 l">
 				<p>&copy; 2013</p>
