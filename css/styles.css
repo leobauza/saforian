@@ -1959,6 +1959,11 @@ section.safo-jobs a:hover {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.drupalcon-hero {
+  background-image: url('../images/caseStudies/drupalcon_hero.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 .hero.grunley-hero {
   background-image: url('../images/caseStudies/grunley_hero.png');
   background-repeat: no-repeat;
@@ -2272,6 +2277,9 @@ section.safo-jobs a:hover {
 #work-block .center-img3 img {
   display: block;
   margin: 0 auto;
+}
+.space {
+  padding-bottom: 25px;
 }
 .copyright {
   background: #000;

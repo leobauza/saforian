@@ -310,6 +310,11 @@
 					<a href="http://www.saforian.com/CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
 					<p>Kick Butts Day</p>
 				</article>
+				<article class="item safo-client second-page">
+					<a href="http://www.saforian.com/CaseStudies/Drupalcon"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>Drupalcon</p>
+				</article>
 				
 				<article class="item safo-client second-page filter">
 					<a href='#' data-filter=".first-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
