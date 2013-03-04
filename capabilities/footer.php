@@ -50,7 +50,7 @@
 	</section>
 </footer>
 
-<section class="copyright">
+<!--<section class="copyright">
 	<div class="section-contents">
 		<div class="row-fluid">
 			<div class="span4">
@@ -61,7 +61,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 	
 	
 	
