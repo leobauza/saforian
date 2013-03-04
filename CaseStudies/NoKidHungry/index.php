@@ -119,10 +119,10 @@
 	<section class="block">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/nkh_largeimage1.png" alt="Large Image">
+			<img src="../../images/caseStudies/nkh_largeimage1.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/nkh_largeimage2.png" alt="Large Image">
+			<img src="../../images/caseStudies/nkh_largeimage2.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 
