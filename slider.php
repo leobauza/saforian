@@ -1,5 +1,6 @@
 <?php include("inc/header.php");?>
 
+
 <!-- header -->
 <section id="header-wrap">
 	<header id="site-header" class="group">
@@ -23,46 +24,30 @@
 	</header>
 </section>
 
-
+<section id="content">
 <section class="novaslider-bg">
 	<div class="std-block">
 		<div class="light">
 			<div class="bulb">
-				
-				<script language="javascript">
-				    function changeImage() {
-
-				        if (document.getElementById("imgClickAndChange").src == "http://www.saforian.com/images/va-slider/lightbulb-off.png") 
-				        {
-				            document.getElementById("imgClickAndChange").src = "http://www.saforian.com/images/va-slider/lightbulb-on.png";
-				        }
-				        else 
-				        {
-				            document.getElementById("imgClickAndChange").src = "http://www.saforian.com/images/va-slider/lightbulb-off.png";
-				        }
-				    }
-				</script>
-				
 				<img alt="" src="../../images/va-slider/lightbulb-off.png" id="imgClickAndChange" onclick="changeImage()"  />
-
-				
-				
 			</div>
 		</div>	
 	</div>
-		
-	<div class="std-block">
-		
-		<div class="std-header first">
+</section>
+
+<section class="novaslider-bg">	
+		<div class="std-header first nova-block">
 			<h1>Virginia Web Design Firm with National Expertise</h1>
 			<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
 			<article class="std-body">
 			</article>
 			<a href="#two" alt"Next" class="next first-next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 		</div>
-		
-		
-		<div class="std-header" id="two">
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="two">
 			<h1>Your Leading Northern Virginia Web Design Company</h1>
 			<article class="std-body">
 				<p>Here at Saforian, we’ve got an eclectic mix of talent. We’re Innovators, Designers, Code Slingers, Pixel Pushers, Developers, Illustrators, Programmers, Creators, and Technology Connoisseurs. Together, it’s a killer combination.</p>
@@ -70,8 +55,11 @@
 			<img src="../../images/va-slider/web-co.png" alt="Saforian Couch">
 			<a href="#three" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 		</div>
-			
-		<div class="std-header" id="three">
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="three">
 			<h1>Discover Our Northern Virginia Web Design Services</h1>
 			<article class="std-body">
 				<p>Making great websites is challenging. It takes time. It involves research and planning, testing, analyzing, deliberating, designing, coding, programming … The list goes on for miles. Now who’s got time for that? Lucky for you, we’re seasoned pros. We’ve worked on over XX websites for over XX clients. So sit back, relax, and leave the heavy lifting to us.</p>
@@ -79,8 +67,11 @@
 			<img src="../../images/va-slider/nova.png" alt="Northern Virginia">
 			<a href="#four" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 		</div>
-		
-		<div class="std-header" id="four">
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="four">
 			<h1>Our Web Design and Development Approach</h1>
 			<article class="std-body">
 				<p>OWe’re more than just a pretty face. We offer a complete suite of design services. We develop, design, digitize, and create some pretty sweet digital solutions. Simply put, we deliver aesthetically beautiful, seamlessly functional results.</p>
@@ -88,26 +79,34 @@
 			<img src="../../images/va-slider/approach.png" alt="Approach">
 			<a href="#five" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 		</div>
-		
-		<div class="std-header" id="five">
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block std-header-last" id="five">
 			<h1>Don’t Be Shy</h1>
 			<article class="std-body">
 				<p>We want to get to know you — your business, your work, your needs. So tell us a little about what you’re looking for and how we can get in touch. We’ll take it from there.</p>
-				
 				<form name='contact' id='contact' class='contact-form' method='post'>
-
-						<input type='text' id="fullname" name='fullname' value='' />
-
-
-						<input type='text' id="phone" name='phone' value='' />
-
-					<div class="input-group">
-						<label for='email'>Email address</label>
-						<input type='text' id="email" name='email' value='' />
+					<div class='row-fluid'>
+						<div class='span6 input-group'>
+							<label for='fullname'>Full name</label>
+							<input type='text' id="fullname" name='fullname' value='' />
+						</div>
+						<div class='span6 input-group l'>
+							<label for='email'>Email address</label>
+							<input type='text' id="email" name='email' value='' />
+						</div>
 					</div>
-					<div class="input-group">
-						<label for='type'>Project type</label>
-						<input type='text' id="type" name='type' value='' />
+					<div class='row-fluid'>
+						<div class='span6 input-group'>
+							<label for='phone'>Phone number</label>
+							<input type='text' id="phone" name='phone' value='' />
+						</div>
+						<div class='span6 input-group l'>
+							<label for='type'>Project type</label>
+							<input type='text' id="type" name='type' value='' />
+						</div>
 					</div>
 					<div class="submit-button">
 						<input type="hidden" name="submitted" value="submitted">
@@ -119,14 +118,10 @@
 					<p>We will contact you shortly.</p>
 				</div>
 			</article>
-
-		</div>
-
-			
-		
-			
 	</div>
+</section>
 	
 </section>
+
 
 <?php include('inc/footer.php');?>

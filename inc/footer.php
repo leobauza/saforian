@@ -31,6 +31,8 @@
 	<script type="text/javascript" src="./js/carouFredSel.min.js"></script>
 	<script type='text/javascript' src='./js/waypoints.min.js'></script>
 	<script type='text/javascript' src='./js/jquery.scrollTo.min.js'></script>
+	<script type="text/javascript" src="./js/scrollTo.js"></script> 
+	<script type="text/javascript" src="./js/jquery.localscroll-min.js"></script>
 	<script type='text/javascript' src='./js/LiveValidation.1.3.min.js'></script>
 	<script type='text/javascript' src='./js/jquery.isotope.js'></script>
 	<script type='text/javascript' src='./js/safo.js'></script>

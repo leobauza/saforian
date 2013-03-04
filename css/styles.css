@@ -1400,10 +1400,22 @@ section.safo-jobs a:hover {
   margin-left: 50px;
 }
 .novaslider-bg {
-  background: url('../images/va-slider/g-background.png') repeat;
+  background: url('../images/va-slider/g-background.png') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.novaslider-bg #contact {
-  overflow: hidden;
+.novaslider-bg .nova-block {
+  width: 50%;
+  margin: 0 auto;
+}
+.novaslider-bg .error_log {
+  font-weight: bold;
+  color: #CC0000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 50px;
 }
 .novaslider-bg .contact-form input {
   -webkit-appearance: none;
@@ -1416,13 +1428,15 @@ section.safo-jobs a:hover {
   font-size: 2.7em;
   font-weight: 300px;
   padding: 8px 8px 8px 20px;
-  width: 30%;
+  width: 85%;
   color: #666;
-  margin-bottom: 10px;
   display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
-.novaslider-bg .input.btn:active {
-  background-color: #fff;
+.novaslider-bg label {
+  cursor: pointer;
 }
 .novaslider-bg .contact-form input[type="submit"] {
   background: url('../images/va-slider/submit.png') no-repeat;
@@ -1441,6 +1455,10 @@ section.safo-jobs a:hover {
   float: none;
   margin: 0 auto;
   text-align: center;
+  margin-top: 50px;
+}
+.novaslider-bg .LV_validation_message {
+  padding: 0 0 20px 10px;
 }
 .novaslider-bg .light {
   width: 75%;
@@ -1459,7 +1477,6 @@ section.safo-jobs a:hover {
 .novaslider-bg .next {
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 200px;
   display: block;
 }
 .novaslider-bg .first-next {
@@ -1467,6 +1484,10 @@ section.safo-jobs a:hover {
 }
 .novaslider-bg .std-block {
   max-width: 700px;
+  padding: 0px;
+}
+.novaslider-bg .std-header-last {
+  padding-bottom: 200px;
 }
 .novaslider-bg .std-header {
   padding-top: 270px;
@@ -1481,9 +1502,6 @@ section.safo-jobs a:hover {
 .novaslider-bg .std-header img {
   display: block;
   margin: 0 auto;
-}
-.novaslider-bg .first {
-  padding-top: 100px;
 }
 .novaslider-bg .std-body {
   color: #000000;

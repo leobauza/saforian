@@ -255,6 +255,12 @@ $(window).load(function(){
 	});
 
 
+	/* 
+ * =============================================================
+ * SMOOTH SCROLL
+ * =============================================================
+ */
+	$('#content').localScroll();
 
 
 	/* 
@@ -472,6 +478,18 @@ $(function(){
  * Nav On Scroll
  * =============================================================
  */
+	//$('.novaslider-bg .first').waypoint(function(event, direction) {
+		//if(direction === 'down') {
+		//	$(this).css('opacity','0');
+	//	} else {
+	//		$(this).css('opacity','1');
+	//	}
+	//} , 
+//	{
+	//	//set offset
+//		offset: 56
+//	});
+
 
 	$('[data-section]').waypoint(function(event, direction) {
 		if(direction === 'down') {
@@ -665,13 +683,6 @@ $("#site-nav ul").width($navWidth);
 
 
 	});//end resize
-
-
-/* 
- * =============================================================
- * Lightbulb
- * =============================================================
- */
 	
 		
 		
@@ -792,8 +803,23 @@ function grayscale(src){
 
 
 
+/* 
+ * =============================================================
+ * Lightbulb
+ * =============================================================
+ */
 
-
-
-
-
+	function changeImage() {
+		if (document.getElementById("imgClickAndChange").src == "http://www.saforian.com/images/va-slider/lightbulb-off.png") 
+		{
+			document.getElementById("imgClickAndChange").src = "http://www.saforian.com/images/va-slider/lightbulb-on.png";
+		}
+		else 
+		{
+			document.getElementById("imgClickAndChange").src = "http://www.saforian.com/images/va-slider/lightbulb-off.png";
+		}
+	}
+	
+$("#four").live('click', function() {
+	document.getElementById("imgClickAndChange").src = "http://www.saforian.com/images/va-slider/lightbulb-on.png";
+});

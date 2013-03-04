@@ -1374,12 +1374,23 @@ section.safo-jobs {
 }
 
 .novaslider-bg {
-	background: url('../images/va-slider/g-background.png') repeat;
-	
-	#contact {
-		overflow: hidden;
+	background: url('../images/va-slider/g-background.png') no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	.nova-block {
+		width: 50%;
+		margin: 0 auto;
 	}
-	
+	.error_log {
+		font-weight: bold;
+		color: #CC0000;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		line-height: 50px;
+	}
 	.contact-form input {
 		-webkit-appearance: none;
 		-moz-appearance: none;
@@ -1391,17 +1402,17 @@ section.safo-jobs {
 		font-size: 2.7em;
 		font-weight: 300px;
 		padding: 8px 8px 8px 20px;
-		width: 30%;
+		width: 85%;
 		display: block;
 		color: #666;
-		margin-bottom: 10px;
 		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		cursor: pointer;
 	}
-	
-	.input.btn:active {
-		background-color: #fff;
+	label {
+		cursor: pointer;
 	}
-	
 	.contact-form input[type="submit"] {
 		background: url('../images/va-slider/submit.png') no-repeat;
 		background-color: none;
@@ -1420,8 +1431,11 @@ section.safo-jobs {
 		float: none;
 		margin: 0 auto;
 		text-align: center;
+		margin-top: 50px;
 	}
-	
+	.LV_validation_message {
+		padding: 0 0 20px 10px;
+	}
 	.light {
 		width: 75%;
 		position: fixed;
@@ -1441,7 +1455,6 @@ section.safo-jobs {
 	.next {
 		margin: 0 auto;
 		text-align: center;
-		margin-bottom: 200px;
 		display: block;
 	}
 	
@@ -1451,7 +1464,11 @@ section.safo-jobs {
 	
 	.std-block {
 		max-width: 700px;
-		
+		padding: 0px;
+	}
+	
+	.std-header-last {
+		padding-bottom: 200px;
 	}
 	
 	.std-header {
@@ -1470,9 +1487,7 @@ section.safo-jobs {
 		}
 	}
 	
-	.first {
-		padding-top: 100px;
-	}
+
 	
 	.std-body {
 		color:@black;
