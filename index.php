@@ -262,7 +262,7 @@
 					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='http://saforianv3.localhost/CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
+					<a href='http://www.saforian.com/CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
 					<p>Northern Virginia Magazine Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
