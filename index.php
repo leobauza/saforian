@@ -38,12 +38,7 @@
 		<section class='safo-history'>
 			<div class='section-contents group'>
 				<p class='established'>Est. <span>2002</span></p>
-				<p>Founded on the belief of creating incredible end-user experiences 
-				&mdash; stylish and strategic, innovative yet easy to use &mdash; designing 
-				content that consumers connect to, engage with and believe in. 
-				We are passionate about what we do, the organizations we work with and the 
-				consumers and causes we design for. It's our difference, and 
-				we dig it.</p>
+				<p>Founded on the belief of creating incredible end-user experiences — stylish and strategic, innovative yet easy to use — we design content that consumers connect to, engage with and believe in. We are passionate about what we do, the organizations we work with and the consumers and causes we design for. It's our difference, and we dig it.</p>
 			</div>
 		</section>
 		
@@ -106,7 +101,7 @@
 		<!-- our clients -->
 		<section class='safo-clients' data-section='safo-clients'>
 			<div class='section-contents'>
-				<h2>Our clients, partners and friends:</h2>
+				<h2>Our clients, partners and friends</h2>
 					<div class='client-list group'>
 						<p class="feat">
 						<strong>American Red Cross</strong><br />
