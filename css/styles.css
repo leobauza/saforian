@@ -804,8 +804,20 @@ section.safo-contact .share1 {
   width: 160px;
   padding: 12px;
   cursor: pointer;
+  margin-top: 75px;
+}
+.contact-form input[type="checkbox"] {
+  color: #fff;
+  cursor: pointer;
+  z-index: 502;
+  position: absolute;
+  right: 150px;
+  top: 5px;
 }
 .input-group {
+  position: relative;
+}
+.input-group-check {
   position: relative;
 }
 .error-log {

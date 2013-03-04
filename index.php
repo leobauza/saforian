@@ -415,9 +415,9 @@
 								<label for='email'>Email address</label>
 								<input type='text' id="email" name='email' value='' />
 							</div>
-							<div class="input-group">
-								<label for='type'>Project type</label>
-								<input type='text' id="type" name='type' value='' />
+							<div class="input-group-check">
+								<label for='type'>Sign up for email</label>
+								<input type='checkbox' id="newsletter" name='newsletter' value='' />
 							</div>
 							<div class="input-group">
 								<input type="hidden" name="submitted" value="submitted">
