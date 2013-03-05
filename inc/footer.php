@@ -31,7 +31,6 @@
 	<script type="text/javascript" src="./js/carouFredSel.min.js"></script>
 	<script type='text/javascript' src='./js/waypoints.min.js'></script>
 	<script type='text/javascript' src='./js/jquery.scrollTo.min.js'></script>
-	<script type="text/javascript" src="./js/scrollTo.js"></script> 
 	<script type="text/javascript" src="./js/jquery.localscroll-min.js"></script>
 	<script type='text/javascript' src='./js/LiveValidation.1.3.min.js'></script>
 	<script type='text/javascript' src='./js/jquery.isotope.js'></script>
@@ -64,9 +63,9 @@
 		$email.add(Validate.Email, {failureMessage: "Not a valid Email"});
 
 		//apply LV with valid message 'Thank You'
-		var $type = new LiveValidation("type", { validMessage: 'Thank You', wait: 500} );
+		//var $type = new LiveValidation("type", { validMessage: 'Thank You', wait: 500} );
 		//Simple Presence Validation
-		$email.add(Validate.Presence, {failureMessage: "Required"});
+		//$email.add(Validate.Presence, {failureMessage: "Required"});
 
 
 		//apply LV with valid message 'Thank You'

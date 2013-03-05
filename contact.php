@@ -3,7 +3,8 @@ if(isset($_POST['submitted'])) {
 	$name = $_POST['fullname'];
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
-	$type = $_POST['type'];
+	//$type = $_POST['type'];
+	$newsletter = $_POST['newsletter'];
 	$email_text = "";
 	
 	if ($name != "") {
@@ -18,12 +19,18 @@ if(isset($_POST['submitted'])) {
 		$email_text.="\nPhone: ".stripcslashes($phone);
 	}
 
-	if ($type != "") {
-		$email_text.="\nProject Type: ".stripcslashes($type);
+	// if ($type != "") {
+	// 	$email_text.="\nProject Type: ".stripcslashes($type);
+	// }
+
+	if ($newsletter != "") {
+		$email_text.="\nSend Newsletter: Duh";
+	} else {
+		$email_text.="\nSend Newsletter: Nope";
 	}
 	
 	
-	$to = "hello@saforian.com";//"info@wagnerskis.com";
+	$to = "lbauza@saforian.com";//"info@wagnerskis.com";
 	$subject = "Saforian Site Message";
 	$headers = "From: $name <$email>\n";
 	mail($to, $subject, $email_text, $headers);
