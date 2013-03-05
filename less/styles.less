@@ -719,14 +719,33 @@ section.safo-contact {
 		width: 160px;
 		padding: 12px;
 		cursor: pointer;
-		margin-top: 75px;
+		margin-top: 25px;
 	}
 }
 .input-group {
 	position:relative;
 }
 .check-group {
-	
+	.pretty-checkbox {
+		height:23px;
+		width:23px;
+		background:@black;
+		display:block;
+		float:left;
+		border:2px solid #dedede;
+		margin: 12px 0px 0px 20px;
+		&.active {
+			background:@black url('../images/checkbox_active.gif') 50% 50% no-repeat;
+		}
+	}
+	label {
+		float:left;
+		position:static;
+		margin:0;
+	}
+	input {
+		visibility:hidden;
+	}
 }
 .error-log {
 	display:block;

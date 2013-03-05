@@ -802,6 +802,33 @@ function grayscale(src){
 }
 
 
+/* 
+ * =============================================================
+ * Prettify Checkboxes
+ * =============================================================
+ */
+
+	$('#contact').find('.check-group').each(function(){
+		console.log('hi')
+		var $label = $(this).find('label').html();
+		var $checked = $(this).find('input').attr('checked');
+		$(this).append("<a href=\"#\" data-input=\"checkbox\" class=\"pretty-checkbox\"></a>");
+		if($checked == "checked") {
+			$(this).find("a").addClass("active");
+		}
+	});
+	
+	$('[data-input=checkbox]').click(function(e){
+		if($(this).hasClass('active')) {
+			$(this).removeClass('active');
+			$(this).closest('.check-group').find('input').attr('checked',false);
+		} else {
+			$(this).addClass('active');
+			$(this).closest('.check-group').find('input').attr('checked',true);
+		}
+		e.preventDefault();
+	});
+
 
 /* 
  * =============================================================

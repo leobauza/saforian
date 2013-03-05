@@ -416,7 +416,7 @@
 								<input type='text' id="email" name='email' value='' />
 							</div>
 							<div class="input-group">
-								<div class="check-group">
+								<div class="check-group group">
 									<label for='type'>Sign up for email</label>
 									<input type='checkbox' id="newsletter" name='newsletter'/>
 								</div>

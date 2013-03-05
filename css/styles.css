@@ -805,10 +805,30 @@ section.safo-contact .share1 {
   width: 160px;
   padding: 12px;
   cursor: pointer;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 .input-group {
   position: relative;
+}
+.check-group .pretty-checkbox {
+  height: 23px;
+  width: 23px;
+  background: #000000;
+  display: block;
+  float: left;
+  border: 2px solid #dedede;
+  margin: 12px 0px 0px 20px;
+}
+.check-group .pretty-checkbox.active {
+  background: #000000 url('../images/checkbox_active.gif') 50% 50% no-repeat;
+}
+.check-group label {
+  float: left;
+  position: static;
+  margin: 0;
+}
+.check-group input {
+  visibility: hidden;
 }
 .error-log {
   display: block;
