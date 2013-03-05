@@ -30,7 +30,7 @@ if(isset($_POST['submitted'])) {
 	}
 	
 	
-	$to = "lbauza@saforian.com";//"info@wagnerskis.com";
+	$to = "hello@saforian.com";//"info@wagnerskis.com";
 	$subject = "Saforian Site Message";
 	$headers = "From: $name <$email>\n";
 	mail($to, $subject, $email_text, $headers);
