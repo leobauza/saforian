@@ -856,7 +856,7 @@ section.safo-jobs {
   padding: 80px 0 130px 0;
 }
 section.safo-jobs h2 {
-  text-align: left;
+  text-align: center;
   margin-bottom: 50px;
   color: #000;
 }
@@ -3100,5 +3100,10 @@ img[src*="iw3.png"] {
   }
   .novaslider-bg .nova-block {
     width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  #iso-cont .item p {
+    display: none;
   }
 }

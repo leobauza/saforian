@@ -55,21 +55,21 @@
 		<section class="standard-section safo-services" data-section='safo-services'>
 			<div class='section-contents'>
 				<h2 class='our-services'>Our Core Competencies</h2>
-
+				<div id="services-none">
 					<div class="pad20">
 							<div class='row-fluid'>
 								<div class='span4 show'>
-									<img src="images/icon_competencies_campaignmarketing.png" alt="">
+									<img src="images/icon_competencies_campaignmarketing.png" alt="" class="none">
 									<h3>Campaign + Marketing</h3>
 									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of technologies to establish a strategic roadmap for the continued evolution of your organization or cause.</p>
 								</div>
 								<div class='span4'>
-									<img src="images/icon_competencies_websitesintranets.png"alt="">
+									<img src="images/icon_competencies_websitesintranets.png"alt="" class="none">
 									<h3>Websites + Intranets</h3>
 									<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
 								</div>
 								<div class='span4 l'>
-									<img src="images/icon_competencies_digiinfrastructure.png" alt="">
+									<img src="images/icon_competencies_digiinfrastructure.png" alt="" class="none">
 									<h3>Digital Infrastructure</h3>
 									<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.
 									</p>
@@ -93,7 +93,7 @@
 								</div>
 							</div>
 					</div>
-
+				</div>
 			</div>
 		</section>
 		
@@ -334,7 +334,7 @@
 		<!-- jobs -->
 		<section class='safo-jobs' data-section='safo-jobs'>
 			<div class='section-contents'>
-				<h2>Join our award-winning team</h2>
+				<h2>Find your bigger picture</h2>
 				<p>Here at Saforian, we’ve got an eclectic mix of talent. We’re innovators, designers, code slingers, pixel pushers, developers, illustrators, programmers, creators, and technology connoisseurs. We do what we love and love what we do. We believe that people do their best work when they’re happy, so we pair people with projects they like and roles they can thrive in. Our people are our strongest creative asset, and we’re always on the lookout for new talent.</p>
 				<figure class="img-center-solo">
 					<img src="images/img_join_saforian.png" alt="Img Join Saforian">
@@ -376,9 +376,8 @@
 						</p> -->
 					</div>
 					<div class='span5 l more-about-jobs'>
-						<h3>Find your bigger picture</h3>
+						<h3>Make the switch to Saforian</h3>
 						<p>We turn creative visions into reality, always making time for fun in between. Plus we have great benefits like competitive salaries, company-sponsored happy hours, health benefits, and flexible working hours to name a few. Join our award-winning team. You won’t regret it.</p>
-
 					</div>
 					<div class='clear'></div>
 				</div>
@@ -387,7 +386,7 @@
 		<!-- contact us -->
 		<section class='safo-contact' data-section='safo-contact'>
 			<div class='section-contents'>
-				<h2>Let's start a conversation</h2>
+				<h2>Don't be shy</h2>
 				<div class='row-fluid mid contact form'>
 					<div class='span6'>
 						<form name='contact' id='contact' class='contact-form' method='post'>
@@ -420,11 +419,7 @@
 						</div>
 					</div>
 					<div class='span6 l about-contact'>
-						<p>We want to get to know you &mdash; your business, your work, your needs. 
-						Every project starts with a dialogue, so that before we start designing, 
-						we've already zeroed in on the solution that's right for you.</p>
-						<p>Let us know a little about what you're looking for and how Saforian 
-						can get in touch. We'll take it from there.</p>
+						<p>We want to get to know you—your business, your work, your needs. So tell us a little about what you’re looking for and how we can get in touch. We’ll take it from there.</p>
 						<div class='social-links group'>
 							<a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
 							<a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
