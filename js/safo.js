@@ -393,11 +393,11 @@ $(function(){
 	$('.client-list .show-more').click(function(e){
 		if(clientSt == 0) {
 			$('.client-list p').slideDown();
-			$(this).html('<span></span>Less clients, friends &amp; partners<span></span>');
+			$(this).html('<span></span>Less clients, partners &amp; friends<span></span>');
 			clientSt = 1;
 		} else {
 			$('.client-list p').not('.feat').slideUp();
-			$(this).html('<span></span>More clients, friends &amp; partners<span></span>');
+			$(this).html('<span></span>More clients, partners &amp; friends<span></span>');
 			clientSt = 0;
 		}
 		e.preventDefault();
@@ -809,7 +809,6 @@ function grayscale(src){
  */
 
 	$('#contact').find('.check-group').each(function(){
-		console.log('hi')
 		var $label = $(this).find('label').html();
 		var $checked = $(this).find('input').attr('checked');
 		$(this).append("<a href=\"#\" data-input=\"checkbox\" class=\"pretty-checkbox\"></a>");

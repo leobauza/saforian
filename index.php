@@ -229,7 +229,7 @@
 						<strong>USDA</strong><br />
 						Information Architecture, Design, Development
 						</p>
-						<div class="show-more"><span></span>More clients, fiends &amp; partners<span></span></div>
+						<div class="show-more"><span></span>More clients, partners &amp; friends<span></span></div>
 					</div>
 				</div>
 			</div><!-- end section-contents -->
