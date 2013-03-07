@@ -263,6 +263,8 @@ $(window).load(function(){
 	$('#content').localScroll();
 
 
+	
+	
 	/* 
 	 * =============================================================
 	 * COPY THE IMAGES FOR MOBILE
@@ -478,17 +480,19 @@ $(function(){
  * Nav On Scroll
  * =============================================================
  */
-	//$('.novaslider-bg .first').waypoint(function(event, direction) {
-		//if(direction === 'down') {
-		//	$(this).css('opacity','0');
-	//	} else {
-	//		$(this).css('opacity','1');
-	//	}
+
+
+	//$('.novaslider-bg').waypoint(function(direction) {
+		//if(direction === 'Direction example triggered scrolling down') {
+			//$(this).css('opacity','0');
+		//} else {
+			//$(this).css('opacity','1');
+		//}
 	//} , 
-//	{
-	//	//set offset
-//		offset: 56
-//	});
+	//{
+		//set offset
+		//offset: 56
+	//});
 
 
 	$('[data-section]').waypoint(function(event, direction) {
