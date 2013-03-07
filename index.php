@@ -334,16 +334,8 @@
 		<!-- jobs -->
 		<section class='safo-jobs' data-section='safo-jobs'>
 			<div class='section-contents'>
-				<h2>Ready to spread your wings and start a new career?</h2>
-				<p>Saforian is looking for new team members who want to create unique 
-				experiences for the digital world in an open, creatively driven company.  
-				Our people are our strongest creative asset. Everyone has a place at 
-				the drawing table, and if you’ve got a positive attitude and firmly 
-				believe there’s no such thing as a bad idea, you’ll fit right in. We 
-				believe people do their best work when they’re happy, so we pair people 
-				with projects they like and roles they can thrive in. We want to help 
-				people do great work in the present, and put them on a course that will 
-				continue to let them grow and succeed 5 or 10 years in the future.</p>
+				<h2>Join our award-winning team</h2>
+				<p>Here at Saforian, we’ve got an eclectic mix of talent. We’re innovators, designers, code slingers, pixel pushers, developers, illustrators, programmers, creators, and technology connoisseurs. We do what we love and love what we do. We believe that people do their best work when they’re happy, so we pair people with projects they like and roles they can thrive in. Our people are our strongest creative asset, and we’re always on the lookout for new talent.</p>
 				<figure class="img-center-solo">
 					<img src="images/img_join_saforian.png" alt="Img Join Saforian">
 				</figure>
@@ -384,12 +376,8 @@
 						</p> -->
 					</div>
 					<div class='span5 l more-about-jobs'>
-						<h3>What else can you expect?</h3>
-						<p>Competitive salaries and health benefits, for a start. 
-						But now, we want to hear from you. Apply to the left or drop us 
-						an email at 
-						<a href='mailto:hello@saforian.com'>hello@saforian.com</a>.</p>
-
+						<h3>Find your bigger picture</h3>
+						<p>We turn creative visions into reality, always making time for fun in between. Plus we have great benefits like competitive salaries, company-sponsored happy hours, health benefits, and flexible working hours to name a few. Join our award-winning team. You won’t regret it.</p>
 
 					</div>
 					<div class='clear'></div>

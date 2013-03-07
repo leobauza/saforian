@@ -24,6 +24,7 @@
 	</header>
 </section>
 
+
 <section id="content">
 <section class="novaslider-bg">
 	<div class="std-block">
@@ -35,8 +36,9 @@
 	</div>
 </section>
 
-<section class="novaslider-bg">	
-		<div class="std-header first nova-block">
+
+<section class="novaslider-bg">
+		<div class="std-header first nova-block div1">
 			<h1>Virginia Web Design Firm with National Expertise</h1>
 			<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
 			<article class="std-body">
@@ -47,7 +49,7 @@
 
 
 <section class="novaslider-bg">
-		<div class="std-header nova-block" id="two">
+		<div class="std-header nova-block div2" id="two">
 			<h1>Your Leading Northern Virginia Web Design Company</h1>
 			<article class="std-body">
 				<p>Here at Saforian, we’ve got an eclectic mix of talent. We’re Innovators, Designers, Code Slingers, Pixel Pushers, Developers, Illustrators, Programmers, Creators, and Technology Connoisseurs. Together, it’s a killer combination.</p>
@@ -59,7 +61,7 @@
 
 
 <section class="novaslider-bg">
-		<div class="std-header nova-block" id="three">
+		<div class="std-header nova-block div3" id="three">
 			<h1>Discover Our Northern Virginia Web Design Services</h1>
 			<article class="std-body">
 				<p>Making great websites is challenging. It takes time. It involves research and planning, testing, analyzing, deliberating, designing, coding, programming … The list goes on for miles. Now who’s got time for that? Lucky for you, we’re seasoned pros. We’ve worked on over XX websites for over XX clients. So sit back, relax, and leave the heavy lifting to us.</p>
@@ -71,7 +73,7 @@
 
 
 <section class="novaslider-bg">
-		<div class="std-header nova-block" id="four">
+		<div class="std-header nova-block div4" id="four">
 			<h1>Our Web Design and Development Approach</h1>
 			<article class="std-body">
 				<p>OWe’re more than just a pretty face. We offer a complete suite of design services. We develop, design, digitize, and create some pretty sweet digital solutions. Simply put, we deliver aesthetically beautiful, seamlessly functional results.</p>

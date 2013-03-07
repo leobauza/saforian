@@ -1484,6 +1484,9 @@ section.safo-jobs a:hover {
   margin-top: 128px;
   margin-left: 4px;
 }
+.novaslider-bg .light .bulb img {
+  cursor: pointer;
+}
 .novaslider-bg .next {
   margin: 0 auto;
   text-align: center;
@@ -1540,6 +1543,12 @@ section.safo-jobs a:hover {
 }
 .novaslider-bg li.indent {
   margin-left: 50px;
+}
+.fade {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  /* For IE8 and earlier */
+
 }
 .reg-bg {
   background: #ffffff;

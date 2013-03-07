@@ -261,10 +261,40 @@ $(window).load(function(){
  * =============================================================
  */
 	$('#content').localScroll();
+	
+
+	//$(".next1").click(function () {
+		//$(".div1").hide("fade");
+	//});
 
 
+
+	//$(window).scroll(function(){
+	  //more then or equals to
+	  //if($(window).scrollTop() >= 100 ){
+	       //$(".div1").animate({opacity:1});
+
+	  //less then 100px from top
+	  //} else {
+	    // $(".div1").animate({opacity:.25});
+	  //}
+	//});
 	
 	
+	//if($(window).scrollTop() <= 100 ){
+		
+	
+	$(window).scroll(function(){
+		if($(window).scrollTop() > (".div1" < 100)) {
+			$(".div1").addClass("fade");
+		} else {
+			$(".div1").removeClass("fade");
+		}
+	});
+	
+	
+	
+
 	/* 
 	 * =============================================================
 	 * COPY THE IMAGES FOR MOBILE
