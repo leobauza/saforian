@@ -43,10 +43,9 @@ $tweet = $decode[$i]["text"];
 	$id = $decode[$i]["id_str"];
 	$username = $decode[$i]["user"]["screen_name"];
 	$html .= '<a class="time-stamp" href="http://twitter.com/' . $username . '/statuses/' . $id . '" target="_blank">' . relative_time($time) . "</a></div></li>\n";
-
 }
 
-$tweetTime = filemtime('../tweet.html');
+$tweetTime = filemtime('./inc/tweet.html');
 $timeNow = time();
 $timeDiff = $timeNow - $tweetTime;
 
@@ -58,7 +57,7 @@ if ($timeDiff < 2700)
 }
 else
 {
-	file_put_contents('../tweet.html', $html);
+	file_put_contents('./inc/tweet.html', $html);
 }
 
 function relative_time($time_value) {
