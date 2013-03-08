@@ -1403,11 +1403,11 @@ section.safo-jobs {
 	.contact-form input {
 		-webkit-appearance: none;
 		-moz-appearance: none;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
-		background-color: #dddedf;
-		border: 2px solid #000;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		background-color: #edeef0;
+		border: 2px solid #bababa;
 		font-size: 2.7em;
 		font-weight: 300px;
 		padding: 8px 8px 8px 20px;
@@ -1418,19 +1418,28 @@ section.safo-jobs {
 		margin: 0 auto;
 		margin-bottom: 20px;
 		cursor: pointer;
+		z-index: 0;
+	}
+	.contact-form input[type="checkbox"] {
+		margin-top: -40px;
+	}
+	.check-group label {
+		margin-bottom: 5px;
 	}
 	label {
 		cursor: pointer;
+		z-index: 5;
 	}
 	.contact-form input[type="submit"] {
-		background: url('../images/va-slider/submit.png') no-repeat;
-		background-color: none;
-		width: 45px;
-		height: 45px;
+		#CSS3 > .border-radius(0px);
+		//background-color: #0096bd;
+		background:@black;
+		color: #fff;
+		font-style: italic; 
+		width: 160px;
 		padding: 12px;
 		cursor: pointer;
-		border: none;
-		text-indent: 50px;
+		margin-top: 25px;
 		text-align: center;
 		margin: 0 auto;
 		float: none;
@@ -1453,6 +1462,7 @@ section.safo-jobs {
 		top: 50px;
 		height: 200px;
 		background: url('../images/va-slider/lightstring.png') center top no-repeat;
+		z-index: 10;
 		
 		.bulb {
 			text-align: center;
@@ -1480,18 +1490,18 @@ section.safo-jobs {
 	}
 	
 	.std-header-last {
-		padding-bottom: 200px;
+		padding-bottom: 500px;
 	}
 	
 	.std-header {
 		padding-top: 270px;
 		
 		h1 {
-			color: #000;
-			font-size: 2.6em;
-			text-align: center;
+			color:@black;
+			font-size: 4em;
 			font-weight: 300;
-			margin: 0px 0 40px 0;
+			margin-bottom: 50px;
+			text-align: center;
 		}
 		img {
 			display:block;
@@ -1502,18 +1512,18 @@ section.safo-jobs {
 
 	
 	.std-body {
-		color:@black;
 		h3 {
 			font-size:2.8em;
 			font-weight: 600;
 			margin:0 0 20px;
 			color:@black;
 			padding: 20px 0 20px 0;
+			text-align: center;
 		}
 		p {
-			font-size: 14px;
+			font-size: 1.5em;
 			margin: 0 0 40px;
-			font-weight: 300;
+			font-weight: 500;
 			text-align: center;
 		}
 		li {
@@ -2498,6 +2508,8 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 	.contact-form label {
 		padding-left: 20px;
+		font-size: 2em;
+		padding-top: 15px;
 	}
 }
 	
@@ -2522,14 +2534,14 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 @media (max-width: 1010px) {
 	.contact-form label {
 		padding-top: 15px;
-		font-size: 2.5em;
+		font-size: 1.8em;
 	}
 }
 
 @media (max-width: 959px) {
 	.contact-form label {
 		padding-top: 17px;
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	.novaslider-bg .contact-form input {
 		width: 75%;
@@ -2757,7 +2769,12 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			}
 		}
 	}
+	.check-group .pretty-checkbox {
+		margin: 12px 0px 0px 5px;
+	}
 }
+
+
 
 @media (max-width: 792px) {
 	.hero.aao-hero, .hero.fhi-hero, .hero.grunley-hero, .hero.ata-hero, .hero.nkh-hero, .hero.unf-hero, .hero.wagner-hero {
@@ -3195,6 +3212,9 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 	
+	.check-group .pretty-checkbox {
+		margin: 12px 0px 0px 20px;
+	}
 }
 
 @media (max-width: 639px) {
@@ -3260,6 +3280,12 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 @media (max-width: 500px) {
 	#iso-cont .item p {
 		display: none;
+	}
+	.none {
+		display: none;
+	}
+	.safo-services h3 {
+		padding-top: 25px;
 	}
 }
 

@@ -1,5 +1,6 @@
 <?php include("inc/headernv.php");?>
 
+
 <!-- header -->
 <section id="header-wrap">
 	<header id="site-header" class="group">
@@ -24,62 +25,118 @@
 </section>
 
 
-<section class="nova-bg">
+<section id="content">
+<section class="novaslider-bg">
 	<div class="std-block">
-		<header class="std-header">
-			<h1>Virginia Web Design Firm with National Expertise</h1>
-			<img src="../../images/nova-icon.png" alt="Drupal CMS">
-		</header>
-		<article class="std-body">
-			<h3>Your Leading Northern Virginia Web Design Company</h3>
-			
-			<p>Saforian's design and development professionals help you connect with customers through innovative, appropriate digital solutions. From web design and social media to mobile and custom apps, Saforian is the Northern Virginia web design leader you can count on.</p>
-			
-			<h3>Discover Our Northern Virginia Web Design Services</h3>
-			
-			<p>At Saforian, a Northern Virginia web design firm, we create rich, engaging web designs for our customers. Our Northern Virginia web designers create solutions that blend aesthetically-pleasing visual design with usable functionality and engaging interactivity so you effectively connect with your target audiences.</p>
-			
-			<h3>Our Web Design and Development Approach</h3>
-			
-			<p>Our Northern Virginia web design team uses a fine-tuned approach to give our clients the edge they need to achieve success.</p>
-			
-				<ul>
-					<li>Strategy</li>
-					<ul>
-						<li class="indent">Through specific discovery activities, research and planning, Saforian evaluates your audience's wants and needs and then defines the best ways to achieve the goal.</li>
-					</ul>
-					<li>Creative</li>
-					<ul>
-						<li class="indent">Saforian's interactive, visual design expertise ensures your will both engage and guide users.</li>
-					</ul>
-					<li>Technology</li>
-					<ul>
-						<li class="indent">Saforian's developers are inspired by quality. Our professionals value the efficiencies derived from optimized code based on clean, semantic web standards.</li>
-					</ul>
-
-				</ul>
-			</p>
-			
-			<h3>Saforian's Web Design Services in Northern Virginia</h3>
-			
-			<p>Saforian provides the following key activities as part of our service offerings:</p>
-			
-			<ul>
-				<li>Information architecture</li>
-				<li>Conceptual wireframes</li>
-				<li>Prototyping</li>
-				<li>Content strategy and development</li>
-				<li>Multimedia design</li>
-				<li>Mobile app development</li>
-				<li>Creative design</li>
-			</ul>
-			
-			<p>Let's get started on your Northern Virginia web design solution! <a href="mailto:hello@saforian.com">Contact us.</a></p>
-			
-		</article>
-		
+		<div class="light">
+			<div class="bulb">
+				<a href="#one"><img alt="" src="../../images/va-slider/lightbulb-off.png" id="imgClickAndChange" onclick="changeImage()"  /></a>
+			</div>
+		</div>	
 	</div>
 </section>
 
 
-<?php include("inc/footernv.php");?>
+<br/>
+
+
+<section class="novaslider-bg">
+		<div class="std-header first nova-block" id="one">
+			<div class="div1">
+				<h1>A Virginia Web Design Firm</h1>
+				<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
+				<article class="std-body">
+				</article>
+				<a href="#two" alt"Next" class="next first-next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
+			</div>
+		</div>
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="two">
+			<div class="div2">
+				<h1>A Technology Leader</h1>
+				<article class="std-body">
+					<p>Here at Saforian, we’ve got an eclectic mix of talent. We’re Innovators, Designers, Code Slingers, Pixel Pushers, Developers, Illustrators, Programmers, Creators, and Technology Connoisseurs. Together, it’s a killer combination.</p>
+				</article>
+				<img src="../../images/va-slider/web-co.png" alt="Saforian Couch">
+				<a href="#three" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
+			</div>
+		</div>
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="three">
+			<div class="div3">
+				<h1>Discover Our Services</h1>
+				<article class="std-body">
+					<p>Making great websites is challenging. It takes time. It involves research and planning, testing, analyzing, deliberating, designing, coding, programming … The list goes on for miles. Now who’s got time for that? Lucky for you, we’re seasoned pros. We’ve worked on over 700 websites for over 250 clients. So sit back, relax, and leave the heavy lifting to us.</p>
+				</article>
+				<img src="../../images/va-slider/nova.png" alt="Northern Virginia">
+				<a href="#four" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
+			</div>
+		</div>
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block" id="four">
+			<div class="div4">
+				<h1>Our Approach On Digital</h1>
+				<article class="std-body">
+					<p>We’re more than just a pretty face. We offer a complete suite of design services. We develop, design, digitize, and create some pretty sweet digital solutions. Simply put, we deliver aesthetically beautiful, seamlessly functional results.</p>
+				</article>
+				<img src="../../images/va-slider/approach.png" alt="Approach">
+				<a href="#five" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
+			</div>
+		</div>
+</section>
+
+
+<section class="novaslider-bg">
+		<div class="std-header nova-block std-header-last" id="five">
+			<h1>Don’t Be Shy</h1>
+			<article class="std-body">
+				<p>We want to get to know you — your business, your work, your needs. So tell us a little about what you’re looking for and how we can get in touch. We’ll take it from there.</p>
+				<form name='contact' id='contact' class='contact-form' method='post'>
+					<div class='row-fluid'>
+						<div class='span6 input-group'>
+							<label for='fullname'>Full name</label>
+							<input type='text' id="fullname" name='fullname' value='' />
+						</div>
+						<div class='span6 input-group l'>
+							<label for='email'>Email address</label>
+							<input type='text' id="email" name='email' value='' />
+						</div>
+					</div>
+					<div class='row-fluid'>
+						<div class='span6 input-group'>
+							<label for='phone'>Phone number</label>
+							<input type='text' id="phone" name='phone' value='' />
+						</div>
+						<div class="span6 input-group">
+							<div class="check-group group">
+								<input type='checkbox' id="newsletter" name='newsletter' checked="checked"/>
+								<label for='type'>Sign up for email</label>
+							</div>
+						</div>
+					</div>
+					<div class="submit-button">
+						<input type="hidden" name="submitted" value="submitted">
+						<input type='submit' id="submit" name="submit" value='submit' />
+					</div>
+				</form>
+				<div id="thankyou">
+					<h3>Thank You</h3>
+					<p>We will contact you shortly.</p>
+				</div>
+			</article>
+	</div>
+</section>
+	
+</section>
+
+
+<?php include('inc/footer.php');?>
