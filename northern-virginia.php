@@ -119,7 +119,7 @@
 						<div class="span6 input-group">
 							<div class="check-group group">
 								<input type='checkbox' id="newsletter" name='newsletter' checked="checked"/>
-								<label for='type'>Sign up for email</label>
+								<label for='type'>Newsletter Sign Up</label>
 							</div>
 						</div>
 					</div>

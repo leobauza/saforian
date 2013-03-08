@@ -2464,10 +2464,13 @@ img[src*="iw3.png"] {
   .novaslider-bg .nova-block {
     width: 50%;
   }
-  .contact-form label {
+  .novaslider-bg .contact-form label {
     padding-left: 20px;
     font-size: 2em;
     padding-top: 15px;
+  }
+  .novaslider-bg .check-group .pretty-checkbox {
+    margin: 12px 0px 0px 5px;
   }
 }
 @media (max-width: 1060px) {
@@ -2493,13 +2496,13 @@ img[src*="iw3.png"] {
   }
 }
 @media (max-width: 1010px) {
-  .contact-form label {
+  .novaslider-bg .contact-form label {
     padding-top: 15px;
     font-size: 1.8em;
   }
 }
 @media (max-width: 959px) {
-  .contact-form label {
+  .novaslider-bg .contact-form label {
     padding-top: 17px;
     font-size: 1.5em;
   }
@@ -2674,8 +2677,13 @@ img[src*="iw3.png"] {
   .hero.kbd-hero blockquote .quote {
     font-size: 3.5em;
   }
-  .check-group .pretty-checkbox {
+  .novaslider-bg .check-group .pretty-checkbox {
     margin: 12px 0px 0px 5px;
+  }
+}
+@media (max-width: 822px) {
+  .novaslider-bg .contact-form label {
+    font-size: 1.3em;
   }
 }
 @media (max-width: 792px) {
@@ -2736,7 +2744,7 @@ img[src*="iw3.png"] {
 }
 /*end 770 media*/
 @media (max-width: 760px) {
-  .contact-form label {
+  .novaslider-bg .contact-form label {
     padding-top: 12px;
     font-size: 2.7em;
   }
@@ -3053,7 +3061,7 @@ img[src*="iw3.png"] {
   .capabilities-bg .std-body li {
     font-size: 18px;
   }
-  .check-group .pretty-checkbox {
+  .novaslider-bg .check-group .pretty-checkbox {
     margin: 12px 0px 0px 20px;
   }
 }

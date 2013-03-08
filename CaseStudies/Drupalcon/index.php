@@ -11,64 +11,74 @@
 		<h1>Drupalcon</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis lectus est, at cursus orci. In hac habitasse platea dictumst. Mauris leo leo, egestas ullamcorper auctor et, accumsan quis lectus. Donec quis dolor sit amet risus sagittis pretium vitae vel diam.</p>
-				<br/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis lectus est, at cursus orci. In hac habitasse platea dictumst. Mauris leo leo, egestas ullamcorper auctor et, accumsan quis lectus. Donec quis dolor sit amet risus sagittis pretium vitae vel diam.</p>
+				<p>Many Drupal enthusiasts have traveled long distances to be at this year’s DrupalCon (aka the biggest Drupal conference). They’ve endured freakishly long car rides, plane rides with screaming babies, and train rides from hell to make it to Portland safe and sound. With that in mind, we wanted to create an app to make it easy for these weary travelers to maximize their DrupalCon experiences. If you use our app, you won’t be sitting around saying, “Well I don’t know… What do you wanna do?” We’ve researched, deliberated, and made some cut-throat decisions to compile our list of the best things to do in Portland. Our fun, interactive app lets you live it up at DrupalCon by showing you what’s going on at the conference and the hot spots to check out in Portland, along with making it easy to connect with other Drupal lovers.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>dolor sit amet,</span></li>
-					<li><strong>Solutions</strong><span>dolor sit amet,</span></li>
-					<li><strong>Technology</strong><span>dolor sit amet,</span></li>
+					<li><strong>Industry</strong><span>Mobile</span></li>
+					<li><strong>Solutions</strong><span>Mobile App</span></li>
+					<li><strong>Technology</strong><span>Drupal, Apple IOS</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
 	</section> <!-- end of block -->
 	
 	<section class="block">
-		<article class="row-fluid padding-bottom">
-			<div class="span5 space">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global_ios_logo.png" alt="IOS Logo" class="padding-bottom">
-				</figure>
-			</div>
-			<div class="span8 l">
-				<h2>Build on IOS</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit</p>
-			</div>
-		</article>
+		
 		<div class="row-fluid first">
 			<article class="span5">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_drupal_logo.png" alt="Drupal">
+					<img src="../../images/caseStudies/global_drupal-ios_logo.png" alt="Drupal + iOS">
 				</figure>
 			</article>
 			<article class="span8">
-				<h2>Custom Drupal Modules</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit</p>
+				<h2>Built on iOS</h2>
+				<p>Unsurprisingly, our DrupalCon app is powered by Drupal. Our interactive engineers built this all-in-one immersive app to work seamlessly on iOS devices. It transfers data from the Drupal framework to our custom app’s framework, making it easy to get the full DrupalCon experience on the go.</p>
 			</article>
 		</div> <!-- end of first row -->
-		<div class="row-fluid">
+		<div class="row-fluid first">
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_drupal_man.jpg" alt="Drupalcon Man">
 				</figure>
 				<h2>Telling a Story</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>When we think of Portland, we think about the vibrant Portland culture, the renowned culinary scene, the hordes of breweries, and the oodles of outdoorsy activities. We wanted our app to cater to the Portland culture and tell a fun story to create an engaging experience. To bring the app’s characters to life, we paired vivacious illustrations with a creative backstory to give them personality and flair.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_chart_logo.jpg" alt="Chart">
 				</figure>
 				<h2>Capturing Data</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>Our app pulls data from the DrupalCon Portland site to access conference info like speakers, room numbers, and course level of difficulty. We enabled push notifications so you'll be in the loop if something changes at the last minute. The app also pulls data from Twitter to give you up to the minute DrupalCon updates.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_swipe_logo.jpg" alt="Swipe">
 				</figure>
 				<h2>Interactive Elements</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>Our goal was to make this app engaging and memorable with interactive elements like gesture controls. The app features animations like punching the bear and spinning the tracks wheel.</p>
+			</article>
+		</div> <!-- end of second row -->
+		
+		
+		<div class="row-fluid">
+			<article class="span2">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_map_logo.png" alt="Map">
+				</figure>
+			</article>
+			<article class="span4">
+				<h2>Mapping</h2>
+				<p>Now that you’ve found some cool places to check out, how do you get there? We used Apple Maps with native map features to make it easy to locate featured destinations.</p>
+			</article>
+			<article class="span2">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global_twitter_logo.png" alt="Twitter">
+				</figure>
+			</article>
+			<article class="span4 l">
+				<h2>Twitter Connect</h2>
+				<p>Get up-to the minute news updates from the @drupalcon Twitter feed, and submit your own tweets with the #drupalcon hashtag.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
@@ -79,11 +89,12 @@
 				<img src="../../images/caseStudies/drupalcon_mobile_zoom.png" alt="Drupalcon Schedule" class="padding-bottom">
 			</div>
 			<div class="span4 l">
-				<h2>All in the details</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
-				<br/><br/>
 				<h2>A system that works</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>Fun, interactive, and engaging, our DrupalCon app is the perfect companion for DrupalCon attendees. With this app, you won’t be reliant on Wi-Fi to figure out what session to go to next or how much time you have in between. Our app displays the DrupalCon schedule along with the speaker, room number, and each session’s level of difficulty.</p>
+				<br/>
+				<p>Our user interface experts went through many phases to ensure that the experience is uniform across every category. It’s clean, organized, and easy to navigate. Every detail page has the same structure and feel.</p>
+				<br/>
+				<p>More than anything, we wanted our app to be memorable. We didn’t want to create a boring app just listing the DrupalCon schedule. Feeling spontaneous? Give our track wheel a spin. Our interactive engineers built a wheel selector with a filter system to show the 9 color coded DrupalCon tracks. The app’s sorting functionality gives you the option to select by date, by track, or to spin the wheel.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
@@ -101,15 +112,17 @@
 				</figure>
 			</div>
 			<div class="span4 l">
-				<h2>Building an experience</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<h2>Design meets function</h2>
+				<p>Explore Portland the easy way. Choose from 7 different categories—food, coffee, breweries, biking, hiking, gardens, and film. Let’s say you tap breweries. You are then taken to a page listing all of the Portland breweries we have selected. Then, say you pick BridgePort Brewing Company. You are then taken to a page with a quick description of BridgePort along with their address, phone number, website, and map. A few taps later and your brewery tour is planned and beervana is moments away.</p>
 			</div>
 		</article>
 		<br><br>
-		<article class="row-fluid">
+		<article class="row-fluid first">
 			<div class="span4">
-				<h2>Design meet function</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<h2>All In the details</h2>
+				<p>Our app is fun, it’s quirky, and it’s got personality. By now, you may be wondering, why is a lumberjack punching a bear? Our content strategist dreamt up a backstory for the app’s 3 main characters and promoted the campaign across social media. Here’s a glimpse. Clyde is the socially awkward lumberjack who has been living alone in the Oregon mountains ever since he was abandoned on a school field trip at age 10. Remington is the womanizing grizzly bear who loves gourmet cooking. And finally, Emma, the beautiful Drupal wiz who has charmed the pants off Remy and Clyde and ended their close friendship.</p>
+				<br/>
+				<p>Accompany Clyde on his first trip out of the woods since he was 10 as he explores Portland and DrupalCon to try to find the girl of his dreams, Emma. Don’t forget keep an eye out for Remy and Clyde passing out swag once you get to DrupalCon.</p>
 			</div>
 			<div class="span8 l">
 				<img src="../../images/caseStudies/drupalcon_design1.png" alt="Drupalcon Schedule" class="padding-bottom">
@@ -117,12 +130,11 @@
 		</article>
 		<br/>
 		<article class="row-fluid">
-			<div class="span4">
-				<h2>Design meet function</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+			<div class="span6">
+				<img src="../../images/caseStudies/drupalcon_design2.png" alt="Drupalcon" class="padding-bottom">
 			</div>
-			<div class="span8 l">
-				<img src="../../images/caseStudies/drupalcon_design2.png" alt="Drupalcon Schedule" class="padding-bottom">
+			<div class="span6 l">
+				<img src="../../images/caseStudies/drupalcon_design3.png" alt="Drupalcon" class="padding-bottom">
 			</div>
 		</article>		
 	</section> <!-- end of block -->
@@ -134,7 +146,9 @@
 			</div>
 			<div class="span4 l">
 				<h2>Location-based Services</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<p>Once you have found some cool places you want to check out, our app will get you there. Our app pinpoints your exact location to help you find nearby coffee shops, restaurants, and other featured attractions. It pulls information from cellular, wi-fi, and GPS to determine your location.</p>
+				<br/>
+				<p>I got rid of some of the text blocks because I feel like we should keep it really simple and concise to let the app and illustrations speak for themselves. I also asked Billy to change the order of a couple of the screenshots to line up with the copy more.</p>
 
 			</div>
 		</article>

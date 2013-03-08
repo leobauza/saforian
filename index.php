@@ -304,8 +304,7 @@
 					<p>Kick Butts Day</p>
 				</article>
 				<article class="item safo-client second-page">
-					<a href="http://www.saforian.com/CaseStudies/Drupalcon"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="http://www.saforian.com/CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
 					<p>Drupalcon</p>
 				</article>
 				
@@ -403,7 +402,7 @@
 							</div>
 							<div class="input-group">
 								<div class="check-group group">
-									<label for='type'>Sign up for email</label>
+									<label for='type'>Newsletter Sign Up</label>
 									<input type='checkbox' id="newsletter" name='newsletter' checked="checked"/>
 								</div>
 							</div>
