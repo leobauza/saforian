@@ -21,6 +21,7 @@
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
 		<div id="twitter-feed">
+			<?php include("getTweet.php");?>
 		</div>
 			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
 		<p></p>
