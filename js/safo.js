@@ -284,17 +284,41 @@ $(window).load(function(){
 	//if($(window).scrollTop() <= 100 ){
 		
 	
-	$(window).scroll(function(){
-		if($(window).scrollTop() > (".div1" < 100)) {
-			$(".div1").addClass("fade");
+	$(".div1").waypoint(function(event, direction){
+		if(direction === "down") {
+			$(".div1").animate({opacity:.1}, 1000)
 		} else {
-			$(".div1").removeClass("fade");
+			$(".div1").animate({opacity:1}, 500);
 		}
 	});
 	
+	$(".div2").waypoint(function(event, direction){
+		if(direction === "down") {
+			$(".div2").animate({opacity:.1}, 1000)
+		} else {
+			$(".div2").animate({opacity:1}, 500);
+		}
+	});
 	
+	$(".div3").waypoint(function(event, direction){
+		if(direction === "down") {
+			$(".div3").animate({opacity:.1}, 1000)
+		} else {
+			$(".div3").animate({opacity:1}, 500);
+		}
+	});
+	
+	$(".div4").waypoint(function(event, direction){
+		if(direction === "down") {
+			$(".div4").animate({opacity:.1}, 1000)
+		} else {
+			$(".div4").animate({opacity:1}, 500);
+		}
+	});
 	
 
+	
+	
 	/* 
 	 * =============================================================
 	 * COPY THE IMAGES FOR MOBILE
@@ -513,7 +537,7 @@ $(function(){
 
 
 	//$('.novaslider-bg').waypoint(function(direction) {
-		//if(direction === 'Direction example triggered scrolling down') {
+		//if(direction === 'down') {
 			//$(this).css('opacity','0');
 		//} else {
 			//$(this).css('opacity','1');

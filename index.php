@@ -385,7 +385,7 @@
 		<!-- contact us -->
 		<section class='safo-contact' data-section='safo-contact'>
 			<div class='section-contents'>
-				<h2>Don't be shy</h2>
+				<h2>Let’s Start a Converstation</h2>
 				<div class='row-fluid mid contact form'>
 					<div class='span6'>
 						<form name='contact' id='contact' class='contact-form' method='post'>
