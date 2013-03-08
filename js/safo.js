@@ -286,7 +286,7 @@ $(window).load(function(){
 	
 	$(".div1").waypoint(function(event, direction){
 		if(direction === "down") {
-			$(".div1").animate({opacity:.1}, 1000)
+			$(".div1").animate({opacity:.1}, 200)
 		} else {
 			$(".div1").animate({opacity:1}, 500);
 		}
@@ -294,7 +294,7 @@ $(window).load(function(){
 	
 	$(".div2").waypoint(function(event, direction){
 		if(direction === "down") {
-			$(".div2").animate({opacity:.1}, 1000)
+			$(".div2").animate({opacity:.1}, 200)
 		} else {
 			$(".div2").animate({opacity:1}, 500);
 		}
@@ -302,7 +302,7 @@ $(window).load(function(){
 	
 	$(".div3").waypoint(function(event, direction){
 		if(direction === "down") {
-			$(".div3").animate({opacity:.1}, 1000)
+			$(".div3").animate({opacity:.1}, 200)
 		} else {
 			$(".div3").animate({opacity:1}, 500);
 		}
@@ -310,7 +310,7 @@ $(window).load(function(){
 	
 	$(".div4").waypoint(function(event, direction){
 		if(direction === "down") {
-			$(".div4").animate({opacity:.1}, 1000)
+			$(".div4").animate({opacity:.1}, 200)
 		} else {
 			$(".div4").animate({opacity:1}, 500);
 		}
