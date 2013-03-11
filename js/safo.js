@@ -261,28 +261,8 @@ $(window).load(function(){
  * =============================================================
  */
 
-	//$('#content').localScroll();
-	
+	$('#content').localScroll();
 
-	//$(".next1").click(function () {
-		//$(".div1").hide("fade");
-	//});
-
-
-
-	//$(window).scroll(function(){
-	  //more then or equals to
-	  //if($(window).scrollTop() >= 100 ){
-	       //$(".div1").animate({opacity:1});
-
-	  //less then 100px from top
-	  //} else {
-	    // $(".div1").animate({opacity:.25});
-	  //}
-	//});
-	
-	
-	//if($(window).scrollTop() <= 100 ){
 		
 	
 	$(".div1").waypoint(function(event, direction){
@@ -318,8 +298,49 @@ $(window).load(function(){
 	});
 	
 
+	$('.file-up').hide();
 	
+	$('.file-toggle').click(function(){
+		$('.file-up').toggle();
+	});
 	
+	$('.desc-up').hide();
+	
+	$('.desc-toggle').click(function(){
+		$('.desc-up').toggle();
+	});
+	
+
+
+	/* 
+	 * =============================================================
+	 * SERVICES JS
+	 * =============================================================
+	 */
+		
+		$(".services-slide-2").hide();
+		$(".dot1").addClass("on");
+		$(".dot2").addClass("off");
+		
+		$(".dot1").click(function() {
+			$(".services-slide-1").fadeIn("slow");
+			$(".services-slide-2").hide();
+			$(".dot1").removeClass("off");
+			$(".dot1").addClass("on");
+			$(".dot2").removeClass("on");
+			$(".dot2").addClass("off");
+		});
+		
+		$(".dot2").click(function() {
+			$(".services-slide-1").hide();
+			$(".services-slide-2").fadeIn("slow");
+			$(".dot2").removeClass("off");
+			$(".dot2").addClass("on");
+			$(".dot1").removeClass("on");
+			$(".dot1").addClass("off");
+		});
+		
+		
 	/* 
 	 * =============================================================
 	 * COPY THE IMAGES FOR MOBILE

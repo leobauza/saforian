@@ -11,13 +11,13 @@
 		<h1>Drupalcon</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>Many Drupal enthusiasts have traveled long distances to be at this year’s DrupalCon (aka the biggest Drupal conference). They’ve endured freakishly long car rides, plane rides with screaming babies, and train rides from hell to make it to Portland safe and sound. With that in mind, we wanted to create an app to make it easy for these weary travelers to maximize their DrupalCon experiences. If you use our app, you won’t be sitting around saying, “Well I don’t know… What do you wanna do?” We’ve researched, deliberated, and made some cut-throat decisions to compile our list of the best things to do in Portland. Our fun, interactive app lets you live it up at DrupalCon by showing you what’s going on at the conference and the hot spots to check out in Portland, along with making it easy to connect with other Drupal lovers.</p>
+				<p>Many Drupal enthusiasts have traveled long distances to be at this year’s DrupalCon (aka the biggest Drupal conference). They’ve endured freakishly long car rides, plane rides with screaming babies, and train rides from hell to make it to Portland safe and sound. With that in mind, we wanted to create an app to make it easy for these weary travelers to maximize their DrupalCon experiences. If you use our app, you won’t be sitting around saying, “Well I don’t know… What do <em>you</em> wanna do?” We’ve researched, deliberated, and made some cut-throat decisions to compile our list of the best things to do in Portland. Our fun, interactive app lets you live it up at DrupalCon by showing you what’s going on at the conference and the hot spots to check out in Portland, along with making it easy to connect with other Drupal lovers.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Mobile</span></li>
-					<li><strong>Solutions</strong><span>Mobile App</span></li>
-					<li><strong>Technology</strong><span>Drupal, Apple IOS</span></li>
+					<li><strong>Industry</strong><span>Technology</span></li>
+					<li><strong>Solutions</strong><span>Event Application, Event Management</span></li>
+					<li><strong>Technology</strong><span>Drupal, Apple iOS, Twitter, Vine</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
@@ -147,9 +147,6 @@
 			<div class="span4 l">
 				<h2>Location-based Services</h2>
 				<p>Once you have found some cool places you want to check out, our app will get you there. Our app pinpoints your exact location to help you find nearby coffee shops, restaurants, and other featured attractions. It pulls information from cellular, wi-fi, and GPS to determine your location.</p>
-				<br/>
-				<p>I got rid of some of the text blocks because I feel like we should keep it really simple and concise to let the app and illustrations speak for themselves. I also asked Billy to change the order of a couple of the screenshots to line up with the copy more.</p>
-
 			</div>
 		</article>
 	</section>	

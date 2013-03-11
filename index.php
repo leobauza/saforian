@@ -55,47 +55,51 @@
 		<section class="standard-section safo-services" data-section='safo-services'>
 			<div class='section-contents'>
 				<h2 class='our-services'>Our Core Competencies</h2>
-					<div class="pad20">
-							<div class='row-fluid'>
-								<div class='span4 show'>
-									<span class="none"><img src="images/icon_competencies_campaignmarketing.png" alt=""></span>
-									<h3>Campaign + Marketing</h3>
-									<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of technologies to establish a strategic roadmap for the continued evolution of your organization or cause.</p>
-								</div>
-								<div class='span4'>
-									<span class="none"><img src="images/icon_competencies_websitesintranets.png"alt=""></span>
-									<h3>Websites + Intranets</h3>
-									<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
-								</div>
-								<div class='span4 l'>
-									<span class="none"><img src="images/icon_competencies_digiinfrastructure.png" alt=""></span>
-									<h3>Digital Infrastructure</h3>
-									<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.
-									</p>
-								</div>
-							</div>
-							<div class='row-fluid last'>
-								<div class='span4 show'>
-									<span class="none"><img src="images/icon_competencies_assesstrack.png" alt=""></span>
-									<h3>Assessment + Tracking</h3>
-									<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
-								</div>
-								<div class='span4'>
-									<span class="none"><img src="images/icon_competencies_mobile.png" alt=""></span>
-									<h3>Mobile + Responsive</h3>
-									<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
-								</div>
-								<div id="a-tracking" class='span4 l'>
-									<span class="none"><img src="images/icon_competencies_digitools.png" alt=""></span>
-									<h3>Digital Tool Sets</h3>
-									<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
-								</div>
-							</div>
+				<div class='row-fluid services-slide-1'>
+					<div class='span4'>
+						<div class="bord-services">
+							<span class="none"><img src="images/icon_competencies_campaignmarketing.png" alt=""></span>
+							<h3>Campaign + Marketing</h3>
+							<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of technologies to establish a strategic roadmap for the continued evolution of your organization or cause.</p>
+						</div>
+					</div>
+					<div class='span4'>
+						<span class="none"><img src="images/icon_competencies_websitesintranets.png"alt=""></span>
+						<h3>Websites + Intranets</h3>
+						<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
+					</div>
+					<div class='span4 l'>
+						<span class="none"><img src="images/icon_competencies_digiinfrastructure.png" alt=""></span>
+						<h3>Digital Infrastructure</h3>
+						<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.</p>
+					</div>
+				</div>
+				<div class='row-fluid last services-slide-2'>
+					<div class="span4">
+						<span class="none"><img src="images/icon_competencies_assesstrack.png" alt=""></span>
+						<h3>Assessment + Tracking</h3>
+						<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
+					</div>
+					<div class='span4'>
+						<span class="none"><img src="images/icon_competencies_mobile.png" alt=""></span>
+						<h3>Mobile + Responsive</h3>
+						<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
+					</div>
+					<div class='span4 l'>
+						<span class="none"><img src="images/icon_competencies_digitools.png" alt=""></span>
+						<h3>Digital Tool Sets</h3>
+						<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
 					</div>
 				</div>
 			</div>
+			<div class="section-contents-dots">
+				<div class="circles">
+					<input type="button" value="" class="dot1" />
+					<span class="pad"></span>
+					<input type="button" value="" class="dot2" />
+				</div>
+			</div>
 		</section>
-		
 		
 		<!-- our clients -->
 		<section class='safo-clients' data-section='safo-clients'>

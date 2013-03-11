@@ -1415,6 +1415,10 @@ section.safo-jobs a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background: none\9;
+  background-color: #bec0c2\9;
+  /* IE8 and below */
+
 }
 .novaslider-bg .nova-block {
   width: 800px;
@@ -1526,6 +1530,87 @@ section.safo-jobs a:hover {
 .novaslider-bg .std-header img {
   display: block;
   margin: 0 auto;
+}
+.novaslider-bg .std-header .file-up {
+  float: none;
+  overflow: visible;
+  position: relative;
+  width: 80%;
+  margin: 0;
+  border: #333 solid 1px;
+  border: 2px solid #bababa;
+  height: 50px;
+  background: url('../images/va-slider/upload.png') right no-repeat #edeef0;
+  margin: 0 10px;
+}
+.novaslider-bg .std-header input[type="file"] {
+  z-index: 2;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  position: absolute;
+  background: none;
+  overflow: hidden;
+  border: none;
+  vertical-align: text-bottom;
+  width: 100%;
+  font-size: 1.5em;
+  line-height: 7em;
+}
+.novaslider-bg .std-header .file-toggle {
+  float: left;
+  height: 50px;
+  padding-left: 10px;
+  z-index: 500;
+  cursor: pointer;
+  display: block;
+}
+.novaslider-bg .std-header .file-toggle p {
+  font-size: 2.7em;
+  font-weight: 300;
+  color: #666;
+  text-align: left;
+}
+.novaslider-bg .std-header .desc-up {
+  float: left;
+  display: block;
+}
+.novaslider-bg .std-header .desc-toggle {
+  float: left;
+  height: 50px;
+  padding-left: 10px;
+  z-index: 500;
+  cursor: pointer;
+  display: block;
+  padding-top: 7px;
+}
+.novaslider-bg .std-header .desc-toggle p {
+  font-size: 2.7em;
+  font-weight: 300;
+  color: #666;
+  text-align: left;
+}
+.novaslider-bg .std-header .uploaded_file {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.novaslider-bg .std-header #styled {
+  width: 100%;
+  height: 120px;
+  border: #333 solid 1px;
+  border: 2px solid #bababa;
+  height: 150px;
+  margin: 0 10px;
+  background-color: #edeef0;
+  float: left;
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #666;
+  padding-left: 15px;
+}
+.novaslider-bg .std-header .upload-img {
+  float: left;
 }
 .novaslider-bg .std-body h3 {
   font-size: 2.8em;
@@ -1843,6 +1928,8 @@ section.safo-jobs a:hover {
   width: 100%;
 }
 .wallpaper-slider {
+  /******SERVICES******/
+
   /******STRUCTURE******/
 
 }
@@ -1878,6 +1965,15 @@ section.safo-jobs a:hover {
 }
 .wallpaper-slider .caroufredsel_wrapper .slides .slide {
   display: block;
+}
+.wallpaper-slider .services-arrow-right {
+  position: absolute;
+  right: 10px;
+  top: 200px;
+}
+.wallpaper-slider .bord-services {
+  border-right: #ccc solid 1px;
+  padding: 20px;
 }
 .wallpaper-slider .container {
   padding: 20px 40px;
@@ -2398,6 +2494,42 @@ img[src*="iw3.png"] {
   *width: 1020px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+.section-contents-dots {
+  max-width: 1020px;
+  padding: 50px 0 0 0;
+  *width: 1020px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-contents-dots .pad {
+  padding-right: 13px;
+}
+.section-contents-dots .circles input {
+  background: url('../images/services-circles.png') no-repeat left;
+  width: 13px;
+  border: 0px;
+}
+.section-contents-dots .circles input.on {
+  background: url('../images/services-circles.png') no-repeat left;
+  width: 13px;
+  border: 0px;
+}
+.section-contents-dots .circles input.off {
+  background: url('../images/services-circles.png') no-repeat right;
+  width: 13px;
+  border: 0px;
+}
+.section-contents-dots .row-fluid > [class*="span"] {
+  float: none;
+  margin-right: 3%;
+}
+.section-contents-dots .row-fluid > [class*="span"].l {
+  margin-right: 0;
+  width: auto;
+  float: none;
+  overflow: hidden;
 }
 .row-fluid {
   width: 100%;

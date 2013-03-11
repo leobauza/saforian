@@ -100,7 +100,7 @@
 			<h1>Don’t Be Shy</h1>
 			<article class="std-body">
 				<p>We want to get to know you — your business, your work, your needs. So tell us a little about what you’re looking for and how we can get in touch. We’ll take it from there.</p>
-				<form name='contact' id='contact' class='contact-form' method='post'>
+				<form name='contact' id='contact' class='contact-form' method='post' enctype="multipart/form-data">
 					<div class='row-fluid'>
 						<div class='span6 input-group'>
 							<label for='fullname'>Full name</label>
@@ -116,11 +116,34 @@
 							<label for='phone'>Phone number</label>
 							<input type='text' id="phone" name='phone' value='' />
 						</div>
-						<div class="span6 input-group">
+						<div class="span6 input-group l">
 							<div class="check-group group">
 								<input type='checkbox' id="newsletter" name='newsletter' checked="checked"/>
 								<label for='type'>Newsletter Sign Up</label>
 							</div>
+						</div>
+					</div>
+					<div class='row-fluid'>
+						<div class="span3">&nbsp;</div>
+						<div class="span9 l"><p>Upload a video to give us some insight into what you have going on.</p></div>
+						<div class="span12 input-group">
+							&nbsp;
+						</div>
+					</div>
+					<div class='row-fluid'>
+						<div class="span12 input-group file-toggle l">
+							<p><img src="../../images/va-slider/upload-arrow.png" class="upload-img">File Upload</p>
+						</div>
+						<div class="span12 input-group file-up l">
+							<input type="file" name="uploaded_file"/>
+						</div>
+					</div>
+					<div class='row-fluid'>
+						<div class="span12 input-group desc-toggle l">
+							<p><img src="../../images/va-slider/upload-arrow.png" class="upload-img">Optional Description</p>
+						</div>
+						<div class="span12 input-group desc-up l">
+							<textarea name="description" id="styled"></textarea>
 						</div>
 					</div>
 					<div class="submit-button">
