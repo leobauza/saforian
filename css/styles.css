@@ -2473,7 +2473,8 @@ img[src*="iw3.png"] {
   cursor: pointer;
 }
 .bord-services {
-  border-right: #000 solid 1px;
+  /*border-right: #000 solid 1px;*/
+
   padding: 25px;
   min-height: 470px;
 }

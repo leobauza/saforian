@@ -266,11 +266,13 @@
 					<p>Share Our Strength Initiative</p>
 					
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>American Association of Orthodontists</p>
 				</article>
+				-->
 				<article class="item safo-client first-page">
 					<a href='http://www.saforian.com/CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
 					<p>Northern Virginia Magazine Initiative</p>
@@ -283,6 +285,7 @@
 					<a href='http://www.saforian.com/CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
 					<p>FHI 360</p>
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
@@ -293,6 +296,7 @@
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Society for Human Resource Management</p>
 				</article>
+				-->
 				<article class="item safo-client first-page">
 					<a href="http://www.saforian.com/CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
@@ -301,11 +305,13 @@
 					<a href="http://www.saforian.com/CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
 					<p>The Great American DineOut</p>
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/grunley.jpg' alt='Grunley' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Grunley</p>
 				</article>
+				-->
 				<article class="item safo-client first-page">
 					<a href="http://www.saforian.com/CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
 					<p>Kick Butts Day</p>
