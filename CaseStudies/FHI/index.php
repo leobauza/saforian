@@ -3,8 +3,8 @@
 <article class="hero fhi-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the power the strength of strategy ability of technology to business and lives."</span>
-			<span class="byline">– Todd Rice</span>
+			<span class="quote">"Herding cats toward a beautiful and creative solution is no easy task – unless you are Saforian!"</span>
+			<span class="byline">– Jake Trees</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

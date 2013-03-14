@@ -1928,8 +1928,6 @@ section.safo-jobs a:hover {
   width: 100%;
 }
 .wallpaper-slider {
-  /******SERVICES******/
-
   /******STRUCTURE******/
 
 }
@@ -1965,15 +1963,6 @@ section.safo-jobs a:hover {
 }
 .wallpaper-slider .caroufredsel_wrapper .slides .slide {
   display: block;
-}
-.wallpaper-slider .services-arrow-right {
-  position: absolute;
-  right: 10px;
-  top: 200px;
-}
-.wallpaper-slider .bord-services {
-  border-right: #ccc solid 1px;
-  padding: 20px;
 }
 .wallpaper-slider .container {
   padding: 20px 40px;
@@ -2470,6 +2459,26 @@ img[src*="iws3.png"],
 img[src*="iw3.png"] {
   display: none;
 }
+/******SERVICES SECTION******/
+.services-arrow-right {
+  position: absolute;
+  right: -30px;
+  top: 275px;
+}
+.services-arrow-left {
+  position: absolute;
+  left: -30px;
+  top: 275px;
+}
+.bord-services {
+  border-right: #000 solid 1px;
+  padding: 25px;
+  min-height: 470px;
+}
+.bord-services-last {
+  border-right: none;
+  padding: 25px;
+}
 .port-overlay {
   position: absolute;
   top: 50px;
@@ -2498,7 +2507,7 @@ img[src*="iw3.png"] {
 }
 .section-contents-dots {
   max-width: 1020px;
-  padding: 50px 0 0 0;
+  padding: 20px 0 0 0;
   *width: 1020px;
   margin: 0 auto;
   text-align: center;
@@ -2592,6 +2601,14 @@ img[src*="iw3.png"] {
   width: 96.99999996%;
 }
 /******RESPONSIVE******/
+@media (max-width: 1120px) {
+  .services-arrow-right {
+    display: none;
+  }
+  .services-arrow-left {
+    display: none;
+  }
+}
 @media (max-width: 1100px) {
   .novaslider-bg .nova-block {
     width: 50%;
@@ -2619,6 +2636,11 @@ img[src*="iw3.png"] {
   }
 }
 @media (max-width: 1020px) {
+  .bord-services {
+    min-height: 490px;
+  }
+}
+@media (max-width: 1020px) {
   .safo-nav {
     font-size: 1.7em;
   }
@@ -2631,6 +2653,11 @@ img[src*="iw3.png"] {
   .novaslider-bg .contact-form label {
     padding-top: 15px;
     font-size: 1.8em;
+  }
+}
+@media (max-width: 960px) {
+  .bord-services {
+    min-height: 580px;
   }
 }
 @media (max-width: 959px) {
@@ -2856,6 +2883,11 @@ img[src*="iw3.png"] {
     margin-top: 20px;
   }
 }
+@media (max-width: 775px) {
+  .bord-services {
+    min-height: 600px;
+  }
+}
 @media (max-width: 770px) {
   section.safo-start {
     padding-top: 50px;
@@ -2879,6 +2911,18 @@ img[src*="iw3.png"] {
   .novaslider-bg .contact-form label {
     padding-top: 12px;
     font-size: 2.7em;
+  }
+  .none {
+    display: none;
+  }
+  .bord-services,
+  .bord-services-last {
+    min-height: 30px;
+    border: none;
+    padding: 5px 25px;
+  }
+  .safo-services h3 {
+    padding: 15px 0 0 0;
   }
   #iso-cont .item {
     width: 100%;
