@@ -123,12 +123,14 @@
 							</div>
 						</div>
 					</div>
-					<div class='row-fluid'>
-						<div class="span3">&nbsp;</div>
-						<div class="span9 l"><p>Upload a video to give us some insight into what you have going on.</p></div>
-						<div class="span12 input-group">
-							&nbsp;
+					<div class='row-fluid marg'>
+						<div class="span2"><div class="video"><img src="../../images/va-slider/video-upload.png"></div></div>
+						<div class="span10 l">
+							<span class="video-text">Upload a video to give us some insight into what you have going on.</span>
+							<label for='type'>Video URL</label>
+							<input class="video-type" type='text' id="video-url" name='video-url' value='' />
 						</div>
+						
 					</div>
 					<div class='row-fluid'>
 						<div class="span12 input-group file-toggle l">

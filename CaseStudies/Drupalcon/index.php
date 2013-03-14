@@ -42,7 +42,7 @@
 					<img src="../../images/caseStudies/global_drupal_man.jpg" alt="Drupalcon Man">
 				</figure>
 				<h2>Telling a Story</h2>
-				<p>When we think of Portland, we think about the vibrant Portland culture, the renowned culinary scene, the hordes of breweries, and the oodles of outdoorsy activities. We wanted our app to cater to the Portland culture and tell a fun story to create an engaging experience. To bring the app’s characters to life, we paired vivacious illustrations with a creative backstory to give them personality and flair.</p>
+				<p>When we think of Portland, we think about the vibrant Portland culture, the renowned culinary scene, the hordes of breweries, and the oodles of outdoorsy activities. Our app caters to the Portland culture and tells a creative story. To bring the app’s characters to life, we paired vivacious illustrations with an original backstory to give them personality and flair.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
@@ -56,7 +56,7 @@
 					<img src="../../images/caseStudies/global_swipe_logo.jpg" alt="Swipe">
 				</figure>
 				<h2>Interactive Elements</h2>
-				<p>Our goal was to make this app engaging and memorable with interactive elements like gesture controls. The app features animations like punching the bear and spinning the tracks wheel.</p>
+				<p>Our engineers took a user-centered approach and focused on functionality, user input, content, and layout. Our goal was to make this app engaging and memorable by integrating interactive elements like gesture controls. The app gets the audience involved and features animations like punching the bear and spinning the tracks wheel.</p>
 			</article>
 		</div> <!-- end of second row -->
 		
@@ -119,7 +119,7 @@
 		<br><br>
 		<article class="row-fluid first">
 			<div class="span4">
-				<h2>All In the details</h2>
+				<h2>All in the details</h2>
 				<p>Our app is fun, it’s quirky, and it’s got personality. By now, you may be wondering, why is a lumberjack punching a bear? Our content strategist dreamt up a backstory for the app’s 3 main characters and promoted the campaign across social media. Here’s a glimpse. Clyde is the socially awkward lumberjack who has been living alone in the Oregon mountains ever since he was abandoned on a school field trip at age 10. Remington is the womanizing grizzly bear who loves gourmet cooking. And finally, Emma, the beautiful Drupal wiz who has charmed the pants off Remy and Clyde and ended their close friendship.</p>
 				<br/>
 				<p>Accompany Clyde on his first trip out of the woods since he was 10 as he explores Portland and DrupalCon to try to find the girl of his dreams, Emma. Don’t forget keep an eye out for Remy and Clyde passing out swag once you get to DrupalCon.</p>

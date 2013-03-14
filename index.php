@@ -54,6 +54,8 @@
 		<!-- SERVICES -->
 		<section class="standard-section safo-services" data-section='safo-services'>
 			<div class='section-contents'>
+				<span class="services-arrow-right"><img src="images/arrow-right.png" alt=""></span>
+				<span class="services-arrow-left"><img src="images/arrow-left.png" alt=""></span>
 				<h2 class='our-services'>Our Core Competencies</h2>
 				<div class='row-fluid services-slide-1'>
 					<div class='span4'>
@@ -64,31 +66,41 @@
 						</div>
 					</div>
 					<div class='span4'>
-						<span class="none"><img src="images/icon_competencies_websitesintranets.png"alt=""></span>
-						<h3>Websites + Intranets</h3>
-						<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
+						<div class="bord-services">
+							<span class="none"><img src="images/icon_competencies_websitesintranets.png"alt=""></span>
+							<h3>Websites + Intranets</h3>
+							<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
+						</div>
 					</div>
 					<div class='span4 l'>
-						<span class="none"><img src="images/icon_competencies_digiinfrastructure.png" alt=""></span>
-						<h3>Digital Infrastructure</h3>
-						<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.</p>
+						<div class="bord-services-last">
+							<span class="none"><img src="images/icon_competencies_digiinfrastructure.png" alt=""></span>
+							<h3>Digital Infrastructure</h3>
+							<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.</p>
+						</div>
 					</div>
 				</div>
-				<div class='row-fluid last services-slide-2'>
+				<div class='row-fluid services-slide-2'>
 					<div class="span4">
-						<span class="none"><img src="images/icon_competencies_assesstrack.png" alt=""></span>
-						<h3>Assessment + Tracking</h3>
-						<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
+						<div class="bord-services">
+							<span class="none"><img src="images/icon_competencies_assesstrack.png" alt=""></span>
+							<h3>Assessment + Tracking</h3>
+							<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
+						</div>
 					</div>
 					<div class='span4'>
-						<span class="none"><img src="images/icon_competencies_mobile.png" alt=""></span>
-						<h3>Mobile + Responsive</h3>
-						<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
+						<div class="bord-services">
+							<span class="none"><img src="images/icon_competencies_mobile.png" alt=""></span>
+							<h3>Mobile + Responsive</h3>
+							<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
+						</div>
 					</div>
 					<div class='span4 l'>
-						<span class="none"><img src="images/icon_competencies_digitools.png" alt=""></span>
-						<h3>Digital Tool Sets</h3>
-						<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
+						<div class="bord-services-last">
+							<span class="none"><img src="images/icon_competencies_digitools.png" alt=""></span>
+							<h3>Digital Tool Sets</h3>
+							<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -254,11 +266,13 @@
 					<p>Share Our Strength Initiative</p>
 					
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>American Association of Orthodontists</p>
 				</article>
+				-->
 				<article class="item safo-client first-page">
 					<a href='http://www.saforian.com/CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
 					<p>Northern Virginia Magazine Initiative</p>
@@ -268,10 +282,10 @@
 					<p>United Nations Initiative</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href='http://www.saforian.com/CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
 					<p>FHI 360</p>
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
@@ -282,18 +296,44 @@
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>Society for Human Resource Management</p>
 				</article>
+				-->
 				<article class="item safo-client first-page">
 					<a href="http://www.saforian.com/CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
 				</article>
+				<article class="item safo-client first-page">
+					<a href="http://www.saforian.com/CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
+					<p>The Great American DineOut</p>
+				</article>
+				<!-- 
+				<article class="item safo-client first-page">
+					<a href='#'><img src='images/site/client-thumbnails/grunley.jpg' alt='Grunley' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>Grunley</p>
+				</article>
+				-->
+				<article class="item safo-client first-page">
+					<a href="http://www.saforian.com/CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
+					<p>Kick Butts Day</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="http://www.saforian.com/CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
+					<p>Drupalcon</p>
+				</article>
+				
+				<!-- 
+				More projects button...
 				<article class="item safo-client first-page filter">
 					<a href='#' data-filter=".second-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
 				</article>
+				-->
+				
+				
 				<!-- 
 
 				FIRST PAGE END | START SECOND PAGE
 
-				-->
+				
 				<article class="item safo-client second-page">
 					<a href="http://www.saforian.com/CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
 					<p>The Great American DineOut</p>
@@ -315,7 +355,7 @@
 				<article class="item safo-client second-page filter">
 					<a href='#' data-filter=".first-page"><img class="ignore" src="images/homeSlider/projects_more_projects.png"></a>
 				</article>
-				
+				-->
 				<!-- 
 
 				SECOND PAGE END
