@@ -986,6 +986,47 @@ section.safo-jobs a:hover {
   margin: 0 auto 0px;
   padding: 55px 20px;
 }
+.std-block .new-body {
+  margin: 0px 0px 40px;
+}
+.std-block .new-body h3,
+.std-block .new-body p {
+  color: #000000;
+}
+.std-block .new-body img {
+  margin: 0 auto 10px;
+  display: block;
+}
+.std-block .new-body .intro-paragraph {
+  margin: 0 0 65px;
+}
+.std-block .new-body ul.numbered {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.std-block .new-body ul.numbered li {
+  line-height: 1.8em;
+  font-size: 1.4em;
+}
+.std-block .new-body ul.numbered li .inner-li {
+  position: relative;
+  padding: 0 0 0 40px;
+}
+.std-block .new-body ul.numbered li .numbering {
+  position: absolute;
+  display: block;
+  background: url('../images/capabilities/bg_numbering_number.gif') 50% 50% no-repeat;
+  left: 0;
+  top: 0;
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+  text-align: center;
+}
+.std-block .new-body.l {
+  margin: 0px;
+}
 .google-block {
   max-width: 1020px;
   *width: 1020px;

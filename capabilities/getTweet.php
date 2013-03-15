@@ -50,9 +50,8 @@ $tweetTime = filemtime('../tweet.html');
 $timeNow = time();
 $timeDiff = $timeNow - $tweetTime;
 
-//108000 = 30 mins 216000 = 60 mins
-//check if that is true...
-if ($timeDiff < 2700)
+
+if ($timeDiff < 675)
 {
 	//echo $timeDiff;
 }

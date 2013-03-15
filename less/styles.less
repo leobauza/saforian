@@ -932,7 +932,48 @@ section.safo-jobs {
 	*width:1020px;
 	margin:0 auto 0px;
 	padding:55px 20px;
+	.new-body {
+		margin:0px 0px 40px;
+		h3, p {
+			color:@black;
+		}
+		img {
+			margin:0 auto 10px;
+			display:block;
+		}
+		.intro-paragraph {
+			margin:0 0 65px;
+		}
+		ul.numbered {
+			list-style:none;
+			margin:0;
+			padding:0;
+			li {
+				line-height:1.8em;
+				font-size:1.4em;
+				.inner-li {
+					position:relative;
+					padding:0 0 0 40px;
+				}
+				.numbering {
+					position:absolute;
+					display:block;
+					background:url('../images/capabilities/bg_numbering_number.gif') 50% 50% no-repeat;
+					left:0;
+					top:0;
+					width:26px;
+					height:26px;
+					color:@white;
+					text-align:center;
+				}
+			}
+		}
+		&.l {
+			margin:0px;
+		}
+	}
 }
+
 
 .google-block {
 	max-width:1020px;
