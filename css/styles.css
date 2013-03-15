@@ -2148,6 +2148,29 @@ section.safo-jobs a:hover {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+.hero.cancer-hero {
+  background-image: url('../images/caseStudies/cancer-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.cancer-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 45%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.cancer-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.cancer-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.grunley-hero {
   background-image: url('../images/caseStudies/grunley_hero.png');
   background-repeat: no-repeat;
@@ -2780,7 +2803,8 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote,
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
-  .hero.wagner-hero blockquote {
+  .hero.wagner-hero blockquote,
+  .hero.cancer-hero blockquote {
     padding-left: 50px;
   }
 }
@@ -3001,7 +3025,8 @@ img[src*="iw3.png"] {
   .hero.ata-hero blockquote,
   .hero.nkh-hero blockquote,
   .hero.unf-hero blockquote,
-  .hero.wagner-hero blockquote {
+  .hero.wagner-hero blockquote,
+  .hero.cancer-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3010,7 +3035,8 @@ img[src*="iw3.png"] {
   .hero.ata-hero blockquote .quote,
   .hero.nkh-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
-  .hero.wagner-hero blockquote .quote {
+  .hero.wagner-hero blockquote .quote,
+  .hero.cancer-hero blockquote .quote {
     font-size: 3.5em;
   }
   .hero.aao-hero blockquote .byline,
@@ -3019,7 +3045,8 @@ img[src*="iw3.png"] {
   .hero.ata-hero blockquote .byline,
   .hero.nkh-hero blockquote .byline,
   .hero.unf-hero blockquote .byline,
-  .hero.wagner-hero blockquote .byline {
+  .hero.wagner-hero blockquote .byline,
+  .hero.cancer-hero blockquote .byline {
     margin-top: 20px;
   }
   .hero.kbd-hero blockquote {
@@ -3413,7 +3440,8 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote,
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
-  .hero.wagner-hero blockquote {
+  .hero.wagner-hero blockquote,
+  .hero.cancer-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3424,7 +3452,8 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote .quote,
   .hero.specialicious-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
-  .hero.wagner-hero blockquote .quote {
+  .hero.wagner-hero blockquote .quote,
+  .hero.cancer-hero blockquote .quote {
     font-size: 3em;
   }
 }
