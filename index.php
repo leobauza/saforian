@@ -42,13 +42,17 @@
 			</div>
 		</section>
 		
-		<div id="sliders-cont2">
+		<!-- <div id="sliders-cont2">
 			<div class="inside">
-				<?php include('inc/frontsliders2.php');?>
+				<?php //include('inc/frontsliders2.php');?>
+			</div>
+		</div> -->
+		
+		<div id="sliders-cont">
+			<div class="inside">
+				<?php include('inc/frontsliders.php');?>
 			</div>
 		</div>
-		
-		
 		
 		
 		<!-- SERVICES -->

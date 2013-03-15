@@ -435,8 +435,8 @@ section.safo-history span {
 }
 /* 3rd section: Our Method */
 section.safo-methodology {
-  background: #f5f5f5;
-  color: #000;
+  background: #000;
+  color: #fff;
   padding: 88px 0;
 }
 section.safo-methodology.offwhite {
