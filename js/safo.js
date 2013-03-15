@@ -605,7 +605,9 @@ $(window).load(function(){
 	 * =============================================================
 	*/
 
-		$('#rotatescroll').tinycircleslider({ interval: true, snaptodots: true });
+		if($('#rotatescroll').length){
+			$('#rotatescroll').tinycircleslider({ interval: true, snaptodots: true });
+		}
 
 
 
@@ -971,6 +973,43 @@ $("#site-nav ul").width($navWidth);
 		});
 	} //end if iso
 	
+
+	if($('#resizable').length) {
+		$('#resizable').resizable({
+			containment: ".std-block",
+			grid:100,
+			maxHeight: 685,
+			maxWidth: 1020,
+			minHeight: 685,
+			minWidth: 400
+		});
+	
+		$('#resizable').on('resize', function(event, ui){
+			$boxWidth = $(this).width();
+			console.log($boxWidth);
+			if($boxWidth > 800) {
+				$('#resizable').removeClass();
+				$('#resizable').addClass('full');
+				console.log("full");
+			} else if($boxWidth > 450 && $boxWidth < 800) {
+				$('#resizable').removeClass();
+				$('#resizable').addClass('iPad');
+				console.log("iPad");
+			} else if($boxWidth < 450) {
+				$('#resizable').removeClass();
+				$('#resizable').addClass('iPhone');
+				console.log("iPhone");
+			}
+			
+			
+		});
+	
+	}
+	
+	
+	
+
+
 
 }); //end my ready
 	

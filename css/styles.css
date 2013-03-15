@@ -1027,6 +1027,96 @@ section.safo-jobs a:hover {
 .std-block .new-body.l {
   margin: 0px;
 }
+#resizable {
+  width: 100%;
+  height: 685px;
+  padding: 60px 0% 0px;
+  border: 1px solid #dddddd;
+  background: #f4f4f4;
+  position: relative;
+  margin: 0 auto 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#resizable .overflower {
+  overflow: auto;
+  height: 685px;
+  padding: 0px 20px;
+}
+#resizable h3 {
+  text-align: center;
+  margin: 0;
+  padding: 60px 0px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+#resizable .ui-resizable-handle {
+  z-index: 90;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#resizable .fourthbox,
+#resizable .halfbox {
+  background: #000000;
+  float: left;
+}
+#resizable .fourthbox p,
+#resizable .halfbox p {
+  text-align: center;
+  background: #ffffff url('../images/capabilities/bg_demo_mobile.png') 50% 50% repeat-x;
+  color: #000000;
+  padding: 50px 0;
+  margin: 15px;
+  font-size: 3.2em;
+}
+#resizable.full .halfbox {
+  width: 47.988888%;
+  margin: 0 2% 20px 0px;
+}
+#resizable.full .halfbox.l {
+  width: 49.988888%;
+  margin-right: 0%;
+}
+#resizable.full .fourthbox {
+  width: 22.98888888%;
+  margin: 0 2% 20px 0;
+}
+#resizable.full .fourthbox.l {
+  width: 24.98888888%;
+  margin-right: 0;
+}
+#resizable.iPad .halfbox {
+  width: 99.988888%;
+  margin: 0 0 20px;
+}
+#resizable.iPad .fourthbox {
+  width: 47.98888888%;
+  margin: 0 2% 20px 0;
+}
+#resizable.iPad .fourthbox.l {
+  width: 49.98888888%;
+  margin-right: 0%;
+}
+#resizable.iPad .fourthbox.lalso {
+  width: 49.98888888%;
+  margin-right: 0%;
+}
+#resizable.iPhone .halfbox {
+  width: 99.98888%;
+  margin: 0 0 20px 0;
+}
+#resizable.iPhone .fourthbox {
+  width: 99.988888%;
+  margin: 0 0 20px 0;
+}
 .google-block {
   max-width: 1020px;
   *width: 1020px;
