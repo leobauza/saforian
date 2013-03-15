@@ -29,6 +29,31 @@
 			</div>
 		</section>
 		
+		<div id="resizable" class="full group">
+			<div class="overflower">
+				<h3>Scale this box to see the effects of a responsive site.</h3>
+				<div class="halfbox">
+					<p>Primary Content</p>
+				</div>
+				<div class="halfbox l">
+					<p>Secondary Content</p>
+				</div>
+				<div class="fourthbox">
+					<p>Callout 1</p>
+				</div>
+				<div class="fourthbox lalso">
+					<p>Callout 2</p>
+				</div>
+				<div class="fourthbox">
+					<p>Callout 3</p>
+				</div>
+				<div class="fourthbox l">
+					<p>Callout 4</p>
+				</div>
+			</div>
+
+		</div>
+		
 		<section class="new-body l">
 			<h3>Tips &amp; Tricks</h3>
 			<ul class="row-fluid numbered">

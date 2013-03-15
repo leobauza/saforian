@@ -94,6 +94,9 @@
 	<script type="text/javascript" src="../../js/carouFredSel.min.js"></script>
 	<script type='text/javascript' src='../../js/waypoints.min.js'></script>
 	<script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
+	<script type='text/javascript' src='../../js/jquery.localscroll-min.js'></script>
+	<script type='text/javascript' src='../../js/jquery-ui-1.10.1.custom.min.js'></script>
+
 	<script type='text/javascript' src='../../js/safo.js'></script>
 
 
