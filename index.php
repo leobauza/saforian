@@ -42,9 +42,9 @@
 			</div>
 		</section>
 		
-		<div id="sliders-cont">
+		<div id="sliders-cont2">
 			<div class="inside">
-				<?php include('inc/frontsliders.php');?>
+				<?php include('inc/frontsliders2.php');?>
 			</div>
 		</div>
 		
@@ -262,8 +262,8 @@
 
 				-->
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/NoKidHungry" class="ignore"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
-					<p>Share Our Strength Initiative</p>
+					<a href="../CaseStudies/NoKidHungry" class="ignore"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
+					<p>No Kid Hungry</p>
 					
 				</article>
 				<!-- 
@@ -274,15 +274,15 @@
 				</article>
 				-->
 				<article class="item safo-client first-page">
-					<a href='http://www.saforian.com/CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
-					<p>Northern Virginia Magazine Initiative</p>
+					<a href='../CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
+					<p>Specialicious</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/UNF" class="ignore"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
-					<p>United Nations Initiative</p>
+					<a href="../CaseStudies/UNF" class="ignore"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
+					<p>Clean Cook Stoves</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='http://www.saforian.com/CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
+					<a href='../CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
 					<p>FHI 360</p>
 				</article>
 				<!-- 
@@ -298,11 +298,11 @@
 				</article>
 				-->
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
+					<a href="../CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
 					<p>The Great American DineOut</p>
 				</article>
 				<!-- 
@@ -313,12 +313,12 @@
 				</article>
 				-->
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
-					<p>Kick Butts Day</p>
+					<a href="../CaseStudies/KBD" class="ignore"><img src='images/site/client-thumbnails/kbd.jpg' alt='Kick Butts Day' /></a>
+					<p>Tobacco Free Kids</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="http://www.saforian.com/CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
-					<p>Drupalcon</p>
+					<a href="../CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
+					<p>DrupalCon Portland 2013</p>
 				</article>
 				
 				<!-- 
