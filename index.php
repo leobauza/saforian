@@ -289,12 +289,11 @@
 					<a href='../CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
 					<p>FHI 360</p>
 				</article>
-				<!-- 
 				<article class="item safo-client first-page">
-					<a href='#'><img src='images/site/client-thumbnails/ata.jpg' alt='America Trucking Association' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href='../CaseStudies/ATA' class="ignore"><img src='images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
 					<p>American Trucking Association</p>
 				</article>
+				<!-- 
 				<article class="item safo-client first-page">
 					<a href='#'><img src='images/site/client-thumbnails/shrm.jpg' alt='Society for Human Resource Management' /></a>
 					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>

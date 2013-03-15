@@ -82,6 +82,8 @@
 			<div class="span5 l">
 				<h2>Capturing and Connecting Audiences</h2>
 				<p>To reach ATA’s target audiences, we conducted extensive research to establish a strong plan of action. Our content strategists surveyed and interviewed ATA members at conferences to develop a comprehensive understanding of their desires, needs, and objectives. With this audience analysis, we worked with ATA’s internal team to structure a portal to guide users to the information they wanted. ATA members can build a custom experience around personalization of events and meetings, news, CE credits, and webinars.</p>
+				<br/>
+				<p>Stay tuned for more information about our personalized member experience efforts that leverages today’s tablet and mobile devices while providing the foundation for supporting additional emerging platforms as they become available.</p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
