@@ -52,6 +52,9 @@
 						<p>Callout 4</p>
 					</div>
 				</div>
+				<div class="drag">
+					
+				</div>
 			</div>
 		</section>
 		<!-- <ul class="track">
@@ -64,9 +67,14 @@
 		<section class="new-body l">
 			<h3>Tips &amp; Tricks</h3>
 			<ul class="row-fluid tipstricks">
-				<li class="span4"><div class="inner-li">Examine your target audience to determine whether there are opportunities to improve the consumption of your content when accessed via a mobile platform </div></li>
-				<li class="span4"><div class="inner-li">Existing website analytics can give a good idea of how much traffic is coming to your site via a mobile device</div></li>
 				<li class="span4"><div class="inner-li">Developing a site using responsive design techniques provides built-in flexibility to ensure your site is always presented in the best way</div></li>
+				<li class="span4"><div class="inner-li">Pay attention to your links and try not to have them too close together so that audiences end up having proximity clicks.</div></li>
+				<li class="span4"><div class="inner-li">Pay attention to font usage across platforms. Different devices have different ways to render fonts.</div></li>
+			</ul>
+			<ul class="row-fluid tipstricks l">
+				<li class="span4"><div class="inner-li">Existing website analytics can give a good idea of how much traffic is coming to your site via a mobile device</div></li>
+				<li class="span4"><div class="inner-li">When thinking about mobile access think about content first navigation second. The goal should be to try and get the audience to the content as quickly as possible. This can be achieved easily by collapsing the navigation into a single button that moves out of the way to focus the attention on the actual content.</div></li>
+				<li class="span4"><div class="inner-li">Examine your target audience to determine whether there are opportunities to improve the consumption of your content when accessed via a mobile platform</div></li>
 			</ul>
 		</section>
 

@@ -945,8 +945,11 @@ section.safo-jobs {
 		}
 		ul.tipstricks {
 			list-style:none;
-			margin:0;
+			margin:0 0 40px;
 			padding:0;
+			&.l {
+				margin:0;
+			}
 			li {
 				line-height:1.8em;
 				font-size:1.4em;
@@ -1028,7 +1031,14 @@ section.safo-jobs {
 		height:685px;
 		//padding:0px 20px;
 	}
-
+	.drag {
+		background:url('../images/capabilities/bg_drag.png') 50% 50% no-repeat;
+		width: 100px;
+		height: 70px;
+		position: absolute;
+		bottom: 0;
+		left: 100%;
+	}
 	h3 {
 		text-align:center;
 		margin:0;
@@ -3065,6 +3075,51 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			padding-left: 50px;
 		}
 	}
+	#resize-cont {
+		padding:0;
+	}
+	.drag {
+		display:none;
+	}
+	#resizable.full, #resizable.landscape, #resizable.portrait, #resizable.iphone {
+		background: @white url('../images/capabilities/bg_mobile_iPadLand.png') 50% 0% no-repeat;
+		padding-top: 176px;
+		height: 600px!important;
+		width:784px!important;
+		h3 {
+			display:none;
+		}
+		.ui-resizable-handle {
+			display:none;
+		}
+		.overflower {
+			height: 459px;
+			margin: 0px 86px;
+		}
+		.halfbox {
+			width:99.988888%;
+			margin:0 0 20px;
+			&.l {
+				width:99.988888%;
+			}
+		}
+		.fourthbox {
+			width:47.98888888%;
+			margin:0 2% 20px 0;
+			&.l {
+				width:49.98888888%;
+				margin-right:0%;
+			}
+			&.lalso {
+				width:49.98888888%;
+				margin-right:0%;
+			}
+		}
+	}
+
+
+
+
 }
 
 @media (max-width: 1020px) {
@@ -3396,6 +3451,51 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			margin-top: 40px;
 		}
 	}
+	.std-block .new-body ul.tipstricks {
+		margin:0;
+		li {
+			font-size:1.6em;
+			margin:0 0 5px;
+		}
+	}
+	
+	#resizable.full, #resizable.landscape, #resizable.portrait, #resizable.iphone {
+		background: @white url('../images/capabilities/bg_mobile_iPadPort.png') 50% 0% no-repeat;
+		padding-top: 110px;
+		height: 739px!important;
+		width:620px!important;
+		h3 {
+			display:none;
+		}
+		.ui-resizable-handle {
+			display:none;
+		}
+		.overflower {
+			height: 594px;
+			margin: 0px 87px 0px 89px;
+		}
+		.halfbox {
+			width:99.988888%;
+			margin:0 0 20px;
+			&.l {
+				width:99.988888%;
+			}
+		}
+		.fourthbox {
+			width:47.98888888%;
+			margin:0 2% 20px 0;
+			&.l {
+				width:49.98888888%;
+				margin-right:0%;
+			}
+			&.lalso {
+				width:49.98888888%;
+				margin-right:0%;
+			}
+		}
+	}
+	
+	
 	
 } /*end 770 media*/
 @media (max-width: 760px) {

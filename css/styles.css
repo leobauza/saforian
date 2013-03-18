@@ -1002,8 +1002,11 @@ section.safo-jobs a:hover {
 }
 .std-block .new-body ul.tipstricks {
   list-style: none;
-  margin: 0;
+  margin: 0 0 40px;
   padding: 0;
+}
+.std-block .new-body ul.tipstricks.l {
+  margin: 0;
 }
 .std-block .new-body ul.tipstricks li {
   line-height: 1.8em;
@@ -1080,6 +1083,14 @@ section.safo-jobs a:hover {
 #resizable .overflower {
   overflow: auto;
   height: 685px;
+}
+#resizable .drag {
+  background: url('../images/capabilities/bg_drag.png') 50% 50% no-repeat;
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
 }
 #resizable h3 {
   text-align: center;
@@ -2974,6 +2985,74 @@ img[src*="iw3.png"] {
   .hero.cancer-hero blockquote {
     padding-left: 50px;
   }
+  #resize-cont {
+    padding: 0;
+  }
+  .drag {
+    display: none;
+  }
+  #resizable.full,
+  #resizable.landscape,
+  #resizable.portrait,
+  #resizable.iphone {
+    background: #ffffff url('../images/capabilities/bg_mobile_iPadLand.png') 50% 0% no-repeat;
+    padding-top: 176px;
+    height: 600px!important;
+    width: 784px!important;
+  }
+  #resizable.full h3,
+  #resizable.landscape h3,
+  #resizable.portrait h3,
+  #resizable.iphone h3 {
+    display: none;
+  }
+  #resizable.full .ui-resizable-handle,
+  #resizable.landscape .ui-resizable-handle,
+  #resizable.portrait .ui-resizable-handle,
+  #resizable.iphone .ui-resizable-handle {
+    display: none;
+  }
+  #resizable.full .overflower,
+  #resizable.landscape .overflower,
+  #resizable.portrait .overflower,
+  #resizable.iphone .overflower {
+    height: 459px;
+    margin: 0px 86px;
+  }
+  #resizable.full .halfbox,
+  #resizable.landscape .halfbox,
+  #resizable.portrait .halfbox,
+  #resizable.iphone .halfbox {
+    width: 99.988888%;
+    margin: 0 0 20px;
+  }
+  #resizable.full .halfbox.l,
+  #resizable.landscape .halfbox.l,
+  #resizable.portrait .halfbox.l,
+  #resizable.iphone .halfbox.l {
+    width: 99.988888%;
+  }
+  #resizable.full .fourthbox,
+  #resizable.landscape .fourthbox,
+  #resizable.portrait .fourthbox,
+  #resizable.iphone .fourthbox {
+    width: 47.98888888%;
+    margin: 0 2% 20px 0;
+  }
+  #resizable.full .fourthbox.l,
+  #resizable.landscape .fourthbox.l,
+  #resizable.portrait .fourthbox.l,
+  #resizable.iphone .fourthbox.l {
+    width: 49.98888888%;
+    margin-right: 0%;
+  }
+  #resizable.full .fourthbox.lalso,
+  #resizable.landscape .fourthbox.lalso,
+  #resizable.portrait .fourthbox.lalso,
+  #resizable.iphone .fourthbox.lalso {
+    width: 49.98888888%;
+    margin-right: 0%;
+  }
 }
 @media (max-width: 1020px) {
   .bord-services {
@@ -3247,6 +3326,75 @@ img[src*="iw3.png"] {
   }
   #casestudy-footer p {
     margin-top: 40px;
+  }
+  .std-block .new-body ul.tipstricks {
+    margin: 0;
+  }
+  .std-block .new-body ul.tipstricks li {
+    font-size: 1.6em;
+    margin: 0 0 5px;
+  }
+  #resizable.full,
+  #resizable.landscape,
+  #resizable.portrait,
+  #resizable.iphone {
+    background: #ffffff url('../images/capabilities/bg_mobile_iPadPort.png') 50% 0% no-repeat;
+    padding-top: 110px;
+    height: 739px!important;
+    width: 620px!important;
+  }
+  #resizable.full h3,
+  #resizable.landscape h3,
+  #resizable.portrait h3,
+  #resizable.iphone h3 {
+    display: none;
+  }
+  #resizable.full .ui-resizable-handle,
+  #resizable.landscape .ui-resizable-handle,
+  #resizable.portrait .ui-resizable-handle,
+  #resizable.iphone .ui-resizable-handle {
+    display: none;
+  }
+  #resizable.full .overflower,
+  #resizable.landscape .overflower,
+  #resizable.portrait .overflower,
+  #resizable.iphone .overflower {
+    height: 594px;
+    margin: 0px 87px 0px 89px;
+  }
+  #resizable.full .halfbox,
+  #resizable.landscape .halfbox,
+  #resizable.portrait .halfbox,
+  #resizable.iphone .halfbox {
+    width: 99.988888%;
+    margin: 0 0 20px;
+  }
+  #resizable.full .halfbox.l,
+  #resizable.landscape .halfbox.l,
+  #resizable.portrait .halfbox.l,
+  #resizable.iphone .halfbox.l {
+    width: 99.988888%;
+  }
+  #resizable.full .fourthbox,
+  #resizable.landscape .fourthbox,
+  #resizable.portrait .fourthbox,
+  #resizable.iphone .fourthbox {
+    width: 47.98888888%;
+    margin: 0 2% 20px 0;
+  }
+  #resizable.full .fourthbox.l,
+  #resizable.landscape .fourthbox.l,
+  #resizable.portrait .fourthbox.l,
+  #resizable.iphone .fourthbox.l {
+    width: 49.98888888%;
+    margin-right: 0%;
+  }
+  #resizable.full .fourthbox.lalso,
+  #resizable.landscape .fourthbox.lalso,
+  #resizable.portrait .fourthbox.lalso,
+  #resizable.iphone .fourthbox.lalso {
+    width: 49.98888888%;
+    margin-right: 0%;
   }
 }
 /*end 770 media*/
