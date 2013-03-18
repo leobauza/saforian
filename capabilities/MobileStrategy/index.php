@@ -29,37 +29,44 @@
 			</div>
 		</section>
 		
-		<div id="resizable" class="full group">
-			<div class="overflower">
-				<h3>Scale this box to see the effects of a responsive site.</h3>
-				<div class="halfbox">
-					<p>Primary Content</p>
-				</div>
-				<div class="halfbox l">
-					<p>Secondary Content</p>
-				</div>
-				<div class="fourthbox">
-					<p>Callout 1</p>
-				</div>
-				<div class="fourthbox lalso">
-					<p>Callout 2</p>
-				</div>
-				<div class="fourthbox">
-					<p>Callout 3</p>
-				</div>
-				<div class="fourthbox l">
-					<p>Callout 4</p>
+		<section id="resize-cont">
+			<div id="resizable" class="full group">
+				<div class="overflower">
+					<h3>Scale this box to see the effects of a responsive site.</h3>
+					<div class="halfbox">
+						<p>Primary Content</p>
+					</div>
+					<div class="halfbox l">
+						<p>Secondary Content</p>
+					</div>
+					<div class="fourthbox">
+						<p>Callout 1</p>
+					</div>
+					<div class="fourthbox lalso">
+						<p>Callout 2</p>
+					</div>
+					<div class="fourthbox">
+						<p>Callout 3</p>
+					</div>
+					<div class="fourthbox l">
+						<p>Callout 4</p>
+					</div>
 				</div>
 			</div>
-
-		</div>
+		</section>
+		<!-- <ul class="track">
+			<li class="desktop"><span></span>desktop</li>
+			<li class="landscape"><span></span>landscape tablet</li>
+			<li class="portrait"><span></span>portrait tablet</li>
+			<li class="phone"><span></span>phone</li>
+		</ul> -->
 		
 		<section class="new-body l">
 			<h3>Tips &amp; Tricks</h3>
-			<ul class="row-fluid numbered">
-				<li class="span4"><div class="inner-li"><span class="numbering">1</span> Examine your target audience to determine whether there are opportunities to improve the consumption of your content when accessed via a mobile platform </div></li>
-				<li class="span4"><div class="inner-li"><span class="numbering">2</span> Existing website analytics can give a good idea of how much traffic is coming to your site via a mobile device</div></li>
-				<li class="span4"><div class="inner-li"><span class="numbering">3</span> Developing a site using responsive design techniques provides built-in flexibility to ensure your site is always presented in the best way</div></li>
+			<ul class="row-fluid tipstricks">
+				<li class="span4"><div class="inner-li">Examine your target audience to determine whether there are opportunities to improve the consumption of your content when accessed via a mobile platform </div></li>
+				<li class="span4"><div class="inner-li">Existing website analytics can give a good idea of how much traffic is coming to your site via a mobile device</div></li>
+				<li class="span4"><div class="inner-li">Developing a site using responsive design techniques provides built-in flexibility to ensure your site is always presented in the best way</div></li>
 			</ul>
 		</section>
 

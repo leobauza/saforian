@@ -943,7 +943,7 @@ section.safo-jobs {
 		.intro-paragraph {
 			margin:0 0 65px;
 		}
-		ul.numbered {
+		ul.tipstricks {
 			list-style:none;
 			margin:0;
 			padding:0;
@@ -952,18 +952,8 @@ section.safo-jobs {
 				font-size:1.4em;
 				.inner-li {
 					position:relative;
-					padding:0 0 0 40px;
-				}
-				.numbering {
-					position:absolute;
-					display:block;
-					background:url('../images/capabilities/bg_numbering_number.gif') 50% 50% no-repeat;
-					left:0;
-					top:0;
-					width:26px;
-					height:26px;
-					color:@white;
-					text-align:center;
+					padding:0 0 0 20px;
+					background:url('../images/capabilities/bg_tipstricks_bullet.png') 0% 10px no-repeat;
 				}
 			}
 		}
@@ -972,39 +962,95 @@ section.safo-jobs {
 		}
 	}
 }
-
-#resizable { 
+.track {
+	list-style:none;
+	float:right;
+	margin:0 0 40px;
 	width:100%;
-	height:685px;
-	padding:60px 0% 0px;
-	border:1px solid #dddddd;
+	li {
+		position:relative;
+		float:right;
+		padding:10px 0 0 0;
+		span {
+			background:url('../images/capabilities/bg_track.png') 50% 50% no-repeat;
+			.square(37px,37px);
+			display:block;
+			position:absolute;
+		}
+		&.desktop {
+			width:78px;
+			text-align:right;
+			span {
+				bottom:100%;
+				left:53%;
+			}
+		}
+		&.landscape {
+			width:103px;
+			text-align:right;
+			span {
+				bottom:100%;
+				left:43%;
+			}
+		}
+		&.portrait {
+			width:123px;
+			text-align:right;
+			span {
+				bottom:100%;
+				left:54.7%;
+			}
+		}
+		&.phone {
+			span {
+				bottom:100%;
+				left:-11%;
+			}
+		}
+	}
+}
+#resize-cont {
+	padding-top:20px;
+}
+#resizable { 
 	background:#f4f4f4;
+	#CSS3 > .border-radius(10px);
+	width:100%;
+	height:810px;
+	padding:60px 0% 0px;
+	//border:1px solid #dddddd;
+	//background:#f4f4f4;
 	position:relative;
 	margin:0 auto 40px;
-	#CSS3 > .border-radius(5px);
+	
 	.overflower {
 		overflow:auto;
 		height:685px;
-		padding:0px 20px;
+		//padding:0px 20px;
 	}
+
 	h3 {
 		text-align:center;
 		margin:0;
-		padding:60px 0px;
+		padding:60px 2.5%;
 		background:@black;
 		color:@white;
 		font-size:2.8em;
 		margin-bottom:20px;
 		line-height:1.4em;
+		//display:block;
+		float:left;
+		width:95%;
 	}
 	.ui-resizable-handle {
 		z-index: 90;
-		width: 20px;
-		height: 20px;
-		background:@black;
+		width: 37px;
+		height: 37px;
+		background:url('../images/capabilities/bg_window_resizer.png') 50% 50% no-repeat;
 		position:absolute;
 		right:0;
 		bottom:0;
+		cursor:pointer;
 	}
 	.fourthbox, .halfbox {
 		background:@black;
@@ -1019,6 +1065,14 @@ section.safo-jobs {
 		}
 	}
 	&.full {
+		background:#f4f4f4 url('../images/capabilities/bg_mobile_imac.png') 50% 0% no-repeat;
+		padding-top:66px;
+		height:770px!important;
+		.overflower {
+			overflow:auto;
+			height:490px;
+			margin:0px 70px;
+		}
 		.halfbox {
 			width:47.988888%;
 			margin:0 2% 20px 0px;
@@ -1037,6 +1091,13 @@ section.safo-jobs {
 		}
 	}
 	&.iPad {
+		background:#f4f4f4 url('../images/capabilities/bg_mobile_iPadLand.png') 50% 0% no-repeat;
+		padding-top:176px;
+		height:670px!important;
+		.overflower {
+			height:459px;
+			margin:0px 103px;
+		}
 		.halfbox {
 			width:99.988888%;
 			margin:0 0 20px;
@@ -1053,8 +1114,24 @@ section.safo-jobs {
 				margin-right:0%;
 			}
 		}
+		&.portrait {
+			background:#f4f4f4 url('../images/capabilities/bg_mobile_iPadPort.png') 50% 0% no-repeat;
+			padding-top:110px;
+			height:739px!important;
+			.overflower {
+				height:594px;
+				margin:0px 87px 0px 89px;
+			}
+		}
 	}
 	&.iPhone {
+		background:#f4f4f4 url('../images/capabilities/bg_mobile_iPhone.png') 50% 0% no-repeat;
+		padding-top:174px;
+		height:680px!important;
+		.overflower {
+			height:463px;
+			margin:0px 56px;
+		}
 		.halfbox {
 			width:99.98888%;
 			margin:0 0 20px 0;
@@ -3780,6 +3857,31 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 	.novaslider-bg .nova-block {
 		width: 90%;
+	}
+	.std-block {
+		.new-body {
+			.span4 {
+				margin-bottom:30px;
+			}
+			.intro-paragraph {
+				margin-bottom:30px;
+			}
+		}
+	}
+	.capabilities-bg {
+		.std-header {
+			h1 {
+				margin-bottom:30px;
+			}
+		}
+	}
+	#resizable {
+		display:none;
+	}
+	.scroll-up {
+		.std-block {
+			padding-top:55px;
+		}
 	}
 }
 

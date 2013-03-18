@@ -977,25 +977,29 @@ $("#site-nav ul").width($navWidth);
 	if($('#resizable').length) {
 		$('#resizable').resizable({
 			containment: ".std-block",
-			grid:100,
-			maxHeight: 685,
+			grid:200,
+			maxHeight: 810,
 			maxWidth: 1020,
-			minHeight: 685,
+			minHeight: 810,
 			minWidth: 400
 		});
 	
 		$('#resizable').on('resize', function(event, ui){
 			$boxWidth = $(this).width();
 			console.log($boxWidth);
-			if($boxWidth > 800) {
+			if($boxWidth > 820) {
 				$('#resizable').removeClass();
 				$('#resizable').addClass('full');
 				console.log("full");
-			} else if($boxWidth > 450 && $boxWidth < 800) {
+			} else if($boxWidth > 620 && $boxWidth <= 820) {
 				$('#resizable').removeClass();
 				$('#resizable').addClass('iPad');
-				console.log("iPad");
-			} else if($boxWidth < 450) {
+				console.log("iPad landscape");
+			} else if($boxWidth > 420 && $boxWidth <= 620) {
+				$('#resizable').removeClass();
+				$('#resizable').addClass('iPad portrait');
+				console.log("iPad portrait");
+			} else if($boxWidth <= 420) {
 				$('#resizable').removeClass();
 				$('#resizable').addClass('iPhone');
 				console.log("iPhone");
