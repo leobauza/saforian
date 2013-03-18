@@ -4,7 +4,7 @@
 <article class="hero cancer-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the power the strength of strategy ability of technology to business and lives."</span>
+			<span class="quote">"We believe in the strength of strategy and the power of technology to transform businesses and lives."</span>
 			<span class="byline">– Todd Rice</span>
 		</blockquote>
 	</div>
@@ -47,14 +47,14 @@
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="">
+					<img src="../../images/caseStudies/global-talk-logo.png" alt="">
 				</figure>
 				<h2>Social Interaction</h2>
 				<p>Just about every single person on this planet knows someone who has been affected by cancer. We created a platform to provide connection possibilities for NCI’s target audience—patients, family members, doctors, nurses, practitioners, and support providers­—to help them make informed health decisions.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="">
+					<img src="../../images/caseStudies/global-wrench-logo.png" alt="">
 				</figure>
 				<h2>Personalization</h2>
 				<p>To cater to NCI’s diverse audience, we created a concept that focuses on providing personalization capabilities. We developed specialized content portals to give visitors more control over which content is displayed.</p>
