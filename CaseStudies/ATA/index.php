@@ -3,8 +3,8 @@
 <article class="hero ata-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the power the strength of strategy ability of technology to business and lives."</span>
-			<span class="byline">— Todd Rice</span>
+			<span class="quote"></span>
+			<span class="byline"></span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
