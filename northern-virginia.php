@@ -126,26 +126,29 @@
 					<div class='row-fluid marg'>
 						<div class="span2"><div class="video"><img src="../../images/va-slider/video-upload.png"></div></div>
 						<div class="span10 l">
-							<span class="video-text">Upload a video to give us some insight into what you have going on.</span>
-							<label for='type'>Video URL</label>
-							<input class="video-type" type='text' id="video-url" name='video-url' value='' />
+							<div class="video-inside">
+								<span class="video-text">Upload a video to give us some insight into what you have going on.</span>
+								<label for='type'>Video URL</label>
+								<input class="video-type" type='text' id="videourl" name='videourl' value='' />
+							</div>
 						</div>
 						
 					</div>
 					<div class='row-fluid'>
-						<div class="span12 input-group file-toggle l">
-							<p><img src="../../images/va-slider/upload-arrow.png" class="upload-img">File Upload</p>
+						<div class="span12 input-group l">
+							<p class="file-toggle"><img src="../../images/va-slider/upload-arrow.png" class="upload-img">File Upload</p>
 						</div>
 						<div class="span12 input-group file-up l">
-							<input type="file" name="uploaded_file"/>
+							<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+							<input type="file" name="uploaded_file" id="uploaded_file" class="file"/>
 						</div>
 					</div>
 					<div class='row-fluid'>
-						<div class="span12 input-group desc-toggle l">
-							<p><img src="../../images/va-slider/upload-arrow.png" class="upload-img">Optional Description</p>
+						<div class="span12 input-group l">
+							<p class="desc-toggle"><img src="../../images/va-slider/upload-arrow.png" class="upload-img">Optional Description</p>
 						</div>
 						<div class="span12 input-group desc-up l">
-							<textarea name="description" id="styled"></textarea>
+							<textarea name="description" id="description"></textarea>
 						</div>
 					</div>
 					<div class="submit-button">
@@ -164,4 +167,4 @@
 </section>
 
 
-<?php include('inc/footer.php');?>
+<?php include('inc/footer2.php');?>

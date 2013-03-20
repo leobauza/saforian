@@ -1733,47 +1733,22 @@ section.safo-jobs {
 			display:block;
 			margin: 0 auto;
 		}
-		.file-up {
-			float: none;
-			overflow: visible;
-			position: relative;
-			width: 80%;
-			margin: 0;
-			border: #333 solid 1px;
-			border: 2px solid #bababa;
-			height: 50px;
-			background: url('../images/va-slider/upload.png') right no-repeat #edeef0;
-			margin: 0 10px;
+		.file-up {	
 		}
 		
 		input[type="file"] {
-			z-index: 2;
-			-webkit-opacity: 1;
-			-moz-opacity: 1;
-			opacity: 1;
-			position: absolute;
-			background: none;
-			overflow: hidden;
-			border: none;
-			vertical-align: text-bottom;
-			width: 100%;
-			font-size: 1.5em;
-			line-height: 7em;
 		}
+		
 		.file-toggle {
 			float: left;
-			height: 50px;
 			padding-left: 10px;
 			z-index: 500;
 			cursor: pointer;
 			display: block;
-			
-			p {
-				font-size: 2.7em;
-				font-weight: 300;
-				color: #666;
-				text-align: left;
-			}
+			font-size: 2.7em;
+			font-weight: 300;
+			color: #666;
+			margin: 0;
 		}
 		
 		.desc-up {
@@ -1782,19 +1757,14 @@ section.safo-jobs {
 		}
 		.desc-toggle {
 			float: left;
-			height: 50px;
 			padding-left: 10px;
 			z-index: 500;
 			cursor: pointer;
 			display: block;
-			padding-top: 7px;
-			
-			p {
-				font-size: 2.7em;
-				font-weight: 300;
-				color: #666;
-				text-align: left;
-			}
+			font-size: 2.7em;
+			font-weight: 300;
+			color: #666;
+			margin: 0;
 		}
 		
 		.uploaded_file {
@@ -1803,8 +1773,8 @@ section.safo-jobs {
 			opacity: 1;
 		}
 		
-		#styled {
-			width: 100%;
+		#description {
+			width: 95%;
 			height: 120px;
 			border: #333 solid 1px;
 			border: 2px solid #bababa;
@@ -1812,10 +1782,11 @@ section.safo-jobs {
 			margin: 0 10px;
 			background-color: #edeef0;
 			float: left;
-			font-size: 1.5em;
-			line-height: 2em;
+			font-size: 2.7em;
+			line-height: 1.3em;
 			color: #666;
-			padding-left: 15px;
+			padding: 15px;
+			font-family: @sans-serif;
 		}
 		
 		.upload-img {
@@ -1852,6 +1823,28 @@ section.safo-jobs {
 	}
 	li.indent {
 		margin-left: 50px;
+	}
+	
+	.marg {
+		margin: 20px 0;
+	}
+	.video-inside {
+		padding-top: 20px;
+		.video-type {
+			float: left;
+			margin-top: 10px;
+			width: 93.5%;
+			max-width: none;
+		}
+		.video-text {
+			font-size: 1.5em;
+			margin: 50px 0 0 0;
+			font-weight: 500;
+			text-align: left;
+		}
+		label {
+			margin-top: 10px;
+		}
 	}
 }
 
@@ -3067,6 +3060,15 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	.novaslider-bg .check-group .pretty-checkbox {
 		margin: 12px 0px 0px 5px;
 	}
+	.video {
+		padding-top: 33px;
+	}
+	.novaslider-bg .marg {
+		margin: 0px;
+	}
+	.novaslider-bg .video-inside .video-type {
+		width: 92%;
+	}
 }
 	
 @media (max-width: 1060px) {
@@ -3148,6 +3150,9 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 @media (max-width: 960px) {
 	.bord-services {
 		min-height: 580px;
+	}
+	.novaslider-bg .video-inside .video-type {
+		width: 88%;
 	}
 }
 
@@ -3898,6 +3903,24 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	
 	.novaslider-bg .check-group .pretty-checkbox {
 		margin: 12px 0px 0px 20px;
+	}
+	
+	.novaslider-bg .video-inside {
+		text-align: center;
+	}
+	.novaslider-bg .std-header #description {
+		width: 90%;
+		margin: 0px;
+	}
+	.novaslider-bg .video-inside .video-type {
+		width: 90%;
+	}
+	div.uploader {
+		width: 97%;
+		margin: 0 0 20px 0;
+	}
+	.video {
+		display: none;
 	}
 }
 
