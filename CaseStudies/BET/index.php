@@ -1,7 +1,7 @@
 <?php include("../header.php");?>
 
 
-<article class="hero cancer-hero ">
+<article class="hero bet-hero ">
 	<div class="inner">
 		<blockquote>
 			<span class="quote">"We believe in the strength of strategy and the power of technology to transform businesses and lives."</span>
@@ -12,68 +12,68 @@
 
 <section id="work-block">
 	<section class="block">
-		<h1>Cancer.org</h1>
+		<h1>BET</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>The National Cancer Institute (NCI) is the federal government’s principal agency for cancer research and training. We were approached by NCI to present a conceptual model of how the site could better meet the needs of their diverse audience. We took a step back and brainstormed new ways to engage the site’s core audiences to establish Cancer.gov as the premier platform for providing both educational content and social interaction. Our vision was to create a compelling interactive experience that allowed visitors to interact to make informed decisions about diagnoses, treatment options, and support initiatives. Our deliverable included content organization concepts, engagement diagrams, potential navigation models, improved content delivery capabilities as well as a visual exploration of an improved home page design.</p>
+				<p>Black Entertainment Television (BET) is the leading provider of media and entertainment for African Americans and consumers of African American culture, reaching over 90 million households in the United States, the United Kingdom, Canada, the Middle East, and the Caribbean. The <strong>BET Awards</strong> and <strong>BET Hip Hop Awards</strong> are the media giant’s prestigious awards shows, honoring artistic contributions to the African American community and the world at large. We were invited to work with BET in defining the functionality of secure voting websites for each set of awards. We worked with BET staff to define and analyze the detailed requirements and functionality specifications for each of the voting sites. Our goal was to simplify the voting process across a variety of platforms and give participants an incredible user experience.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Government</span></li>
-					<li><strong>Solutions</strong><span>Website, Strategy</span></li>
-					<li><strong>Technology</strong><span>CSS, HTML, PHP</span></li>
+					<li><strong>Industry</strong><span>Commercial</span></li>
+					<li><strong>Solutions</strong><span>Website, Branding, Facebook, Mobile, Voting Mechanism</span></li>
+					<li><strong>Technology</strong><span>??</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
 	</section> <!-- end of block -->
 	
 	<section class="block">
-		
-		<div class="row-fluid">
-			<article class="span8">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/cancer-ia.jpg" alt="Drupalcon Man">
-				</figure>
-			</article>
-			<article class="span4 l">
-				<h2>Informational Architecture</h2>
-				<p>We created an optimized organizational structure that provides better groupings to the content and feature sets throughout. Our interactive engineers first gathered requirements regarding NCI’s diverse audience groups and outreach plans. We then formulated the required page-level content hierarchies and functionality needed to support the site’s requirements and to minimize any unnecessary steps for visitors along their journeys through the site. Using our defined audience goals and objectives, we incorporated refinements, paving the way for streamlined pathways and optimized navigational controls.</p>
-			</article>
-		</div>
-	</section>
-	
+		<h2>Cross Platform Compatible</h2>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bet-devices.jpg" alt="Device Image">
+		</figure>
+	</section> <!-- end of block -->
+
 	<section class="block">
 		
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global-talk-logo.png" alt="">
+					<img src="../../images/caseStudies/global_facebook2_logo.jpg" alt="">
 				</figure>
-				<h2>Social Interaction</h2>
-				<p>Just about every single person on this planet knows someone who has been affected by cancer. We created a platform to provide connection possibilities for NCI’s target audience—patients, family members, doctors, nurses, practitioners, and support providers­—to help them make informed health decisions.</p>
 			</article>
-			<article class="span4">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global-wrench-logo.png" alt="">
-				</figure>
-				<h2>Personalization</h2>
-				<p>To cater to NCI’s diverse audience, we created a concept that focuses on providing personalization capabilities. We developed specialized content portals to give visitors more control over which content is displayed.</p>
-			</article>
-			<article class="span4 l">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global_compass_logo.png" alt="Navigational Models">
-				</figure>
-				<h2>Navigational Models</h2>
-				<p>Once we determined how the organizational structure should function, we created various navigational models to test scenarios against labeling, order, and placement. We defined navigational models to demonstrate how structures could be navigated and to determine the best approach.</p>
+			<article class="span8 l">
+				<h2>Facebook Designs</h2>
+				<p>We created Facebook specific designs to keep the BET Awards’ brand consistent throughout. To provide full integration within Facebook’s environment, we spec’d out requirements to give participants easy access and a streamlined user experience.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
 
-	<section class="block-last">
+	<section class="block">
 		<h2>Website Designs</h2>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/cancer-largeimage1.jpg" alt="Large Image">
+			<img src="../../images/caseStudies/bet-large1.jpg" alt="Large Image">
 		</figure>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bet-large2.jpg" alt="Large Image">
+		</figure>
+	</section> <!-- end of block -->
+	
+	<section class="block-last">
+		<h2>Mobile Design</h2>
+		<p>We used responsive design to ensure the end result was optimized for compatibility in the mobile space. With a variety of platforms in mind, our designers focused on creating a user-friendly setup of categories including all the information a voter could need to make a decision.</p>
+		<br/><br/>
+		<div class="row-fluid">
+			<article class="span4">
+				<img src="../../images/caseStudies/bet-mobile1.jpg" alt="Mobile Image">
+			</article>
+			<article class="span4">
+				<img src="../../images/caseStudies/bet-mobile2.jpg" alt="Mobile Image">
+			</article>
+			<article class="span4 l">
+				<img src="../../images/caseStudies/bet-mobile3.jpg" alt="Mobile Image">
+			</article>
+		</div>
 	</section> <!-- end of block -->
 
 </section> <!-- end of work-block -->

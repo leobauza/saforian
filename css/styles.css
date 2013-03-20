@@ -2338,6 +2338,98 @@ section.safo-jobs a:hover {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.bet-hero {
+  background-image: url('../images/caseStudies/bet-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.bet-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.bet-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.bet-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.nwp-hero {
+  background-image: url('../images/caseStudies/nwp-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.nwp-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.nwp-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.nwp-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.cna-hero {
+  background-image: url('../images/caseStudies/cna-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.cna-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.cna-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.cna-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.nvtc-hero {
+  background-image: url('../images/caseStudies/nvtc-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.nvtc-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.nvtc-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.nvtc-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.grunley-hero {
   background-image: url('../images/caseStudies/grunley_hero.png');
   background-repeat: no-repeat;
@@ -2563,6 +2655,9 @@ section.safo-jobs a:hover {
   margin: 40px 0 0 0;
   line-height: 1.3em;
   text-align: right;
+}
+.padb {
+  padding-bottom: 60px;
 }
 #work-block {
   max-width: 1020px;
@@ -2980,7 +3075,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   #resize-cont {
@@ -3273,7 +3372,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3283,7 +3386,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
   .hero.wagner-hero blockquote .quote,
-  .hero.cancer-hero blockquote .quote {
+  .hero.cancer-hero blockquote .quote,
+  .hero.bet-hero blockquote .quote,
+  .hero.nwp-hero blockquote .quote,
+  .hero.cna-hero blockquote .quote,
+  .hero.nvtc-hero blockquote .quote {
     font-size: 3.5em;
   }
   .hero.aao-hero blockquote .byline,
@@ -3293,7 +3400,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote .byline,
   .hero.unf-hero blockquote .byline,
   .hero.wagner-hero blockquote .byline,
-  .hero.cancer-hero blockquote .byline {
+  .hero.cancer-hero blockquote .byline,
+  .hero.bet-hero blockquote .byline,
+  .hero.nwp-hero blockquote .byline,
+  .hero.cna-hero blockquote .byline,
+  .hero.nvtc-hero blockquote .byline {
     margin-top: 20px;
   }
   .hero.kbd-hero blockquote {
@@ -3774,7 +3885,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3786,7 +3901,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
   .hero.wagner-hero blockquote .quote,
-  .hero.cancer-hero blockquote .quote {
+  .hero.cancer-hero blockquote .quote,
+  .hero.bet-hero blockquote .quote,
+  .hero.nwp-hero blockquote .quote,
+  .hero.cna-hero blockquote .quote,
+  .hero.nvtc-hero blockquote .quote {
     font-size: 3em;
   }
 }
