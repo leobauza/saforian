@@ -993,6 +993,9 @@ section.safo-jobs a:hover {
 .std-block .new-body p {
   color: #000000;
 }
+.std-block .new-body p {
+  margin: 0px 0px 15px;
+}
 .std-block .new-body img {
   margin: 0 auto 10px;
   display: block;
