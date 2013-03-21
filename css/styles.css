@@ -1753,45 +1753,16 @@ section.safo-jobs a:hover {
   display: block;
   margin: 0 auto;
 }
-.novaslider-bg .std-header .file-up {
-  float: none;
-  overflow: visible;
-  position: relative;
-  width: 80%;
-  margin: 0;
-  border: #333 solid 1px;
-  border: 2px solid #bababa;
-  height: 50px;
-  background: url('../images/va-slider/upload.png') right no-repeat #edeef0;
-  margin: 0 10px;
-}
-.novaslider-bg .std-header input[type="file"] {
-  z-index: 2;
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-  position: absolute;
-  background: none;
-  overflow: hidden;
-  border: none;
-  vertical-align: text-bottom;
-  width: 100%;
-  font-size: 1.5em;
-  line-height: 7em;
-}
 .novaslider-bg .std-header .file-toggle {
   float: left;
-  height: 50px;
   padding-left: 10px;
   z-index: 500;
   cursor: pointer;
   display: block;
-}
-.novaslider-bg .std-header .file-toggle p {
   font-size: 2.7em;
   font-weight: 300;
   color: #666;
-  text-align: left;
+  margin: 0;
 }
 .novaslider-bg .std-header .desc-up {
   float: left;
@@ -1799,26 +1770,22 @@ section.safo-jobs a:hover {
 }
 .novaslider-bg .std-header .desc-toggle {
   float: left;
-  height: 50px;
   padding-left: 10px;
   z-index: 500;
   cursor: pointer;
   display: block;
-  padding-top: 7px;
-}
-.novaslider-bg .std-header .desc-toggle p {
   font-size: 2.7em;
   font-weight: 300;
   color: #666;
-  text-align: left;
+  margin: 0;
 }
 .novaslider-bg .std-header .uploaded_file {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
-.novaslider-bg .std-header #styled {
-  width: 100%;
+.novaslider-bg .std-header #description {
+  width: 95%;
   height: 120px;
   border: #333 solid 1px;
   border: 2px solid #bababa;
@@ -1826,10 +1793,11 @@ section.safo-jobs a:hover {
   margin: 0 10px;
   background-color: #edeef0;
   float: left;
-  font-size: 1.5em;
-  line-height: 2em;
+  font-size: 2.7em;
+  line-height: 1.3em;
   color: #666;
-  padding-left: 15px;
+  padding: 15px;
+  font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .novaslider-bg .std-header .upload-img {
   float: left;
@@ -1859,6 +1827,27 @@ section.safo-jobs a:hover {
 }
 .novaslider-bg li.indent {
   margin-left: 50px;
+}
+.novaslider-bg .marg {
+  margin: 20px 0;
+}
+.novaslider-bg .video-inside {
+  padding-top: 20px;
+}
+.novaslider-bg .video-inside .video-type {
+  float: left;
+  margin-top: 10px;
+  width: 93.5%;
+  max-width: none;
+}
+.novaslider-bg .video-inside .video-text {
+  font-size: 1.5em;
+  margin: 50px 0 0 0;
+  font-weight: 500;
+  text-align: left;
+}
+.novaslider-bg .video-inside label {
+  margin-top: 10px;
 }
 .fade {
   opacity: 0.2;
@@ -2352,6 +2341,98 @@ section.safo-jobs a:hover {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.bet-hero {
+  background-image: url('../images/caseStudies/bet-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.bet-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.bet-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.bet-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.nwp-hero {
+  background-image: url('../images/caseStudies/nwp-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.nwp-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.nwp-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.nwp-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.cna-hero {
+  background-image: url('../images/caseStudies/cna-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.cna-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.cna-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.cna-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.nvtc-hero {
+  background-image: url('../images/caseStudies/nvtc-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.nvtc-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.nvtc-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.nvtc-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.grunley-hero {
   background-image: url('../images/caseStudies/grunley_hero.png');
   background-repeat: no-repeat;
@@ -2577,6 +2658,9 @@ section.safo-jobs a:hover {
   margin: 40px 0 0 0;
   line-height: 1.3em;
   text-align: right;
+}
+.padb {
+  padding-bottom: 60px;
 }
 #work-block {
   max-width: 1020px;
@@ -2974,6 +3058,15 @@ img[src*="iw3.png"] {
   .novaslider-bg .check-group .pretty-checkbox {
     margin: 12px 0px 0px 5px;
   }
+  .video {
+    padding-top: 33px;
+  }
+  .novaslider-bg .marg {
+    margin: 0px;
+  }
+  .novaslider-bg .video-inside .video-type {
+    width: 92%;
+  }
 }
 @media (max-width: 1060px) {
   .hero.aao-hero blockquote,
@@ -2985,7 +3078,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   #resize-cont {
@@ -3080,6 +3177,9 @@ img[src*="iw3.png"] {
 @media (max-width: 960px) {
   .bord-services {
     min-height: 580px;
+  }
+  .novaslider-bg .video-inside .video-type {
+    width: 88%;
   }
 }
 @media (max-width: 959px) {
@@ -3275,7 +3375,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3285,7 +3389,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
   .hero.wagner-hero blockquote .quote,
-  .hero.cancer-hero blockquote .quote {
+  .hero.cancer-hero blockquote .quote,
+  .hero.bet-hero blockquote .quote,
+  .hero.nwp-hero blockquote .quote,
+  .hero.cna-hero blockquote .quote,
+  .hero.nvtc-hero blockquote .quote {
     font-size: 3.5em;
   }
   .hero.aao-hero blockquote .byline,
@@ -3295,7 +3403,11 @@ img[src*="iw3.png"] {
   .hero.nkh-hero blockquote .byline,
   .hero.unf-hero blockquote .byline,
   .hero.wagner-hero blockquote .byline,
-  .hero.cancer-hero blockquote .byline {
+  .hero.cancer-hero blockquote .byline,
+  .hero.bet-hero blockquote .byline,
+  .hero.nwp-hero blockquote .byline,
+  .hero.cna-hero blockquote .byline,
+  .hero.nvtc-hero blockquote .byline {
     margin-top: 20px;
   }
   .hero.kbd-hero blockquote {
@@ -3737,6 +3849,23 @@ img[src*="iw3.png"] {
   .novaslider-bg .check-group .pretty-checkbox {
     margin: 12px 0px 0px 20px;
   }
+  .novaslider-bg .video-inside {
+    text-align: center;
+  }
+  .novaslider-bg .std-header #description {
+    width: 90%;
+    margin: 0px;
+  }
+  .novaslider-bg .video-inside .video-type {
+    width: 90%;
+  }
+  div.uploader {
+    width: 97%;
+    margin: 0 0 20px 0;
+  }
+  .video {
+    display: none;
+  }
 }
 @media (max-width: 639px) {
   #iso-cont .item {
@@ -3759,7 +3888,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote,
   .hero.unf-hero blockquote,
   .hero.wagner-hero blockquote,
-  .hero.cancer-hero blockquote {
+  .hero.cancer-hero blockquote,
+  .hero.bet-hero blockquote,
+  .hero.nwp-hero blockquote,
+  .hero.cna-hero blockquote,
+  .hero.nvtc-hero blockquote {
     padding-left: 50px;
   }
   .hero.aao-hero blockquote .quote,
@@ -3771,7 +3904,11 @@ img[src*="iw3.png"] {
   .hero.specialicious-hero blockquote .quote,
   .hero.unf-hero blockquote .quote,
   .hero.wagner-hero blockquote .quote,
-  .hero.cancer-hero blockquote .quote {
+  .hero.cancer-hero blockquote .quote,
+  .hero.bet-hero blockquote .quote,
+  .hero.nwp-hero blockquote .quote,
+  .hero.cna-hero blockquote .quote,
+  .hero.nvtc-hero blockquote .quote {
     font-size: 3em;
   }
 }

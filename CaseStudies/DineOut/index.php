@@ -120,7 +120,7 @@
 		<article class="row-fluid">
 			<div class="span8">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/dineout_large1.png" alt="Admin Roles and Permissions">
+					<img src="../../images/caseStudies/dineout_large4.jpg" alt="Admin Roles and Permissions">
 				</figure>	
 				<figure class="center-img">
 					<img src="../../images/caseStudies/dineout_large2.png" alt="Admin Roles and Permissions" class="padding-bottom">
