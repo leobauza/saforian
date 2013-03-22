@@ -4,8 +4,8 @@
 <article class="hero nwp-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the strength of strategy and the power of technology to transform businesses and lives."</span>
-			<span class="byline">– Todd Rice</span>
+			<span class="quote">"On top of the great work Saforian does, it was always a pleasure to work with their staff."</span>
+			<span class="byline">– Gavin Tachibana<br/>National Writing Project</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -15,13 +15,13 @@
 		<h1>National Writing Project</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>??</p>
+				<p>National Writing Project (NWP) is a nationwide network of educators dedicated to improving the teaching of writing in public schools. NWP came to us to enhance their digital presence and reach their target audience of educators, students, and administrators with a new brand and website. The previous site had lengthy, wordy blocks of text that our content strategists condensed into concise, easily digestible pieces to improve content consumption and scan-ability. The new site has an optimized organizational structure that simplifies access to key information and communicates NWP's mission and the solutions they bring to the table to improve the teaching of writing in schools.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>??</span></li>
+					<li><strong>Industry</strong><span>Nonprofit</span></li>
 					<li><strong>Solutions</strong><span>??</span></li>
-					<li><strong>Technology</strong><span>??</span></li>
+					<li><strong>Technology</strong><span>Branding, Mobile, Campaign</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
@@ -32,24 +32,24 @@
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="">
+					<img src="../../images/caseStudies/global-plane-logo.jpg" alt="">
 				</figure>
-				<h2>??</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<h2>Messaging</h2>
+				<p>With messaging features like public and private messaging within the network, the NWP mobile app keeps constituents connected. This branded app drove recognition and participation on a national level by bringing community attention to NWP’s mission.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="">
+					<img src="../../images/caseStudies/global_notification_logo.png" alt="">
 				</figure>
-				<h2>??</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<h2>MobileMeGo</h2>
+				<p>We recommended implementing our MobileMeGo™ mobile platform to boost NWP’s ability to push out resources via mobile platforms. This mobile platform gives supporters the ability to find, connect, and communicate with others around a specific cause, in a closed environment dedicated to a specific mission.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="">
+					<img src="../../images/caseStudies/global-news-logo.jpg" alt="">
 				</figure>
-				<h2>??</h2>
-				<p>Lorem ipsum dolor sit amet, constur sadipscing elitr, sed diam nonumy eirmod por invidunt ut labore et dolore magna aliquyamerat, sed diam  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita sd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur</p>
+				<h2>News Content</h2>
+				<p>The news content feature provides support for pushing new content to keep everyone up to date to meet NWP’s goal of providing constituents with information and resources in a timely fashion.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->

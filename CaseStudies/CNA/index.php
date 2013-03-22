@@ -4,8 +4,8 @@
 <article class="hero cna-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the strength of strategy and the power of technology to transform businesses and lives."</span>
-			<span class="byline">– Todd Rice</span>
+			<span class="quote">"[Saforian is an] excellent strategic and creative resource for web design and development."</span>
+			<span class="byline">– Linda Sherper-Heiney</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
