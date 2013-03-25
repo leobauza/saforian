@@ -605,8 +605,9 @@ $(window).load(function(){
  * nova page file input style
  * =============================================================
 */
-
-	$(".file").uniform();
+	if($(".file").length) {
+		$(".file").uniform();
+	}
 
 
 

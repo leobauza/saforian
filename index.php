@@ -268,7 +268,6 @@
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/NoKidHungry" class="ignore"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
 					<p>No Kid Hungry</p>
-					
 				</article>
 				<!-- 
 				<article class="item safo-client first-page">
@@ -290,7 +289,8 @@
 					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='../CaseStudies/ATA' class="ignore"><img src='images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
+					<a href='../CaseStudies/ATA'><img src='images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
 					<p>American Trucking Association</p>
 				</article>
 				<!-- 
