@@ -289,9 +289,8 @@
 					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='../CaseStudies/ATA'><img src='images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
-					<p>American Trucking Association</p>
+					<a href='../CaseStudies/Cancer' class="ignore"><img src='images/site/client-thumbnails/cancer.jpg' alt='Cancer.org' /></a>
+					<p>Cancer.org</p>
 				</article>
 				<!-- 
 				<article class="item safo-client first-page">
