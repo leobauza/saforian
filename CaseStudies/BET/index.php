@@ -4,8 +4,8 @@
 <article class="hero bet-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"We believe in the strength of strategy and the power of technology to transform businesses and lives."</span>
-			<span class="byline">– Todd Rice</span>
+			<span class="quote"></span>
+			<span class="byline"></span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -21,7 +21,7 @@
 				<ul class="highlights">
 					<li><strong>Industry</strong><span>Commercial</span></li>
 					<li><strong>Solutions</strong><span>Website, Branding, Facebook, Mobile, Voting Mechanism</span></li>
-					<li><strong>Technology</strong><span>??</span></li>
+					<li><strong>Technology</strong><span>PhoneGap</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
