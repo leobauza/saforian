@@ -322,6 +322,18 @@
 					<a href="../CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
 					<p>DrupalCon Portland 2013</p>
 				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NWP" class="ignore"><img src='images/site/client-thumbnails/nwp.jpg' alt='National Writing Project' /></a>
+					<p>National Writing Project</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/CNA" class="ignore"><img src='images/site/client-thumbnails/cna.jpg' alt='CNA Analysis & Solutions' /></a>
+					<p>CNA Analysis & Solutions</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/BET" class="ignore"><img src='images/site/client-thumbnails/bet.jpg' alt='BET' /></a>
+					<p>BET</p>
+				</article>
 				
 				<!-- 
 				More projects button...
