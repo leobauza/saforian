@@ -11,7 +11,7 @@
 
 <section id="nonprofit-form">
 	<div class="std-block">
-		<h1>Want a demo of our non-profit tools?</h1>
+		<h1>Want a demo of our member association tools?</h1>
 		<div class='row-fluid'>
 			<article class='span6'>
 				<form name='contact' id='contact' class='contact-form' method='post'>
@@ -38,27 +38,7 @@
 				</div>
 			</article>
 			<article class="span6 l padbottom">
-				<p class="padformtext">We’ve been busy working on tools to advance your cause. Contact us to learn how we can make your campaigns more efficient and your infrastructure less costly.</p>
-				<div class="row-fluid">
-					<article class="span6">
-						<p>
-							<ul>
-								<li>Campaign</li>
-								<li>Fundraising</li>
-								<li>Mapping</li>
-							</ul>
-						</p>
-					</article>
-					<article class="span6 l">
-						<p>
-							<ul>
-								<li>Intranet</li>
-								<li>Content Management</li>
-								<li>Membership</li>
-							</ul>
-						</p>
-					</article>
-				</div>
+				<p class="padformtext">We’ve been busy working on tools to advance your association. Contact us to learn how we can make your digital processes more efficient and your infrastructure less costly.</p>
 			</article>
 		</div>
 	</div>
@@ -225,7 +205,7 @@
 			var something = $("#contact").serialize();
 			if($(this).closest('form').find(".LV_valid").length && !$(this).closest('form').find(".LV_invalid").length) {
 				e.preventDefault();
-				var url = "../contact-nonprofit.php"; // the script where you handle the form input.
+				var url = "../contact-memberassociations.php"; // the script where you handle the form input.
 				$.ajax({
 					type: "POST",
 					url: url,

@@ -12,7 +12,7 @@
 
 <section id="work-block">
 	<section class="block">
-		<h1>Cancer.org</h1>
+		<h1>Cancer.gov</h1>
 		<article class="row-fluid">
 			<div class="span6">
 				<p>The National Cancer Institute (NCI) is the federal government’s principal agency for cancer research and training. We were approached by NCI to present a conceptual model of how the site could better meet the needs of their diverse audience. We took a step back and brainstormed new ways to engage the site’s core audiences to establish Cancer.gov as the premier platform for providing both educational content and social interaction. Our vision was to create a compelling interactive experience that allowed visitors to interact to make informed decisions about diagnoses, treatment options, and support initiatives. Our deliverable included content organization concepts, engagement diagrams, potential navigation models, improved content delivery capabilities as well as a visual exploration of an improved home page design.</p>

@@ -289,8 +289,8 @@
 					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='../CaseStudies/Cancer' class="ignore"><img src='images/site/client-thumbnails/cancer.jpg' alt='Cancer.org' /></a>
-					<p>Cancer.org</p>
+					<a href='../CaseStudies/Cancer' class="ignore"><img src='images/site/client-thumbnails/cancer.jpg' alt='Cancer.gov' /></a>
+					<p>Cancer.gov</p>
 				</article>
 				<!-- 
 				<article class="item safo-client first-page">

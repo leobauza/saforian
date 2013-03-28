@@ -40,7 +40,7 @@
 				<p class="clients"><strong>NeighborWorks</strong><br/>Digital Strategy, Design, Social Media</p>
 			</article>
 		</div>
-		<p>This is a only partial client list of nonprofit industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
+		<p>This is a only partial client list of the nonprofit industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
 	</div>
 </section>
 
