@@ -4,7 +4,7 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Member Associations</h1>
+			<h1>We create innovative digital solutions that allow associations to thrive.</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
@@ -25,7 +25,6 @@
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital solutions that allow associations to thrive.</h1>
 		<p class="padbottom">Every association is unique and needs a digital presence tailored to its needs. A strong digital presence can facilitate member engagement, encourage collaboration, convert audiences, and support ongoing revenue generation. We have experience rebuilding association websites to simplify and enhance the membership experience with membership directories and content management systems. Our <a href="../../capabilities/DrupalCMS"><strong>content management systems</strong></a> are secure, easy to use, and easy for clients to update.</p>
 		<h3 class="nonprofit">Other association clients</h3>
 		<div class="row-fluid padbottom">

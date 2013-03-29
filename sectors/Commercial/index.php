@@ -4,7 +4,7 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Commercial</h1>
+			<h1>We create innovative digital solutions that allow businesses to thrive.</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
@@ -19,12 +19,11 @@
 					<p>Grunley</p>
 				</article>
 				<article class="item safo-client span4 l">
-					<a href="../../CaseStudies/Wagner" class="ignore"><img src='../../images/site/client-thumbnails/cookstoves.jpg' alt='Wagner' /></a>
+					<a href="../../CaseStudies/Wagner" class="ignore"><img src='../../images/site/client-thumbnails/wagner.jpg' alt='Wagner' /></a>
 					<p>Wagner</p>
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital solutions that allow businesses to thrive.</h1>
 		<p class="padbottom">Technology is always changing, and to stay on top of the competition, your business needs a strong digital strategy. As the tides are changing, customers seek out retailers that offer them experiences instead of just selling them products. Here at Saforian, we’re passionate about <a href="../../capabilities/ContentStrategy"><strong>storytelling</strong></a> and know what it takes to create memorable, lasting brands. We take a user-centered approach to design and create digital experiences that are seamlessly functional and aesthetically beautiful.</p>
 		<h3 class="nonprofit">Other commercial clients</h3>
 		<div class="row-fluid padbottom">

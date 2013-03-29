@@ -4,7 +4,7 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Education</h1>
+			<h1>We create innovative digital solutions that allow educational organizations to thrive.</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
@@ -25,7 +25,6 @@
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital solutions that allow educational organizations to thrive.</h1>
 		<p class="padbottom">Technology has transformed the education industry and many institutions and organizations aren’t leveraging their full potential. Many college and university websites are poorly designed, difficult to navigate, and look outdated, which is a major turn off to prospective students and donors. Well-designed websites can be powerful tools that help prospective students learn more about the institution, help alumni stay connected, and help current students find resources. We understand the unique challenges facing the education industry and have experience working with clients in this industry to deliver digital solutions that are powerful, simple, and adaptable.</p>
 		<h3 class="nonprofit">Other education clients</h3>
 		<div class="row-fluid padbottom">

@@ -4,7 +4,7 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Non-profit Organizations</h1>
+			<h1>We create innovative digital products and solutions that allow nonprofits to thrive.</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
@@ -23,7 +23,6 @@
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital products and solutions that allow nonprofits to thrive.</h1>
 		<p class="padbottom">An engaging digital presence is a powerful tool for any organization, especially for nonprofits. In today’s technology climate, the most successful nonprofits know how to leverage technology to engage supporters, organize events, raise awareness, and fundraise. Here at Saforian, we truly enjoy working with organizations that educate, advocate, and make positive change in the community. Our close proximity to Washington D.C. allows us to maintain close relationships with our nonprofit clients and stay on top of nonprofit technology trends.  Between maximizing limited finances and devising fundraising strategies, nonprofits have more than enough to worry about. For the past ten years, Saforian has been dedicated to delivering effective digital strategies for nonprofits to increase engagement, enhance branding and website design, energize fundraising campaigns, and create social media buzz. Leave the heavy lifting to us.</p>
 		<h3 class="nonprofit">Other non-profit clients</h3>
 		<div class="row-fluid padbottom">

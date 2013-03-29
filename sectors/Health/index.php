@@ -4,7 +4,7 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Health</h1>
+			<h1>We create innovative digital solutions that allow healthcare companies to thrive.</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
@@ -24,7 +24,6 @@
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital solutions that allow healthcare companies to thrive.</h1>
 		<p class="padbottom">As the healthcare industry is becoming increasingly competitive, healthcare companies face unique challenges in understanding consumer behavior, market dynamics, and regulatory demands. Another unique challenge is figuring out how to engage consumers early in the process, before significant medical issues have surfaced. To achieve <a href="../../capabilities/ROI"><strong>success,</strong></a> healthcare providers need a dynamic and compelling digital presence to attract more customers and elevate their position in the marketplace. The healthcare experience encompasses more than just medical needs—it also includes personal goals, financial considerations, and daily behavior. To create effective solutions in this industry, we start by understanding your audience, both patients and professionals, to consider how their needs can be met and aligned. We have experience creating solutions for healthcare providers and companies that invite audience input and lead to more cost-effective decisions.</p>
 		<h3 class="nonprofit">Other health clients</h3>
 		<div class="row-fluid padbottom">
@@ -41,7 +40,7 @@
 				<p class="clients"><strong>No Kid Hungry</strong><br/>Information Architecture, Design, Strategy, Development, CMS</p>
 			</article>
 		</div>
-		<p>This is a only partial client list of the government industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
+		<p>This is a only partial client list of the health industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
 	</div>
 </section>
 
