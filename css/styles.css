@@ -656,6 +656,13 @@ section.safo-clients p {
   line-height: 1.4em;
   padding-bottom: 30px;
 }
+section.safo-clients p a {
+  color: #fff;
+  font-weight: 700;
+}
+section.safo-clients p a:hover {
+  color: #fff;
+}
 section.safo-clients strong {
   font-weight: 600;
 }
@@ -675,6 +682,14 @@ section.safo-clients strong {
 }
 .client-list .show-more {
   display: none;
+}
+.sector-links {
+  margin: 0 45px;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+.sector-links a {
+  text-decoration: underline;
 }
 /* 7th section: Contact */
 section.safo-contact {

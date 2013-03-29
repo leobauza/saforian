@@ -26,7 +26,7 @@
 			</section>
 		</div>
 		<h1>We create innovative digital solutions that allow associations to thrive.</h1>
-		<p class="padbottom">Every association is unique and needs a digital presence tailored to its needs. A strong digital presence can facilitate member engagement, encourage collaboration, convert audiences, and support ongoing revenue generation. We have experience rebuilding association websites to simplify and enhance the membership experience with <a href="../../capabilities/ContactDirectories"><strong>membership directories</strong></a> and content management systems. Our <a href="../../capabilities/DrupalCMS"><strong>content management systems</strong></a> are secure, easy to use, and easy for clients to update.</p>
+		<p class="padbottom">Every association is unique and needs a digital presence tailored to its needs. A strong digital presence can facilitate member engagement, encourage collaboration, convert audiences, and support ongoing revenue generation. We have experience rebuilding association websites to simplify and enhance the membership experience with membership directories and content management systems. Our <a href="../../capabilities/DrupalCMS"><strong>content management systems</strong></a> are secure, easy to use, and easy for clients to update.</p>
 		<h3 class="nonprofit">Other association clients</h3>
 		<div class="row-fluid padbottom">
 			<article class="span3">

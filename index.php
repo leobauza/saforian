@@ -371,17 +371,18 @@
 				</article>
 				-->
 				<!-- 
-
+				
 				SECOND PAGE END
-
+				
 				-->
+				
 			</section>
+			
+			
+			<div class="sector-links">
+				<p>We have over 10 years of experience delivering award-winning digital solutions for industries ranging from <a href="/sectors/Nonprofit"><strong>nonprofits,</strong></a> <a href="/sectors/MemberAssociations"><strong>associations,</strong></a> <a href="/sectors/Health"><strong>health,</strong></a> <a href="/sectors/Commercial"><strong>commercial,</strong></a> <a href="/sectors/Government"><strong>government,</strong></a> and <a href="/sectors/Education"><strong>education.</strong></a></p>
+			</div>
 		</div>
-
-		
-
-
-
 		
 		
 		

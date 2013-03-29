@@ -25,7 +25,7 @@
 			</section>
 		</div>
 		<h1>We create innovative digital solutions that allow businesses to thrive.</h1>
-		<p class="padbottom">Technology is always changing, and to stay on top of the competition, your business needs a strong digital strategy. As the tides are changing, customers seek out retailers that offer them <a href="../../capabilities/UX"><strong>experiences</strong></a> instead of just selling them products. Here at Saforian, we’re passionate about <a href="../../capabilities/ContentStrategy"><strong>storytelling</strong></a> and know what it takes to create memorable, lasting brands. We take a user-centered approach to design and create digital experiences that are seamlessly functional and aesthetically beautiful.</p>
+		<p class="padbottom">Technology is always changing, and to stay on top of the competition, your business needs a strong digital strategy. As the tides are changing, customers seek out retailers that offer them experiences instead of just selling them products. Here at Saforian, we’re passionate about <a href="../../capabilities/ContentStrategy"><strong>storytelling</strong></a> and know what it takes to create memorable, lasting brands. We take a user-centered approach to design and create digital experiences that are seamlessly functional and aesthetically beautiful.</p>
 		<h3 class="nonprofit">Other commercial clients</h3>
 		<div class="row-fluid padbottom">
 			<article class="span3">

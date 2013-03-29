@@ -4,47 +4,46 @@
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<h1>Member Associations</h1>
+			<h1>Government</h1>
 		</header>
 		<h3 class="nonprofit">Featured Projects</h3>
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
 			<section id="iso-cont">
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontics' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
-					<p>American Association of Orthodontics</p>
+					<a href="../../CaseStudies/CNA" class="ignore"><img src='../../images/site/client-thumbnails/cna.jpg' alt='Corporation' /></a>
+					<p>CNA Corporation</p>
 				</article>
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
-					<p>American Trucking Association</p>
+					<a href="../../CaseStudies/Cancer" class="ignore"><img src='../../images/site/client-thumbnails/cancer.jpg' alt='Cancer.gov' /></a>
+					<p>Cancer.gov</p>
 				</article>
 				<article class="item safo-client span4 l">
-					<a href="../../CaseStudies/NVTC" class="ignore"><img src='../../images/site/client-thumbnails/nvtc.jpg' alt='Northern Virginia Technology Council' /></a>
-					<p>Northern Virginia Technology Council</p>
+					<a href="#"><img src='../../images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
+					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<p>Qivliq</p>
 				</article>
 			</section>
 		</div>
-		<h1>We create innovative digital solutions that allow associations to thrive.</h1>
-		<p class="padbottom">Every association is unique and needs a digital presence tailored to its needs. A strong digital presence can facilitate member engagement, encourage collaboration, convert audiences, and support ongoing revenue generation. We have experience rebuilding association websites to simplify and enhance the membership experience with <a href="../../capabilities/ContactDirectories"><strong>membership directories</strong></a> and content management systems. Our <a href="../../capabilities/DrupalCMS"><strong>content management systems</strong></a> are secure, easy to use, and easy for clients to update.</p>
-		<h3 class="nonprofit">Other association clients</h3>
+		<h1>We create innovative digital solutions that allow governmental organizations to thrive.</h1>
+		<p class="padbottom">Our close proximity to Washington D.C. makes us the ideal vendor for partnering with governmental organizations. We have had the privilege to work with many clients in the public sector. We create in-depth strategic tools that give governmental organizations flexibility to grow and realize their economic and social <a href="../../capabilities/ROI"><strong>goals.</strong></a> We understand that government websites often have additional requirements to meet and standards to adhere to such as Section 508 Compliancy. We’ve got the know-how to deliver tangible results while meeting all of the U.S. government regulations and requirements.</p>
+		<h3 class="nonprofit">Other government clients</h3>
 		<div class="row-fluid padbottom">
 			<article class="span3">
-				<p class="clients"><strong>Educational Theatre Association</strong><br/>Informational Architecture, Design, Development, CMS, Training</p>
+				<p class="clients"><strong>Hazmat Alliance</strong><br/>Branding, Information Architecture, Design, Development</p>
 			</article>
 			<article class="span3">
-				<p class="clients"><strong>NCSL</strong><br/>Information Architecture, Design, Development, CMS</p>
+				<p class="clients"><strong>NISC</strong><br/>Development, Information Architecture, CMS</p>
 			</article>
 			<article class="span3">
-				<p class="clients"><strong>SHRM</strong><br/>Information Architecture, Design, Development, CMS</p>
+				<p class="clients"><strong>The Center for Disease Control</strong><br/>Informational Architecture, Design, Development</p>
 			</article>
 			<article class="span3 l">
-				<p class="clients"><strong>USAA</strong><br/>Information Architecture, Design, Development</p>
+				<p class="clients"><strong>USDA</strong><br/>Information Architecture, Design, Development</p>
 			</article>
 		</div>
-		<p>This is a only partial client list of the association industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
+		<p>This is a only partial client list of the government industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
 	</div>
 </section>
 
 
-<?php include("../memberassociationsfooter.php");?>
+<?php include("../governmentfooter.php");?>
