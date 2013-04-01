@@ -5,7 +5,7 @@
 	<div class="inner">
 		<blockquote>
 			<span class="quote"></span>
-			<span class="byline">–</span>
+			<span class="byline"></span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

@@ -2605,6 +2605,95 @@ section.safo-jobs a:hover {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.usaa-hero {
+  background-image: url('../images/caseStudies/usaa-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.usaa-hero blockquote {
+  padding: 90px 0 0 0;
+  width: 25%;
+  font-weight: 300;
+  color: #000;
+}
+.hero.usaa-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.usaa-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.rider-hero {
+  background-image: url('../images/caseStudies/rider-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.rider-hero blockquote {
+  padding: 90px 0 0 0;
+  width: 25%;
+  font-weight: 300;
+  color: #000;
+}
+.hero.rider-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.rider-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.edta-hero {
+  background-image: url('../images/caseStudies/edta-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.edta-hero blockquote {
+  padding: 90px 0 0 0;
+  width: 40%;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 1px 1px 0 #1D4F63;
+}
+.hero.edta-hero blockquote .quote {
+  font-size: 2.5em;
+  line-height: 1.7em;
+}
+.hero.edta-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.qivliq-hero {
+  background-image: url('../images/caseStudies/qivliq-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.qivliq-hero blockquote {
+  padding: 90px 0 0 0;
+  width: 25%;
+  font-weight: 300;
+  color: #000;
+}
+.hero.qivliq-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.qivliq-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.nkh-hero {
   background-image: url('../images/caseStudies/nkh_hero.png');
   background-repeat: no-repeat;
@@ -3176,7 +3265,8 @@ img[src*="iw3.png"] {
   .hero.bet-hero blockquote,
   .hero.nwp-hero blockquote,
   .hero.cna-hero blockquote,
-  .hero.nvtc-hero blockquote {
+  .hero.nvtc-hero blockquote,
+  .hero.edta-hero blockquote {
     padding-left: 50px;
   }
   #resize-cont {
@@ -4025,6 +4115,7 @@ img[src*="iw3.png"] {
   .hero.cna-hero blockquote,
   .hero.nvtc-hero blockquote {
     padding-left: 50px;
+    width: 50%;
   }
   .hero.aao-hero blockquote .quote,
   .hero.ata-hero blockquote .quote,
@@ -4041,6 +4132,13 @@ img[src*="iw3.png"] {
   .hero.cna-hero blockquote .quote,
   .hero.nvtc-hero blockquote .quote {
     font-size: 3em;
+  }
+  .hero.edta-hero blockquote {
+    padding-left: 50px;
+  }
+  .hero.edta-hero blockquote .quote {
+    font-size: 1.9em;
+    line-height: 1.6em;
   }
 }
 @media (max-width: 588px) {

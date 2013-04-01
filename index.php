@@ -334,6 +334,14 @@
 					<a href="../CaseStudies/BET" class="ignore"><img src='images/site/client-thumbnails/bet.jpg' alt='BET' /></a>
 					<p>BET</p>
 				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/AAO" class="ignore"><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
+					<p>American Association of Orthodontists</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NVTC" class="ignore"><img src='images/site/client-thumbnails/nvtc.jpg' alt='Northern Virginia Technology Council' /></a>
+					<p>Northern Virginia Technology Council</p>
+				</article>
 				
 				<!-- 
 				More projects button...
