@@ -10,8 +10,7 @@
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
 			<section id="iso-cont">
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/rider.jpg' alt='Rider University' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="../../CaseStudies/Rider" class="ignore"><img src='../../images/site/client-thumbnails/rider.jpg' alt='Rider University' /></a>
 					<p>Rider University</p>
 				</article>
 				<article class="item safo-client span4">

@@ -342,6 +342,10 @@
 					<a href="../CaseStudies/NVTC" class="ignore"><img src='images/site/client-thumbnails/nvtc.jpg' alt='Northern Virginia Technology Council' /></a>
 					<p>Northern Virginia Technology Council</p>
 				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/Rider" class="ignore"><img src='images/site/client-thumbnails/rider.jpg' alt='Rider University' /></a>
+					<p>Rider University</p>
+				</article>
 				
 				<!-- 
 				More projects button...
