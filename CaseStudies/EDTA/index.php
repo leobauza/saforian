@@ -47,7 +47,7 @@
 				<p>We developed the site using WordPress to make it easy for administrators to update and modify content without programming knowledge. The jQuery-enhanced site draws a clear correlation between Qivliq’s dedication to their clients’ success, the HR and management support they provide to their member companies, and the sustaining dividends they pay to their shareholders.</p>
 			</article>
 			<article class="span2">
-				<img src="../../images/caseStudies/global_blank_logo.png" alt="Audience Analysis">
+				<img src="../../images/caseStudies/global-audienceanalysis-logo.png" alt="Audience Analysis">
 			</article>
 			<article class="span4 l">
 				<h2>Audience Analysis</h2>

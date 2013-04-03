@@ -346,7 +346,18 @@
 					<a href="../CaseStudies/Rider" class="ignore"><img src='images/site/client-thumbnails/rider.jpg' alt='Rider University' /></a>
 					<p>Rider University</p>
 				</article>
-				
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/USAA" class="ignore"><img src='images/site/client-thumbnails/usaa.jpg' alt='USAA' /></a>
+					<p>USAA</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/Qivliq" class="ignore"><img src='images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
+					<p>Qivliq</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/EDTA" class="ignore"><img src='images/site/client-thumbnails/edta.jpg' alt='Educational Theatre Association' /></a>
+					<p>Educational Theatre Association</p>
+				</article>
 				<!-- 
 				More projects button...
 				<article class="item safo-client first-page filter">
@@ -395,9 +406,6 @@
 				<p>We have over 10 years of experience delivering award-winning digital solutions for industries ranging from <a href="/sectors/Nonprofit"><strong>nonprofits,</strong></a> <a href="/sectors/MemberAssociations"><strong>associations,</strong></a> <a href="/sectors/Health"><strong>health,</strong></a> <a href="/sectors/Commercial"><strong>commercial,</strong></a> <a href="/sectors/Government"><strong>government,</strong></a> and <a href="/sectors/Education"><strong>education.</strong></a></p>
 			</div>
 		</div>
-		
-		
-		
 		
 		
 		<!-- jobs -->

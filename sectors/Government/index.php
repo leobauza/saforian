@@ -18,8 +18,7 @@
 					<p>Cancer.gov</p>
 				</article>
 				<article class="item safo-client span4 l">
-					<a href="#"><img src='../../images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="../../CaseStudies/Qivliq" class="ignore"><img src='../../images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
 					<p>Qivliq</p>
 				</article>
 			</section>

@@ -14,8 +14,7 @@
 					<p>Rider University</p>
 				</article>
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/edta.jpg' alt='Educational Theater Association' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="../../CaseStudies/EDTA" class="ignore"><img src='../../images/site/client-thumbnails/edta.jpg' alt='Educational Theater Association' /></a>
 					<p>Educational Theater Association</p>
 				</article>
 				<article class="item safo-client span4 l">

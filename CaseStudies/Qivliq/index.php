@@ -30,21 +30,21 @@
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="WordPress">
+					<img src="../../images/caseStudies/global-wordpress-logo.png" alt="WordPress">
 				</figure>
 				<h2>WordPress</h2>
 				<p>We developed the site using WordPress to make it easy for administrators to update and modify content without programming knowledge. The jQuery-enhanced site draws a clear correlation between Qivliq’s dedication to their clients’ success, the HR and management support they provide to their member companies, and the sustaining dividends they pay to their shareholders.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="Stakeholder Interviews">
+					<img src="../../images/caseStudies/global-stakeholdernews-logo.png" alt="Stakeholder Interviews">
 				</figure>
 				<h2>Stakeholder Interviews</h2>
 				<p>To gain a comprehensive understanding of Qivliq’s audience, we interviewed executive stakeholders. We learned that the corporate site’s primary audience will be federal customers and that increasing the Qivliq brand presence must not jeopardize subsidiary autonomy. We concluded that the corporate site must communicate a story that explains Qivliq to the federal customer while providing a springboard for the commercial brand.</p>
 			</article>
 			<article class="span4 l">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_blank_logo.png" alt="Branding">
+					<img src="../../images/caseStudies/global-branding-logo.png" alt="Branding">
 				</figure>
 				<h2>Branding</h2>
 				<p>Qivliq wanted to move toward solutions-focused branding while maintaining subsidiary autonomy in corporate branding efforts. Using our knowledge from the stakeholder interviews, our strategists devised a compelling Qivliq brand story. We developed a brand voice to clarify to Qivliq's target audiences who they are and why they exist. </p>

@@ -14,8 +14,7 @@
 					<p>Cancer.gov</p>
 				</article>
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/aao.jpg' alt='AAO' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="../../CaseStudies/AAO" class="ignore"><img src='../../images/site/client-thumbnails/aao.jpg' alt='AAO' /></a>
 					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client span4 l">
