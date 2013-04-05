@@ -140,7 +140,7 @@
 						</div>
 						<div class="span12 input-group file-up l">
 							<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-							<input type="file" name="uploaded_file" id="uploaded_file" class="file"/>
+							<input type="file" name="uploadedfile" id="uploaded_file" class="file"/>
 						</div>
 					</div>
 					<div class='row-fluid'>
