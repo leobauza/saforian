@@ -3,10 +3,10 @@
 
 <article class="hero aao-hero ">
 	<div class="inner">
-		<blockquote>
+		<!--   <blockquote>
 			<span class="quote">"Easy-to-work with, even when wading through complex and difficult tasks..."</span>
 			<span class="byline">– Burt Bollinger</span>
-		</blockquote>
+		</blockquote>   -->
 	</div>
 </article> <!-- end of hero -->
 

@@ -300,8 +300,8 @@
 				</article>
 				-->
 				<article class="item safo-client first-page">
-					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-					<p>Wagner Skis</p>
+					<a href="../CaseStudies/AAO" class="ignore"><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
+					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
@@ -334,7 +334,30 @@
 					<a href="../CaseStudies/BET" class="ignore"><img src='images/site/client-thumbnails/bet.jpg' alt='BET' /></a>
 					<p>BET</p>
 				</article>
-				
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<p>Wagner Skis</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NVTC" class="ignore"><img src='images/site/client-thumbnails/nvtc.jpg' alt='Northern Virginia Technology Council' /></a>
+					<p>Northern Virginia Technology Council</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/Rider" class="ignore"><img src='images/site/client-thumbnails/rider.jpg' alt='Rider University' /></a>
+					<p>Rider University</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/USAA" class="ignore"><img src='images/site/client-thumbnails/usaa.jpg' alt='USAA' /></a>
+					<p>USAA</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/Qivliq" class="ignore"><img src='images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
+					<p>Qivliq</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/EDTA" class="ignore"><img src='images/site/client-thumbnails/edta.jpg' alt='Educational Theatre Association' /></a>
+					<p>Educational Theatre Association</p>
+				</article>
 				<!-- 
 				More projects button...
 				<article class="item safo-client first-page filter">
@@ -383,9 +406,6 @@
 				<p>We have over 10 years of experience delivering award-winning digital solutions for industries ranging from <a href="/sectors/Nonprofit"><strong>nonprofits,</strong></a> <a href="/sectors/MemberAssociations"><strong>associations,</strong></a> <a href="/sectors/Health"><strong>health,</strong></a> <a href="/sectors/Commercial"><strong>commercial,</strong></a> <a href="/sectors/Government"><strong>government,</strong></a> and <a href="/sectors/Education"><strong>education.</strong></a></p>
 			</div>
 		</div>
-		
-		
-		
 		
 		
 		<!-- jobs -->

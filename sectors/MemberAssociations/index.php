@@ -10,8 +10,7 @@
 		<div id="iso-wrap" class="our-work row-fluid" data-section="our-work">
 			<section id="iso-cont">
 				<article class="item safo-client span4">
-					<a href="#"><img src='../../images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontics' /></a>
-					<div class="port-overlay"><span class="port-strip">Launching</span><br/><span class="port-strip">Soon</span></div>
+					<a href="../../CaseStudies/AAO" class="ignore"><img src='../../images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontics' /></a>
 					<p>American Association of Orthodontics</p>
 				</article>
 				<article class="item safo-client span4">

@@ -7,10 +7,10 @@ if(isset($_POST['submitted'])) {
 	$newsletter = $_POST['newsletter'];
 	$email_text = "";
 	$videourl = $_POST['videourl'];
-	$uploaded_file = $_POST['uploaded_file'];
+	$uploaded_file = $_POST['uploadedfile'];
 	$description = $_POST['description'];
 	$target_path = "uploads/";
-	$target_path = $target_path . basename( $_FILES['uploaded_file']['name']);
+	$target_path = $target_path . basename( $_FILES['uploadedfile']['name']);
 	
 	if ($name != "") {
 		$email_text.="\nFull Name: ".stripcslashes($name);
@@ -35,15 +35,15 @@ if(isset($_POST['submitted'])) {
 	}
 	
 	if ($uploaded_file != "") {
-		$email_text.="\nUploaded File: ".stripcslashes(.$uploaded_file);
+		$email_text.="\nUploaded File: ".stripcslashes(.$uploadedfile);
 	}
 	
 	if ($description != "") {
 		$email_text.="\nDescription: ".stripcslashes($description);
 	}
 	
-	if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $target_path)) {
-	    echo "The file ".  basename( $_FILES['uploaded_file']['name']). 
+	if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
+	    echo "The file ".  basename( $_FILES['uploadedfile']['name']). 
 	    " has been uploaded";
 	} else{
 	    echo "There was an error uploading the file, please try again!";

@@ -1,6 +1,5 @@
 <?php include("../header.php");?>
 
-
 <section class="capabilities-bg">
 	<div class="std-block">
 		<header class="std-header">
@@ -42,6 +41,5 @@
 		<p>This is a only partial client list of the nonprofit industry — check out all of our work <a href="../../index.php#clients"><strong>here.</strong></a></p>
 	</div>
 </section>
-
 
 <?php include("../nonprofitfooter.php");?>
