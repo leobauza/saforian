@@ -20,7 +20,7 @@
 			<div class="span6 l">
 				<ul class="highlights">
 					<li><strong>Industry</strong><span>Nonprofit</span></li>
-					<li><strong>Solutions</strong><span>??</span></li>
+					<li><strong>Solutions</strong><span>iOS, CSS, HTML, Code Ignitor</span></li>
 					<li><strong>Technology</strong><span>Branding, Mobile, Campaign</span></li>
 				</ul>
 			</div>

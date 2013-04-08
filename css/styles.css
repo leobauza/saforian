@@ -656,6 +656,13 @@ section.safo-clients p {
   line-height: 1.4em;
   padding-bottom: 30px;
 }
+section.safo-clients p a {
+  color: #fff;
+  font-weight: 700;
+}
+section.safo-clients p a:hover {
+  color: #fff;
+}
 section.safo-clients strong {
   font-weight: 600;
 }
@@ -675,6 +682,14 @@ section.safo-clients strong {
 }
 .client-list .show-more {
   display: none;
+}
+.sector-links {
+  margin: 0 45px;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+.sector-links a {
+  text-decoration: underline;
 }
 /* 7th section: Contact */
 section.safo-contact {
@@ -1492,6 +1507,7 @@ section.safo-jobs a:hover {
   text-align: center;
   font-weight: 300;
   margin: 0 0 85px;
+  line-height: 1.3em;
 }
 .capabilities-bg .std-header img {
   display: block;
@@ -1520,6 +1536,87 @@ section.safo-jobs a:hover {
   padding-left: 10px;
   line-height: 30px;
   margin-bottom: 15px;
+}
+.capabilities-bg .nonprofit {
+  color: #000;
+}
+.capabilities-bg .padbottom {
+  padding-bottom: 85px;
+}
+.capabilities-bg p {
+  color: #000;
+  line-height: 1.9em;
+}
+.capabilities-bg h1 {
+  color: #000000;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 300;
+  margin: 50px 0 25px 0;
+  line-height: 1.3em;
+  padding: 0 40px;
+}
+.capabilities-bg h3 {
+  margin-bottom: 35px;
+}
+.capabilities-bg .clients {
+  line-height: 1.5em;
+}
+.capabilities-bg #iso-wrap {
+  padding: 0 10px;
+}
+.capabilities-bg #iso-cont .item {
+  float: left;
+  overflow: hidden;
+}
+#nonprofit-form {
+  background: #f6f6f7;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#nonprofit-form h1 {
+  color: black;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.3em;
+  padding: 0 0 50px 0;
+}
+#nonprofit-form h3 {
+  margin-bottom: 35px;
+}
+#nonprofit-form .clients {
+  line-height: 1.5em;
+}
+#nonprofit-form p,
+#nonprofit-form li {
+  font-size: 1.4em;
+  line-height: 1.8em;
+  color: #000;
+  list-style-type: none;
+  text-align: left;
+}
+#nonprofit-form .padformtext {
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+#nonprofit-form .padtop {
+  padding-top: 50px;
+}
+#nonprofit-form .std-block {
+  padding-top: 50px;
+}
+#nonprofit-form .contact-form input[type="text"] {
+  background-color: #fff;
+  border: 2px solid #fff;
+  width: 80%;
+}
+#nonprofit-form .contact-form input[type="submit"] {
+  border: 2px solid #000;
+}
+#nonprofit-form .LV_validation_message {
+  text-align: left;
+  padding-left: 25px;
 }
 #capabilities-footer {
   background: #f6f6f7;
@@ -3845,6 +3942,43 @@ img[src*="iw3.png"] {
   }
   .capabilities-bg .std-body li {
     font-size: 18px;
+  }
+  .capabilities-bg h1 {
+    font-size: 3.5em;
+  }
+  .capabilities-bg h3 {
+    font-size: 2.3em;
+    text-align: center;
+  }
+  .capabilities-bg .clients {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .capabilities-bg .padbottom {
+    padding-bottom: 50px;
+  }
+  .capabilities-bg #iso-wrap {
+    padding: 0;
+  }
+  .capabilities-bg #iso-cont .item a,
+  .capabilities-bg .item p {
+    margin: 0 auto;
+  }
+  #nonprofit-form h1 {
+    font-size: 3.5em;
+  }
+  #nonprofit-form p,
+  #nonprofit-form li {
+    text-align: center;
+  }
+  #nonprofit-form .none {
+    display: none;
+  }
+  #nonprofit-form .contact-form input[type="text"] {
+    width: 90%;
+  }
+  #nonprofit-form .padformtext {
+    padding-right: 0px;
   }
   .novaslider-bg .check-group .pretty-checkbox {
     margin: 12px 0px 0px 20px;

@@ -268,7 +268,6 @@
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/NoKidHungry" class="ignore"><img src='images/site/client-thumbnails/nokidhungry.jpg' alt='Share Our Strength Initiative' /></a>
 					<p>No Kid Hungry</p>
-					
 				</article>
 				<!-- 
 				<article class="item safo-client first-page">
@@ -290,8 +289,8 @@
 					<p>FHI 360</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href='../CaseStudies/ATA' class="ignore"><img src='images/site/client-thumbnails/ata.jpg' alt='American Trucking Association' /></a>
-					<p>American Trucking Association</p>
+					<a href='../CaseStudies/Cancer' class="ignore"><img src='images/site/client-thumbnails/cancer.jpg' alt='Cancer.gov' /></a>
+					<p>Cancer.gov</p>
 				</article>
 				<!-- 
 				<article class="item safo-client first-page">
@@ -322,6 +321,18 @@
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/Drupalcon" class="ignore"><img src='images/site/client-thumbnails/drupalcon.jpg' alt='Drupalcon' /></a>
 					<p>DrupalCon Portland 2013</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NWP" class="ignore"><img src='images/site/client-thumbnails/nwp.jpg' alt='National Writing Project' /></a>
+					<p>National Writing Project</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/CNA" class="ignore"><img src='images/site/client-thumbnails/cna.jpg' alt='CNA Analysis & Solutions' /></a>
+					<p>CNA Analysis & Solutions</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/BET" class="ignore"><img src='images/site/client-thumbnails/bet.jpg' alt='BET' /></a>
+					<p>BET</p>
 				</article>
 				
 				<!-- 
@@ -360,17 +371,18 @@
 				</article>
 				-->
 				<!-- 
-
+				
 				SECOND PAGE END
-
+				
 				-->
+				
 			</section>
+			
+			
+			<div class="sector-links">
+				<p>We have over 10 years of experience delivering award-winning digital solutions for industries ranging from <a href="/sectors/Nonprofit"><strong>nonprofits,</strong></a> <a href="/sectors/MemberAssociations"><strong>associations,</strong></a> <a href="/sectors/Health"><strong>health,</strong></a> <a href="/sectors/Commercial"><strong>commercial,</strong></a> <a href="/sectors/Government"><strong>government,</strong></a> and <a href="/sectors/Education"><strong>education.</strong></a></p>
+			</div>
 		</div>
-
-		
-
-
-
 		
 		
 		
