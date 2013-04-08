@@ -300,8 +300,8 @@
 				</article>
 				-->
 				<article class="item safo-client first-page">
-					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
-					<p>Wagner Skis</p>
+					<a href="../CaseStudies/AAO" class="ignore"><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
+					<p>American Association of Orthodontists</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/DineOut" class="ignore"><img src='images/site/client-thumbnails/dineout.jpg' alt='The Great American DineOut' /></a>
@@ -335,8 +335,8 @@
 					<p>BET</p>
 				</article>
 				<article class="item safo-client first-page">
-					<a href="../CaseStudies/AAO" class="ignore"><img src='images/site/client-thumbnails/aao.jpg' alt='American Association of Orthodontists' /></a>
-					<p>American Association of Orthodontists</p>
+					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
+					<p>Wagner Skis</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/NVTC" class="ignore"><img src='images/site/client-thumbnails/nvtc.jpg' alt='Northern Virginia Technology Council' /></a>
