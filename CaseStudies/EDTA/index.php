@@ -15,7 +15,7 @@
 		<h1>Educational Theatre Association</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>As a holding company, Qivliq supports a diverse family of enterprises that conduct operations spanning the spectrum from national security logistics contracting to healthcare facilities management. Qivliq sought out Saforian to transform their web presence to reach their target audience groups of federal agency workers, strategic partners, and employees. They also needed new branding to clarify who Qivliq is and why they exist.</p>
+				<p>The Educational Theater Association (EdTA) is a nonprofit with approximately 90,000 students and professional members that strives to shape lives through theatre education. EdTA came to us to produce an efficient and aesthetically-pleasing online experience incorporating both their new branding and organizational structure. One of EdTA’s concerns was that their past print publications would be lost with this new digital initiative. We ensured that key content from publications was made available online while also providing access to back issues.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
