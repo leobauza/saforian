@@ -44,7 +44,7 @@
 			</article>
 			<article class="span4">
 				<h2>Navigational Models</h2>
-				<p>We developed the site using WordPress to make it easy for administrators to update and modify content without programming knowledge. The jQuery-enhanced site draws a clear correlation between Qivliq’s dedication to their clients’ success, the HR and management support they provide to their member companies, and the sustaining dividends they pay to their shareholders.</p>
+				<p>After we determined how the organizational structure should work, we put together navigational models to test scenarios against labeling, order, and placement. We began with extensive organizational design techniques to define optimized categorization and labeling systems that work best to support the site’s content. Then, we defined navigational models to demonstrate how these structures could be navigated.</p>
 			</article>
 			<article class="span2">
 				<img src="../../images/caseStudies/global-audienceanalysis-logo.png" alt="Audience Analysis">
