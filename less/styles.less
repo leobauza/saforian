@@ -512,6 +512,12 @@ section.safo-work {
 	top:290px;
 }
 
+.sector-links {
+	a {
+		color: #0596bd;
+	}
+	
+}
 
 /***** ISOTOPE WORK *****/
 #iso-wrap {
@@ -660,7 +666,7 @@ section.safo-contact {
 		width: 45px;
 		height: 45px;
 		margin: 0 6px;
-		background-image: url('../images/sprite_contact_bw.png');
+		background-image: url('../images/sprite_contact_blue.png');
 		background-repeat:no-repeat;
 		float: left;
 	}
@@ -726,8 +732,8 @@ section.safo-contact {
 	}
 	input[type="submit"]{
 		#CSS3 > .border-radius(0px);
-		//background-color: #0096bd;
-		background:@black;
+		//background-color: #0596bd;
+		background: #0596bd;
 		color: #fff;
 		font-style: italic; 
 		width: 160px;
@@ -873,7 +879,7 @@ section.safo-jobs {
 			padding: 16px 16px;
 			display:block;
 			&:hover {
-				background:@black;
+				background: #0596bd;
 				& > * {
 					color:@white;
 				}
@@ -3246,6 +3252,17 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
 
 	
 	.row-fluid > [class*="span"] {
@@ -3266,6 +3283,19 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 }
 
+
+
+
+/******YA Ribbon Homepage******/
+	.ya-ribbon img {
+		position: fixed;
+		top: 80px;
+		z-index: 201;
+		display: block;
+	}
+	
+	
+	
 /*margin right instead of margin left to do overflow hidden*/
 .row-fluid > [class*="span"] {
 	float: left;
@@ -4279,6 +4309,9 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 				line-height: 1.6em;
 			}
 		}
+	}
+	.ya-ribbon img {
+		display: none;
 	}
 }
 
