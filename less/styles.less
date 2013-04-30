@@ -666,7 +666,7 @@ section.safo-contact {
 		width: 45px;
 		height: 45px;
 		margin: 0 6px;
-		background-image: url('../images/sprite_contact_blue.png');
+		background-image: url('../images/sprite_contact_black-blue.png');
 		background-repeat:no-repeat;
 		float: left;
 	}
@@ -732,14 +732,29 @@ section.safo-contact {
 	}
 	input[type="submit"]{
 		#CSS3 > .border-radius(0px);
-		//background-color: #0596bd;
-		background: #0596bd;
+		//background-color: #000;
+		background: #000;
 		color: #fff;
 		font-style: italic; 
 		width: 160px;
 		padding: 12px;
 		cursor: pointer;
 		margin-top: 25px;
+	}
+	input[type="submit"] {
+		#CSS3 > .border-radius(0px);
+		//background-color: #000;
+		background: #000;
+		color: #fff;
+		font-style: italic; 
+		width: 160px;
+		padding: 12px;
+		cursor: pointer;
+		margin-top: 25px;
+		&:hover {
+			background-color: #0596BD;
+			
+		}
 	}
 }
 .input-group {
