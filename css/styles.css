@@ -2433,6 +2433,11 @@ section.safo-jobs a:hover {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+.hero.nw-hero {
+  background-image: url('../images/caseStudies/neighborworks-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 .hero.cancer-hero {
   background-image: url('../images/caseStudies/cancer-hero.jpg');
   background-repeat: no-repeat;
