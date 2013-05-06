@@ -1,5 +1,7 @@
 <?php include('inc/header.php');?>
-
+		
+		<div class="ya-ribbon"><a href="http://www.tobaccofreekids.org/microsites/gala/"><img src="images/ribbon_YA.png"></a></div>
+		
 		<!-- header -->
 		<section id="header-wrap">
 			<header id="site-header" class="group">
@@ -434,14 +436,14 @@
 							<a href='/careers/DrupalDeveloper' class="group">
 								<span class='job-title'>Drupal Developer</span>
 								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>September 5, 2012</span>
+								<span class='job-date'>April 29, 2013</span>
 							</a>
 						</p>
 						<p class='job-post'>
 							<a href='/careers/SeniorDeveloper(.NET)' class="group">
 								<span class='job-title'>Senior Developer (.NET)</span>
 								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>February 18, 2013</span>
+								<span class='job-date'>April 29, 2013</span>
 							</a>
 						</p>
 						<!-- <p class='job-post'>

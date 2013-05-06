@@ -3,10 +3,10 @@
 
 <article class="hero aao-hero ">
 	<div class="inner">
-		<!--   <blockquote>
-			<span class="quote">"Easy-to-work with, even when wading through complex and difficult tasks..."</span>
-			<span class="byline">– Burt Bollinger</span>
-		</blockquote>   -->
+		<blockquote>
+			<span class="quote">"Saforian possess a precise mix of creativity, technical expertise, and visionary thinking."</span>
+			<span class="byline">– Linda Gladden</span>
+		</blockquote>
 	</div>
 </article> <!-- end of hero -->
 
@@ -68,10 +68,10 @@
 		<div class="row-fluid">
 			<article class="span4">
 				<figure class="center-img">
-					<img src="../../images/caseStudies/global_bootstrapsmall_logo.png" alt="Bootstrap">
+					<img src="../../images/caseStudies/global-signon-logo.png" alt="Bootstrap">
 				</figure>
-				<h2>Twitter Bootstrap with Drupal</h2>
-				<p>Through tight integration with Twitter Bootstrap, we were able to meet responsive and UI needs more efficiently, in addition to eliminating well-known jQuery conflicts.</p>
+				<h2>Single Sign On</h2>
+				<p>Effectively integrating multiple CRM systems can make a major impact on the user experience. Our developers created a seamless integration with NetForum and a Single Sign On with three different systems. To integrate the header and footer from the Drupal site to the NetForum site, we adjusted the existing CSS and Javascript so that it would work in the new environment. We were able to pull event information from NetForum and push AJO-DO results back to NetForum.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">

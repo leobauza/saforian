@@ -3,8 +3,8 @@
 <article class="hero ata-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote"></span>
-			<span class="byline"></span>
+			<span class="quote">"We value them as a partner and look forward to a long relationship."</span>
+			<span class="byline">Shehab Moustafa<br/>IT Director for the American Trucking Associations</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

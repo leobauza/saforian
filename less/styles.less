@@ -512,6 +512,12 @@ section.safo-work {
 	top:290px;
 }
 
+.sector-links {
+	a {
+		color: #0596bd;
+	}
+	
+}
 
 /***** ISOTOPE WORK *****/
 #iso-wrap {
@@ -660,7 +666,7 @@ section.safo-contact {
 		width: 45px;
 		height: 45px;
 		margin: 0 6px;
-		background-image: url('../images/sprite_contact_bw.png');
+		background-image: url('../images/sprite_contact_black-blue.png');
 		background-repeat:no-repeat;
 		float: left;
 	}
@@ -726,14 +732,29 @@ section.safo-contact {
 	}
 	input[type="submit"]{
 		#CSS3 > .border-radius(0px);
-		//background-color: #0096bd;
-		background:@black;
+		//background-color: #000;
+		background: #000;
 		color: #fff;
 		font-style: italic; 
 		width: 160px;
 		padding: 12px;
 		cursor: pointer;
 		margin-top: 25px;
+	}
+	input[type="submit"] {
+		#CSS3 > .border-radius(0px);
+		//background-color: #000;
+		background: #000;
+		color: #fff;
+		font-style: italic; 
+		width: 160px;
+		padding: 12px;
+		cursor: pointer;
+		margin-top: 25px;
+		&:hover {
+			background-color: #0596BD;
+			
+		}
 	}
 }
 .input-group {
@@ -873,7 +894,7 @@ section.safo-jobs {
 			padding: 16px 16px;
 			display:block;
 			&:hover {
-				background:@black;
+				background: #0596bd;
 				& > * {
 					color:@white;
 				}
@@ -2427,18 +2448,18 @@ section.safo-jobs {
 		margin:0 auto;
 	}
 	&.aao-hero {
-		background-image:url('../images/caseStudies/aao_hero.jpg');
-		background-repeat:no-repeat;
-		background-position:50% 50%;
+		background-image: url('../images/caseStudies/aao-hero-side.jpg');
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
 		blockquote {
-			text-shadow:1px 1px 0px #1d4f63;
-			padding:90px 0 0 0;
-			width:45%;
-			font-weight:300;
-			color:@white;
+			text-shadow: 1px 1px 0px #1d4f63;
+			padding: 90px 0 0 0;
+			width: 45%;
+			font-weight: 300;
+			color: @white;
 			.quote {
-				font-size:4em;
-				line-height:1.4em;
+				font-size: 4em;
+				line-height: 1.4em;
 			}
 			.byline {
 				font-size: 1.4em;
@@ -2451,6 +2472,11 @@ section.safo-jobs {
 	}
 	&.drupalcon-hero {
 		background-image:url('../images/caseStudies/drupalcon_hero.png');
+		background-repeat:no-repeat;
+		background-position:50% 50%;
+	}
+	&.nw-hero {
+		background-image:url('../images/caseStudies/neighborworks-hero.jpg');
 		background-repeat:no-repeat;
 		background-position:50% 50%;
 	}
@@ -3246,6 +3272,17 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
 
 	
 	.row-fluid > [class*="span"] {
@@ -3266,6 +3303,19 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	}
 }
 
+
+
+
+/******YA Ribbon Homepage******/
+	.ya-ribbon img {
+		position: fixed;
+		top: 80px;
+		z-index: 201;
+		display: block;
+	}
+	
+	
+	
 /*margin right instead of margin left to do overflow hidden*/
 .row-fluid > [class*="span"] {
 	float: left;
@@ -4279,6 +4329,9 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 				line-height: 1.6em;
 			}
 		}
+	}
+	.ya-ribbon img {
+		display: none;
 	}
 }
 
