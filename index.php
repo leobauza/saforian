@@ -1,6 +1,6 @@
 <?php include('inc/header.php');?>
 		
-		<div class="ya-ribbon"><a href="http://www.atdrupalcon.com/"><img src="images/drupalcon.png"></a></div>
+		<div class="ya-ribbon"><a href="https://itunes.apple.com/us/app/atdrupalcon/id636398190?mt=8" TARGET="_blank"><img src="images/drupalcon.png"></a></div>
 		
 		<!-- header -->
 		<section id="header-wrap">
