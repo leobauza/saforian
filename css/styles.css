@@ -2142,7 +2142,8 @@ section.safo-jobs a:hover {
   text-align: center;
   vertical-align: middle;
   margin-top: 10px;
-  padding: 30px 0;
+  padding: 130px 0;
+  height: 100px;
 }
 #wallpaper-block .block3 .next-wrap {
   background: #f6f6f7;
@@ -2153,6 +2154,11 @@ section.safo-jobs a:hover {
   vertical-align: middle;
   margin-top: 10px;
   padding: 30px 0;
+  height: 374px;
+}
+#wallpaper-block .block3 .slide img,
+#wallpaper-block .block3 .slider-wrap {
+  height: 374px;
 }
 #wallpaper-block .block4 {
   padding: 100px 20px 45px 20px;
@@ -2181,6 +2187,10 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 30px 0;
 }
+#wallpaper-block .block4 .slide img,
+#wallpaper-block .block4 .slider-wrap {
+  height: 424px;
+}
 #wallpaper-block .block5 {
   padding: 100px 20px 45px 20px;
   border-bottom: 7px solid #f6f6f6;
@@ -2207,6 +2217,10 @@ section.safo-jobs a:hover {
   vertical-align: middle;
   margin-top: 10px;
   padding: 30px 0;
+}
+#wallpaper-block .block5 .slide img,
+#wallpaper-block .block5 .slider-wrap {
+  height: 446px;
 }
 #wallpaper-block .block6 {
   padding: 100px 20px 45px 20px;
@@ -2235,6 +2249,10 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 30px 0;
 }
+#wallpaper-block .block6 .slide img,
+#wallpaper-block .block6 .slider-wrap {
+  height: 543px;
+}
 #wallpaper-block .block7 {
   padding: 100px 20px 45px 20px;
   border-bottom: 7px solid #f6f6f6;
@@ -2261,6 +2279,10 @@ section.safo-jobs a:hover {
   vertical-align: middle;
   margin-top: 10px;
   padding: 30px 0;
+}
+#wallpaper-block .block7 .slide img,
+#wallpaper-block .block7 .slider-wrap {
+  height: 543px;
 }
 /******LB SLIDER START******/
 #career-slider {
@@ -2423,72 +2445,6 @@ section.safo-jobs a:hover {
   height: 100%;
 }
 .wallpaper-slider .caroufredsel_wrapper .slides .slide {
-  display: block;
-}
-.wallpaper-slider .wallpaper-slider-2 .bottomslide {
-  z-index: 0;
-  position: relative;
-  top: -150px;
-}
-.wallpaper-slider .wallpaper-slider-2 .topslide {
-  z-index: 100;
-}
-.wallpaper-slider .wallpaper-slider-2 .container {
-  padding: 50px 200px;
-}
-.wallpaper-slider .wallpaper-slider-2 .slider-wrap {
-  position: relative;
-}
-.wallpaper-slider .wallpaper-slider-2 .slides {
-  opacity: 0;
-  background: #ffffff;
-  *height: 458px;
-}
-.wallpaper-slider .wallpaper-slider-2 .slides .slide {
-  display: none;
-  position: relative;
-  *height: 458px;
-  float: left;
-}
-.wallpaper-slider .wallpaper-slider-2 .slides .slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.wallpaper-slider .wallpaper-slider-2 .caroufredsel_wrapper .slides .slide {
-  display: block;
-}
-.wallpaper-slider .wallpaper-slider-3 .bottomslide {
-  z-index: 0;
-  position: relative;
-  top: -150px;
-}
-.wallpaper-slider .wallpaper-slider-3 .topslide {
-  z-index: 100;
-}
-.wallpaper-slider .wallpaper-slider-3 .container {
-  padding: 50px 200px;
-}
-.wallpaper-slider .wallpaper-slider-3 .slider-wrap {
-  position: relative;
-}
-.wallpaper-slider .wallpaper-slider-3 .slides {
-  opacity: 0;
-  background: #ffffff;
-  *height: 458px;
-}
-.wallpaper-slider .wallpaper-slider-3 .slides .slide {
-  display: none;
-  position: relative;
-  *height: 458px;
-  float: left;
-}
-.wallpaper-slider .wallpaper-slider-3 .slides .slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.wallpaper-slider .wallpaper-slider-3 .caroufredsel_wrapper .slides .slide {
   display: block;
 }
 .wallpaper-slider .container {

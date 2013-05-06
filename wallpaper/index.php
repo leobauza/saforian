@@ -48,7 +48,7 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-2">
+					<div class="wallpaper-slider">
 						<section id="wallpaperTwo" data-duration="1000" data-slider="slider" data-height="53.398058%">
 							<?php include("slider2.php");?>
 						</section>
@@ -83,8 +83,8 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-3">
-						<section id="wallpaperThree" data-duration="1000" data-slider="slider" data-height="53.398058%">
+					<div class="wallpaper-slider">
+						<section id="wallpaperThree" data-duration="1000" data-slider="slider" data-height="374px">
 							<?php include("slider3.php");?>
 						</section>
 					</div>
@@ -118,8 +118,8 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-4">
-						<section id="wallpaperFour" data-duration="1000" data-slider="slider" data-height="53.398058%">
+					<div class="wallpaper-slider">
+						<section id="wallpaperFour" data-duration="1000" data-slider="slider" data-height="424px">
 							<?php include("slider4.php");?>
 						</section>
 					</div>
@@ -154,8 +154,8 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-5">
-						<section id="wallpaperFive" data-duration="1000" data-slider="slider" data-height="53.398058%">
+					<div class="wallpaper-slider">
+						<section id="wallpaperFive" data-duration="1000" data-slider="slider" data-height="446px">
 							<?php include("slider5.php");?>
 						</section>
 					</div>
@@ -189,8 +189,8 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-6">
-						<section id="wallpaperSix" data-duration="1000" data-slider="slider" data-height="53.398058%">
+					<div class="wallpaper-slider">
+						<section id="wallpaperSix" data-duration="1000" data-slider="slider" data-height="543px">
 							<?php include("slider6.php");?>
 						</section>
 					</div>
@@ -225,8 +225,8 @@
 			
 			<div class="span4">
 				<div="wallpaper-background">
-					<div class="wallpaper-slider-7">
-						<section id="wallpaperSeven" data-duration="1000" data-slider="slider" data-height="53.398058%">
+					<div class="wallpaper-slider">
+						<section id="wallpaperSeven" data-duration="1000" data-slider="slider" data-height="614px">
 							<?php include("slider7.php");?>
 						</section>
 					</div>
