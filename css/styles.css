@@ -2127,6 +2127,141 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 30px 0;
 }
+#wallpaper-block .block3 {
+  padding: 100px 20px 45px 20px;
+  border-bottom: 7px solid #f6f6f6;
+}
+#wallpaper-block .block3 .row-fluid.first {
+  margin: 0 0 75px;
+}
+#wallpaper-block .block3 .prev-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block3 .next-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block4 {
+  padding: 100px 20px 45px 20px;
+  border-bottom: 7px solid #f6f6f6;
+}
+#wallpaper-block .block4 .row-fluid.first {
+  margin: 0 0 75px;
+}
+#wallpaper-block .block4 .prev-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block4 .next-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block5 {
+  padding: 100px 20px 45px 20px;
+  border-bottom: 7px solid #f6f6f6;
+}
+#wallpaper-block .block5 .row-fluid.first {
+  margin: 0 0 75px;
+}
+#wallpaper-block .block5 .prev-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block5 .next-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block6 {
+  padding: 100px 20px 45px 20px;
+  border-bottom: 7px solid #f6f6f6;
+}
+#wallpaper-block .block6 .row-fluid.first {
+  margin: 0 0 75px;
+}
+#wallpaper-block .block6 .prev-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block6 .next-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block7 {
+  padding: 100px 20px 45px 20px;
+  border-bottom: 7px solid #f6f6f6;
+}
+#wallpaper-block .block7 .row-fluid.first {
+  margin: 0 0 75px;
+}
+#wallpaper-block .block7 .prev-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+#wallpaper-block .block7 .next-wrap {
+  background: #f6f6f7;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 30px 0;
+}
 /******LB SLIDER START******/
 #career-slider {
   max-width: 1020px;
@@ -2288,6 +2423,72 @@ section.safo-jobs a:hover {
   height: 100%;
 }
 .wallpaper-slider .caroufredsel_wrapper .slides .slide {
+  display: block;
+}
+.wallpaper-slider .wallpaper-slider-2 .bottomslide {
+  z-index: 0;
+  position: relative;
+  top: -150px;
+}
+.wallpaper-slider .wallpaper-slider-2 .topslide {
+  z-index: 100;
+}
+.wallpaper-slider .wallpaper-slider-2 .container {
+  padding: 50px 200px;
+}
+.wallpaper-slider .wallpaper-slider-2 .slider-wrap {
+  position: relative;
+}
+.wallpaper-slider .wallpaper-slider-2 .slides {
+  opacity: 0;
+  background: #ffffff;
+  *height: 458px;
+}
+.wallpaper-slider .wallpaper-slider-2 .slides .slide {
+  display: none;
+  position: relative;
+  *height: 458px;
+  float: left;
+}
+.wallpaper-slider .wallpaper-slider-2 .slides .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wallpaper-slider .wallpaper-slider-2 .caroufredsel_wrapper .slides .slide {
+  display: block;
+}
+.wallpaper-slider .wallpaper-slider-3 .bottomslide {
+  z-index: 0;
+  position: relative;
+  top: -150px;
+}
+.wallpaper-slider .wallpaper-slider-3 .topslide {
+  z-index: 100;
+}
+.wallpaper-slider .wallpaper-slider-3 .container {
+  padding: 50px 200px;
+}
+.wallpaper-slider .wallpaper-slider-3 .slider-wrap {
+  position: relative;
+}
+.wallpaper-slider .wallpaper-slider-3 .slides {
+  opacity: 0;
+  background: #ffffff;
+  *height: 458px;
+}
+.wallpaper-slider .wallpaper-slider-3 .slides .slide {
+  display: none;
+  position: relative;
+  *height: 458px;
+  float: left;
+}
+.wallpaper-slider .wallpaper-slider-3 .slides .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wallpaper-slider .wallpaper-slider-3 .caroufredsel_wrapper .slides .slide {
   display: block;
 }
 .wallpaper-slider .container {
@@ -3198,6 +3399,7 @@ img[src*="iw3.png"] {
   top: 80px;
   z-index: 201;
   display: block;
+  right: 0px;
 }
 /*margin right instead of margin left to do overflow hidden*/
 .row-fluid > [class*="span"] {

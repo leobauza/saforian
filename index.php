@@ -1,6 +1,6 @@
 <?php include('inc/header.php');?>
 		
-		<div class="ya-ribbon"><a href="http://www.tobaccofreekids.org/microsites/gala/"><img src="images/ribbon_YA.png"></a></div>
+		<div class="ya-ribbon"><a href="http://www.atdrupalcon.com/"><img src="images/drupalcon.png"></a></div>
 		
 		<!-- header -->
 		<section id="header-wrap">

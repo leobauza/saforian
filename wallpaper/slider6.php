@@ -3,19 +3,19 @@
 
 		<!-- slide -->
 		<div class="slide">
-			<img src="/images/wallpaper/slider2-1.png" alt="Slide 2">
+			<img src="/images/wallpaper/slider6-1.png" alt="Slide 6">
 		</div>
 		<!-- end slide -->
 
 		<!-- slide -->
 		<div class="slide">
-			<img src="/images/wallpaper/slider2-1.png" alt="Slide 2">
+			<img src="/images/wallpaper/slider6-1.png" alt="Slide 6">
 		</div>
 		<!-- end slide -->
 
 		<!-- slide -->
 		<div class="slide">
-			<img src="/images/wallpaper/slider2-1.png" alt="Slide 2">
+			<img src="/images/wallpaper/slider6-1.png" alt="Slide 6">
 		</div>
 		<!-- end slide -->
 
