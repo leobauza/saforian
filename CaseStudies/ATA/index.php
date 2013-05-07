@@ -26,7 +26,7 @@
 		</article> <!-- end of row --> 
 
 		<figure class="center-device-img2">
-			<img src="../../images/caseStudies/ata_devices.png" alt="Large Image">
+			<img src="../../images/caseStudies/ata-devices.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 	
