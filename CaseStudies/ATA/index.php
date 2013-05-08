@@ -11,7 +11,7 @@
 
 <section id="work-block">
 	<section class="block">
-		<h1>American Trucking Association</h1>
+		<h1>American Trucking Associations</h1>
 		<article class="row-fluid">
 			<div class="span6">
 				<p>As the nation's largest trucking association, ATA came to us to revamp their digital presence and make it easy for their members to access the extensive library of content and resources. To do this, we developed a digital strategy that included focusing on improving access capabilities, enhancing engagement throughout, improving member conversion opportunities, and establishing better member retention and revenue generation capabilities. The end result? An enhanced member experience that streamlines access to key content and provides a foundation for future growth and content delivery. The road is now open!</p>
@@ -26,7 +26,7 @@
 		</article> <!-- end of row --> 
 
 		<figure class="center-device-img2">
-			<img src="../../images/caseStudies/ata_devices.png" alt="Large Image">
+			<img src="../../images/caseStudies/ata-devices.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 	

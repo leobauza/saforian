@@ -333,9 +333,17 @@
 					<p>CNA Analysis & Solutions</p>
 				</article>
 				<article class="item safo-client first-page">
+					<a href="../CaseStudies/ATA" class="ignore"><img src='images/site/client-thumbnails/ata.jpg' alt='ATA' /></a>
+					<p>American Trucking Association</p>
+				</article>
+				
+				<!--
+				<article class="item safo-client first-page">
 					<a href="../CaseStudies/BET" class="ignore"><img src='images/site/client-thumbnails/bet.jpg' alt='BET' /></a>
 					<p>BET</p>
 				</article>
+				-->
+				
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/Wagner" class="ignore"><img src='images/site/client-thumbnails/wagner.jpg' alt='Wagner Skis' /></a>
 					<p>Wagner Skis</p>
