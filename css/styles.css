@@ -2152,11 +2152,14 @@ section.safo-jobs a:hover {
   text-align: center;
   vertical-align: middle;
   margin-top: 30px;
-  padding: 50px 0;
+  padding: 30px 0;
 }
-#wallpaper-block .block3 .slide img,
-#wallpaper-block .block3 .slider-wrap {
-  height: 374px;
+@media all and (max-width: 760px) and (min-width: 400px) {
+  #wallpaper-block .block3 .prev-wrap,
+  #wallpaper-block .block3 .next-wrap {
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
 }
 #wallpaper-block .block4 {
   padding: 100px 20px 45px 20px;
@@ -2185,9 +2188,20 @@ section.safo-jobs a:hover {
   margin-top: 40px;
   padding: 140px 0;
 }
+@media all and (max-width: 760px) and (min-width: 400px) {
+  #wallpaper-block .block4 .prev-wrap,
+  #wallpaper-block .block4 .next-wrap {
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+}
 #wallpaper-block .block4 .slide img,
 #wallpaper-block .block4 .slider-wrap {
   height: 424px;
+  min-width: 307px;
+  max-width: 307px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #wallpaper-block .block5 {
   padding: 100px 20px 45px 20px;
@@ -2216,9 +2230,20 @@ section.safo-jobs a:hover {
   margin-top: 40px;
   padding: 152px 0;
 }
+@media all and (max-width: 760px) and (min-width: 400px) {
+  #wallpaper-block .block5 .prev-wrap,
+  #wallpaper-block .block5 .next-wrap {
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+}
 #wallpaper-block .block5 .slide img,
 #wallpaper-block .block5 .slider-wrap {
   height: 446px;
+  min-width: 307px;
+  max-width: 307px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #wallpaper-block .block6 {
   padding: 100px 20px 45px 20px;
@@ -2247,9 +2272,20 @@ section.safo-jobs a:hover {
   margin-top: 78px;
   padding: 158px 0;
 }
+@media all and (max-width: 760px) and (min-width: 400px) {
+  #wallpaper-block .block6 .prev-wrap,
+  #wallpaper-block .block6 .next-wrap {
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+}
 #wallpaper-block .block6 .slide img,
 #wallpaper-block .block6 .slider-wrap {
   height: 543px;
+  min-width: 307px;
+  max-width: 307px;
+  margin-right: auto;
+  margin-left: auto;
 }
 #wallpaper-block .block7 {
   padding: 100px 20px 45px 20px;
@@ -2278,9 +2314,20 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 165px 0;
 }
+@media all and (max-width: 760px) and (min-width: 400px) {
+  #wallpaper-block .block7 .prev-wrap,
+  #wallpaper-block .block7 .next-wrap {
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+}
 #wallpaper-block .block7 .slide img,
 #wallpaper-block .block7 .slider-wrap {
-  height: 543px;
+  height: 614px;
+  min-width: 307px;
+  max-width: 307px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /******LB SLIDER START******/
 #career-slider {

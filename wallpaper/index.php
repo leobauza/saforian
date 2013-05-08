@@ -84,7 +84,7 @@
 			<div class="span4">
 				<div="wallpaper-background">
 					<div class="wallpaper-slider">
-						<section id="wallpaperThree" data-duration="1000" data-slider="slider" data-height="374px">
+						<section id="wallpaperThree" data-duration="1000" data-slider="slider" data-height="98.5%">
 							<?php include("slider3.php");?>
 						</section>
 					</div>
@@ -216,7 +216,7 @@
 	<section class="block7">
 	
 		<article class="row-fluid">
-			<h2>iPhone 1136 640</h2>
+			<h2>iPhone 1136 x 640</h2>
 			<div class="span4">
 				<div class="prev-wrap">
 					<a href="#" class="wallpaperbutton prev"><prev><img src="../images/wallpaper/previous.png" alt="Previous"></a>
