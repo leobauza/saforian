@@ -2339,8 +2339,8 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  margin-top: 70px;
-  padding: 165px 0;
+  margin-top: 78px;
+  padding: 193px 0;
 }
 #wallpaper-block .block7 .next-wrap {
   background: #f6f6f7;
@@ -2350,7 +2350,7 @@ section.safo-jobs a:hover {
   text-align: center;
   vertical-align: middle;
   margin-top: 10px;
-  padding: 165px 0;
+  padding: 193px 0;
 }
 @media all and (max-width: 760px) and (min-width: 400px) {
   #wallpaper-block .block7 .prev-wrap,
