@@ -34,10 +34,12 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="download.php?file=slider1-1.png" download="true"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider1-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
+	
+
 	
 	
 	<section class="block2">

@@ -2082,10 +2082,22 @@ section.safo-jobs {
 		width:168px;
 		margin-right:auto;
 		margin-left:auto;
+		
+		
+
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
 	}
 	
 	.dl-button:hover {
-		opacity:0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+    opacity: 0.8;
 	}
 	
 	@media all and (max-width: 560px) and (min-width: 400px) {
@@ -2125,6 +2137,7 @@ section.safo-jobs {
 			margin-top: 16px;
 			padding: 45px 0;
 		}
+		
 		.next-wrap {
 			background: #f6f6f7;
 			height: 100%;
