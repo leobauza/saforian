@@ -74,6 +74,7 @@
 </script>
 
 
+
 <script type='text/javascript'>
 	// this should fix the console problem in IE 
 	if (typeof console == "undefined") {

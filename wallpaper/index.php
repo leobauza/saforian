@@ -34,7 +34,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#" class="dl-button"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider1-1.png" download="true"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -73,7 +73,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider2-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -112,7 +112,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider3-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -151,7 +151,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider4-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -191,7 +191,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider5-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -230,7 +230,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider6-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
@@ -270,7 +270,7 @@
 		</article>
 		
 		<div class="dl-button">
-			<a href="#"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
+			<a href="download.php?file=slider7-1.png"><img src="../images/wallpaper/download-button.png" alt="Download"></a>
 		</div>
 		
 	</section>
