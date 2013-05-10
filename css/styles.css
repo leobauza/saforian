@@ -2067,10 +2067,28 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   margin: 60px  0 20px 0;
+  width: 168px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#wallpaper-block .dl-button:hover {
+  opacity: 0.8;
+}
+@media all and (max-width: 560px) and (min-width: 400px) {
+  #wallpaper-block .dl-button {
+    margin-top: 20px;
+  }
 }
 #wallpaper-block h2 {
   color: #000;
   margin-bottom: 50px;
+}
+@media all and (max-width: 560px) and (min-width: 400px) {
+  #wallpaper-block h2 {
+    padding: 10px 0;
+    margin-top: -50px;
+    font-size: 30px;
+  }
 }
 #wallpaper-block .block1 {
   margin-top: 100px;
@@ -2087,7 +2105,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  margin-top: 35px;
+  margin-top: 16px;
   padding: 45px 0;
 }
 #wallpaper-block .block1 .next-wrap {
@@ -2097,7 +2115,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  margin-top: 15px;
+  margin-top: 16px;
   padding: 45px 0;
 }
 @media all and (max-width: 760px) and (min-width: 400px) {
@@ -2129,7 +2147,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  margin-top: 35px;
+  margin-top: 12px;
   padding: 30px 0;
 }
 #wallpaper-block .block2 .next-wrap {
@@ -2139,7 +2157,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
-  margin-top: 10px;
+  margin-top: 12px;
   padding: 30px 0;
 }
 @media all and (max-width: 760px) and (min-width: 400px) {
