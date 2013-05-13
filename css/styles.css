@@ -2127,7 +2127,14 @@ section.safo-jobs a:hover {
   margin-top: 16px;
   padding: 45px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block1 .prev-wrap,
+  #wallpaper-block .block1 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block1 .prev-wrap,
   #wallpaper-block .block1 .next-wrap {
     padding: 10px 0;
@@ -2199,7 +2206,14 @@ section.safo-jobs a:hover {
   margin-top: 12px;
   padding: 30px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block2 .prev-wrap,
+  #wallpaper-block .block2 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block2 .prev-wrap,
   #wallpaper-block .block2 .next-wrap {
     padding: 10px 0;
@@ -2271,7 +2285,14 @@ section.safo-jobs a:hover {
   margin-top: 30px;
   padding: 42px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block3 .prev-wrap,
+  #wallpaper-block .block3 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block3 .prev-wrap,
   #wallpaper-block .block3 .next-wrap {
     padding: 10px 0;
@@ -2343,7 +2364,14 @@ section.safo-jobs a:hover {
   margin-top: 40px;
   padding: 130px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block4 .prev-wrap,
+  #wallpaper-block .block4 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block4 .prev-wrap,
   #wallpaper-block .block4 .next-wrap {
     padding: 10px 0;
@@ -2415,7 +2443,14 @@ section.safo-jobs a:hover {
   margin-top: 40px;
   padding: 140px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 980px) and (min-width: 560px) {
+  #wallpaper-block .block5 .prev-wrap,
+  #wallpaper-block .block5 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block5 .prev-wrap,
   #wallpaper-block .block5 .next-wrap {
     padding: 10px 0;
@@ -2487,7 +2522,14 @@ section.safo-jobs a:hover {
   margin-top: 78px;
   padding: 158px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block6 .prev-wrap,
+  #wallpaper-block .block6 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block6 .prev-wrap,
   #wallpaper-block .block6 .next-wrap {
     padding: 10px 0;
@@ -2560,7 +2602,14 @@ section.safo-jobs a:hover {
   margin-top: 10px;
   padding: 193px 0;
 }
-@media all and (max-width: 760px) and (min-width: 400px) {
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block7 .prev-wrap,
+  #wallpaper-block .block7 .next-wrap {
+    padding: 5px 0;
+    margin-bottom: 40px;
+  }
+}
+@media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block7 .prev-wrap,
   #wallpaper-block .block7 .next-wrap {
     padding: 10px 0;
