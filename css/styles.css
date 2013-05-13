@@ -2538,7 +2538,7 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block6 .slide img,
 #wallpaper-block .block6 .slider-wrap {
-  height: 543px;
+  height: auto;
   width: 100%;
   min-width: 150px;
   margin-right: auto;
@@ -2618,7 +2618,7 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block7 .slide img,
 #wallpaper-block .block7 .slider-wrap {
-  height: 614px;
+  height: auto;
   width: 100%;
   min-width: 150px;
   margin-right: auto;
