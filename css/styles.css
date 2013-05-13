@@ -2142,11 +2142,22 @@ section.safo-jobs a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block1 .slide img,
-  #wallpaper-block .block1 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 320px) {
+  #wallpaper-block .block1 .slide img .slide img,
+  #wallpaper-block .block1 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block1 .slide img .slide img,
+  #wallpaper-block .block1 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block2 {
@@ -2191,11 +2202,22 @@ section.safo-jobs a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block2 .slide img,
-  #wallpaper-block .block2 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block2 .slide img .slide img,
+  #wallpaper-block .block2 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block2 .slide img .slide img,
+  #wallpaper-block .block2 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block3 {
@@ -2240,11 +2262,22 @@ section.safo-jobs a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block3 .slide img,
-  #wallpaper-block .block3 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block3 .slide img .slide img,
+  #wallpaper-block .block3 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block3 .slide img .slide img,
+  #wallpaper-block .block3 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block4 {
@@ -2289,11 +2322,22 @@ section.safo-jobs a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block4 .slide img,
-  #wallpaper-block .block4 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block4 .slide img .slide img,
+  #wallpaper-block .block4 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block4 .slide img .slide img,
+  #wallpaper-block .block4 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block5 {
@@ -2338,11 +2382,22 @@ section.safo-jobs a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block5 .slide img,
-  #wallpaper-block .block5 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block5 .slide img .slide img,
+  #wallpaper-block .block5 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block5 .slide img .slide img,
+  #wallpaper-block .block5 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block6 {
@@ -2381,17 +2436,28 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block6 .slide img,
 #wallpaper-block .block6 .slider-wrap {
-  height: 543px;
   min-width: 307px;
   max-width: 307px;
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block6 .slide img,
-  #wallpaper-block .block6 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block6 .slide img .slide img,
+  #wallpaper-block .block6 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+    height: auto;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block6 .slide img .slide img,
+  #wallpaper-block .block6 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 #wallpaper-block .block7 {
@@ -2430,17 +2496,28 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block7 .slide img,
 #wallpaper-block .block7 .slider-wrap {
-  height: 614px;
   min-width: 307px;
   max-width: 307px;
   margin-right: auto;
   margin-left: auto;
 }
-@media all and (max-width: 560px) and (min-width: 400px) {
-  #wallpaper-block .block7 .slide img,
-  #wallpaper-block .block7 .slider-wrap {
-    min-width: 290px;
-    max-width: 290px;
+@media all and (max-width: 560px) and (min-width: 300px) {
+  #wallpaper-block .block7 .slide img .slide img,
+  #wallpaper-block .block7 .slider-wrap .slide img {
+    min-width: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-right: 38px;
+    height: auto;
+  }
+}
+@media all and (max-width: 320px) and (min-width: 200px) {
+  #wallpaper-block .block7 .slide img .slide img,
+  #wallpaper-block .block7 .slider-wrap .slide img {
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-right: 90px;
   }
 }
 /******LB SLIDER START******/
