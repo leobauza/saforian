@@ -2137,10 +2137,22 @@ section.safo-jobs a:hover {
 #wallpaper-block .block1 .slide img,
 #wallpaper-block .block1 .slider-wrap {
   height: auto;
-  min-width: 307px;
-  max-width: 307px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block1 .slide img .slide img,
+  #wallpaper-block .block1 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 320px) {
   #wallpaper-block .block1 .slide img .slide img,
@@ -2197,10 +2209,22 @@ section.safo-jobs a:hover {
 #wallpaper-block .block2 .slide img,
 #wallpaper-block .block2 .slider-wrap {
   height: auto;
-  min-width: 307px;
-  max-width: 307px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block2 .slide img .slide img,
+  #wallpaper-block .block2 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block2 .slide img .slide img,
@@ -2257,10 +2281,22 @@ section.safo-jobs a:hover {
 #wallpaper-block .block3 .slide img,
 #wallpaper-block .block3 .slider-wrap {
   height: auto;
-  min-width: 307px;
-  max-width: 307px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block3 .slide img .slide img,
+  #wallpaper-block .block3 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block3 .slide img .slide img,
@@ -2317,10 +2353,22 @@ section.safo-jobs a:hover {
 #wallpaper-block .block4 .slide img,
 #wallpaper-block .block4 .slider-wrap {
   height: auto;
-  min-width: 307px;
-  max-width: 307px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block4 .slide img .slide img,
+  #wallpaper-block .block4 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block4 .slide img .slide img,
@@ -2377,10 +2425,22 @@ section.safo-jobs a:hover {
 #wallpaper-block .block5 .slide img,
 #wallpaper-block .block5 .slider-wrap {
   height: auto;
-  min-width: 307px;
-  max-width: 307px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block5 .slide img .slide img,
+  #wallpaper-block .block5 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block5 .slide img .slide img,
@@ -2436,10 +2496,23 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block6 .slide img,
 #wallpaper-block .block6 .slider-wrap {
-  min-width: 307px;
-  max-width: 307px;
+  height: 543px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block6 .slide img .slide img,
+  #wallpaper-block .block6 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block6 .slide img .slide img,
@@ -2496,10 +2569,23 @@ section.safo-jobs a:hover {
 }
 #wallpaper-block .block7 .slide img,
 #wallpaper-block .block7 .slider-wrap {
-  min-width: 307px;
-  max-width: 307px;
+  height: 614px;
+  width: 100%;
+  min-width: 150px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media all and (max-width: 780px) and (min-width: 560px) {
+  #wallpaper-block .block7 .slide img .slide img,
+  #wallpaper-block .block7 .slider-wrap .slide img {
+    min-width: 150px;
+    max-width: 200px;
+  }
 }
 @media all and (max-width: 560px) and (min-width: 300px) {
   #wallpaper-block .block7 .slide img .slide img,
