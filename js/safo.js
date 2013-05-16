@@ -118,6 +118,12 @@ $(document).ready(function() {
 
 });
 
+
+
+
+
+
+
 function gallerySetUp() {
 	// clone image
 	$('.safo-work img').each(function(){
@@ -653,6 +659,40 @@ $(function(){
 			$navst = 0;
 		}
 	});
+
+
+
+
+
+	/* 
+	 * =============================================================
+	 * csnav
+	 * =============================================================
+	 */
+	var $navst = 0;
+	$('.csnav').click(function(e){
+		$this = $(this);
+		if($navst == 0) {
+			$('#case-nav ul').slideDown();
+			$this.addClass('up');
+			$navst = 1;
+		} else {
+			$('#case-nav ul').slideUp();
+			$this.removeClass('up');
+			$navst = 0;
+		}
+	});
+
+	//slide up the nav on mobile click of nav
+	$('#case-nav a').click(function(){
+		if($winWidth < 941) {
+			$('#case-nav ul').slideUp();
+			$('.csnav').removeClass('up');
+			$navst = 0;
+		}
+	});
+
+
 
 
 	/* 

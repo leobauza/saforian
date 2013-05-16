@@ -2910,6 +2910,173 @@ section.safo-jobs a:hover {
   border-bottom: 1px solid #000000;
 }
 /******SLIDER END******/
+/****** CASE STUDY NAV ******/
+.col {
+  float: left;
+  margin-left: 3.2%;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 14px;
+}
+.col a {
+  color: #888;
+  font-weight: 300;
+}
+.fullwidth .col {
+  float: none;
+  margin-left: 0;
+}
+/* grid4 col */
+.grid4 .col {
+  width: 22.6%;
+}
+/* grid3 col */
+.grid3 .col {
+  width: 31.2%;
+}
+/* grid2 col */
+.grid2 .col {
+  width: 48.4%;
+}
+/* clear col */
+.grid4 .col:nth-of-type(4n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+  margin-left: 0;
+  clear: left;
+}
+/* reset cols to 3-column */
+@media screen and (max-width: 740px) {
+  /* grid4 */
+  .grid4 .col {
+    width: 31.2%;
+  }
+  .grid4 .col:nth-of-type(4n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid4 .col:nth-of-type(3n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+/* reset cols to 2-column */
+@media screen and (max-width: 600px) {
+  /* grid4 */
+  .grid4 .col {
+    width: 48.4%;
+  }
+  .grid4 .col:nth-of-type(3n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid4 .col:nth-of-type(2n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+  /* grid3 */
+  .grid3 .col {
+    width: 48.4%;
+  }
+  .grid3 .col:nth-of-type(3n+1) {
+    margin-left: 3.2%;
+    clear: none;
+  }
+  .grid3 .col:nth-of-type(2n+1) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+/* reset cols to fullwidth */
+@media screen and (max-width: 400px) {
+  /* grid4 */
+  .col {
+    width: 100% !important;
+    margin-left: 0 !important;
+    clear: none !important;
+  }
+}
+#case-nav {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fefefe;
+}
+#case-nav .casewrapper {
+  width: 80%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#case-nav ul {
+  display: none;
+  position: static;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#case-nav ul li {
+  display: inline;
+  float: left;
+  line-height: 1.5em;
+  width: 25%;
+}
+#case-nav ul li a {
+  text-align: left;
+  padding: 10px 3%;
+  line-height: 30px;
+  font-size: 14px;
+}
+.csnav {
+  display: block;
+  height: 54px;
+  -moz-box-shadow: 0 0 5px #c0c0c0;
+  -webkit-box-shadow: 0 0 5px#c0c0c0;
+  box-shadow: 0 0 5px #c0c0c0;
+  background: #ffffff url('') 50% 50% no-repeat;
+}
+.csnav.up {
+  background: #ffffff url('') 50% 50% no-repeat;
+}
+.csbtn {
+  background: url('../images/casestudybtn.png') no-repeat;
+  background-size: 80px 100px;
+  background-position: center;
+  height: 100px;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/****** CASE STUDY NEXT PREVIOUS ******/
+.pag-wrap {
+  margin: auto;
+}
+.pag-wrap a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 300;
+}
+.casepre {
+  position: absolute;
+  top: -34px;
+  left: 15%;
+}
+.casenext {
+  position: absolute;
+  top: -34px;
+  right: 15%;
+}
+@media screen and (max-width: 760px) {
+  .casepre,
+  .casenext {
+    top: -10px;
+  }
+}
+/****** CASE STUDY NEXT PREVIOUS END******/
 /****** CASE STUDIES ******/
 .hero {
   height: 496px;
@@ -4299,7 +4466,7 @@ img[src*="iw3.png"] {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1500;
   }
   #site-nav ul {
     display: none;
