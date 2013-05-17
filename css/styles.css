@@ -252,7 +252,7 @@ a:visited:hover {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 1600;
 }
 #site-header {
   padding: 0 20px;
@@ -270,7 +270,7 @@ a:visited:hover {
   position: absolute;
   top: 10%;
   left: 70%;
-  z-index: 1000;
+  z-index: 1600;
 }
 #site-header h1 {
   display: none;
@@ -1251,7 +1251,7 @@ section.safo-jobs a:hover {
   padding: 94px 20px 55px;
 }
 .adjust-top .hero {
-  margin-top: 56px;
+  margin-top: 110px;
 }
 #twitter-feed {
   margin: 0 auto;
@@ -3039,17 +3039,21 @@ section.safo-jobs a:hover {
   box-shadow: 0 0 5px #c0c0c0;
   background: #ffffff url('') 50% 50% no-repeat;
 }
-.csnav.up {
-  background: #ffffff url('') 50% 50% no-repeat;
-}
 .csbtn {
   background: url('../images/casestudybtn.png') no-repeat;
   background-size: 80px 100px;
   background-position: center;
   height: 100px;
-  width: 80px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
+}
+.csbtn.up {
+  background: #ffffff url('') 50% 50% no-repeat;
+  width: 100%;
+  background: url('../images/casestudybtn.png') no-repeat;
+  background-size: 80px 100px;
+  background-position: center;
 }
 /****** CASE STUDY NEXT PREVIOUS ******/
 .pag-wrap {

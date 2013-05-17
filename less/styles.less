@@ -118,7 +118,7 @@ a, a:visited {
 	position:fixed;
 	top:0;
 	left:0;
-	z-index:1000;
+	z-index:1600;
 }
 
 #site-header {
@@ -137,7 +137,7 @@ a, a:visited {
 		top:10%;
 		//left:770px;
 		left:70%;
-		z-index: 1000;
+		z-index: 1600;
 	}
 	h1 { 
 		display:none; 
@@ -1210,7 +1210,7 @@ section.safo-jobs {
 		padding:94px 20px 55px;
 	}
 	.hero {
-		margin-top:56px;
+		margin-top:110px;
 	}
 }
 
@@ -3151,7 +3151,6 @@ section.safo-jobs {
 	.csnav {
 		display:block;
 		height:54px;
-		
 		-moz-box-shadow: 0 0 5px #c0c0c0;
 		-webkit-box-shadow: 0 0 5px#c0c0c0;
 		box-shadow: 0 0 5px #c0c0c0;
@@ -3159,9 +3158,7 @@ section.safo-jobs {
 		
 	    background:#fff url('') 50% 50% no-repeat;
 
-		&.up {
-			background:#fff url('') 50% 50% no-repeat;
-		}
+		
 		
 		}
 		
@@ -3171,9 +3168,17 @@ section.safo-jobs {
 		background-size:80px 100px;
 		background-position:center; 
 		height:100px;
-		width:80px;
+		width:100%;
 		margin-right:auto;
 		margin-left:auto;
+		
+		&.up {
+			background:#fff url('') 50% 50% no-repeat;
+			width:100%;
+			background: url('../images/casestudybtn.png') no-repeat;
+		    background-size:80px 100px;
+		    background-position:center; 
+		}
 		}
 		
 		
@@ -3224,6 +3229,7 @@ right:15%
 	
 /****** CASE STUDIES ******/
 .hero {
+
 	height:496px;
 	//margin:64px 0 0 0;
 	background-size:cover;

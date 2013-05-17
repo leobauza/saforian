@@ -670,7 +670,7 @@ $(function(){
 	 * =============================================================
 	 */
 	var $navst = 0;
-	$('.csnav').click(function(e){
+	$('.csbtn').click(function(e){
 		$this = $(this);
 		if($navst == 0) {
 			$('#case-nav ul').slideDown();
@@ -687,7 +687,7 @@ $(function(){
 	$('#case-nav a').click(function(){
 		if($winWidth < 941) {
 			$('#case-nav ul').slideUp();
-			$('.csnav').removeClass('up');
+			$('.csbtn ').removeClass('up');
 			$navst = 0;
 		}
 	});

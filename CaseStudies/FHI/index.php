@@ -1,5 +1,62 @@
 <?php include("../header.php");?>
 
+<nav id="case-nav">
+                               <div class="casewrapper">
+                        
+								<ul class='topnav group'>
+						
+								<div class="wrapper grid4">
+	
+<article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>AAO</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>ATA</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>BET</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Cancer/'>Cancer</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/CNA/'>CNA</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>DineOut</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>EDTA</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>KBD</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/NoKidHungry/'>NoKidHungry</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/NVTC/'>NVTC</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/NWP/'>NWP</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Qivliq/'>Qivliq</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Rider/'>Rider</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Specialicious/'>Specialicious</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner</a></article>
+	
+							   </div>
+					   
+							   </ul>
+							   
+							   </div>
+
+					
+											<span class="csnav">
+											
+											<div class="pag-wrap">
+											
+											<div class="casepre">
+											<a href="http://www.saforian.com/CaseStudies/EDTA/"><span class="inner">< Prev Project</span></a>
+											</div>
+											
+											<div class="casenext">
+											<a href="http://www.saforian.com/CaseStudies/Grunley/"><span class="inner">Next Project ></span></a>
+											</div>
+											
+											</div>
+					
+											 <div class="csbtn">
+					
+											 </div>
+					
+											 </span>				           
+</nav>
+
 <article class="hero fhi-hero ">
 	<div class="inner">
 		<blockquote>
