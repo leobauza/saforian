@@ -2913,10 +2913,12 @@ section.safo-jobs a:hover {
 /****** CASE STUDY NAV ******/
 .col {
   float: left;
+  padding-bottom: 5px;
   margin-left: 3.2%;
   margin-bottom: 30px;
   text-align: left;
   font-size: 14px;
+  border-bottom: 1px solid #ccc;
 }
 .col a {
   color: #888;
@@ -3015,7 +3017,7 @@ section.safo-jobs a:hover {
   position: static;
   padding: 0;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   margin-left: 40px;
   margin-right: 40px;
 }
