@@ -41,11 +41,11 @@
 											<div class="pag-wrap">
 											
 											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">< Prev Project</span></a>
+											<a href="http://www.saforian.com/CaseStudies/Wagner/"><span class="inner">< Prev Project</span></a>
 											</div>
 											
 											<div class="casenext">
-											<a href="http://www.saforian.com/CaseStudies/USAA/"><span class="inner">Next Project ></span></a>
+											<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">Next Project ></span></a>
 											</div>
 											
 											</div>
