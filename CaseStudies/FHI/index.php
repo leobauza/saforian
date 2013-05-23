@@ -78,8 +78,8 @@
 			<div class="span6 l">
 				<ul class="highlights">
 					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
-					<li><strong>Solutions</strong><span>Website, Campaign Support, CMS, CRM Integration, Responsive, Data Visualization, Reporting, eNewsletter</span></li>
-					<li><strong>Technology</strong><span>Drupal, Solr, MapBox</span></li>
+					<li><strong>Solutions</strong><span>Website, CMS, Responsive, Data Visualization</span></li>
+					<li><strong>Technology</strong><span>Drupal</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
@@ -96,7 +96,8 @@
 			</div>
 			<div class="span5 l">
 				<h2>Informational Architecture</h2>
-				<p>For the site’s information architecture, our interactive engineers first gathered requirements regarding FHI 360’s diverse audience groups and outreach plans. We then developed various organizational and content maps that allowed us to test different approaches. This was further enhanced by creating variations on the navigational models so that we could test labeling, relationships between sections, taxonomy, and flow in order to deliver an effective way-finding system.</p>
+				<p>For the site’s information architecture, our interactive engineers first gathered requirements regarding FHI 360’s diverse audience groups and outreach plans. We then developed various organizational and content maps that allowed us to test different approaches. This was further enhanced by creating variations on the navigational models so that we could test labeling, relationships between sections, taxonomy, and flow in order to deliver an effective way-finding system.
+</p>
 				<br/>
 				<p>Once we finalized a new organizational structure, we moved forward with creating various navigational models and extensive wireframing to outline the various page-level requirements for the rest of the site.</p>
 			</div>
@@ -112,7 +113,7 @@
 			</article>
 			<article class="span8">
 				<h2>Flexible Content Management</h2>
-				<p>To meet the demanding needs of FHI 360’s researchers and experts, we used Drupal as the CMS of choice. Drupal allowed us to build in an elaborate taxonomy and underlining administration system that gives content context, while also providing support for relationships to tie the entire story together. Utilizing existing Drupal modules where available and tailoring them to meet FHI 360’s objectives, we were able to reduce complexities and ongoing maintenance needs.</p>
+				<p>To meet the demanding needs of FHI 360’s researchers and experts, we used Drupal as the CMS of choice. Drupal allowed us to build in an elaborate taxonomy and underlining administration system that gives content context, while also providing support for relationships to tie the entire story together. Using existing Drupal modules where available and tailoring them to meet FHI 360’s objectives, we were able to reduce complexities and ongoing maintenance needs.</p>
 			</article>
 		</div> <!-- end of first row -->
 		<div class="row-fluid">
@@ -121,14 +122,14 @@
 					<img src="../../images/caseStudies/global_world_logo.png" alt="Compass">
 				</figure>
 				<h2>International</h2>
-				<p>To accommodate FHI’s diverse worldwide audience, we took into consideration slow internet speeds and used responsive design. Our goal was to bring FHI’s international work to life and communicate their global impact on public health. We equipped regional and country portions of the site to provide the ability to highlight the work and expertise that is occurring at the local level. This will continually be enhanced with the introduction of specialized country tools to foster localized mobilization efforts.</p>
+				<p>To accommodate FHI 360’s diverse worldwide audience, we took into consideration slow internet speeds and used responsive design. Our goal was to bring FHI 360’s international work to life and communicate their global impact on health, education, nutrition, environment, economic development, civil society, gender equality, youth, research and technology. We equipped country portions of the site to provide the ability to highlight the work and expertise occurring at the local level. </p>
 			</article>
 			<article class="span6 l">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global_responsive_logo.png" alt="CodeIgniter">
 				</figure>
 				<h2>Responsive Design</h2>
-				<p>Using responsive design techniques we were able to ensure content is accessible across a variety of platforms and screen dimensions. We streamlined the site's code to efficiently present the breadth and diversity of FHI’s work and data while also supporting the ability for the entire site to be translated in a variety of languages.</p>
+				<p>We used responsive design techniques to ensure content it accessible across a variety of platforms and screen dimensions. We streamlined the site's code to efficiently present the breadth and diversity of FHI 360’s work and data while also supporting the ability for the entire site to be translated in a variety of languages.</p>
 			</article>
 		</div> <!-- end of second row -->
 	</section> <!-- end of block -->
@@ -148,7 +149,7 @@
 			<img src="../../images/caseStudies/fhi_largeimage4.jpg" alt="Large Image">
 		</figure>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/fhi_largeimage5.jpg" alt="Large Image">
+			<img src="../../images/caseStudies/fhi_largeimage6.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 
