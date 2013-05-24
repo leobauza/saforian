@@ -4934,4 +4934,13 @@ img[src*="iw3.png"] {
   /* IE8 and below */
 
 }
+#coffee-table {
+  background: url('../images/coffee-table.jpg');
+  background-size: 612px 217px;
+  width: 100%;
+  height: 435px;
+  position: absolute;
+  margin: 0;
+  bottom: 0px;
+}
 /* coffee section end */

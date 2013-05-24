@@ -31,8 +31,14 @@
 <section class="coffee-bg">
 
 
-</section>
+<div id="coffee-table">
 
+
+</div>
+
+
+
+</section>
 
 
 
