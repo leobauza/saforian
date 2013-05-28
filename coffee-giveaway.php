@@ -30,8 +30,13 @@
 
 <section class="coffee-bg">
 
-
 <div id="coffee-table">
+
+
+</div>
+
+
+<div id="coffeecup">
 
 
 </div>
