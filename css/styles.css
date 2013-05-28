@@ -4943,6 +4943,22 @@ img[src*="iw3.png"] {
   margin: 0;
   bottom: 0px;
 }
+#coffee-positionar {
+  margin: auto;
+  vertical-align: center;
+  height: 514px;
+  width: 510px;
+  top: 210px;
+  position: relative;
+}
+#coffeesteam {
+  background: url('../images/coffeesteam.png');
+  background-size: 510px 223px;
+  width: 510px;
+  height: 223px;
+  position: relative;
+  margin: 0 0 30px 0;
+}
 #coffeecup {
   background: url('../images/coffeecup.png');
   background-size: 274px 291px;
@@ -4950,6 +4966,5 @@ img[src*="iw3.png"] {
   height: 291px;
   position: relative;
   margin: auto;
-  top: 480px;
 }
 /* coffee section end */

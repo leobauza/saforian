@@ -36,11 +36,16 @@
 </div>
 
 
-<div id="coffeecup">
+<div id="coffee-positionar">
 
-
+<div id="coffeesteam">
 </div>
 
+
+<div id="coffeecup">
+</div>
+
+</div
 
 
 </section>
