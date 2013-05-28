@@ -39,6 +39,13 @@
 <div id="coffee-positionar">
 
 <div id="coffeesteam">
+<h1>Let's reconnect</h1>
+
+<p>
+We know schedules are busy.<br /> 
+Take a breather and have some coffee<br /> 
+on Saforian.
+</p>
 </div>
 
 
