@@ -69,6 +69,12 @@ on Saforian.
 	<div id="entrycode-wrapper">
 	<input type='text' id="entrycode" name='entrycode' value='' />
 	</div>
+	
+	
+	<div id="coffee-enter-wrapper">
+	<input type="hidden" name="submitted" value="submitted">
+	<input type='submit' id="coffee-enter" name="submit" value='submit' />
+	</div>
 
 
 </form>
