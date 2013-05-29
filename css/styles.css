@@ -4918,7 +4918,7 @@ img[src*="iw3.png"] {
     padding-top: 25px;
   }
 }
-/* coffee section start */
+/************************** coffee section start **************************/
 .coffee-bg {
   width: 100%;
   height: 100%;
@@ -4941,7 +4941,17 @@ img[src*="iw3.png"] {
   height: 530px;
   position: absolute;
   margin: 0;
-  top: 700px;
+  top: 840px;
+}
+@media screen and (max-width: 540px) {
+  #coffee-table {
+    top: 800px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #coffee-table {
+    top: 740px;
+  }
 }
 #coffee-positionar {
   margin: auto;
@@ -4981,6 +4991,53 @@ img[src*="iw3.png"] {
   top: 95px;
   line-height: 24px;
 }
+@media screen and (max-width: 740px) {
+  #coffeesteam h1 {
+    font-size: 25px;
+    top: 125px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #coffeesteam h1 {
+    font-size: 18px;
+    font-weight: 400px;
+    top: 148px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #coffeesteam h1 {
+    font-size: 18px;
+    font-weight: 400px;
+    top: 178px;
+  }
+}
+@media screen and (max-width: 740px) {
+  #coffeesteam p {
+    font-size: 15px;
+    line-height: 20px;
+    top: 130px;
+    width: 270px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  #coffeesteam p {
+    font-size: 12px;
+    line-height: 15px;
+    top: 152px;
+    width: 200px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  #coffeesteam p {
+    font-size: 12px;
+    line-height: 15px;
+    top: 182px;
+    width: 200px;
+    margin: auto;
+  }
+}
 #coffeecup {
   background: url('../images/coffeecup.png') no-repeat;
   background-position: top;
@@ -5007,8 +5064,8 @@ img[src*="iw3.png"] {
   margin: 0 auto;
   float: none;
 }
-/* coffee section end */
-/* coffee section form start */
+/***************************** coffee section end ******************************/
+/************************** coffee section form start **************************/
 #coffee-form {
   margin: auto;
   position: relative;
@@ -5089,4 +5146,4 @@ img[src*="iw3.png"] {
   -moz-border-radius: 30px;
   border-radius: 30px;
 }
-/* coffee section form end */
+/************************** coffee section form end **************************/
