@@ -60,11 +60,15 @@ on Saforian.
 
 
 
-<form name='contact' id='contact' class='coffee-form' method='post' enctype="multipart/form-data">
+<form id="coffee-form">
 
-
-	<label for='phone'>Phone number</label>
-	<input type='text' id="phone" name='phone' value='' />
+<div id="coffee-label-wrapper">
+	<label id="coffee-label">code</label>
+	</div>
+	
+	<div id="entrycode-wrapper">
+	<input type='text' id="entrycode" name='entrycode' value='' />
+	</div>
 
 
 </form>
