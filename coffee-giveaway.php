@@ -55,11 +55,19 @@ on Saforian.
 </div
 
 
+
 </section>
 
 
 
+<form name='contact' id='contact' class='coffee-form' method='post' enctype="multipart/form-data">
 
+
+	<label for='phone'>Phone number</label>
+	<input type='text' id="phone" name='phone' value='' />
+
+
+</form>
 
 
 

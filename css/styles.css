@@ -4983,4 +4983,19 @@ img[src*="iw3.png"] {
   position: relative;
   margin: auto;
 }
+.coffee-form input[type="submit"] {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: #000000;
+  color: #fff;
+  font-style: italic;
+  width: 160px;
+  padding: 12px;
+  cursor: pointer;
+  margin-top: 25px;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
 /* coffee section end */
