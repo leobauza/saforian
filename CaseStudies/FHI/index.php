@@ -54,14 +54,14 @@
 					
 											 </div>
 					
-											 </span>				           
+											 </span>			
 </nav>
 
 <article class="hero fhi-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"Herding cats toward a beautiful and creative solution is no easy task – unless you are Saforian!"</span>
-			<span class="byline">– Jake Trees</span>
+			<span class="quote">"We needed a firm that understood our global scope. Saforian answered the call with creative and solid solutions."</span>
+			<span class="byline">– Liza Morris</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

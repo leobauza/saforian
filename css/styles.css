@@ -3039,7 +3039,7 @@ section.safo-jobs a:hover {
   -moz-box-shadow: 0 0 5px #c0c0c0;
   -webkit-box-shadow: 0 0 5px#c0c0c0;
   box-shadow: 0 0 5px #c0c0c0;
-  background: #ffffff url('') 50% 50% no-repeat;
+  background: #ffffff url([object Object]) 50% 50% no-repeat;
 }
 .csbtn {
   background: url('../images/casestudybtn.png') no-repeat;
@@ -3051,7 +3051,7 @@ section.safo-jobs a:hover {
   margin-left: auto;
 }
 .csbtn.up {
-  background: #ffffff url('') 50% 50% no-repeat;
+  background: #ffffff url([object Object]) 50% 50% no-repeat;
   width: 100%;
   background: url('../images/casestudybtn.png') no-repeat;
   background-size: 80px 100px;
@@ -3461,7 +3461,7 @@ section.safo-jobs a:hover {
 .hero.fhi-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
   padding: 90px 0 0 0;
-  width: 45%;
+  width: 55%;
   font-weight: 300;
   color: #ffffff;
 }
