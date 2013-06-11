@@ -54,7 +54,7 @@
 					
 											 </div>
 					
-											 </span>				           
+											 </span>			
 </nav>
 
 <article class="hero nw-hero ">
@@ -75,9 +75,9 @@
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>???</span></li>
-					<li><strong>Solutions</strong><span>???</span></li>
-					<li><strong>Technology</strong><span>???</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
+					<li><strong>Solutions</strong><span>Campaign Support, Marketing, Content Writing, Illustration</span></li>
+					<li><strong>Technology</strong><span>HTML</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row -->

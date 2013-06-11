@@ -1,4 +1,4 @@
-<?php include("inc/headernv.php");?>
+<?php include("inc/headernova.php");?>
 
 <!-- header -->
 <section id="header-wrap">
@@ -40,4 +40,4 @@
 </section>
 
 
-<?php include("inc/footernv.php");?>
+<?php include("inc/footer404.php");?>

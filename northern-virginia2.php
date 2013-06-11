@@ -1,4 +1,4 @@
-<?php include("inc/headernova.php");?>
+<?php include("inc/headernv.php");?>
 
 
 <!-- header -->
@@ -43,7 +43,7 @@
 <section class="novaslider-bg">
 		<div class="std-header first nova-block" id="one">
 			<div class="div1">
-				<h1>A Maryland Web Design Firm</h1>
+				<h1>A Virginia Web Design Firm</h1>
 				<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
 				<article class="std-body">
 				</article>
@@ -74,7 +74,7 @@
 				<article class="std-body">
 					<p>Making great websites is challenging. It takes time. It involves research and planning, testing, analyzing, deliberating, designing, coding, programming … The list goes on for miles. Now who’s got time for that? Lucky for you, we’re seasoned pros. We’ve worked on over 700 websites for over 250 clients. So sit back, relax, and leave the heavy lifting to us.</p>
 				</article>
-				<img src="../../images/va-slider/md.png" alt="Maryland">
+				<img src="../../images/va-slider/nova.png" alt="Northern Virginia">
 				<a href="#four" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 			</div>
 		</div>
@@ -100,7 +100,7 @@
 			<h1>Don’t Be Shy</h1>
 			<article class="std-body">
 				<p>We want to get to know you — your business, your work, your needs. So tell us a little about what you’re looking for and how we can get in touch. We’ll take it from there.</p>
-				<form name='contact' id='contact' class='contact-form' method='post'>
+				<form name='contact' id='contact' class='contact-form' method='post' enctype="multipart/form-data">
 					<div class='row-fluid'>
 						<div class='span6 input-group'>
 							<label for='fullname'>Full name</label>
@@ -116,11 +116,39 @@
 							<label for='phone'>Phone number</label>
 							<input type='text' id="phone" name='phone' value='' />
 						</div>
-						<div class="span6 input-group">
+						<div class="span6 input-group l">
 							<div class="check-group group">
 								<input type='checkbox' id="newsletter" name='newsletter' checked="checked"/>
 								<label for='type'>Newsletter Sign Up</label>
 							</div>
+						</div>
+					</div>
+					<div class='row-fluid marg'>
+						<div class="span2"><div class="video"><img src="../../images/va-slider/video-upload.png"></div></div>
+						<div class="span10 l">
+							<div class="video-inside">
+								<span class="video-text">Upload a video to give us some insight into what you have going on.</span>
+								<label for='type'>Video URL</label>
+								<input class="video-type" type='text' id="videourl" name='videourl' value='' />
+							</div>
+						</div>
+						
+					</div>
+					<div class='row-fluid'>
+						<div class="span12 input-group l">
+							<p class="file-toggle"><img src="../../images/va-slider/upload-arrow.png" class="upload-img">File Upload</p>
+						</div>
+						<div class="span12 input-group file-up l">
+							<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+							<input type="file" name="uploadedfile" id="uploaded_file" class="file"/>
+						</div>
+					</div>
+					<div class='row-fluid'>
+						<div class="span12 input-group l">
+							<p class="desc-toggle"><img src="../../images/va-slider/upload-arrow.png" class="upload-img">Optional Description</p>
+						</div>
+						<div class="span12 input-group desc-up l">
+							<textarea name="description" id="description"></textarea>
 						</div>
 					</div>
 					<div class="submit-button">
@@ -139,4 +167,4 @@
 </section>
 
 
-<?php include('inc/footermd.php');?>
+<?php include('inc/footer2.php');?>

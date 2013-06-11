@@ -3676,6 +3676,12 @@ section.safo-jobs a:hover {
   color: #000;
   font-size: 17px;
   font-weight: bold;
+  padding-bottom: 10px;
+}
+.google-box p {
+  color: #000;
+  font-size: 1.4em;
+  line-height: 1.5em;
 }
 #map_canvas {
   height: 100%;

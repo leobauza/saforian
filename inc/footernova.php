@@ -103,7 +103,7 @@
 			var something = $("#contact").serialize();
 			if($(this).closest('form').find(".LV_valid").length && !$(this).closest('form').find(".LV_invalid").length) {
 				e.preventDefault();
-				var url = "../contact.php"; // the script where you handle the form input.
+				var url = "../contactnova.php"; // the script where you handle the form input.
 				$.ajax({
 					type: "POST",
 					url: url,

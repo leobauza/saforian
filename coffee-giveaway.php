@@ -1,4 +1,4 @@
-<?php include("inc/headernv.php");?>
+<?php include("inc/headernova.php");?>
 
 
 
