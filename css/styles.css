@@ -1305,7 +1305,7 @@ section.safo-jobs a:hover {
   background: #000;
 }
 .twitter-block a.twitter-solo {
-  margin: 0 auto 50px;
+  margin: 0 auto;
   text-indent: -9999px;
   display: block;
   width: 95px;
@@ -3039,7 +3039,7 @@ section.safo-jobs a:hover {
   -moz-box-shadow: 0 0 5px #c0c0c0;
   -webkit-box-shadow: 0 0 5px#c0c0c0;
   box-shadow: 0 0 5px #c0c0c0;
-  background: #ffffff url([object Object]) 50% 50% no-repeat;
+  background: #ffffff url('') 50% 50% no-repeat;
 }
 .csbtn {
   background: url('../images/casestudybtn.png') no-repeat;
@@ -3051,7 +3051,7 @@ section.safo-jobs a:hover {
   margin-left: auto;
 }
 .csbtn.up {
-  background: #ffffff url([object Object]) 50% 50% no-repeat;
+  background: #ffffff url('') 50% 50% no-repeat;
   width: 100%;
   background: url('../images/casestudybtn.png') no-repeat;
   background-size: 80px 100px;

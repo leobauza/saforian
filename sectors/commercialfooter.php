@@ -58,9 +58,7 @@
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<div id="twitter-feed">
-			<?php include("getTweet.php");?>
-		</div>
+		<div id="twitter-feed"></div>
 		<!-- <div id="twitter-feed">
 		</div> -->
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
@@ -142,6 +140,7 @@
 	<script type='text/javascript' src='../../js/jquery-ui-1.10.1.custom.min.js'></script>
 	<script type='text/javascript' src='../../js/LiveValidation.1.3.min.js'></script>
 	<script type='text/javascript' src='../../js/safo.js'></script>
+	<script type="text/javascript" src="../twitterfeed.js"></script>
 
 
 	<script type="text/javascript">
