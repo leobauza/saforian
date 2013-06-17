@@ -1,4 +1,4 @@
-<?php include("inc/headernova.php");?>
+<?php include("headermd.php");?>
 
 
 <!-- header -->
@@ -43,7 +43,7 @@
 <section class="novaslider-bg">
 		<div class="std-header first nova-block" id="one">
 			<div class="div1">
-				<h1>A Washington DC Web Design Firm</h1>
+				<h1>A Maryland Web Design Firm</h1>
 				<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
 				<article class="std-body">
 				</article>
@@ -74,7 +74,7 @@
 				<article class="std-body">
 					<p>Making great websites is challenging. It takes time. It involves research and planning, testing, analyzing, deliberating, designing, coding, programming … The list goes on for miles. Now who’s got time for that? Lucky for you, we’re seasoned pros. We’ve worked on over 700 websites for over 250 clients. So sit back, relax, and leave the heavy lifting to us.</p>
 				</article>
-				<img src="../../images/va-slider/dc.png" alt="DC">
+				<img src="../../images/va-slider/md.png" alt="Maryland">
 				<a href="#four" alt"Next" class="next"><img src="../../images/va-slider/next.png" alt"Next" class="next"></a>
 			</div>
 		</div>
@@ -139,4 +139,4 @@
 </section>
 
 
-<?php include('inc/footerdc.php');?>
+<?php include('footermd.php');?>

@@ -28,15 +28,15 @@
 			this.console = {log: function() {}};
 		}
 	</script>
-	<script type="text/javascript" src="./js/carouFredSel.min.js"></script>
-	<script type='text/javascript' src='./js/waypoints.min.js'></script>
-	<script type='text/javascript' src='./js/jquery.scrollTo.min.js'></script>
-	<script type="text/javascript" src="./js/jquery.localscroll-min.js"></script>
-	<script type='text/javascript' src='./js/LiveValidation.1.3.min.js'></script>
-	<script type='text/javascript' src='./js/jquery.isotope.js'></script>
-	<script type='text/javascript' src='./js/safo.js'></script>
-	<script type='text/javascript' src="./js/jquery.uniform.js"></script>
-	<script type='text/javascript' src="./js/jquery.tinycircleslider.min.js"></script>
+	<script type="text/javascript" src="../js/carouFredSel.min.js"></script>
+	<script type='text/javascript' src='../js/waypoints.min.js'></script>
+	<script type='text/javascript' src='../js/jquery.scrollTo.min.js'></script>
+	<script type="text/javascript" src="../js/jquery.localscroll-min.js"></script>
+	<script type='text/javascript' src='../js/LiveValidation.1.3.min.js'></script>
+	<script type='text/javascript' src='../js/jquery.isotope.js'></script>
+	<script type='text/javascript' src='../js/safo.js'></script>
+	<script type='text/javascript' src="../js/jquery.uniform.js"></script>
+	<script type='text/javascript' src="../js/jquery.tinycircleslider.min.js"></script>
 
 
 	<script type="text/javascript">
@@ -103,7 +103,7 @@
 			var something = $("#contact").serialize();
 			if($(this).closest('form').find(".LV_valid").length && !$(this).closest('form').find(".LV_invalid").length) {
 				e.preventDefault();
-				var url = "../contactdc.php"; // the script where you handle the form input.
+				var url = "contactmd.php"; // the script where you handle the form input.
 				$.ajax({
 					type: "POST",
 					url: url,
