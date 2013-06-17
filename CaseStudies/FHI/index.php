@@ -15,7 +15,7 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>DineOut</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>EDTA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI 360</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>KBD</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
