@@ -43,7 +43,7 @@
 											<div class="pag-wrap">
 											
 											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/Wagner/"><span class="inner">< Prev Project</span></a>
+											<a href="http://www.saforian.com/CaseStudies/NKH/"><span class="inner">< Prev Project</span></a>
 											</div>
 											
 											<div class="casenext">
