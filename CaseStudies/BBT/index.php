@@ -43,11 +43,11 @@
 											<div class="pag-wrap">
 											
 											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/NVTC/"><span class="inner">< Prev Project</span></a>
+											<a href="http://www.saforian.com/CaseStudies/Wagner/"><span class="inner">< Prev Project</span></a>
 											</div>
 											
 											<div class="casenext">
-											<a href="http://www.saforian.com/CaseStudies/Qivliq/"><span class="inner">Next Project ></span></a>
+											<a href="http://www.saforian.com/CaseStudies/NKH/"><span class="inner">Next Project ></span></a>
 											</div>
 											
 											</div>
@@ -59,81 +59,63 @@
 											 </span>				           
 </nav>
 
-
-<article class="hero nwp-hero ">
+<article class="hero bbt-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"On top of the great work Saforian does, it was always a pleasure to work with their staff."</span>
-			<span class="byline">– Gavin Tachibana<br/>National Writing Project</span>
+			<span class="quote"></span>
+			<span class="byline"></span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
 
 <section id="work-block">
 	<section class="block">
-		<h1>National Writing Project</h1>
+		<h1>BET</h1>
 		<article class="row-fluid">
 			<div class="span6">
-				<p>National Writing Project (NWP) is a nationwide network of educators dedicated to improving the teaching of writing in public schools. NWP came to us to enhance their digital presence and reach their target audience of educators, students, and administrators with a new brand and website. The previous site had lengthy, wordy blocks of text that our content strategists condensed into concise, easily digestible pieces to improve content consumption and scan-ability. The new site has an optimized organizational structure that simplifies access to key information and communicates NWP's mission and the solutions they bring to the table to improve the teaching of writing in schools.</p>
+			<p>As an ongoing partner with childhood hunger advocate Share Our 
+Strength, Saforian has had the opportunity to become fully integrated 
+with the organization’s business processes. As such, it made total sense 
+for Strength to turn to Saforian when it was time to redefine and 
+improve Strength's web presence. To start, we took a step back to look 
+at the existing site from a more holistic point-of-view in order to identify 
+customer pain points and messaging issues.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Nonprofit</span></li>
-					<li><strong>Solutions</strong><span>iOS, CSS, HTML, Code Ignitor</span></li>
-					<li><strong>Technology</strong><span>Branding, Mobile, Campaign</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Charity</span></li>
+					<li><strong>Solutions</strong><span>Campaign, Website</span></li>
+					<li><strong>Technology</strong><span>Flash, HTML</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 
 	</section> <!-- end of block -->
 	
 	<section class="block">
-		
-		<div class="row-fluid">
-			<article class="span4">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global-plane-logo.jpg" alt="">
-				</figure>
-				<h2>Messaging</h2>
-				<p>With messaging features like public and private messaging within the network, the NWP mobile app keeps constituents connected. This branded app drove recognition and participation on a national level by bringing community attention to NWP’s mission.</p>
-			</article>
-			<article class="span4">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global_notification_logo.png" alt="">
-				</figure>
-				<h2>MobileMeGo</h2>
-				<p>We recommended implementing our MobileMeGo™ mobile platform to boost NWP’s ability to push out resources via mobile platforms. This mobile platform gives supporters the ability to find, connect, and communicate with others around a specific cause, in a closed environment dedicated to a specific mission.</p>
-			</article>
-			<article class="span4 l">
-				<figure class="center-img">
-					<img src="../../images/caseStudies/global-news-logo.jpg" alt="">
-				</figure>
-				<h2>News Content</h2>
-				<p>The news content feature provides support for pushing new content to keep everyone up to date to meet NWP’s goal of providing constituents with information and resources in a timely fashion.</p>
-			</article>
-		</div> <!-- end of second row -->
+		<h2>Banner Ads</h2>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bbt-large1.jpg" alt="Device Image">
+		</figure>
 	</section> <!-- end of block -->
 
+
 	<section class="block">
-		<h2>Website Designs</h2>
+		<h2>Campaign Screenshots</h2>
 		<figure class="center-img">
-			<img src="../../images/caseStudies/nwp-large1.jpg" alt="Large Image">
+			<img src="../../images/caseStudies/bbt-large2.jpg" alt="Large Image">
+		</figure>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bbt-large3.jpg" alt="Large Image">
+		</figure>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bbt-large4.jpg" alt="Large Image">
+		</figure>
+		<figure class="center-img">
+			<img src="../../images/caseStudies/bbt-large5.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
 	
-	<section class="block-last">
-		<h2>Mobile Design</h2>
-		<div class="row-fluid">
-			<article class="span4">
-				<img src="../../images/caseStudies/nwp-mobile1.jpg" alt="Mobile Image">
-			</article>
-			<article class="span4">
-				<img src="../../images/caseStudies/nwp-mobile2.jpg" alt="Mobile Image">
-			</article>
-			<article class="span4 l">
-				<img src="../../images/caseStudies/nwp-mobile3.jpg" alt="Mobile Image">
-			</article>
-		</div>
-	</section> <!-- end of block -->
+	
 
 </section> <!-- end of work-block -->
 

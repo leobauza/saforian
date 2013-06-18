@@ -28,6 +28,8 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>BBT</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH</a></article>
 	
 							   </div>
 					   
