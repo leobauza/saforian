@@ -43,7 +43,7 @@
 											<div class="pag-wrap">
 											
 											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/USAA/"><span class="inner">< Prev Project</span></a>
+											<a href="http://www.saforian.com/CaseStudies/BBT/"><span class="inner">< Prev Project</span></a>
 											</div>
 											
 											<div class="casenext">
@@ -84,9 +84,9 @@ customer pain points and messaging issues.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
-					<li><strong>Industry</strong><span>Non Profit, Cause Related</span></li>
-					<li><strong>Solutions</strong><span>Website, CMS, CRM Integration, Multi Website Management, Mobile</span></li>
-					<li><strong>Technology</strong><span>Codeigniter, MySQL, Google Maps, JQuery Mobile</span></li>
+					<li><strong>Industry</strong><span>Non Profit, Charity</span></li>
+					<li><strong>Solutions</strong><span>Campaign, Website</span></li>
+					<li><strong>Technology</strong><span>HTML 5, JQuery</span></li>
 				</ul>
 			</div>
 		</article> <!-- end of row --> 

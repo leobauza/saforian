@@ -4024,6 +4024,8 @@ img[src*="iw3.png"] {
   }
 }
 @media (max-width: 1060px) {
+  .hero.nkh2-hero blockquote,
+  .hero.bbt-hero blockquote,
   .hero.aao-hero blockquote,
   .hero.ata-hero blockquote,
   .hero.dineout-hero blockquote,
