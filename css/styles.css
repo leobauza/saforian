@@ -3092,23 +3092,22 @@ section.safo-jobs a:hover {
   max-width: 1020px;
   margin: 0 auto;
 }
-.hero.khn-hero {
-  background-image: url('../images/caseStudies/khn-hero-side.jpg');
+.hero.nkh2-hero {
+  background-image: url('../images/caseStudies/nkh-hero2.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.hero.khn-hero blockquote {
-  text-shadow: 1px 1px 0px #1d4f63;
+.hero.nkh2-hero blockquote {
   padding: 90px 0 0 0;
-  width: 45%;
+  width: 40%;
   font-weight: 300;
-  color: #ffffff;
+  color: #000;
 }
-.hero.khn-hero blockquote .quote {
-  font-size: 4em;
-  line-height: 1.4em;
+.hero.nkh2-hero blockquote .quote {
+  font-size: 2.5em;
+  line-height: 1.7em;
 }
-.hero.khn-hero blockquote .byline {
+.hero.nkh2-hero blockquote .byline {
   font-size: 1.4em;
   display: block;
   margin: 40px 0 0 0;

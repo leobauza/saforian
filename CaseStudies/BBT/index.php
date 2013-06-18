@@ -62,24 +62,18 @@
 <article class="hero bbt-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote"></span>
-			<span class="byline"></span>
+			<span class="quote">‘We believe in the power the strength of strategy ability of technology to businesses and lives.</span>
+			<span class="byline">- Linda Godden <br />AAO Project Manager</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
 
 <section id="work-block">
 	<section class="block">
-		<h1>BET</h1>
+		<h1>Beat Big Tobacco</h1>
 		<article class="row-fluid">
 			<div class="span6">
-			<p>As an ongoing partner with childhood hunger advocate Share Our 
-Strength, Saforian has had the opportunity to become fully integrated 
-with the organization’s business processes. As such, it made total sense 
-for Strength to turn to Saforian when it was time to redefine and 
-improve Strength's web presence. To start, we took a step back to look 
-at the existing site from a more holistic point-of-view in order to identify 
-customer pain points and messaging issues.</p>
+			<p>Campaign for Tobacco Free Kids (TFK) came to Saforian with a need to tackle some viral marketing. TFK wanted to create an action widget to get people to take a stand against big tobacco companies and to spread the word about ongoing anti-tobacco activities.  TFK wanted something interactive and simple to use, so their team worked with Saforian to develop a theme based on a playbook. With just a few clicks, the playbook shows visitors the options they have to participate in anti-smoking efforts, including taking action, volunteering and even just spreading the word.  Take a look at this online marketing campaign to Beat Big Tobacco. Keep an eye out for this campaign!</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
@@ -99,7 +93,7 @@ customer pain points and messaging issues.</p>
 	</section> <!-- end of block -->
 
 
-	<section class="block">
+	<section class="block-last">
 		<h2>Campaign Screenshots</h2>
 		<figure class="center-img">
 			<img src="../../images/caseStudies/bbt-large2.jpg" alt="Large Image">
@@ -114,6 +108,7 @@ customer pain points and messaging issues.</p>
 			<img src="../../images/caseStudies/bbt-large5.jpg" alt="Large Image">
 		</figure>
 	</section> <!-- end of block -->
+	
 	
 	
 
