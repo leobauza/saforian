@@ -62,8 +62,8 @@
 <article class="hero bbt-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">‘We believe in the power the strength of strategy ability of technology to businesses and lives.</span>
-			<span class="byline">- Linda Godden <br />AAO Project Manager</span>
+			<span class="quote"></span>
+			<span class="byline"></span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->

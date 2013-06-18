@@ -62,8 +62,8 @@
 <article class="hero nkh2-hero ">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">"The creative minds at Saforian have allowed us to give both our partners and consumers a more engaging experience."</span>
-			<span class="byline">— Molly Burke<br/>Share Our Strength</span>
+			<span class="quote">"It's very rare to find a web services company that promises, 'We can do that,' and actually delivers on that promise. Saforian does."</span>
+			<span class="byline">— Jason Wilson<br>Web Producer, Share Our Strength</span>
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
@@ -100,10 +100,8 @@ customer pain points and messaging issues.</p>
 				</figure>	
 			</div>
 			<div class="span5 l">
-				<h2>Custom Administration</h2>
-				<p>To bring everything together, we created and built several integral pieces to help Strength establish a unified voice across the campaign. This included a custom backend database tool to manage restaurant data and statistics, dedicated mapping experiences for restaurant and sponsorship discovery, and optimized mobile experiences to improve engagement and overall participation.</p>
-				<br/>
-				<p>Streamlining Strength’s management processes and removing the requirement of using Excel spreadsheets have allowed everyone involved to see the immediate benefits of having the data centralized in one system. The advantages of the new system were also immediately felt with Share Our Strengths supporters. Participants could RSVP directly via the map's integration with <strong>Facebook</strong> or <strong>Open Table.</strong> This led to <strong>35.8 million impressions</strong> and over <strong>5.2 million followers</strong> reached. Overall, the month long campaign led to over <strong>$5 million</strong> in support funds for the No Kid Hungry cause.</p>
+				<h2>iPad Ready</h2>
+				<p></p>
 			</div>
 		</article>
 	</section> <!-- end of block -->
