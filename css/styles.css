@@ -3007,8 +3007,8 @@ section.safo-jobs a:hover {
   background: #fefefe;
 }
 #case-nav .casewrapper {
-  width: 80%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
