@@ -368,6 +368,19 @@
 					<a href="../CaseStudies/EDTA" class="ignore"><img src='images/site/client-thumbnails/edta.jpg' alt='Educational Theatre Association' /></a>
 					<p>Educational Theatre Association</p>
 				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/BBT" class="ignore"><img src='images/site/client-thumbnails/bbt.jpg' alt='Beat Big Tobacco' /></a>
+					<p>Beat Big Tobacco</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NKH" class="ignore"><img src='images/site/client-thumbnails/nkhbag.jpg' alt='NKH Build A Bag' /></a>
+					<p>NKH Build A Bag</p>
+				</article>
+				<article class="item safo-client first-page">
+					<a href="../CaseStudies/NeighborWorks" class="ignore"><img src='images/site/client-thumbnails/neighborworks.jpg' alt='NeighborWorks' /></a>
+					<p>NeighborWorks</p>
+				</article>
+				
 				<!-- 
 				More projects button...
 				<article class="item safo-client first-page filter">

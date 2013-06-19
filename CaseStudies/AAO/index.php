@@ -1,12 +1,9 @@
 <?php include("../header.php");?>
 
 <nav id="case-nav">
-                               <div class="casewrapper">
-                        
-								<ul class='topnav group'>
-						
-								<div class="wrapper grid4">
-	
+<div class="casewrapper">
+<ul class='topnav group'>
+<div class="wrapper grid4">
 <article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>American Association of Orthodontists</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>American Trucking Association</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>Black Entertainment Television</a></article>
@@ -30,33 +27,30 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
-	
-							   </div>
-					   
-							   </ul>
-							   
-							   </div>
+</div>
+</ul>
+</div>
 
 					
-											<span class="csnav">
-											
-											<div class="pag-wrap">
-											
-											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/NKH/"><span class="inner">< Prev Project</span></a>
-											</div>
-											
-											<div class="casenext">
-											<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">Next Project ></span></a>
-											</div>
-											
-											</div>
-					
-											 <div class="csbtn">
-					
-											 </div>
-					
-											 </span>				           
+<span class="csnav">
+
+<div class="pag-wrap">
+
+<div class="casepre">
+<a href="http://www.saforian.com/CaseStudies/NKH/"><span class="inner">< Prev Project</span></a>
+</div>
+
+<div class="casenext">
+<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">Next Project ></span></a>
+</div>
+
+</div>
+
+<div class="csbtn">
+
+</div>
+
+</span>				           
 </nav>
 
 
