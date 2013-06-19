@@ -17,9 +17,7 @@
 <section class="twitter-block">
 	<div class="std-block">
 		<a href="https://twitter.com/saforian" target="_blank" class="twitter-solo">twitter</a>
-		<div id="twitter-feed">
-			<?php include("getTweet.php");?>
-		</div>
+		<div id="twitter-feed"></div>
 			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
 		<p></p>
 	</div>
@@ -85,6 +83,7 @@
 <script type='text/javascript' src='../../js/waypoints.min.js'></script>
 <script type='text/javascript' src='../../js/jquery.scrollTo.min.js'></script>
 <script type='text/javascript' src='../../js/safo.js'></script>
+<script type="text/javascript" src="../twitterfeed.js"></script>
 
 
 
