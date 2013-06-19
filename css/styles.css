@@ -3020,11 +3020,11 @@ section.safo-jobs a:hover {
   margin-bottom: 15px;
   margin-left: 40px;
   margin-right: 40px;
+  line-height: 18px;
 }
 #case-nav ul li {
   display: inline;
   float: left;
-  line-height: 1.5em;
   width: 25%;
 }
 #case-nav ul li a {
@@ -3093,7 +3093,7 @@ section.safo-jobs a:hover {
   margin: 0 auto;
 }
 .hero.nkh2-hero {
-  background-image: url('../images/caseStudies/nkh-hero2.jpg');
+  background-image: url('../images/caseStudies/nkh-hero3.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
