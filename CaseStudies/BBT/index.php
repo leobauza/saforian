@@ -73,7 +73,7 @@
 		<h1>Beat Big Tobacco</h1>
 		<article class="row-fluid">
 			<div class="span6">
-			<p>Campaign for Tobacco Free Kids (TFK) came to Saforian with a need to tackle some viral marketing. TFK wanted to create an action widget to get people to take a stand against big tobacco companies and to spread the word about ongoing anti-tobacco activities.  TFK wanted something interactive and simple to use, so their team worked with Saforian to develop a theme based on a playbook. With just a few clicks, the playbook shows visitors the options they have to participate in anti-smoking efforts, including taking action, volunteering and even just spreading the word.  Take a look at this online marketing campaign to Beat Big Tobacco.</p>
+			<p>We partnered with the Campaign for Tobacco Free Kids (TFK) for their 2013 Kick Butts Day campaign to reach their target audience of youth advocates more effectively. After a successful campaign, TFK asked us to create an action widget to encourage supporters to take a stand against big tobacco companies and spread the word about ongoing anti-tobacco activities. TFK wanted something interactive and simple to use, so we worked closely with their team to develop a theme based on a playbook. With just a few clicks, the playbook shows visitors the options they have to participate in anti-smoking efforts, including taking action, volunteering, or spreading the word through social media. Take a look at this online marketing campaign to Beat Big Tobacco.</p>
 			</div>
 			<div class="span6 l">
 				<ul class="highlights">
