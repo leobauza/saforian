@@ -103,7 +103,7 @@
 	
 	
 	
-	<section class="block-last">
+	<section class="block">
 		<figure class="center-img">
 			<img src="../../images/caseStudies/nkh-large2.jpg" alt="Large Image">
 		</figure>
@@ -113,6 +113,17 @@
 	</section> <!-- end of block -->
 	
 	
+	
+	<section class="block-last">
+		<h2>Convio Widget Creator</h2>
+		<article class="row-fluid">
+			<div class="span12 l">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/nkh-widget.jpg" alt="Convio Widget Creator">
+				</figure>	
+			</div>
+		</article>
+	</section> <!-- end of block -->
 
 </section> <!-- end of work-block -->
 
