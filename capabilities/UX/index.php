@@ -4,7 +4,7 @@
 	<div class="std-block">
 		<header class="std-header">
 			<h1>User Experience (UX)</h1>
-			<img src="../../images/capabilities/chicken_icon.png" alt="Img Drupal Chicken">
+			<img src="../../images/capabilities/user_ex.png" alt="Img User Ex">
 		</header>
 		<article class="std-body">
 			<!-- <h3>What is Drupal CMS</h3> -->
