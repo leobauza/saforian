@@ -70,7 +70,7 @@
 
 <section id="work-block">
 	<section class="block">
-		<h1>fhi360</h1>
+		<h1>fhi 360</h1>
 		<article class="row-fluid">
 			<div class="span6">
 				<p>As the largest international public health & development organization, FHI 360 reached out to us to provide a digital solution to meet their online goals. The old website was difficult to update and did not convey the breadth of FHI’s work and the evolution of the organization.</p>
