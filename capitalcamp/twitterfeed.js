@@ -1,7 +1,7 @@
 // JQuery Twitter Feed. Coded by www.webdevdoor.com (2012) and modified from https://twitter.com/javascripts/blogger.js
 $(document).ready(function () {
  
-    var displaylimit = 1;
+    var displaylimit = 5;
     var twitterprofile = "saforian";
     var screenname = "saforian";
     var showdirecttweets = true;
@@ -59,7 +59,7 @@ $(document).ready(function () {
                  }
             }
  
-            $('#twitter-feed').html(feedHTML);
+            $('#capital-feed').html(feedHTML);
     });
  
     //Function modified from Stack Overflow

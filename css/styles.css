@@ -1274,6 +1274,31 @@ section.safo-jobs a:hover {
   font-size: 15px;
   text-decoration: none;
 }
+#capital-feed {
+  margin: 0 auto;
+  margin-top: 100px;
+  font-weight: 300;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  color: #000;
+  line-height: 30px;
+  list-style-type: none;
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+}
+#capital-feed a {
+  color: #ccc;
+  text-decoration: underline;
+}
+#capital-feed a:hover {
+  text-decoration: none;
+}
+#capital-feed .time-stamp {
+  font-size: 15px;
+  text-decoration: none;
+}
 .twitter-click {
   border-radius: 0px;
   margin: 0 auto;
