@@ -1288,6 +1288,11 @@ section.safo-jobs a:hover {
   padding: 20px;
   text-align: left;
 }
+#capital-feed article {
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px #ccc;
+}
 #capital-feed a {
   color: #ccc;
   text-decoration: underline;

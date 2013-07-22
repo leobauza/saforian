@@ -53,7 +53,7 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds[i].created_at)+'</p></div>';
+                        feedHTML += '<article><p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds[i].created_at)+'</p></article></div>';
                         displayCounter++;
                     }
                  }
