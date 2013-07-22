@@ -5202,6 +5202,8 @@ img[src*="iw3.png"] {
 /************************** coffee section form end **************************/
 /************************** capital camp twitter feed **************************/
 #capital-header {
+  background: url('../images/capitalcamp/cap_twitter_hero.jpg') no-repeat;
+  background-size: cover;
   background: #CCF5FF;
   height: 400px;
   width: 100%;
@@ -5223,7 +5225,8 @@ img[src*="iw3.png"] {
   font-size: 35px;
 }
 #capital-wrapper {
-  background: #ccc;
+  background: url('../images/capitalcamp/cap_bg_twitter.jpg') no-repeat;
+  background-size: cover;
   height: 100%;
   width: 100%;
   margin: 0 auto;
