@@ -5,6 +5,9 @@
 </div>
 
 <article id="capital-header-article">
+    <h1>
+    capital camp
+    </h1>
     <p>
     hbeopghwir'pnvfreinrib
     </p>

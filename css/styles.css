@@ -5214,14 +5214,23 @@ img[src*="iw3.png"] {
   margin-top: -260px;
   height: 200px;
   padding: 20px;
-  width: 300px;
+  width: 100%;
+  max-width: 600px;
   border: solid 10px #ccc;
+}
+#capital-header-article h1 {
+  text-transform: uppercase;
+  font-size: 35px;
 }
 #capital-wrapper {
   background: #ccc;
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  margin-top: -10px;
+  -moz-box-shadow: -2px -2px 2px 2px #888888;
+  -webkit-box-shadow: -2px -2px 2px 2px #888888;
+  box-shadow: -2px -2px 2px 2px #888888;
 }
 #capital-feed {
   margin: 0 auto;
