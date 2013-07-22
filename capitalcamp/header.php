@@ -117,6 +117,3 @@
 			</header>
 		</section>
 		
-		
-
-

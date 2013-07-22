@@ -1,9 +1,6 @@
 <?php include("header.php");?>
 
 
-<div id="twitter-feed">
-
-</div>
 
 
 
