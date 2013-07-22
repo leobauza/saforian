@@ -8,8 +8,11 @@
     <h1>
     capital camp
     </h1>
+    <h2>
+        Tweet to enter to win an Apple Ipad!
+    </h2>
     <p>
-    hbeopghwir'pnvfreinrib
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui sdojs nostrudmagna aliqua. Ut enim ad minim veniam, quis 
     </p>
 </article>
 
