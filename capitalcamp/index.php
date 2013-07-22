@@ -2,12 +2,13 @@
 
 
 <div id="capital-header">
-  <article>
+</div>
+
+<article id="capital-header-article">
     <p>
     hbeopghwir'pnvfreinrib
     </p>
-  </article>
-</div>
+</article>
 
 <div id="capital-wrapper">
 <div id="capital-feed"></div>

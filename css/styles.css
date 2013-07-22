@@ -5207,12 +5207,15 @@ img[src*="iw3.png"] {
   width: 100%;
   margin: 0 auto;
 }
-#capital-header article {
+#capital-header-article {
   background: #fff;
   color: #000;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: -260px;
+  height: 200px;
   padding: 20px;
   width: 300px;
+  border: solid 10px #ccc;
 }
 #capital-wrapper {
   background: #ccc;
