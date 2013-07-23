@@ -28,7 +28,7 @@ $(document).ready(function () {
                 
                 var tweetscreenname = feeds.statuses[i].user.name;
                 var tweetusername = feeds.statuses[i].user.screen_name;
-                var tweetuserprofileurl = 'http://twitter.com/@' + tweetusername;
+                var tweetuserprofileurl = 'http://twitter.com/' + tweetusername;
                 var profileimage = feeds.statuses[i].user.profile_image_url_https;
                 var status = feeds.statuses[i].text;
                 var isaretweet = false;
