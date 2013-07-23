@@ -66,7 +66,7 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<article><p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></article></div>';
+                        feedHTML += '<article><p><p>'+tweetscreenname+' @'+tweetusername+'</p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></article></div>';
                         displayCounter++;
                     }
                  }
