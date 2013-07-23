@@ -1,7 +1,11 @@
 // JQuery Twitter Feed. Coded by www.webdevdoor.com (2012) and modified from https://twitter.com/javascripts/blogger.js
 $(document).ready(function () {
  
+<<<<<<< HEAD
     var displaylimit = 5;
+=======
+    var displaylimit = 1;
+>>>>>>> 6d38df5e0bb97dfabf5d2571d5fa441305db0336
     var twitterprofile = "saforian";
     var screenname = "saforian";
     var showdirecttweets = true;
@@ -59,7 +63,11 @@ $(document).ready(function () {
                  }
             }
  
+<<<<<<< HEAD
             $('#capital-feed').html(feedHTML);
+=======
+            $('#twitter-feed').html(feedHTML);
+>>>>>>> 6d38df5e0bb97dfabf5d2571d5fa441305db0336
     });
  
     //Function modified from Stack Overflow
