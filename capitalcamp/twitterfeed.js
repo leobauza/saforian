@@ -28,6 +28,7 @@ $(document).ready(function () {
                 
                 var tweetscreenname = feeds.statuses[i].user.name;
                 var tweetusername = feeds.statuses[i].user.screen_name;
+                var tweetuserprofileurl = 'http://twitter.com/@' + tweetusername;
                 var profileimage = feeds.statuses[i].user.profile_image_url_https;
                 var status = feeds.statuses[i].text;
                 var isaretweet = false;
@@ -66,7 +67,7 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<article><p><p>'+tweetscreenname+' @'+tweetusername+'</p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></article></div>';
+                        feedHTML += '<article><p><p><a href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> @'+tweetusername+'</p><br/>'+status+'</p><p class="time-stamp"><a href="'+tweetuserprofileurl+'/status/'+tweetid+'">'+relative_time(feeds.statuses[i].created_at)+'</a></p></article></div>';
                         displayCounter++;
                     }
                  }
