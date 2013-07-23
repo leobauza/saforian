@@ -31,5 +31,9 @@
 	</div>
 </div>
 
-
 <?php include("footer.php");?>
+
+<div id="cap-footer">
+  <div class="social-links">
+  </div>
+</div>
