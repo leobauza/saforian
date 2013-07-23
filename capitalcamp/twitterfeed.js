@@ -1,7 +1,7 @@
 // JQuery Twitter Feed. Coded by www.webdevdoor.com (2012) and modified from https://twitter.com/javascripts/blogger.js
 $(document).ready(function () {
  
-    var displaylimit = 10;
+    var displaylimit = 100;
     var twitterprofile = "saforian";
     var screenname = "saforian";
     var showdirecttweets = true;
