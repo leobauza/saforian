@@ -9,16 +9,16 @@
 		</div>
 		<div id="cap-info">
 			<h1>
-			Capital Camp
+			Capital Camp DC
 			</h1>
 			<h2>
 				We're giving away an iPad Mini!
 			</h2>
 			<h3 id="caphash">
-			Tweet using #hashtag
+			Tweet using #capitalcampdc
 			</h3>
 			<p>
-			Want a chance to win?  Like us on Facebook & follow us on Twitter Then, tweet us using #CapitalCampDC You must do both of these to be entered in our drawing! We'll announce the lucky winner on Tuesday (7/30)
+			Want a chance to win?  Like us on Facebook & follow us on Twitter Then, tweet us using #CapitalCampDC. You must do both of these to be entered in our drawing! We'll announce the lucky winner on Tuesday (7/30)
 			</p>
 		</div>
 	</article>
