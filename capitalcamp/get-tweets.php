@@ -24,6 +24,7 @@ $tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.j
  
 echo json_encode($tweets);
 
+
 //foreach ($tweets as $item) {
 	//echo $item->text;
 	//echo $item->created_at;
