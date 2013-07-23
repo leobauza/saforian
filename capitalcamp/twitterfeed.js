@@ -1,7 +1,7 @@
 // JQuery Twitter Feed. Coded by www.webdevdoor.com (2012) and modified from https://twitter.com/javascripts/blogger.js
 $(document).ready(function () {
  
-    var displaylimit = 5;
+    var displaylimit = 10;
     var twitterprofile = "saforian";
     var screenname = "saforian";
     var showdirecttweets = true;
@@ -10,42 +10,55 @@ $(document).ready(function () {
     var showprofilepic = false;
  
     var headerHTML = '';
-    var loadingHTML = '';
+    var loadingHTML = 'test';
     
-    $('#twitter-feed').html(headerHTML + loadingHTML);
+    $('#capital-feed').html(headerHTML + loadingHTML);
  
     $.getJSON('get-tweets.php',
         function(feeds) {
             //alert(feeds);
             var feedHTML = '';
             var displayCounter = 1;
-            for (var i=0; i<feeds.length; i++) {
-                var tweetscreenname = feeds[i].user.name;
-                var tweetusername = feeds[i].user.screen_name;
-                var profileimage = feeds[i].user.profile_image_url_https;
-                var status = feeds[i].text;
+            
+
+
+
+            for (var i=0; i<feeds.statuses.length; i++) {
+
+                
+                var tweetscreenname = feeds.statuses[i].user.name;
+                var tweetusername = feeds.statuses[i].user.screen_name;
+                var profileimage = feeds.statuses[i].user.profile_image_url_https;
+                var status = feeds.statuses[i].text;
                 var isaretweet = false;
                 var isdirect = false;
-                var tweetid = feeds[i].id_str;
+                var tweetid = feeds.statuses[i].id_str;
+
+ 
  
                 //If the tweet has been retweeted, get the profile pic of the tweeter
-                if(typeof feeds[i].retweeted_status != 'undefined'){
-                   profileimage = feeds[i].retweeted_status.user.profile_image_url_https;
-                   tweetscreenname = feeds[i].retweeted_status.user.name;
-                   tweetusername = feeds[i].retweeted_status.user.screen_name;
-                   tweetid = feeds[i].retweeted_status.id_str
+              
+                if(typeof feeds.statuses[i].retweeted_status != 'undefined'){
+                   profileimage = feeds.statuses[i].retweeted_status.user.profile_image_url_https;
+                   tweetscreenname = feeds.statuses[i].retweeted_status.user.name;
+                   tweetusername = feeds.statuses[i].retweeted_status.user.screen_name;
+                   tweetid = feeds.statuses[i].retweeted_status.id_str
                    isaretweet = true;
                  };
- 
+                 
+
                  //Check to see if the tweet is a direct message
-                 if (feeds[i].text.substr(0,1) == "@") {
+
+                 if (feeds.statuses[i].text.substr(0,1) == "@") {
                      isdirect = true;
                  }
+
  
                 //console.log(feeds[i]);
  
+
                  if (((showretweets == true) || ((isaretweet == false) && (showretweets == false))) && ((showdirecttweets == true) || ((showdirecttweets == false) && (isdirect == false)))) {
-                    if ((feeds[i].text.length > 1) && (displayCounter <= displaylimit)) {
+                    if ((feeds.statuses[i].text.length > 1) && (displayCounter <= displaylimit)) {
                         if (showtweetlinks == true) {
                             status = addlinks(status);
                         }
@@ -53,13 +66,14 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds[i].created_at)+'</p></div>';
+                        feedHTML += '<p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></div>';
                         displayCounter++;
                     }
                  }
             }
- 
+
             $('#capital-feed').html(feedHTML);
+                      
     });
  
     //Function modified from Stack Overflow

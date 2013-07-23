@@ -16,7 +16,13 @@ function getConnectionWithAccessToken($cons_key, $cons_secret, $oauth_token, $oa
   
 $connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
  
-$tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets);
+//$tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets);
+
+$tweets = $connection->get("https://api.twitter.com/1.1/search/tweets.json?q=capitalcampdc&result_type=recent");
+
+//$tweets = $connection->get("http://search.twitter.com/search.json?q=capitalcampdcs&rpp=5&include_entities=true&result_type=mixed");
+
+
 
  echo json_encode($tweets);
 
