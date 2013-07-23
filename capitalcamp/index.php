@@ -5,15 +5,22 @@
 </div>
 
 <article id="capital-header-article">
-    <h1>
-    capital camp
-    </h1>
-    <h2>
-        Tweet to enter to win an Apple Ipad!
-    </h2>
-    <p>
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui sdojs nostrudmagna aliqua. Ut enim ad minim veniam, quis 
-    </p>
+    <div id="ipad-image">
+    </div>
+    <div id="cap-info">
+		<h1>
+		Capital Camp
+		</h1>
+		<h2>
+			Tweet to enter to win an Apple Ipad!
+		</h2>
+		<h3 id="caphash">
+		Tweet using #hashtag
+		</h3>
+		<p>
+		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui sdojs nostrudmagna aliqua. Ut enim ad minim veniam, quis 
+		</p>
+    </div>
 </article>
 
 <div id="capital-wrapper">

@@ -5212,20 +5212,46 @@ img[src*="iw3.png"] {
   background: #fff;
   color: #000;
   margin: auto;
-  margin-top: -260px;
-  height: 200px;
-  padding: 20px;
+  margin-top: -270px;
+  width: 90%;
+  max-width: 800px;
+  min-height: 250px;
+}
+#capital-header-article #cap-info {
   width: 100%;
-  max-width: 600px;
-  border: solid 10px #ccc;
+  max-width: 500px;
+  min-width: 300px;
+  float: left;
+  margin: 20px;
 }
-#capital-header-article h1 {
-  text-transform: uppercase;
+#capital-header-article #cap-info P {
+  padding: 20px 20px 20px 20px;
+  font-size: 11px;
+  line-height: 20px;
+}
+#capital-header-article #cap-info h1 {
+  padding: 20px 20px 10px 20px;
   font-size: 35px;
-}
-#capital-header-article h2 {
   text-transform: uppercase;
-  font-size: 25px;
+}
+#capital-header-article #cap-info #caphash {
+  color: #168fcb;
+  font-style: italic;
+  padding: 10px 20px 0px 20px;
+  font-size: 15px;
+}
+#capital-header-article #cap-info h2 {
+  padding: 10px 20px 0px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+#capital-header-article #ipad-image {
+  background: url('../images/capitalcamp/cap_twitter.png') no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin: 20px 20px 10px 84px;
 }
 #capital-wrapper {
   background: url('../images/capitalcamp/cap_bg_twitter.jpg') no-repeat;
@@ -5233,7 +5259,7 @@ img[src*="iw3.png"] {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  margin-top: -10px;
+  float: left;
   -moz-box-shadow: -2px -2px 2px 2px #888888;
   -webkit-box-shadow: -2px -2px 2px 2px #888888;
   box-shadow: -2px -2px 2px 2px #888888;
@@ -5258,7 +5284,7 @@ img[src*="iw3.png"] {
   background: #fff;
 }
 #capital-feed a {
-  color: #ccc;
+  color: #168fcb;
   text-decoration: underline;
 }
 #capital-feed a:hover {

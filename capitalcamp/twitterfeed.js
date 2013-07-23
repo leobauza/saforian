@@ -10,7 +10,7 @@ $(document).ready(function () {
     var showprofilepic = false;
  
     var headerHTML = '';
-    var loadingHTML = 'test';
+    var loadingHTML = 'Loading Tweets';
     
     $('#capital-feed').html(headerHTML + loadingHTML);
  
@@ -66,7 +66,7 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></div>';
+                        feedHTML += '<article><p><br/>'+status+'</p><p class="time-stamp">'+relative_time(feeds.statuses[i].created_at)+'</p></article></div>';
                         displayCounter++;
                     }
                  }
