@@ -12,13 +12,13 @@
 			Capital Camp
 			</h1>
 			<h2>
-				Tweet to enter to win an Apple Ipad!
+				We're giving away an iPad Mini!
 			</h2>
 			<h3 id="caphash">
 			Tweet using #hashtag
 			</h3>
 			<p>
-			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui sdojs nostrudmagna aliqua. Ut enim ad minim veniam, quis 
+			Want a chance to win?  Like us on Facebook & follow us on Twitter Then, tweet us using #CapitalCampDC You must do both of these to be entered in our drawing! We'll announce the lucky winner on Tuesday (7/30)
 			</p>
 		</div>
 	</article>
@@ -31,7 +31,9 @@
 	</div>
 </div>
 
+<div class="cap-pad">
 <?php include("footer.php");?>
+</div>
 
 <div id="cap-footer">
   <div class="social-links-cap">
