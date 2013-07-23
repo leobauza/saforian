@@ -34,6 +34,11 @@
 <?php include("footer.php");?>
 
 <div id="cap-footer">
-  <div class="social-links">
+  <div class="social-links-cap">
+  <a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
+  <a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
+  <a target="_blank" href='http://www.linkedin.com/company/70725' class='linkedin' title='LinkedIn'><span>linkedin</span></a>
+  <a target="_blank" href='https://plus.google.com/103939999176135396422' rel="publisher" class='gplus' title='LinkedIn'><span>google plus</span></a>
+  <a href='mailto:hello@saforian.com?subject=Oh, hey...hey there' class='email' title='Email'><span>email</span></a>
   </div>
 </div>

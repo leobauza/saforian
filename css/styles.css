@@ -5302,8 +5302,57 @@ img[src*="iw3.png"] {
 }
 #cap-footer {
   width: 100%;
-  height: 50px;
+  height: 80px;
   margin: 0 auto;
   float: left;
-  background: #000;
+  background: #ccc;
+}
+.social-links-cap {
+  float: right;
+  height: 50px;
+  background: #ccc;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.social-links-cap a span {
+  display: none;
+}
+.social-links-cap a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 6px;
+  background-image: url('../images/sprite_contact_black-blue.png');
+  background-repeat: no-repeat;
+  float: left;
+}
+.social-links-cap a.twitter {
+  background-position: -168px 100%;
+}
+.social-links-cap a.twitter:hover {
+  background-position: -168px 0%;
+}
+.social-links-cap a.facebook {
+  background-position: -336px 100%;
+}
+.social-links-cap a.facebook:hover {
+  background-position: -336px 0%;
+}
+.social-links-cap a.linkedin {
+  background-position: -252px 100%;
+}
+.social-links-cap a.linkedin:hover {
+  background-position: -252px 0%;
+}
+.social-links-cap a.email {
+  background-position: -84px 100%;
+}
+.social-links-cap a.email:hover {
+  background-position: -84px 0%;
+}
+.social-links-cap a.gplus {
+  background-position: -422px 100%;
+}
+.social-links-cap a.gplus:hover {
+  background-position: -422px 0%;
 }
