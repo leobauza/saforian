@@ -5597,16 +5597,7 @@ overflow:auto;
 	  }
 }
 
-.tweet-even
-{
-right:-15%;
-}
 
-
-.tweet-odd
-{
-left:-15%;
-}
 
 
 
@@ -5674,6 +5665,19 @@ box-shadow: -2px -2px 2px 2px #888;
 	padding:20px;
 	border:solid 1px #ccc;
 	background:#fff;
+	max-width:300px;
+		&.tweet-even {
+			right:-30%;
+			position:relative;
+		}
+		&.tweet-odd {
+			left:-30%;
+			position:relative;
+		}
+		P
+		{
+		font-size:15px;
+		}
 	}
 	a {
 		color: #168fcb;
@@ -5755,6 +5759,15 @@ margin-right:20px;
 .cap-pad
 {
 margin-bottom:100px;
+}
+
+.lgraybar
+{
+margin:auto;
+width:200px;
+height:500px;
+background:#ccc;
+top:100px;
 }
 
 
