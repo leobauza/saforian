@@ -71,7 +71,7 @@
 
 <section id="work-block">
 	<section class="block">
-		<h1>UN Clean Cookstoves</h1>
+		<h1>UNF Clean Cookstoves</h1>
 		<article class="row-fluid">
 			<div class="span6">
 				<p>With the ambitious mission of universal adoption of clean cookstoves and fuels, the Global Alliance for Clean Cookstoves needed a striking website to mobilize support from a wide range of private, public, and nonprofit stakeholders. Our goal for Clean Cookstoves’ website was to clearly communicate how the organization functions, how work is being done, and where work is being done, while also providing partners access to a community platform to collaborate and share ideas. We tailored our approach to fit Clean Cookstoves’ diverse international audience. Working within the Convio platform, we created an interface to make it easy for UNF admins to manage content while giving site audiences access to the key data about clean cookstoves needed in developing countries.</p>
