@@ -5220,7 +5220,6 @@ img[src*="iw3.png"] {
   margin-top: -270px;
   width: 90%;
   max-width: 800px;
-  min-width: 250px;
   overflow: auto;
 }
 #capital-header-article #cap-info {
@@ -5232,7 +5231,6 @@ img[src*="iw3.png"] {
   padding: 20px 40px 20px 20px;
   font-size: 13px;
   line-height: 20px;
-  width: 90%;
 }
 #capital-header-article #cap-info h1 {
   padding: 20px 20px 10px 20px;
