@@ -5223,17 +5223,16 @@ img[src*="iw3.png"] {
   overflow: auto;
 }
 #capital-header-article #cap-info {
-  width: 100%;
+  width: 90%;
   max-width: 500px;
   min-width: 200px;
   float: left;
-  margin: 20px;
 }
 #capital-header-article #cap-info P {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 40px 20px 20px;
   font-size: 13px;
   line-height: 20px;
-  width: 100#;
+  width: 100%;
 }
 #capital-header-article #cap-info h1 {
   padding: 20px 20px 10px 20px;
