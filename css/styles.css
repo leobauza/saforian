@@ -5304,11 +5304,11 @@ img[src*="iw3.png"] {
   max-width: 300px;
 }
 #capital-feed article.tweet-even {
-  right: -30%;
+  right: -10%;
   position: relative;
 }
 #capital-feed article.tweet-odd {
-  left: -30%;
+  left: -10%;
   position: relative;
 }
 #capital-feed article P {
@@ -5373,7 +5373,7 @@ img[src*="iw3.png"] {
 .lgraybar {
   margin: auto;
   width: 200px;
-  height: 500px;
+  height: 1000px;
   background: #ccc;
-  top: 100px;
+  top: -600px;
 }
