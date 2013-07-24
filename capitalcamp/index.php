@@ -47,7 +47,9 @@
 </div>
 
 <div id="cap-footer">
+
   <div class="social-links-cap">
+  <p>Connect with us:</p>
    <a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
   <a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
   </div>
