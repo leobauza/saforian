@@ -5541,7 +5541,8 @@ border-radius: 30px;
 #capitalcamp-wrapper
 {
 background: url('../images/capitalcamp/cap_bg_twitter.jpg') repeat;
-background-size:100%;
+background-size:cover;
+background-attachment:fixed;
 margin:0 auto;
 }
 
@@ -5594,17 +5595,47 @@ overflow:auto;
 	  text-transform:uppercase;
 	  font-size:15px;
 	  }
-  }
-  #ipad-image
-  {
-  background: url('../images/capitalcamp/cap_twitter.png') no-repeat;
-  background-size:cover;
-  width:150px;
-  height:200px;
-  float:left;
-  margin:20px 20px 10px 84px;
-  }
 }
+
+.tweet-even
+{
+right:-15%;
+}
+
+
+.tweet-odd
+{
+left:-15%;
+}
+
+
+
+	#ipad-image
+	{
+	background: url('../images/capitalcamp/cap_twitter.png') no-repeat;
+	background-size:cover;
+	width:150px;
+	height:200px;
+	float:left;
+	margin:20px 20px 10px 84px;
+	}
+	@media screen and (max-width: 950px) {
+	#ipad-image {
+	margin:0 auto;
+	margin-top:20px;
+	float:none;
+	}
+	}
+ 
+}
+
+@media screen and (max-width: 950px) {
+#cap-info {
+margin:0 auto;
+float:none;
+}
+}
+ 
 
 
 #capital-wrapper

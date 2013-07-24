@@ -67,7 +67,13 @@ $(document).ready(function () {
                         if (displayCounter == 1) {
                         //    feedHTML += headerHTML;
                         }
-                        feedHTML += '<article><p><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> @'+tweetusername+'</p><br/>'+status+'</p><p class="time-stamp"><a target="_blank" href="'+tweetuserprofileurl+'/status/'+tweetid+'">'+relative_time(feeds.statuses[i].created_at)+'</a></p></article></div>';
+                        if (displayCounter % 2) {
+                        	var $tweetClass = "tweet-odd";
+                        } else {
+                        	var $tweetClass = "tweet-even";
+                        }
+                        
+                        feedHTML += '<article class="' + $tweetClass + '"><p><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> @'+tweetusername+'</p><br/>'+status+'</p><p class="time-stamp"><a target="_blank" href="'+tweetuserprofileurl+'/status/'+tweetid+'">'+relative_time(feeds.statuses[i].created_at)+'</a></p></article></div>';
                         displayCounter++;
                     }
                  }
