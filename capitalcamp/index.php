@@ -7,17 +7,17 @@
 
 <article id="capital-header-article">
 	<div id="ipad-image">
+		<h3 id="caphash">
+		Tweet using #capitalcampdc
+		</h3>
 	</div>
 	<div id="cap-info">
 		<h1>
-		Capital Camp DC
+		Capital Camp
 		</h1>
 		<h2>
 			We're giving away an iPad Mini!
 		</h2>
-		<h3 id="caphash">
-		Tweet using #capitalcampdc
-		</h3>
 		<p>
 		Want a chance to win?  Like us on Facebook & follow us on Twitter Then, tweet us using #CapitalCampDC. You must do both of these to be entered in our drawing! We'll announce the lucky winner on Tuesday (7/30)
 		</p>
@@ -25,11 +25,16 @@
 </article>
 
 	<div id="capital-wrapper">
+	
 		<div id="capital-feed"></div>
 			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
 			<p></p>	
 		</div>
-	</div>
+		
+
+	
+
+</div>
 
 </div>
 

@@ -5204,7 +5204,6 @@ img[src*="iw3.png"] {
 #capitalcamp-wrapper {
   background: url('../images/capitalcamp/cap_bg_twitter.jpg') repeat;
   background-size: cover;
-  background-attachment: fixed;
   margin: 0 auto;
 }
 #capital-header {
@@ -5218,15 +5217,15 @@ img[src*="iw3.png"] {
   background: #fff;
   color: #000;
   margin: auto;
-  margin-top: -270px;
+  margin-top: -297px;
   width: 90%;
-  max-width: 800px;
+  max-width: 900px;
   overflow: auto;
 }
 #capital-header-article #cap-info {
   width: 90%;
   max-width: 500px;
-  float: left;
+  padding-left: 20px;
 }
 #capital-header-article #cap-info P {
   padding: 20px 40px 20px 20px;
@@ -5238,18 +5237,23 @@ img[src*="iw3.png"] {
   font-size: 48px;
   text-transform: uppercase;
 }
-#capital-header-article #cap-info #caphash {
+#capital-header-article #cap-info h2 {
+  padding: 10px 20px 0px 20px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+#capital-header-article #caphash {
   font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 220px;
   color: #fff;
   border: solid 2px #c5e2f4;
-  padding: 10px 20px 0px 20px;
-  width: 235px;
+  padding: 10px 15px 0px 15px;
+  width: 196px;
   line-height: 10px;
   height: 22px;
+  float: left;
   -moz-border-radius: 5px;
   border-radius: 5px;
   background: #7db9e8;
@@ -5277,18 +5281,14 @@ img[src*="iw3.png"] {
   /* IE6-9 */
 
 }
-#capital-header-article #cap-info h2 {
-  padding: 10px 20px 0px 20px;
-  text-transform: uppercase;
-  font-size: 22px;
-}
 #capital-header-article #ipad-image {
   background: url('../images/capitalcamp/cap_twitter.png') no-repeat;
-  background-size: cover;
-  width: 150px;
-  height: 200px;
-  float: left;
-  margin: 20px 20px 10px 84px;
+  background-size: 150px 200px;
+  background-position: 42px 0px;
+  width: 275px;
+  height: 276px;
+  float: right;
+  margin: 20px 60px 10px 84px;
 }
 @media screen and (max-width: 950px) {
   #capital-header-article #ipad-image {
@@ -5406,7 +5406,7 @@ img[src*="iw3.png"] {
 .lgraybar {
   margin: auto;
   width: 200px;
-  height: 1000px;
+  height: 100%;
   background: #ccc;
   top: -600px;
 }
