@@ -5410,7 +5410,7 @@ img[src*="iw3.png"] {
   background: url('../images/capitalcamp/tweet_right_2.png') 50% 50% no-repeat;
   margin-top: -3px;
   background-size: cover;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 @media screen and (max-width: 600px) {
   #capital-feed article.tweet-even.tweet-even {
