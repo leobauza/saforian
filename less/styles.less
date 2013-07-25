@@ -5574,6 +5574,7 @@ margin-top:-50%;
 #capital-header-article
 {
 #CSS3 > .inset-box-shadow(inset 0 -4px 9px rgba(0, 0, 0, 0.2));
+margin-top:20px;
 background:#fff;
 color:#000;
 margin:auto;
@@ -5585,9 +5586,13 @@ background-color: white;
 -moz-background-clip: padding;
 -webkit-background-clip: padding;
 background-clip: padding-box;
-border-right: 15px solid rgba(255,255,255, 0.8);
-border-left: 15px solid rgba(255,255,255, 0.8);
-border-top: 15px solid rgba(255,255,255, 0.8);
+border-top: 15px solid rgba(255, 255, 255, 0);
+
+@media screen and (max-width: 920px) {
+&#capital-header-article {
+width:90%;
+}
+}
   #cap-info
   {
   width:90%;
@@ -5614,13 +5619,6 @@ border-top: 15px solid rgba(255,255,255, 0.8);
 	  text-transform:uppercase;
 	  font-size:22px;
 	  }
-}
-@media screen and (max-width: 1226px) {
-&#capital-header-article {
-max-width:1100px;
-border-right:none;
-border-left:none;
-}
 }
 
 
@@ -5676,6 +5674,16 @@ margin:0 auto;
 float:none;
 }
 }
+
+.clip
+{
+#CSS3 > .inset-box-shadow(inset 0 -4px 9px rgba(0, 0, 0, 0.2));
+background: url('../images/capitalcamp/twitter_bg_article.png') repeat;
+width:100%;
+max-width:930px;
+margin:auto;
+}
+
  
 
 
