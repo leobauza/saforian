@@ -5236,7 +5236,7 @@ img[src*="iw3.png"] {
   color: #000;
   margin: auto;
   margin-top: -305px;
-  width: 90%;
+  width: 100%;
   max-width: 900px;
   overflow: auto;
 }
