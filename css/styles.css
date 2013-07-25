@@ -5202,16 +5202,31 @@ img[src*="iw3.png"] {
 /************************** coffee section form end **************************/
 /************************** capital camp twitter feed **************************/
 #capitalcamp-wrapper {
-  background: url('../images/capitalcamp/cap_bg_twitter.jpg') repeat;
-  background-size: cover;
+  background: #fff;
   margin: 0 auto;
 }
 #capital-header {
   background: url('../images/capitalcamp/cap_twitter_hero.jpg') no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   height: 650px;
   width: 100%;
   margin: 0 auto;
+}
+@media screen and (max-width: 950px) {
+  #capital-header {
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 700px) {
+  #capital-header {
+    margin-top: -30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #capital-header {
+    margin-top: -50%;
+  }
 }
 #capital-header-article {
   background: #fff;
