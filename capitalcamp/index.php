@@ -10,9 +10,11 @@
 
 				<article id="capital-header-article">
 						<div id="ipad-image">
+						<a href="https://twitter.com/intent/tweet?hashtags=capitalcampdc" target="_blank">
 								<h3 id="caphash">
 								Tweet using #capitalcampdc
 								</h3>
+								</a>
 						</div>
 								<div id="cap-info">
 								<h1>
