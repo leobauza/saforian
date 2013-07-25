@@ -5403,6 +5403,7 @@ img[src*="iw3.png"] {
 #capital-feed a {
   color: #168fcb;
   text-decoration: underline;
+  text-decoration: none;
 }
 #capital-feed a:hover {
   text-decoration: none;
