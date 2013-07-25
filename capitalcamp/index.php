@@ -23,6 +23,8 @@
 		</p>
 	</div>
 </article>
+<div class="clip">
+</div>
 
 	<div id="capital-wrapper">
 	

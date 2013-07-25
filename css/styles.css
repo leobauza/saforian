@@ -5285,38 +5285,38 @@ img[src*="iw3.png"] {
   font-family: "open-sans", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
   font-size: 15px;
-  margin-top: 220px;
+  margin-top: 208px;
   color: #fff;
   border: solid 2px #c5e2f4;
   padding: 10px 15px 0px 15px;
   width: 196px;
-  line-height: 10px;
-  height: 22px;
+  line-height: 20px;
+  height: 30px;
   float: left;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  background: #7db9e8;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  ackground: #2580b8;
   /* Old browsers */
 
-  background: -moz-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  background: -moz-linear-gradient(top, #2580b8 0%, #035e96 100%);
   /* FF3.6+ */
 
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7db9e8), color-stop(100%, #1e5799));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2580b8), color-stop(100%, #035e96));
   /* Chrome,Safari4+ */
 
-  background: -webkit-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  background: -webkit-linear-gradient(top, #2580b8 0%, #035e96 100%);
   /* Chrome10+,Safari5.1+ */
 
-  background: -o-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  background: -o-linear-gradient(top, #2580b8 0%, #035e96 100%);
   /* Opera 11.10+ */
 
-  background: -ms-linear-gradient(top, #7db9e8 0%, #1e5799 100%);
+  background: -ms-linear-gradient(top, #2580b8 0%, #035e96 100%);
   /* IE10+ */
 
-  background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
+  background: linear-gradient(to bottom, #2580b8 0%, #035e96 100%);
   /* W3C */
 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db9e8', endColorstr='#1e5799', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2580b8', endColorstr='#035e96', GradientType=0);
   /* IE6-9 */
 
 }
@@ -5335,6 +5335,14 @@ img[src*="iw3.png"] {
   float: left;
   padding-bottom: 100px;
   margin-bottom: 20px;
+}
+.clip {
+  padding: 20px;
+  background: #ccc;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 55%;
+  opacity: 0.5;
 }
 #capital-feed {
   font-size: 15px;
