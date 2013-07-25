@@ -26,24 +26,23 @@
 
 	<div id="capital-wrapper">
 		<div id="capital-feed"></div>
-				<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
-					<p></p>	
+			<a href="https://twitter.com/saforian" target="_blank" class="twitter-click">@saforian</a>
+			<p></p>	
 		</div>
 	</div>
+
 </div>
 
 
-	<div class="cap-pad">
+<div class="cap-pad">
 	<?php include("footer.php");?>
-	</div>
+</div>
 	
 	
 <div id="cap-footer">
-
-	<div class="social-links-cap">
+    <div class="social-links-cap">
 		<p>Connect with us:</p>
 		<a target="_blank" href='https://www.facebook.com/Saforian' class='facebook' title='Facebook'><span>facebook</span></a>
 		<a target="_blank" href='http://twitter.com/saforian' class='twitter' title='Twitter'><span>twitter</span></a>
 	</div>
-
 </div>
