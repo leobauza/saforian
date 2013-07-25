@@ -5372,6 +5372,7 @@ img[src*="iw3.png"] {
 @media screen and (max-width: 600px) {
   #capital-feed article.tweet-even.tweet-even {
     right: -44%;
+    padding: 10px;
   }
 }
 #capital-feed article.tweet-odd {
@@ -5385,6 +5386,7 @@ img[src*="iw3.png"] {
 @media screen and (max-width: 600px) {
   #capital-feed article.tweet-odd.tweet-odd {
     left: -44%;
+    padding: 10px;
   }
 }
 #capital-feed a {
