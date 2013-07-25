@@ -73,7 +73,7 @@ $(document).ready(function () {
                         	var $tweetClass = "tweet-even";
                         }
                         
-                        feedHTML += '<article class="' + $tweetClass + '"><img src="' + profileimage+ '" /><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> • '+relative_time(feeds.statuses[i].created_at)+'<hr /><br/>'+status+'</p></article>';
+                        feedHTML += '<article class="' + $tweetClass + '"><img src="' + profileimage+ '" /><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> • '+relative_time(feeds.statuses[i].created_at)+'<hr /><br/>'+status+'</p><span class="pointer"></span></article>';
                         displayCounter++;
                     }
                  }

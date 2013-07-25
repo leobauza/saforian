@@ -5260,6 +5260,7 @@ img[src*="iw3.png"] {
 #capital-header-article #cap-info h1 {
   padding: 20px 20px 10px 20px;
   font-size: 48px;
+  font-weight: 400px;
   text-transform: uppercase;
 }
 #capital-header-article #cap-info h2 {
@@ -5373,7 +5374,7 @@ img[src*="iw3.png"] {
 #capital-feed article {
   margin: 20px;
   padding: 20px;
-  background: #fff;
+  position: relative;
 }
 #capital-feed article .usernameborderbottom {
   border-bottom: dashed 1px #ccc;
@@ -5393,13 +5394,23 @@ img[src*="iw3.png"] {
 #capital-feed article.tweet-even {
   right: -50%;
   position: relative;
-  background: #fff;
-  background-size: 100%;
-  background-position: bottom;
+  background: #fefefe;
   padding-bottom: 40px;
-  -moz-box-shadow: 0 0 2px #888;
-  -webkit-box-shadow: 0 0 2px#888;
-  box-shadow: 0 0 2px #888;
+  -moz-box-shadow: 0 0 3px #888;
+  -webkit-box-shadow: 0 0 3px#888;
+  box-shadow: 0 0 3px #888;
+}
+#capital-feed article.tweet-even .pointer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('../images/capitalcamp/tweet_right.png') 50% 50% no-repeat;
+  margin-top: -3px;
+  background-size: cover;
+  margin-left: -2px;
 }
 @media screen and (max-width: 600px) {
   #capital-feed article.tweet-even.tweet-even {
@@ -5410,13 +5421,25 @@ img[src*="iw3.png"] {
 #capital-feed article.tweet-odd {
   left: -50%;
   position: relative;
-  background: #fff;
+  background: #fefefe;
   background-size: 100%;
   background-position: bottom;
   padding-bottom: 40px;
-  -moz-box-shadow: 0 0 2px #888;
-  -webkit-box-shadow: 0 0 2px#888;
-  box-shadow: 0 0 2px #888;
+  -moz-box-shadow: 0 0 3px #888;
+  -webkit-box-shadow: 0 0 3px#888;
+  box-shadow: 0 0 3px #888;
+}
+#capital-feed article.tweet-odd .pointer {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('../images/capitalcamp/tweet_left.png') 50% 50% no-repeat;
+  margin-top: -3px;
+  background-size: cover;
+  margin-right: -2px;
 }
 @media screen and (max-width: 600px) {
   #capital-feed article.tweet-odd.tweet-odd {

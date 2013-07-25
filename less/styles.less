@@ -5604,6 +5604,7 @@ border-top: 15px solid rgba(255,255,255, 0.8);
 	  {
 	  padding:20px 20px 10px 20px;
 	  font-size:48px;
+	  font-weight:400px;
 	  text-transform:uppercase;
 	  }
 	
@@ -5718,82 +5719,106 @@ font-size:12px;
 }
  
 	
-	article
-	{
-	margin:20px;
-	padding:20px;
-	background:#fff;
+  article
+  {
+  margin:20px;
+  padding:20px;
+  position:relative;	
 
-	
-	.usernameborderbottom
-	{
-	border-bottom:dashed 1px #ccc;
-	margin-right:-30%;
-	padding-bottom:5px;
-	}
-	
-	hr
-	{
-	border: 0; 
-	border-bottom: 1px dashed #ccc;;
-	width:80%;
-	margin-bottom:-20px;
-	margin-top:4px;
-	}
-	
-	img
-	{
-	float:right;
-	}
+    .usernameborderbottom
+    {
+    border-bottom:dashed 1px #ccc;
+    margin-right:-30%;
+    padding-bottom:5px;
+    }
+
+    hr
+    {
+    border: 0; 
+    border-bottom: 1px dashed #ccc;;
+    width:80%;
+    margin-bottom:-20px;
+    margin-top:4px;
+    }
+
+    img
+    {
+    float:right;
+    }
 		
 		&.tweet-even {
-			right:-50%;
-			position:relative;
-			background:#fff;
-			background-size:100%;
-			background-position:bottom;
-			padding-bottom:40px;
-			-moz-box-shadow: 0 0 2px #888;
-            -webkit-box-shadow: 0 0 2px#888;
-            box-shadow: 0 0 2px #888;
-				@media screen and (max-width: 600px) {
-				&.tweet-even {
-				right:-44%;
-				padding:10px;
-				}
-				}
-		}
-		&.tweet-odd {
-			left:-50%;
-			position:relative;
-			background:#fff;
-			background-size:100%;
-			background-position:bottom;
-			padding-bottom:40px;
-			-moz-box-shadow: 0 0 2px #888;
-            -webkit-box-shadow: 0 0 2px#888;
-            box-shadow: 0 0 2px #888;
-				@media screen and (max-width: 600px) {
-				&.tweet-odd {
-				left:-44%;
-				padding:10px;
-				}
-				}
-		}
+		right:-50%;
+		position:relative;
+		background:#fefefe;
+		padding-bottom:40px;
+		-moz-box-shadow: 0 0 3px #888;
+		-webkit-box-shadow: 0 0 3px#888;
+		box-shadow: 0 0 3px #888;
+		  .pointer {
+		  position:absolute;
+		  top:100%;
+		  left:0;
+		  display:block;
+		    .square(30px, 30px);
+			background:url('../images/capitalcamp/tweet_right.png') 50% 50% no-repeat;
+			margin-top:-3px;
+			background-size:cover;
+			margin-left: -2px;
+			}
+		
+			
+			@media screen and (max-width: 600px) {
+			&.tweet-even {
+			right:-44%;
+			padding:10px;
+			}
+			}
+	  }
+	  &.tweet-odd {
+		left:-50%;
+		position:relative;
+		background:#fefefe;
+		background-size:100%;
+		background-position:bottom;
+		padding-bottom:40px;
+		-moz-box-shadow: 0 0 3px #888;
+		-webkit-box-shadow: 0 0 3px#888;
+		box-shadow: 0 0 3px #888;
+	      .pointer {
+		  position:absolute;
+		  top:100%;
+		  right:0;
+		  display:block;
+		    .square(30px, 30px);
+		    background:url('../images/capitalcamp/tweet_left.png') 50% 50% no-repeat;
+	        margin-top:-3px;
+		    background-size:cover;
+		    margin-right: -2px;
+		    }
+			
+			@media screen and (max-width: 600px) {
+			&.tweet-odd {
+			left:-44%;
+			padding:10px;
+			}
+			}
+	  }
 	
-	}
-	a {
-		color: #168fcb;
-		text-decoration: underline;
-		text-decoration:none;
-		&:hover {
-			text-decoration: none;
-		}
-	}
-	.time-stamp {
-		font-size: 15px;
-		text-decoration: none;
-	}
+}
+a 
+{
+color: #168fcb;
+text-decoration: underline;
+text-decoration:none;
+&:hover {
+text-decoration: none;
+}
+}
+.time-stamp 
+{
+font-size: 15px;
+text-decoration: none;
+}
 }
 
 
@@ -5818,37 +5843,39 @@ height:50px;
 margin-top:15px;
 margin-right:100px;
 
-   P
-   {
-   color:#fff;
-   float:left;
-   font-size:14px;
-   margin-top:8px;
-   padding-right:10px;
-   }
+  P
+  {
+  color:#fff;
+  float:left;
+  font-size:14px;
+  margin-top:8px;
+  padding-right:10px;
+  }
 
-	a span {
-		display: none;
-	}
-	a {
-		display: block;
-		width: 35px;
-		height: 35px;
-		margin: 0 6px;
-		background-repeat:no-repeat;
-		float: left;
-	}
-	a.twitter { 
-		background-image: url('../images/capitalcamp/cap_twitter_icon.jpg');
-	background-size:cover;
-	}
-	
-	a.facebook {
-	background-image: url('../images/capitalcamp/cap_facebook_icon.jpg');
-	background-size:86%;;
-	}
-	
-	
+  a span 
+  {
+  display: none;
+  }
+  a 
+  {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0 6px;
+   background-repeat:no-repeat;
+  float: left;
+  }
+  a.twitter { 
+  background-image: url('../images/capitalcamp/cap_twitter_icon.jpg');
+  background-size:cover;
+  }
+
+  a.facebook {
+  background-image: url('../images/capitalcamp/cap_facebook_icon.jpg');
+  background-size:86%;;
+  }
+
+
 }
 
 .cap-pad
