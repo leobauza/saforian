@@ -5577,10 +5577,17 @@ margin-top:-50%;
 background:#fff;
 color:#000;
 margin:auto;
-margin-top:-305px;
+margin-top:-320px;
 width:100%;
 max-width:900px;
 overflow:auto;
+background-color: white;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-right: 15px solid rgba(255,255,255, 0.8);
+border-left: 15px solid rgba(255,255,255, 0.8);
+border-top: 15px solid rgba(255,255,255, 0.8);
   #cap-info
   {
   width:90%;
@@ -5610,6 +5617,8 @@ overflow:auto;
 @media screen and (max-width: 1226px) {
 &#capital-header-article {
 max-width:1100px;
+border-right:none;
+border-left:none;
 }
 }
 
@@ -5681,16 +5690,6 @@ padding-bottom:100px;
 margin-bottom:20px;
 }
 
-.clip
-{
-padding:20px;
-background:#ccc;
-max-width:500px;
-margin: 0 auto;
-width:55%;
-opacity:0.5;
-}
-
 
 #capital-feed {
 font-size:15px;
@@ -5724,6 +5723,7 @@ font-size:12px;
 	margin:20px;
 	padding:20px;
 	background:#fff;
+
 	
 	.usernameborderbottom
 	{
@@ -5795,6 +5795,9 @@ font-size:12px;
 		text-decoration: none;
 	}
 }
+
+
+
 
 #cap-footer
 {
