@@ -21,6 +21,7 @@ $(document).ready(function () {
             var displayCounter = 1;
             
 
+           //     console.log(feeds.statuses);
 
 
             for (var i=0; i<feeds.statuses.length; i++) {
@@ -55,7 +56,6 @@ $(document).ready(function () {
                  }
 
  
-                //console.log(feeds[i]);
  
 
                  if (((showretweets == true) || ((isaretweet == false) && (showretweets == false))) && ((showdirecttweets == true) || ((showdirecttweets == false) && (isdirect == false)))) {
@@ -73,7 +73,7 @@ $(document).ready(function () {
                         	var $tweetClass = "tweet-even";
                         }
                         
-                        feedHTML += '<article class="' + $tweetClass + '"><p><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> • '+relative_time(feeds.statuses[i].created_at)+'<br/>'+status+'</p></article></div>';
+                        feedHTML += '<article class="' + $tweetClass + '"><img src="' + profileimage+ '" /><p><a target="_blank" href="'+tweetuserprofileurl+'">'+tweetscreenname+'</a> • '+relative_time(feeds.statuses[i].created_at)+'<hr /><br/>'+status+'</p></article>';
                         displayCounter++;
                     }
                  }

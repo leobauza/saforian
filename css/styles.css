@@ -5366,6 +5366,21 @@ img[src*="iw3.png"] {
   padding: 20px;
   background: #fff;
 }
+#capital-feed article .usernameborderbottom {
+  border-bottom: dashed 1px #ccc;
+  margin-right: -30%;
+  padding-bottom: 5px;
+}
+#capital-feed article hr {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  width: 80%;
+  margin-bottom: -20px;
+  margin-top: 4px;
+}
+#capital-feed article img {
+  float: right;
+}
 #capital-feed article.tweet-even {
   right: -50%;
   position: relative;
