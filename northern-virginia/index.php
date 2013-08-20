@@ -43,7 +43,7 @@
 <section class="novaslider-bg">
 		<div class="std-header first nova-block" id="one">
 			<div class="div1">
-				<h1>A Virginia Web Design Firm</h1>
+				<h1>A Northern Virginia Web Design Firm</h1>
 				<img src="../../images/va-slider/couch.png" alt="Saforian Couch">
 				<article class="std-body">
 				</article>
