@@ -916,8 +916,12 @@ if($theHash){
 
 var $navWidth = $("#site-nav").width();
 
-if($navWidth < 575) {
-	$navWidth = 575;
+//if($navWidth < 575) {
+//	$navWidth = 575;
+//}
+
+if($navWidth < 480) {
+	$navWidth = 480;
 }
 $("#site-nav ul").width($navWidth);
 
@@ -926,8 +930,12 @@ $("#site-nav ul").width($navWidth);
 			var $navWidth = $("#site-nav").width();
 		}
 
-		if($navWidth < 575) {
-			$navWidth = 575;
+		//if($navWidth < 575) {
+		//	$navWidth = 575;
+		//}
+		
+		if($navWidth < 480) {
+			$navWidth = 480;
 		}
 
 		$newWinWidth = $(window).width();

@@ -13,7 +13,7 @@
 					<ul class='topnav group'>
 						<li><a href='#top' class='on' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
 						<!-- <li><a href='#history' id='topnav-history' data-scrollto='safo-history'>History</a></li> -->
-						<li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li>
+						<!-- <li><a href='#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li> -->
 						<li><a href="#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
 						<li><a href='#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
 						<li><a href='#work' id='topnav-work' data-scrollto='our-work'>Work</a></li>
@@ -50,37 +50,40 @@
 			</div>
 		</div> -->
 		
-		<div id="sliders-cont">
+		<!-- <div id="sliders-cont">
 			<div class="inside">
-				<?php include('inc/frontsliders.php');?>
+				<?php //include('inc/frontsliders.php');?>
 			</div>
-		</div>
+		</div> -->
 		
 		
 		<!-- SERVICES -->
-		<section class="standard-section safo-services" data-section='safo-services'>
+		<section class="standard-section safo-services gray" data-section='safo-services'>
 			<div class='section-contents'>
+				<h2 class='our-services'>Our proven process enables us to create digital strategies that use best-in-class, cutting-edge technologies coupled with the most cost-effective methods to meet your objectives.</h2>
+			</div>
+			<div class='section-contents'>
+				<h2 class='our-services semi'>Our Expertise:</h2>
 				<span class="services-arrow-right"><img src="images/arrow-right.png" alt=""></span>
 				<span class="services-arrow-left"><img src="images/arrow-left.png" alt=""></span>
-				<h2 class='our-services'>Our Core Competencies</h2>
 				<div class='row-fluid services-slide-1'>
 					<div class='span4'>
 						<div class="bord-services">
-							<span class="none"><img src="images/icon_competencies_campaignmarketing.png" alt=""></span>
+							<span class="none"><img src="images/icon_competencies_campaignmarketing2.png" alt=""></span>
 							<h3>Campaign + Marketing</h3>
 							<p>Successful digital marketing campaigns involve interaction across social media, mobile, and advertising. We reconcile audience needs, corporate goals, and an array of technologies to establish a strategic roadmap for the continued evolution of your organization or cause.</p>
 						</div>
 					</div>
 					<div class='span4'>
 						<div class="bord-services">
-							<span class="none"><img src="images/icon_competencies_websitesintranets.png"alt=""></span>
+							<span class="none"><img src="images/icon_competencies_websitesintranets2.png"alt=""></span>
 							<h3>Websites + Intranets</h3>
 							<p>Inspired by thoughtful digital interaction design, our interactive engineers build enterprise websites and intranets that lay the groundwork for achieving your organizational objectives. We help you maximize business goals and audience needs against the technical and economic realities of a robust system.</p>
 						</div>
 					</div>
 					<div class='span4 l'>
 						<div class="bord-services-last">
-							<span class="none"><img src="images/icon_competencies_digiinfrastructure.png" alt=""></span>
+							<span class="none"><img src="images/icon_competencies_digiinfrastructure2.png" alt=""></span>
 							<h3>Digital Infrastructure</h3>
 							<p>Today’s technology is powerful. Our interactive engineers help you identify the right platforms and systems for maximum efficiency. We will create a master framework that can be accessed across your organization. Decreasing the need for separate software licenses, and improving data quality and overall performance.</p>
 						</div>
@@ -89,21 +92,21 @@
 				<div class='row-fluid services-slide-2'>
 					<div class="span4">
 						<div class="bord-services">
-							<span class="none"><img src="images/icon_competencies_assesstrack.png" alt=""></span>
+							<span class="none"><img src="images/icon_competencies_assesstrack2.png" alt=""></span>
 							<h3>Assessment + Tracking</h3>
 							<p>Whether you define success by increased traffic, high fives, or actual revenue generation, we help you strategically identify, track, measure, and quantify all that you consider significant. By reducing risks and fostering technologies, we provide a pathway to identify opportunities with the highest probability of success.</p>
 						</div>
 					</div>
 					<div class='span4'>
 						<div class="bord-services">
-							<span class="none"><img src="images/icon_competencies_mobile.png" alt=""></span>
+							<span class="none"><img src="images/icon_competencies_mobile2.png" alt=""></span>
 							<h3>Mobile + Responsive</h3>
 							<p>The digital landscape is competitive, and in order to stay relevant, your digital arm needs to extend to the “on-the-go” world. We help you formulate a mobile strategy that leverages device capabilities and best practices regarding navigation and content delivery to bring you a superior and optimized mobile experience.</p>
 						</div>
 					</div>
 					<div class='span4 l'>
 						<div class="bord-services-last">
-							<span class="none"><img src="images/icon_competencies_digitools.png" alt=""></span>
+							<span class="none"><img src="images/icon_competencies_digitools2.png" alt=""></span>
 							<h3>Digital Tool Sets</h3>
 							<p>Revolving around creating an incredible audience experience, our tools were developed to help your online organization run more smoothly. From targeting members, constituents, or supporters with out of the box engagement capabilities, to storing assets in the cloud, these products will maximize your digital potential.</p>
 						</div>
@@ -516,6 +519,27 @@
 						<div id="thankyou">
 							<h3>Thank You</h3>
 							<p>We will contact you shortly.</p>
+							
+							<!-- Google Code for Saforian Conversion Page -->
+							<script type="text/javascript">
+							/* <![CDATA[ */
+							var google_conversion_id = 1017652684;
+							var google_conversion_language = "en";
+							var google_conversion_format = "2";
+							var google_conversion_color = "ffffff";
+							var google_conversion_label = "DKHeCMSqzQcQzMug5QM";
+							var google_conversion_value = 0;
+							var google_remarketing_only = false;
+							/* ]]> */
+							</script>
+							<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+							</script>
+							<noscript>
+							<div style="display:inline;">
+							<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1017652684/?value=0&amp;label=DKHeCMSqzQcQzMug5QM&amp;guid=ON&amp;script=0"/>
+							</div>
+							</noscript>
+							
 						</div>
 					</div>
 					<div class='span6 l about-contact'>
