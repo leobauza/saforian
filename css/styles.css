@@ -385,10 +385,19 @@ a:visited:hover {
 .gray {
   background-color: #f5f5f5;
 }
+#first {
+  background: url('../images/site/office2.png') 50% 0 no-repeat fixed;
+  height: 666px;
+}
 /* 1st section */
 section.safo-start {
   height: 666px;
-  background: #666666 url(../images/site/office2.png);
+  /*background: #666 url(../images/site/office2.png);
+	background-size: cover;*/
+
+  background: url('../images/site/office.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
   background-size: cover;
 }
 section.safo-start .safo-mission {

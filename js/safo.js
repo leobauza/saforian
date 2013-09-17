@@ -807,20 +807,8 @@ $(function(){
  * Homepage Parallax Top
  * =============================================================
 */
-		
-	function parallax(){
-		var scrolled = $(window).scrollTop();
-		$('.safo-start').css('top', -(scrolled * 0.2) + 'px');
-	}
 	
-	$(window).scroll(function(e){
-		parallax();
-	});
-	
-	
-	
-	
-	
+	$('.safo-start').parallax("50%", 0.5);
 	
 	
 	

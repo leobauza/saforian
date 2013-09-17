@@ -37,6 +37,7 @@
 	<script type='text/javascript' src='./js/safo.js'></script>
 	<script type='text/javascript' src="./js/jquery.uniform.js"></script>
 	<script type='text/javascript' src="./js/jquery.tinycircleslider.min.js"></script>
+	<script type='text/javascript' src="./js/jquery.parallax-1.1.3.js"></script>
 
 
 	<script type="text/javascript">

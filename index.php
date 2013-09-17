@@ -583,7 +583,7 @@
 					</div>
 					<div class='span4'>
 						<h3>Satellite Offices</h3>
-						<p>St.Louis, MO<br/>Columbus, OH<br/>Chicago, IL</p>
+						<p>St. Louis, MO<br/>Columbus, OH<br/>Chicago, IL</p>
 					</div>
 				</div>
 			</div>
