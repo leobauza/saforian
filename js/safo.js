@@ -775,6 +775,14 @@ $(function(){
 
 	}
 	socialHandlers();
+	
+	
+	
+	
+	
+	
+	
+	
 
 /* 
  * =============================================================
@@ -784,6 +792,38 @@ $(function(){
 	$('.dl-button').live('click', function() {
 		window.open($('.slide img').attr('src'));
 	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* 
+ * =============================================================
+ * Homepage Parallax Top
+ * =============================================================
+*/
+		
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$('.safo-start').css('top', -(scrolled * 0.2) + 'px');
+	}
+	
+	$(window).scroll(function(e){
+		parallax();
+	});
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 /* 

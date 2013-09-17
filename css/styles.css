@@ -974,6 +974,25 @@ section.safo-jobs .job-post.first {
 section.safo-jobs a:hover {
   text-decoration: none;
 }
+section.footer-black {
+  background: #000;
+  padding: 80px 0;
+}
+section.footer-black h3 {
+  color: #fff;
+  font-size: 19px;
+  margin: 10px 0 20px;
+}
+section.footer-black img {
+  margin-bottom: 20px;
+}
+section.footer-black p {
+  color: #fff;
+  margin: 0 0 20px;
+}
+section.footer-black p a {
+  color: #fff;
+}
 .more-about-jobs a {
   font-weight: 600;
 }
@@ -3525,6 +3544,29 @@ section.safo-jobs a:hover {
   line-height: 1.4em;
 }
 .hero.fhi-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
+.hero.usi-hero {
+  background-image: url('../images/caseStudies/usi_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.usi-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 90px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+.hero.usi-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.usi-hero blockquote .byline {
   font-size: 1.4em;
   display: block;
   margin: 40px 0 0 0;
