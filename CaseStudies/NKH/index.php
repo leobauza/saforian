@@ -30,6 +30,7 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
+<article class="col"><a href='http://www.saforian.com/CaseStudies/USI/'>US Inspect</a></article>
 	
 							   </div>
 					   
@@ -47,7 +48,7 @@
 											</div>
 											
 											<div class="casenext">
-											<a href="http://www.saforian.com/CaseStudies/AAO/"><span class="inner">Next Project ></span></a>
+											<a href="http://www.saforian.com/CaseStudies/USI/"><span class="inner">Next Project ></span></a>
 											</div>
 											
 											</div>

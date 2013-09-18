@@ -30,7 +30,7 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
-
+<article class="col"><a href='http://www.saforian.com/CaseStudies/USI/'>US Inspect</a></article>
 							   </div>
 					   
 							   </ul>
@@ -43,11 +43,11 @@
 											<div class="pag-wrap">
 											
 											<div class="casepre">
-											<a href="http://www.saforian.com/CaseStudies/EDTA/"><span class="inner">< Prev Project</span></a>
+											<a href="http://www.saforian.com/CaseStudies/NKH/"><span class="inner">< Prev Project</span></a>
 											</div>
 											
 											<div class="casenext">
-											<a href="http://www.saforian.com/CaseStudies/Grunley/"><span class="inner">Next Project ></span></a>
+											<a href="http://www.saforian.com/CaseStudies/AAO/"><span class="inner">Next Project ></span></a>
 											</div>
 											
 											</div>
@@ -99,12 +99,23 @@
 	
 	<section class="block">
 		<div class="row-fluid first">
-			<article class="span4">
+			<article class="span3">
 				<figure class="center-img">
 					<img src="../../images/caseStudies/global-message-logo.png" alt="Scheduling">
 				</figure>
+			</article>
+			<article class="span9 l">
 				<h2>Integration with Scheduling System</h2>
 				<p>We developed a hybrid solution that allowed US Inspect to continue using their custom scheduling system while we created a dynamic front-end engine with linked user records. To connect users with the backend scheduling system, we came up with a custom solution that used the standard Drupal login system interfaced to the authorization backend from US Inspect. This allowed us to log in existing users and create new ones on the fly using their system as a user source while creating new Drupal users to match. Our solution provides personalization information via Drupal, synchronization of credentials with US Inspect services, and the ability to launch the scheduler in a new window using authorized linked accounts.</p>
+			</article>
+		</div>
+		<div class="row-fluid ">
+			<article class="span4">
+				<figure class="center-img">
+					<img src="../../images/caseStudies/global-lte-intranet.png" alt="LTE Intranet">
+				</figure>
+				<h2>Lite Intranet</h2>
+				<p>Our team incorporated lite intranet functionality into the new US Inspect site to serve as a resource for all employees. In addition to giving employees easy access to useful guides and manuals, this section also allows US Inspect to distribute valuable information like HR and department news among employees in a fast and efficient manner.</p>
 			</article>
 			<article class="span4">
 				<figure class="center-img">
@@ -145,7 +156,7 @@
 	</section> <!-- end of block -->
 	
 	<section class="block">
-		<h2>Interactive Menu System</h2>
+		<h2>Interactive Menu System Design</h2>
 		<figure class="center-img">
 			<img src="../../images/caseStudies/usi-menu1.jpg" alt="Menu Image">
 		</figure>

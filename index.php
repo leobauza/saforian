@@ -7,7 +7,8 @@
 			<header id="site-header" class="group">
 				<div id='brand'>
 					<h1>saforian</h1>
-					<a href="http://www.saforian.com"><img src="images/logo_safosolo_white.png" alt="Saforian"></a>
+					 <a href="http://www.saforian.com"><img src="images/logo_safosolo_white.png" alt="Saforian"></a> 
+					<!-- <a href="http://www.saforian.com"><img src="images/logo_saforian_ie.png" alt="Saforian"></a> -->
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
@@ -281,9 +282,10 @@
 					<p>American Association of Orthodontists</p>
 				</article>
 				-->
+				
 				<article class="item safo-client first-page">
-					<a href='../CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
-					<p>Specialicious</p>
+					<a href="../CaseStudies/USI" class="ignore"><img src='images/site/client-thumbnails/usi.jpg' alt='USI' /></a>
+					<p>US Inspect</p>
 				</article>
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/UNF" class="ignore"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
@@ -364,9 +366,13 @@
 					<p>USAA</p>
 				</article>
 				<article class="item safo-client first-page">
+					<a href='../CaseStudies/Specialicious/' class="ignore"><img src='images/site/client-thumbnails/specialicious.jpg' alt='Northern Virginia Magazine Initiative' /></a>
+					<p>Specialicious</p>
+				</article>
+				<!-- <article class="item safo-client first-page">
 					<a href="../CaseStudies/Qivliq" class="ignore"><img src='images/site/client-thumbnails/qivliq.jpg' alt='Qivliq' /></a>
 					<p>Qivliq</p>
-				</article>
+				</article> -->
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/EDTA" class="ignore"><img src='images/site/client-thumbnails/edta.jpg' alt='Educational Theatre Association' /></a>
 					<p>Educational Theatre Association</p>

@@ -4230,7 +4230,7 @@ img[src*="iw3.png"] {
   }
   #site-nav {
     position: relative;
-    padding: 0;
+    padding: 5px 0;
   }
   #site-nav ul {
     z-index: 500;
