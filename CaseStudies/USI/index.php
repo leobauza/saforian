@@ -30,7 +30,7 @@
 <article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
 <article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
-	
+
 							   </div>
 					   
 							   </ul>
@@ -62,8 +62,8 @@
 <article class="hero usi-hero">
 	<div class="inner">
 		<blockquote>
-			<span class="quote">""</span>
-			<span class="byline">– </span>
+			<!-- <span class="quote">""</span>
+			<span class="byline">– </span> -->
 		</blockquote>
 	</div>
 </article> <!-- end of hero -->
