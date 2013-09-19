@@ -817,15 +817,42 @@ $(function(){
 	
 	
 	
-	/* 
-	 * =============================================================
-	 * Navigation Transitions
-	 * =============================================================
-	*/
+/* 
+ * =============================================================
+ * Navigation Transitions - Home
+ * =============================================================
+*/
 	
+if ($(window).width() > 940) {
+	$(function(){
+		$('#site-header').data('size','big');
+		$('#site-header').find('img').data('height', 'big');
+	});
 	
-	
-	
+	var headerScrollTop = 0;
+	$(window).scroll(function(evt){
+		var headerScrollStart = $(this).scrollTop();
+		evt.preventDefault();
+		var $nav = $('#site-header');
+		var $logoImg = $nav.find('img');
+		if (headerScrollStart > headerScrollTop){
+			$nav.data('size','small').stop().animate({padding:'5px 20px 0'}, 500);
+			//logoImg.attr('src', logoSmall, function() {
+			//	$(this).animate({width:'75%'}, 500);
+			//});
+			$logoImg.data('height','small').stop().animate({height:'auto'}, 600);
+			$logoImg.data('width','small').stop().animate({width:'128px'}, 500);
+			//logoImg.stop().animate({width:'75%'}, 500);
+		}  
+		else {
+			$nav.data('size','big').stop().animate({padding:'20px'}, 500);
+			//logoImg.attr('src', logoBig);
+			//logoImg.stop().animate({width:'100%'}, 500);
+			$logoImg.data('height','big').stop().animate({height:'auto'}, 500);
+			$logoImg.data('width','big').stop().animate({width:'166px'}, 500);
+		}
+	});
+}
 	
 	
 	

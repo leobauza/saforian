@@ -122,7 +122,8 @@ a, a:visited {
 }
 
 #site-header {
-	padding:0 20px;
+	/*height: 200px;*/
+	padding: 20px;
 	*width:1020px;
 	max-width: 1020px;
 	margin-left: auto;
@@ -149,9 +150,15 @@ a, a:visited {
 #brand {
 	float:left;
 	padding:10px 0px;
+	img {
+		width: auto;
+	}
 }
 #site-nav {
-	padding:5px 0px;
+	padding: 15px 0px;
+	@media(max-width: 941px) {
+		padding: 0px;
+	}
 	float:right;
 	ul {
 		li {
@@ -846,7 +853,11 @@ textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
 	//border: 1px solid #CC0000;
 }
-	
+
+.misc {
+	margin-top: 85px;
+}
+
 /* 8th section: Jobs */
 section.safo-jobs {
 	background: #edeef0;
@@ -1388,7 +1399,10 @@ section.footer-black {
 		border:none;
 	}
 	.job-head {
-		padding:0 0 40px;
+		padding: 85px 0 40px;
+		@media(max-width: 940px) {
+			padding: 0 0 40px;
+		}
 		h3 {
 			background: none;
 			color:@black;
@@ -1556,7 +1570,7 @@ section.footer-black {
 			font-size:4em;
 			text-align:center;
 			font-weight:300;
-			margin:0 0 85px;
+			margin: 85px 0 85px;
 			line-height: 1.3em;
 		}
 		img {
@@ -3067,6 +3081,9 @@ section.footer-black {
 
 /****** CASE STUDY NAV ******/
 
+#case-nav {
+	top: 125px;
+}
 
 
 .col {
@@ -3168,11 +3185,14 @@ section.footer-black {
 #case-nav {
 		width:100%;
 		position:absolute;
-		top:55px;
+		top: 125px;
 		left:0;
 		width:100%;
 		z-index:1000;
-		background: #fefefe; 
+		background: #fefefe;
+		@media(max-width: 940px) {
+			top: 50px;
+		}
 		.casewrapper
 		{
 		    width:100%;
@@ -4454,7 +4474,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 	
 	#site-nav {
 		position:relative;
-		padding: 5px 0;
+		/*padding: 5px 0;*/
 		ul {
 			z-index:500;
 			padding:5px 0;
@@ -4480,7 +4500,7 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 		}
 	}
 	section.safo-start {
-		margin-top:50px;
+		/*margin-top:50px;*/
 		height:816px;
 		.safo-mission {
 			padding-top:256px;
@@ -4589,11 +4609,15 @@ img[src*="iws3.png"], img[src*="iw3.png"] {
 			display:none;
 		}
 		.hero {
-			
+			margin-top: 60px;
 		}
 		.std-block {
 			//padding-top:275px;
 		}
+	}
+	
+	.capabilities-bg .std-header h1 {
+		margin: 0px 0 85px;
 	}
 	
 	#casestudy-footer {

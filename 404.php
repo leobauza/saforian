@@ -5,7 +5,7 @@
 	<header id="site-header" class="group">
 		<div id='brand'>
 			<h1>saforian</h1>
-			<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
+			<a href="http://www.saforian.com"><img src="/images/logo_saforian_ie.png" alt="Saforian"></a>
 		</div>
 		<nav id="site-nav">
 			<ul class='topnav group'>
@@ -26,7 +26,7 @@
 <section class="reg-bg">
 	<div class="std-block">
 		<header class="std-header">
-			<div id="contentArea">
+			<div id="contentArea" class="misc">
 				<h1>&nbsp;</h1>
 				<img src="../../images/404.gif" alt="Drupal CMS">
 			</div>

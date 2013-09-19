@@ -24,6 +24,40 @@
 				$('.safo-start').height($winHeight);
 			}
 		});
+		
+		if ($(window).width() > 940) {
+			$(function(){
+				$('#site-header').data('size','big');
+				$('#site-header').find('img').data('height', 'big');
+			});
+
+			var headerScrollTop = 0;
+			$(window).scroll(function(evt){
+				var headerScrollStart = $(this).scrollTop();
+				evt.preventDefault();
+				var $nav = $('#site-header');
+				var $logoImg = $nav.find('img');
+				if (headerScrollStart > headerScrollTop){
+					$nav.data('size','small').stop().animate({padding:'5px 20px 0'}, 500);
+					//logoImg.attr('src', logoSmall, function() {
+					//	$(this).animate({width:'75%'}, 500);
+					//});
+					$logoImg.data('height','small').stop().animate({height:'auto'}, 600);
+					$logoImg.data('width','small').stop().animate({width:'128px'}, 500);
+					$('#case-nav').stop().animate({top:'80px'}, 500);
+					//logoImg.stop().animate({width:'75%'}, 500);
+				}  
+				else {
+					$nav.data('size','big').stop().animate({padding:'20px'}, 500);
+					//logoImg.attr('src', logoBig);
+					//logoImg.stop().animate({width:'100%'}, 500);
+					$logoImg.data('height','big').stop().animate({height:'auto'}, 500);
+					$logoImg.data('width','big').stop().animate({width:'166px'}, 500);
+					$('#case-nav').stop().animate({top:'125px'}, 500);
+				}
+			});
+		}
+		
 		</script>
 		
 			<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -99,7 +133,7 @@
 			<header id="site-header" class="group">
 				<div id='brand'>
 					<h1>saforian</h1>
-					<a href="http://www.saforian.com"><img src="/images/logo_safosolo_white.png" alt="Logo Safosolo White"></a>
+					<a href="http://www.saforian.com"><img src="/images/logo_saforian_ie.png" alt="Saforian"></a>
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
@@ -117,62 +151,47 @@
 			</header>
 		</section>
 		
-		
-		<nav id="case-nav">
-                               <div class="casewrapper">
-                        
-								<ul class='topnav group'>
-						
-								<div class="wrapper grid4">
-	
-<article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>AAO</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>ATA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>BET</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Cancer/'>Cancer</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/CNA/'>CNA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>DineOut</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>EDTA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI 360</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>KBD</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NoKidHungry/'>NoKidHungry</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NVTC/'>NVTC</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NWP/'>NWP</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Qivliq/'>Qivliq</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Rider/'>Rider</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Specialicious/'>Specialicious</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner</a></article>
-	
-							   </div>
-					   
-							   </ul>
-							   
-							   </div>
 
-					
-											<span class="csnav">
-											
-											<div class="pag-wrap">
-											
-											<div class="casepre">
-											<a href="#"><span class="inner">< Prev Project</span></a>
-											</div>
-											
-											<div class="casenext">
-											<a href="#"><span class="inner">Next Project ></span></a>
-											</div>
-											
-											</div>
-					
-											 <div class="csbtn">
-					
-											 </div>
-					
-											 </span>				           
-</nav>
+		<!--<nav id="case-nav">
+			<div class="casewrapper">
+				<ul class='topnav group'>
+					<div class="wrapper grid4">
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>AAO</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>ATA</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>BET</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Cancer/'>Cancer</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/CNA/'>CNA</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>DineOut</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>EDTA</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI 360</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>KBD</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/NoKidHungry/'>NoKidHungry</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/NVTC/'>NVTC</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/NWP/'>NWP</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Qivliq/'>Qivliq</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Rider/'>Rider</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Specialicious/'>Specialicious</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
+						<article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner</a></article>
+					</div>
+				</ul>
+			</div>
+			<span class="csnav">
+				<div class="pag-wrap">
+					<div class="casepre">
+						<a href="#"><span class="inner">< Prev Project</span></a>
+					</div>
+					<div class="casenext">
+						<a href="#"><span class="inner">Next Project ></span></a>
+					</div>
+				</div>
+				<div class="csbtn">
+				</div>
+			</span>
+		</nav> -->
 
 

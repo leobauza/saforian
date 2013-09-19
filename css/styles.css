@@ -255,7 +255,9 @@ a:visited:hover {
   z-index: 1600;
 }
 #site-header {
-  padding: 0 20px;
+  /*height: 200px;*/
+
+  padding: 20px;
   *width: 1020px;
   max-width: 1020px;
   margin-left: auto;
@@ -287,9 +289,17 @@ a:visited:hover {
   float: left;
   padding: 10px 0px;
 }
+#brand img {
+  width: auto;
+}
 #site-nav {
-  padding: 5px 0px;
+  padding: 15px 0px;
   float: right;
+}
+@media (max-width: 941px) {
+  #site-nav {
+    padding: 0px;
+  }
 }
 #site-nav ul li {
   float: left;
@@ -902,6 +912,9 @@ section.safo-contact .share1 {
 .LV_invalid {
   color: #CC0000;
 }
+.misc {
+  margin-top: 85px;
+}
 /* 8th section: Jobs */
 section.safo-jobs {
   background: #edeef0;
@@ -1398,7 +1411,12 @@ section.footer-black p a {
   border: none;
 }
 .job-block .job-head {
-  padding: 0 0 40px;
+  padding: 85px 0 40px;
+}
+@media (max-width: 940px) {
+  .job-block .job-head {
+    padding: 0 0 40px;
+  }
 }
 .job-block .job-head h3 {
   background: none;
@@ -1562,7 +1580,7 @@ section.footer-black p a {
   font-size: 4em;
   text-align: center;
   font-weight: 300;
-  margin: 0 0 85px;
+  margin: 85px 0 85px;
   line-height: 1.3em;
 }
 .capabilities-bg .std-header img {
@@ -2949,6 +2967,9 @@ section.footer-black p a {
 }
 /******SLIDER END******/
 /****** CASE STUDY NAV ******/
+#case-nav {
+  top: 125px;
+}
 .col {
   float: left;
   padding-bottom: 5px;
@@ -3038,11 +3059,16 @@ section.footer-black p a {
 }
 #case-nav {
   position: absolute;
-  top: 55px;
+  top: 125px;
   left: 0;
   width: 100%;
   z-index: 1000;
   background: #fefefe;
+}
+@media (max-width: 940px) {
+  #case-nav {
+    top: 50px;
+  }
 }
 #case-nav .casewrapper {
   width: 100%;
@@ -4230,7 +4256,8 @@ img[src*="iw3.png"] {
   }
   #site-nav {
     position: relative;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
+  
   }
   #site-nav ul {
     z-index: 500;
@@ -4256,7 +4283,8 @@ img[src*="iw3.png"] {
     padding: 15px;
   }
   section.safo-start {
-    margin-top: 50px;
+    /*margin-top:50px;*/
+  
     height: 816px;
   }
   section.safo-start .safo-mission {
@@ -4343,6 +4371,12 @@ img[src*="iw3.png"] {
   }
   .adjust-top #brand {
     display: none;
+  }
+  .adjust-top .hero {
+    margin-top: 60px;
+  }
+  .capabilities-bg .std-header h1 {
+    margin: 0px 0 85px;
   }
   #casestudy-footer p {
     margin-top: 80px;

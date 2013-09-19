@@ -7,8 +7,8 @@
 			<header id="site-header" class="group">
 				<div id='brand'>
 					<h1>saforian</h1>
-					 <a href="http://www.saforian.com"><img src="images/logo_safosolo_white.png" alt="Saforian"></a> 
-					<!-- <a href="http://www.saforian.com"><img src="images/logo_saforian_ie.png" alt="Saforian"></a> -->
+					<!-- <a href="http://www.saforian.com"><img src="images/logo_safosolo_white.png" alt="Saforian"></a> -->
+					<a href="http://www.saforian.com"><img src="images/logo_saforian_ie.png" alt="Saforian"></a>
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
@@ -589,7 +589,7 @@
 					</div>
 					<div class='span4'>
 						<h3>Satellite Offices</h3>
-						<p>St. Louis, MO<br/>Columbus, OH<br/>Chicago, IL</p>
+						<p>St. Louis, MO<br/>Columbus, OH<br/>Chicago, IL<br/>South Walton, FL</p>
 					</div>
 				</div>
 			</div>
