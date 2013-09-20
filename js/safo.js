@@ -840,7 +840,7 @@ if ($(window).width() > 940) {
 			//logoImg.attr('src', logoSmall, function() {
 			//	$(this).animate({width:'75%'}, 500);
 			//});
-			$logoImg.data('height','small').stop().animate({height:'auto'}, 600);
+			$logoImg.data('height','small').stop().animate({height:'auto'}, 500);
 			$logoImg.data('width','small').stop().animate({width:'128px'}, 500);
 			//logoImg.stop().animate({width:'75%'}, 500);
 		}  

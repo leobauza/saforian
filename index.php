@@ -25,7 +25,11 @@
 				</nav>
 			</header>
 		</section>
+		
 		<!-- start contents -->
+		<section class="safo-start-wrap" style="height: 80px">
+		</section>
+		
 		<section class='safo-start' data-section='safo-start'>
 			<div class='section-contents'>
 				<p class='safo-mission'>
