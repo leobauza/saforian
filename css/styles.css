@@ -3152,6 +3152,11 @@ section.footer-black p a {
   height: 600px;
   background-size: cover;
 }
+@media (max-width: 940px) {
+  .hero {
+    height: 498px;
+  }
+}
 .hero .inner {
   max-width: 1020px;
   margin: 0 auto;
@@ -3162,10 +3167,15 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.nkh2-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #000;
+}
+@media (max-width: 940px) {
+  .hero.nkh2-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.nkh2-hero blockquote .quote {
   font-size: 4em;
@@ -3185,10 +3195,15 @@ section.footer-black p a {
 }
 .hero.bbt-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.bbt-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.bbt-hero blockquote .quote {
   font-size: 4em;
@@ -3208,10 +3223,15 @@ section.footer-black p a {
 }
 .hero.aao-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.aao-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.aao-hero blockquote .quote {
   font-size: 4em;
@@ -3241,7 +3261,7 @@ section.footer-black p a {
 }
 .hero.cancer-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
@@ -3264,10 +3284,15 @@ section.footer-black p a {
 }
 .hero.bet-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.bet-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.bet-hero blockquote .quote {
   font-size: 4em;
@@ -3287,10 +3312,15 @@ section.footer-black p a {
 }
 .hero.nwp-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.nwp-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.nwp-hero blockquote .quote {
   font-size: 4em;
@@ -3310,10 +3340,15 @@ section.footer-black p a {
 }
 .hero.cna-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.cna-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.cna-hero blockquote .quote {
   font-size: 4em;
@@ -3333,10 +3368,15 @@ section.footer-black p a {
 }
 .hero.nvtc-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.nvtc-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.nvtc-hero blockquote .quote {
   font-size: 4em;
@@ -3356,10 +3396,15 @@ section.footer-black p a {
 }
 .hero.grunley-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.grunley-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.grunley-hero blockquote .quote {
   font-size: 4em;
@@ -3383,16 +3428,26 @@ section.footer-black p a {
   width: 75%;
 }
 .hero.kbd-hero .quote_image {
-  padding: 80px 0 0 0px;
+  padding: 130px 0 0 0px;
   float: left;
   width: 35%;
 }
+@media (max-width: 940px) {
+  .hero.kbd-hero .quote_image {
+    padding: 90px 0 0 0;
+  }
+}
 .hero.kbd-hero blockquote {
-  padding: 90px 0 0 0px;
+  padding: 130px 0 0 0px;
   width: 60%;
   font-weight: 300;
   color: #000;
   float: right;
+}
+@media (max-width: 940px) {
+  .hero.kbd-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.kbd-hero blockquote .quote {
   font-size: 4em;
@@ -3411,10 +3466,15 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.wagner-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 25%;
   font-weight: 300;
   color: #000;
+}
+@media (max-width: 940px) {
+  .hero.wagner-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.wagner-hero blockquote .quote {
   font-size: 4em;
@@ -3433,10 +3493,15 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.usaa-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 25%;
   font-weight: 300;
   color: #000;
+}
+@media (max-width: 940px) {
+  .hero.usaa-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.usaa-hero blockquote .quote {
   font-size: 4em;
@@ -3455,10 +3520,15 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.rider-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 25%;
   font-weight: 300;
   color: #000;
+}
+@media (max-width: 940px) {
+  .hero.rider-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.rider-hero blockquote .quote {
   font-size: 4em;
@@ -3477,11 +3547,16 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.edta-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 40%;
   font-weight: 300;
   color: #fff;
   text-shadow: 1px 1px 0 #1D4F63;
+}
+@media (max-width: 940px) {
+  .hero.edta-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.edta-hero blockquote .quote {
   font-size: 2.5em;
@@ -3500,10 +3575,15 @@ section.footer-black p a {
   background-position: 50% 50%;
 }
 .hero.qivliq-hero blockquote {
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 25%;
   font-weight: 300;
   color: #000;
+}
+@media (max-width: 940px) {
+  .hero.qivliq-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.qivliq-hero blockquote .quote {
   font-size: 4em;
@@ -3523,10 +3603,15 @@ section.footer-black p a {
 }
 .hero.nkh-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.nkh-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.nkh-hero blockquote .quote {
   font-size: 4em;
@@ -3546,10 +3631,15 @@ section.footer-black p a {
 }
 .hero.unf-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.unf-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.unf-hero blockquote .quote {
   font-size: 4em;
@@ -3569,10 +3659,15 @@ section.footer-black p a {
 }
 .hero.fhi-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.fhi-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.fhi-hero blockquote .quote {
   font-size: 4em;
@@ -3592,10 +3687,15 @@ section.footer-black p a {
 }
 .hero.usi-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 55%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.usi-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.usi-hero blockquote .quote {
   font-size: 4em;
@@ -3615,10 +3715,15 @@ section.footer-black p a {
 }
 .hero.ata-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.ata-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.ata-hero blockquote .quote {
   font-size: 4em;
@@ -3638,10 +3743,15 @@ section.footer-black p a {
 }
 .hero.specialicious-hero blockquote {
   text-shadow: 1px 1px 0px #1d4f63;
-  padding: 90px 0 0 0;
+  padding: 130px 0 0 0;
   width: 45%;
   font-weight: 300;
   color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.specialicious-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.specialicious-hero blockquote .quote {
   font-size: 4em;
@@ -3665,16 +3775,26 @@ section.footer-black p a {
   width: 85%;
 }
 .hero.dineout-hero .quote_image {
-  padding: 80px 0 0 0px;
+  padding: 130px 0 0 0px;
   float: left;
   width: 30%;
 }
+@media (max-width: 940px) {
+  .hero.dineout-hero .quote_image {
+    padding: 90px 0 0 0;
+  }
+}
 .hero.dineout-hero blockquote {
-  padding: 90px 0 0 0px;
+  padding: 130px 0 0 0px;
   width: 60%;
   font-weight: 300;
   color: #000;
   float: left;
+}
+@media (max-width: 940px) {
+  .hero.dineout-hero blockquote {
+    padding: 90px 0 0 0;
+  }
 }
 .hero.dineout-hero blockquote .quote {
   font-size: 4em;
