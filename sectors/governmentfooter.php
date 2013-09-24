@@ -142,8 +142,6 @@
 	<script type='text/javascript' src='../../js/jquery-ui-1.10.1.custom.min.js'></script>
 	<script type='text/javascript' src='../../js/LiveValidation.1.3.min.js'></script>
 	<script type='text/javascript' src='../../js/safo.js'></script>
-	<script type="text/javascript" src="../twitterfeed.js"></script>
-
 
 	<script type="text/javascript">
 		$.getJSON("https://api.twitter.com/1/statuses/user_timeline/saforian.json?count=1&include_rts=1&callback=?", function(data) {
