@@ -1,7 +1,5 @@
 <?php include('inc/header.php');?>
 		
-		
-		
 		<!-- header -->
 		<section id="header-wrap">
 			<header id="site-header" class="group">
