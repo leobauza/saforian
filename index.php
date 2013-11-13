@@ -464,25 +464,25 @@
 								<span class='job-date'>October 5, 2012</span>
 							</a>
 						</p> -->
-						<p class='job-post'>
+						<!--<p class='job-post'>
 							<a href='/careers/SeniorDrupalDeveloper' class="group">
 								<span class='job-title'>Senior Drupal Developer</span>
 								<span class='job-location'>Manassas, VA</span>
 								<span class='job-date'>July 22, 2013</span>
 							</a>
-						</p>
+						</p>-->
 						<p class='job-post'>
 							<a href='/careers/SeniorDeveloper(.NET)' class="group">
 								<span class='job-title'>Senior Developer (.NET)</span>
 								<span class='job-location'>Manassas, VA</span>
-								<span class='job-date'>April 29, 2013</span>
+								<span class='job-date'>November 13, 2013</span>
 							</a>
 						</p>
 						<p class='job-post'>
 							<a href='/careers/SalesAssociate' class="group">
 								<span class='job-title'>Sales Associate</span>
-								<span class='job-location'>St. Louis, MO</span>
-								<span class='job-date'>September 13, 2013</span>
+								<span class='job-location'>Chicago, IL</span>
+								<span class='job-date'>November 13, 2013</span>
 							</a>
 						</p>
 						<!-- <p class='job-post'>
