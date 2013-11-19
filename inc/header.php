@@ -40,8 +40,8 @@ header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 		});
 		</script>
 		
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_oHCo6owmIGzzdFcXxvBb5ucqxHZd9kI&sensor=false"></script>
-
+		<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_oHCo6owmIGzzdFcXxvBb5ucqxHZd9kI&sensor=false"></script> -->
+		
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" href="../sr_assets/css/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
