@@ -3773,6 +3773,34 @@ section.footer-black p a {
   line-height: 1.3em;
   text-align: right;
 }
+.hero.fhi-intra-hero {
+  background-image: url('../images/caseStudies/fhi-intranet/fhi_intranet_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.hero.fhi-intra-hero blockquote {
+  text-shadow: 1px 1px 0px #1d4f63;
+  padding: 130px 0 0 0;
+  width: 55%;
+  font-weight: 300;
+  color: #ffffff;
+}
+@media (max-width: 940px) {
+  .hero.fhi-intra-hero blockquote {
+    padding: 90px 0 0 0;
+  }
+}
+.hero.fhi-intra-hero blockquote .quote {
+  font-size: 4em;
+  line-height: 1.4em;
+}
+.hero.fhi-intra-hero blockquote .byline {
+  font-size: 1.4em;
+  display: block;
+  margin: 40px 0 0 0;
+  line-height: 1.3em;
+  text-align: right;
+}
 .hero.usi-hero {
   background-image: url('../images/caseStudies/usi_hero.jpg');
   background-repeat: no-repeat;
