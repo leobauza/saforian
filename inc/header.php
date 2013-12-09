@@ -122,6 +122,6 @@ header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 		
 		<div id="home-fixed">
 			<div>
-				<a href="http://www.saforian.com/MissionMainStreetGrants">Chase Grant</a>
+				<a href="http://holiday.saforian.com" target="_blank">Happy Holidays from Saforian</a>
 			</div>
 		</div>
