@@ -1,6 +1,10 @@
-<?php include("../header.php");?>
+<?php 
+$prevProj = "CNA";
+$nextProj = "Drupalcon";
+include("../header.php");
+?>
 
-<nav id="case-nav">
+<!-- <nav id="case-nav">
                                <div class="casewrapper">
                         
 								<ul class='topnav group'>
@@ -58,7 +62,7 @@
 											 </div>
 					
 											 </span>				           
-</nav>
+</nav> -->
 
 <article class="hero dineout-hero ">
 	<div class="inner">

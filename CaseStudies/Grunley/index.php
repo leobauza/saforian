@@ -1,6 +1,9 @@
-<?php include("../header.php");?>
-
-<nav id="case-nav">
+<?php 
+$prevProj = "FHI";
+$nextProj = "KBD";
+include("../header.php");
+?>
+<!-- <nav id="case-nav">
                                <div class="casewrapper">
                         
 								<ul class='topnav group'>
@@ -57,7 +60,7 @@
 											 </div>
 					
 											 </span>				           
-</nav>
+</nav> -->
 
 <article class="hero grunley-hero ">
 	<div class="inner">

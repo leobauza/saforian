@@ -1,58 +1,55 @@
-<?php include("../header.php");?>
+<?php 
+$prevProj = "FHI-Intranet";
+$nextProj = "ATA";
+include("../header.php");
+?>
 
-<nav id="case-nav">
-<div class="casewrapper">
-<ul class='topnav group'>
-<div class="wrapper grid4">
-<article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>American Association of Orthodontists</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>American Trucking Association</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>Black Entertainment Television</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Cancer/'>NCI Cancer.gov</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/CNA/'>Center for Naval Analyses</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>NKH Dine Out</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>School Theatre</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI 360</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley Construction</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>TFK Kick Butts Day</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NoKidHungry/'>No Kid Hungry</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NVTC/'>Northern Virginia Technology Council</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NWP/'>National Writing Project</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Qivliq/'>Qivliq Federal</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Rider/'>Rider University</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Specialicious/'>Specialicious</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF Clean Cookstoves</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
-<article class="col"><a href='http://www.saforian.com/CaseStudies/USI/'>US Inspect</a></article>
-</div>
-</ul>
-</div>
+<!-- <nav id="case-nav">
+	<div class="casewrapper">
+		<ul class='topnav group'>
+			<div class="wrapper grid4">
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/AAO/'>American Association of Orthodontists</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/ATA/'>American Trucking Association</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/BET/'>Black Entertainment Television</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Cancer/'>NCI Cancer.gov</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/CNA/'>Center for Naval Analyses</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/DineOut/'>NKH Dine Out</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Drupalcon/'>Drupalcon</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/EDTA/'>School Theatre</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/FHI/'>FHI 360</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Grunley/'>Grunley Construction</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/KBD/'>TFK Kick Butts Day</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/NeighborWorks/'>NeighborWorks</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/NoKidHungry/'>No Kid Hungry</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/NVTC/'>Northern Virginia Technology Council</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/NWP/'>National Writing Project</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Qivliq/'>Qivliq Federal</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Rider/'>Rider University</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Specialicious/'>Specialicious</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/UNF/'>UNF Clean Cookstoves</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/USAA/'>USAA</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/Wagner/'>Wagner Skis</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/BBT/'>Beat Big Tobacco</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/NKH/'>NKH Build A Bag</a></article>
+				<article class="col"><a href='http://www.saforian.com/CaseStudies/USI/'>US Inspect</a></article>
+			</div>
+		</ul>
+	</div>
 
 					
-<span class="csnav">
-
-<div class="pag-wrap">
-
-<div class="casepre">
-<a href="http://www.saforian.com/CaseStudies/USI/"><span class="inner">< Prev Project</span></a>
-</div>
-
-<div class="casenext">
-<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">Next Project ></span></a>
-</div>
-
-</div>
-
-<div class="csbtn">
-
-</div>
-
-</span>				           
-</nav>
+	<span class="csnav">
+		<div class="pag-wrap">
+			<div class="casepre">
+			<a href="http://www.saforian.com/CaseStudies/USI/"><span class="inner">&lt; Prev Project</span></a>
+			</div>
+			<div class="casenext">
+			<a href="http://www.saforian.com/CaseStudies/ATA/"><span class="inner">Next Project &gt;</span></a>
+			</div>
+		</div>
+		<div class="csbtn">
+		</div>
+	</span>				           
+</nav> -->
 
 
 <article class="hero aao-hero ">

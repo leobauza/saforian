@@ -6,7 +6,7 @@
 				<div id='brand'>
 					<h1>saforian</h1>
 					<!-- <a href="http://www.saforian.com"><img src="images/logo_safosolo_white.png" alt="Saforian"></a> -->
-					<a href="http://www.saforian.com"><img src="images/logo_saforian_ie.png" alt="Saforian"></a>
+					<a href="/"><img src="images/logo_saforian_ie.png" alt="Saforian"></a>
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
@@ -289,10 +289,19 @@
 					<a href="../CaseStudies/USI" class="ignore"><img src='images/site/client-thumbnails/usi.jpg' alt='USI' /></a>
 					<p>US Inspect</p>
 				</article>
+
+
 				<article class="item safo-client first-page">
+					<a href="../CaseStudies/FHI-Intranet" class="ignore"><img src='images/site/client-thumbnails/fhi-intranet.png' alt='NeighborWorks' /></a>
+					<p>FHI Intranet</p>
+				</article>
+
+				<!-- <article class="item safo-client first-page">
 					<a href="../CaseStudies/UNF" class="ignore"><img src='images/site/client-thumbnails/cookstoves.jpg' alt='United Nations Initiative' /></a>
 					<p>Clean Cook Stoves</p>
-				</article>
+				</article> -->
+
+
 				<article class="item safo-client first-page">
 					<a href='../CaseStudies/FHI' class="ignore"><img src='images/site/client-thumbnails/fhi.jpg' alt='FHI 360' /></a>
 					<p>FHI 360</p>
@@ -390,11 +399,6 @@
 				<article class="item safo-client first-page">
 					<a href="../CaseStudies/NeighborWorks" class="ignore"><img src='images/site/client-thumbnails/neighborworks.jpg' alt='NeighborWorks' /></a>
 					<p>NeighborWorks</p>
-				</article>
-
-				<article class="item safo-client first-page">
-					<a href="../CaseStudies/FHI-Intranet" class="ignore"><img src='images/site/client-thumbnails/neighborworks.jpg' alt='NeighborWorks' /></a>
-					<p>Intranet</p>
 				</article>
 
 				
