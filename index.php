@@ -592,7 +592,7 @@
 					<div class='span4'>
 						<img src="images/logo_safosolo_white.png" alt="Saforian">
 						<p>9408 Grant Avenue, Suite #403<br/>Manassas, VA 20110</p>
-						<p>703.330.4499</p>
+						<p>703.879.1621</p>
 						<p><a href="mailto:hello@saforian.com">hello@saforian.com</a></p>
 					</div>
 					<div class='span4'>
