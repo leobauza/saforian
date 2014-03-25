@@ -114,7 +114,7 @@
 			<header id="site-header" class="group">
 				<div id='brand'>
 					<h1>saforian</h1>
-					<a href="http://www.saforian.com"><img src="/images/logo_saforian_ie.png" alt="Saforian"></a>
+					<a href="/"><img src="/images/logo_saforian_ie.png" alt="Saforian"></a>
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
