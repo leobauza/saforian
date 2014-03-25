@@ -495,6 +495,13 @@
 								<span class='job-date'>February 4, 2014</span>
 							</a>
 						</p>
+						<p class='job-post'>
+							<a href='/careers/FrontEndDeveloper' class="group">
+								<span class='job-title'>Front End Developer</span>
+								<span class='job-location'>Manassas, VA</span>
+								<span class='job-date'>March 25, 2014</span>
+							</a>
+						</p>
 						<!-- <p class='job-post'>
 							<a href='/careers/SeniorDeveloper(.NET)' class="group">
 								<span class='job-title'>Senior Developer (.NET)</span>
