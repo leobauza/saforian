@@ -8,7 +8,7 @@
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<link rel='stylesheet' href='/css/styles.css' />
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
-		
+
 		<script>
 		$(function(){
 			var $winWidth = $(window).width();
@@ -24,7 +24,7 @@
 				$('.safo-start').height($winHeight);
 			}
 		});
-		
+
 		if ($(window).width() > 940) {
 			$(function(){
 				$('#site-header').data('size','big');
@@ -45,7 +45,7 @@
 					$logoImg.data('height','small').stop().animate({height:'auto'}, 600);
 					$logoImg.data('width','small').stop().animate({width:'128px'}, 500);
 					//logoImg.stop().animate({width:'75%'}, 500);
-				}  
+				}
 				else {
 					$nav.data('size','big').stop().animate({padding:'20px'}, 500);
 					//logoImg.attr('src', logoBig);
@@ -55,9 +55,9 @@
 				}
 			});
 		}
-		
+
 		</script>
-		
+
 			<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 			<!--[if lt IE 9]>
 				<link rel="stylesheet" href="../sr_assets/css/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -101,13 +101,13 @@
 			}
 			.slides .slide {
 				height: 408px;
-			} 
+			}
 			.section-contents {
 				width: 1020px;
 			}
 		</style>
 		<![endif]-->
-		
+
 	</head>
 	<body>
 		<section id="header-wrap">
@@ -118,14 +118,14 @@
 				</div>
 				<nav id="site-nav">
 					<ul class='topnav group'>
-						<li><a href='/#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
+						<li><a href='/home.php#top' id='topnav-hello' data-scrollto='safo-start'>Hello</a></li>
 						<!-- <li><a href='/#history' id='topnav-history' data-scrollto='safo-history'>History</a></li> -->
 						<!-- <li><a href='/#method' id='topnav-method' data-scrollto='safo-methodology'>Strategy</a></li> -->
-						<li><a href="/#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
-						<li><a href='/#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
-						<li><a href='/#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
-						<li><a href='#careers' class="on" id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
-						<li class="last"><a href='/#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
+						<li><a href="/home.php#services" id="topnav-services" data-scrollto='safo-services'>Services</a></li>
+						<li><a href='/home.php#clients' id='topnav-clients' data-scrollto='safo-clients'>Clients</a></li>
+						<li><a href='/home.php#work' id='topnav-work' data-scrollto='safo-work'>Work</a></li>
+						<li><a href='home.php#careers' class="on" id='topnav-careers' data-scrollto='safo-jobs'>Careers</a></li>
+						<li class="last"><a href='/home.php#contact' id='topnav-contact' data-scrollto='safo-contact'>Contact</a></li>
 					</ul>
 					<span class="opennav"></span>
 				</nav>
